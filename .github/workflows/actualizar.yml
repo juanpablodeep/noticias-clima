@@ -1,0 +1,38 @@
+name: Actualizar clima y noticias
+
+on:
+  # 7, 12, 17 y 20 hs de Argentina (Argentina está siempre 3 horas detrás de UTC)
+  schedule:
+    - cron: "0 10,15,20,23 * * *"
+  # Permite tocar el botón "Run workflow" en GitHub para actualizar a mano
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Buscar clima y noticias
+        run: node scripts/update.mjs
+
+      - name: Guardar los cambios en el repositorio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/data.json
+          if git diff --cached --quiet; then
+            echo "No hay noticias nuevas, no hace falta guardar nada."
+          else
+            git commit -m "Actualizar clima y noticias"
+            git push
+          fi

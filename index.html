@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3" />
+<title>Noticias y Clima</title>
+<meta name="description" content="El clima de Buenos Aires y las noticias del día, en una sola pantalla fácil de leer." />
+
+<link rel="manifest" href="manifest.webmanifest" />
+<link rel="icon" href="icons/icon-192.png" />
+<link rel="apple-touch-icon" href="icons/icon-192.png" />
+<meta name="theme-color" content="#0b3d63" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="Noticias" />
+
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <h1>📰 Noticias y Clima</h1>
+  <p id="actualizado" class="actualizado">Cargando…</p>
+</header>
+
+<main id="contenido">
+  <p class="cargando">Cargando el clima y las noticias…</p>
+</main>
+
+<footer class="pie">
+  <p>Hecho para leer tranquilo, con noticias de Clarín, La Nación, Infobae, Página/12, Perfil y TN.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

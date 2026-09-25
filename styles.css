@@ -1,0 +1,227 @@
+:root {
+  --azul-oscuro: #0b3d63;
+  --azul: #0b5fa8;
+  --texto-chip: #0b3d63;
+  --fondo: #ffffff;
+  --texto: #101418;
+  --texto-suave: #3a3f44;
+  --borde: #d7dde3;
+  --chip-fondo: #eef4fa;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  /* base grande a propósito: todo el sitio escala desde acá */
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+  background: var(--fondo);
+  color: var(--texto);
+  font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.45;
+}
+
+.topbar {
+  background: var(--azul-oscuro);
+  color: #ffffff;
+  padding: 1.2rem 1rem 1rem;
+  text-align: center;
+}
+
+.topbar h1 {
+  margin: 0 0 0.3rem;
+  font-size: 1.7rem;
+}
+
+.actualizado {
+  margin: 0;
+  font-size: 1rem;
+  color: #cfe3f5;
+}
+
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 1rem 1rem 3rem;
+}
+
+.cargando,
+.error {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 2rem 1rem;
+}
+
+.error {
+  color: #7a1f1f;
+}
+
+/* --- Clima --- */
+
+.clima {
+  background: var(--azul);
+  color: #ffffff;
+  border-radius: 18px;
+  padding: 1.3rem;
+  margin-bottom: 1.6rem;
+}
+
+.clima-hoy {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.clima-emoji {
+  font-size: 3.4rem;
+  line-height: 1;
+}
+
+.clima-temp {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.clima-detalle {
+  font-size: 1.15rem;
+}
+
+.clima-minmax {
+  margin-top: 0.6rem;
+  font-size: 1.15rem;
+}
+
+.clima-lluvia {
+  margin-top: 0.2rem;
+  font-size: 1.05rem;
+  color: #e3f0fc;
+}
+
+.clima-proximos {
+  display: flex;
+  gap: 0.6rem;
+  overflow-x: auto;
+  margin-top: 1.2rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.clima-dia {
+  flex: 0 0 auto;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  padding: 0.7rem 0.8rem;
+  text-align: center;
+  min-width: 5.2rem;
+}
+
+.clima-dia .dia-nombre {
+  font-size: 0.95rem;
+  text-transform: capitalize;
+  margin-bottom: 0.3rem;
+}
+
+.clima-dia .dia-emoji {
+  font-size: 1.6rem;
+}
+
+.clima-dia .dia-temps {
+  margin-top: 0.3rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+/* --- Navegación por temas --- */
+
+.temas-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.6rem;
+}
+
+.temas-nav a {
+  display: inline-block;
+  background: var(--chip-fondo);
+  color: var(--texto-chip);
+  border: 1px solid var(--borde);
+  border-radius: 999px;
+  padding: 0.5rem 1rem;
+  font-size: 1.05rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* --- Secciones de noticias --- */
+
+.tema {
+  margin-bottom: 2rem;
+  scroll-margin-top: 1rem;
+}
+
+.tema h2 {
+  font-size: 1.4rem;
+  border-bottom: 3px solid var(--azul);
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.9rem;
+}
+
+.noticia {
+  display: block;
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--borde);
+  text-decoration: none;
+  color: var(--texto);
+}
+
+.noticia:last-child {
+  border-bottom: none;
+}
+
+.noticia-titulo {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0 0 0.35rem;
+}
+
+.noticia-resumen {
+  font-size: 1.05rem;
+  color: var(--texto-suave);
+  margin: 0 0 0.4rem;
+}
+
+.noticia-medio {
+  display: inline-block;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--texto-chip);
+  background: var(--chip-fondo);
+  border-radius: 6px;
+  padding: 0.15rem 0.55rem;
+}
+
+.pie {
+  text-align: center;
+  color: var(--texto-suave);
+  font-size: 0.95rem;
+  padding: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --fondo: #0f1115;
+    --texto: #f2f4f6;
+    --texto-suave: #c3cad1;
+    --borde: #2b2f36;
+    --chip-fondo: #1c2733;
+    --texto-chip: #bfe0ff;
+  }
+}
