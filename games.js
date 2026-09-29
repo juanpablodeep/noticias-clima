@@ -40,66 +40,70 @@ function barajar(rng, arr) {
 /* ---------- banco de trivia ---------- */
 
 const TRIVIA_BANCO = [
-  { q: "¿Cuál es la capital de Francia?", o: ["Madrid", "París", "Roma", "Berlín"], r: 1 },
-  { q: "¿Cuántos días tiene un año bisiesto?", o: ["360", "365", "366", "370"], r: 2 },
-  { q: "¿Cuál es el río más largo del mundo?", o: ["Nilo", "Amazonas", "Paraná", "Misisipi"], r: 1 },
-  { q: "¿Qué planeta es conocido como \"el planeta rojo\"?", o: ["Venus", "Júpiter", "Marte", "Saturno"], r: 2 },
-  { q: "¿Cuál es el océano más grande del mundo?", o: ["Atlántico", "Índico", "Pacífico", "Ártico"], r: 2 },
-  { q: "¿En qué continente está Egipto?", o: ["Asia", "África", "Europa", "Oceanía"], r: 1 },
-  { q: "¿Cuántas patas tiene una araña?", o: ["6", "8", "10", "4"], r: 1 },
-  { q: "¿Cuál es el animal terrestre más grande del mundo?", o: ["Rinoceronte", "Hipopótamo", "Elefante africano", "Jirafa"], r: 2 },
-  { q: "¿Qué gas necesitamos respirar para vivir?", o: ["Dióxido de carbono", "Oxígeno", "Nitrógeno", "Hidrógeno"], r: 1 },
-  { q: "¿Cuál es la moneda de Brasil?", o: ["Peso", "Real", "Sol", "Bolívar"], r: 1 },
-  { q: "¿Quién pintó la Mona Lisa?", o: ["Pablo Picasso", "Miguel Ángel", "Leonardo da Vinci", "Vincent van Gogh"], r: 2 },
-  { q: "¿Cuántos colores tiene el arcoíris?", o: ["5", "6", "7", "8"], r: 2 },
-  { q: "¿Cuál es el hueso más largo del cuerpo humano?", o: ["El húmero", "El fémur", "La tibia", "La columna"], r: 1 },
-  { q: "¿En qué país está la Torre Eiffel?", o: ["Italia", "España", "Francia", "Inglaterra"], r: 2 },
-  { q: "¿Cuál es la capital de Argentina?", o: ["Córdoba", "Rosario", "Buenos Aires", "Mendoza"], r: 2 },
-  { q: "¿Cuántos lados tiene un hexágono?", o: ["5", "6", "7", "8"], r: 1 },
-  { q: "¿Qué instrumento se usa para medir la temperatura?", o: ["El barómetro", "El termómetro", "La balanza", "El altímetro"], r: 1 },
-  { q: "¿Qué océano baña las playas de Mar del Plata?", o: ["El Pacífico", "El Atlántico", "El Índico", "El Ártico"], r: 1 },
-  { q: "¿Cómo se llama el proceso con el que las plantas fabrican su alimento?", o: ["Respiración", "Fotosíntesis", "Germinación", "Polinización"], r: 1 },
-  { q: "¿Cuál es el país más grande del mundo por superficie?", o: ["Canadá", "China", "Rusia", "Brasil"], r: 2 },
-  { q: "¿Cuántas cuerdas tiene una guitarra clásica?", o: ["4", "5", "6", "7"], r: 2 },
-  { q: "¿Qué animal es conocido como \"el rey de la selva\"?", o: ["El tigre", "El león", "El leopardo", "El puma"], r: 1 },
-  { q: "¿Cuál es la capital de Italia?", o: ["Milán", "Nápoles", "Roma", "Venecia"], r: 2 },
-  { q: "¿En qué mes se celebra el Día de la Independencia argentina?", o: ["Mayo", "Junio", "Julio", "Agosto"], r: 2 },
-  { q: "¿Cuántos meses tiene un año?", o: ["10", "11", "12", "13"], r: 2 },
-  { q: "¿Cuál es el idioma con más hablantes nativos en el mundo?", o: ["El inglés", "El español", "El chino mandarín", "El hindi"], r: 2 },
-  { q: "¿Qué fruta amarilla y curva es rica en potasio?", o: ["La banana", "La pera", "El limón", "El ananá"], r: 0 },
-  { q: "¿Cómo se llama el satélite natural de la Tierra?", o: ["Marte", "La Luna", "El Sol", "Venus"], r: 1 },
-  { q: "¿Qué país tiene forma de bota?", o: ["España", "Grecia", "Italia", "Portugal"], r: 2 },
-  { q: "¿Cuántas estaciones tiene el año?", o: ["2", "3", "4", "5"], r: 2 },
-  { q: "¿Qué instrumento musical tiene teclas blancas y negras?", o: ["El violín", "El piano", "La flauta", "El acordeón"], r: 1 },
-  { q: "¿Cuál es la capital de España?", o: ["Barcelona", "Sevilla", "Madrid", "Valencia"], r: 2 },
-  { q: "¿Cómo se llama la cordillera que recorre la Argentina de norte a sur?", o: ["Los Andes", "Los Alpes", "El Himalaya", "Los Urales"], r: 0 },
-  { q: "¿Qué insecto produce la miel?", o: ["La hormiga", "La abeja", "La mariposa", "El escarabajo"], r: 1 },
-  { q: "¿Cuál es el deporte más popular en la Argentina?", o: ["El rugby", "El básquet", "El fútbol", "El tenis"], r: 2 },
-  { q: "¿Cuántos jugadores tiene un equipo de fútbol dentro de la cancha?", o: ["9", "10", "11", "12"], r: 2 },
-  { q: "¿Cuál es el ave nacional de la Argentina?", o: ["El cóndor", "El hornero", "El ñandú", "El zorzal"], r: 1 },
-  { q: "¿Cuál es la capital de México?", o: ["Guadalajara", "Ciudad de México", "Cancún", "Monterrey"], r: 1 },
-  { q: "¿Cuál es la estación del año más calurosa?", o: ["El otoño", "El invierno", "El verano", "La primavera"], r: 2 },
-  { q: "¿Qué color se obtiene al mezclar azul y amarillo?", o: ["Violeta", "Naranja", "Verde", "Marrón"], r: 2 },
+  { q: "¿En qué año llegó el hombre a la Luna por primera vez?", o: ["1965", "1969", "1972", "1958"], r: 1 },
+  { q: "¿Cuál es el hueso más pequeño del cuerpo humano?", o: ["El estribo (en el oído)", "La falange", "El coxis", "La rótula"], r: 0 },
+  { q: "¿Quién escribió \"Cien años de soledad\"?", o: ["Mario Vargas Llosa", "Julio Cortázar", "Gabriel García Márquez", "Pablo Neruda"], r: 2 },
+  { q: "¿Cuál es la capital de Australia?", o: ["Sídney", "Canberra", "Melbourne", "Perth"], r: 1 },
+  { q: "¿En qué año se declaró la independencia argentina?", o: ["1810", "1816", "1820", "1853"], r: 1 },
+  { q: "¿Cuál es el elemento químico más abundante en el universo?", o: ["Oxígeno", "Helio", "Hidrógeno", "Carbono"], r: 2 },
+  { q: "¿Quién pintó \"Las Meninas\"?", o: ["Francisco de Goya", "Diego Velázquez", "El Greco", "Salvador Dalí"], r: 1 },
+  { q: "¿Qué país tiene más husos horarios, por sus territorios de ultramar?", o: ["Rusia", "Estados Unidos", "Francia", "China"], r: 2 },
+  { q: "¿Cómo se llama la teoría de Einstein sobre el espacio y el tiempo?", o: ["Teoría cuántica", "Teoría de la relatividad", "Teoría del caos", "Teoría de cuerdas"], r: 1 },
+  { q: "¿Cuál es el desierto cálido más grande del mundo?", o: ["Gobi", "Kalahari", "Sahara", "Atacama"], r: 2 },
+  { q: "¿En qué siglo nació Leonardo da Vinci?", o: ["Siglo XIII", "Siglo XV", "Siglo XVII", "Siglo XIX"], r: 1 },
+  { q: "¿Cuál es la montaña más alta de América?", o: ["Aconcagua", "Chimborazo", "Denali", "Huascarán"], r: 0 },
+  { q: "¿En qué año se creó la Organización de las Naciones Unidas?", o: ["1919", "1945", "1957", "1963"], r: 1 },
+  { q: "¿Cuál es la capital de Canadá?", o: ["Toronto", "Vancouver", "Ottawa", "Montreal"], r: 2 },
+  { q: "¿Quién compuso \"Las cuatro estaciones\"?", o: ["Johann Sebastian Bach", "Antonio Vivaldi", "Wolfgang Amadeus Mozart", "Ludwig van Beethoven"], r: 1 },
+  { q: "¿Qué metal es líquido a temperatura ambiente?", o: ["Plomo", "Mercurio", "Estaño", "Zinc"], r: 1 },
+  { q: "¿En qué continente están las Cataratas Victoria?", o: ["Asia", "América", "África", "Oceanía"], r: 2 },
+  { q: "¿Cuál es la moneda oficial de Japón?", o: ["El yuan", "El yen", "El won", "El baht"], r: 1 },
+  { q: "¿Quién fue el primer ser humano en viajar al espacio?", o: ["Neil Armstrong", "Yuri Gagarin", "John Glenn", "Buzz Aldrin"], r: 1 },
+  { q: "¿Cuál es el río más caudaloso del mundo?", o: ["El Nilo", "El Amazonas", "El Misisipi", "El Yangtsé"], r: 1 },
+  { q: "¿Qué batalla marcó el fin definitivo del imperio de Napoleón?", o: ["Trafalgar", "Austerlitz", "Waterloo", "Leipzig"], r: 2 },
+  { q: "¿Cuál es la capital de Turquía?", o: ["Estambul", "Ankara", "Esmirna", "Bursa"], r: 1 },
+  { q: "¿Qué gas es el principal responsable del efecto invernadero?", o: ["Oxígeno", "Dióxido de carbono", "Nitrógeno", "Ozono"], r: 1 },
+  { q: "¿Cuál es el órgano más grande del cuerpo humano?", o: ["El hígado", "El pulmón", "La piel", "El intestino"], r: 2 },
+  { q: "¿En qué año cayó el Muro de Berlín?", o: ["1985", "1989", "1991", "1993"], r: 1 },
+  { q: "¿Cuál es la capital de Egipto?", o: ["Alejandría", "El Cairo", "Luxor", "Giza"], r: 1 },
+  { q: "¿Quién escribió \"El Quijote\"?", o: ["Lope de Vega", "Miguel de Cervantes", "Federico García Lorca", "Calderón de la Barca"], r: 1 },
+  { q: "¿Cuál es el planeta más grande del sistema solar?", o: ["Saturno", "Júpiter", "Urano", "Neptuno"], r: 1 },
+  { q: "¿Qué imperio construyó Machu Picchu?", o: ["El imperio azteca", "El imperio maya", "El imperio inca", "El imperio tolteca"], r: 2 },
+  { q: "¿Cuál es la capital de Grecia?", o: ["Esparta", "Atenas", "Tesalónica", "Corinto"], r: 1 },
+  { q: "¿Cuántos huesos tiene el cuerpo humano adulto, aproximadamente?", o: ["186", "196", "206", "216"], r: 2 },
+  { q: "¿Qué científico formuló las leyes del movimiento y de la gravedad?", o: ["Galileo Galilei", "Isaac Newton", "Nicolás Copérnico", "Johannes Kepler"], r: 1 },
+  { q: "¿Cuál es el lago navegable más alto del mundo?", o: ["Titicaca", "Maracaibo", "Nahuel Huapi", "Chungará"], r: 0 },
+  { q: "¿En qué país, junto con Argentina, también se originó el tango?", o: ["Uruguay", "Chile", "Paraguay", "Brasil"], r: 0 },
+  { q: "¿Cuál es la capital de Portugal?", o: ["Oporto", "Lisboa", "Coimbra", "Faro"], r: 1 },
+  { q: "¿Qué vitamina produce el cuerpo principalmente por la exposición al sol?", o: ["La vitamina A", "La vitamina C", "La vitamina D", "La vitamina K"], r: 2 },
+  { q: "¿Qué país fue el primero en desarrollar y usar la bomba atómica?", o: ["Alemania", "Estados Unidos", "La Unión Soviética", "Japón"], r: 1 },
+  { q: "¿Qué escritor argentino escribió \"Ficciones\" y \"El Aleph\"?", o: ["Julio Cortázar", "Jorge Luis Borges", "Ernesto Sabato", "Adolfo Bioy Casares"], r: 1 },
+  { q: "¿Cuál es el punto más profundo de los océanos?", o: ["La Fosa de Puerto Rico", "La Fosa de las Marianas", "La Fosa de Japón", "La Fosa de Tonga"], r: 1 },
+  { q: "¿Cuál es la capital de Rusia?", o: ["San Petersburgo", "Moscú", "Novosibirsk", "Kazán"], r: 1 },
 ];
 
 /* ---------- banco de sopa de letras ---------- */
 
 const SOPA_TEMAS = [
-  { nombre: "Animales", palabras: ["GATO", "PERRO", "LEON", "TIGRE", "JIRAFA", "ELEFANTE", "CONEJO", "OSO"] },
-  { nombre: "Frutas", palabras: ["MANZANA", "BANANA", "NARANJA", "UVA", "PERA", "LIMON", "ANANA", "DURAZNO"] },
-  { nombre: "Colores", palabras: ["ROJO", "AZUL", "VERDE", "AMARILLO", "VIOLETA", "NARANJA", "NEGRO", "BLANCO"] },
-  { nombre: "Países de Sudamérica", palabras: ["CHILE", "BOLIVIA", "PARAGUAY", "BRASIL", "URUGUAY", "PERU", "ECUADOR", "COLOMBIA"] },
-  { nombre: "Capitales", palabras: ["LIMA", "QUITO", "BOGOTA", "ASUNCION", "CARACAS", "BRASILIA", "SANTIAGO", "PANAMA"] },
-  { nombre: "Deportes", palabras: ["FUTBOL", "TENIS", "RUGBY", "BASQUET", "VOLEY", "NATACION", "BOXEO", "CICLISMO"] },
-  { nombre: "Flores", palabras: ["ROSA", "TULIPAN", "CLAVEL", "JAZMIN", "ORQUIDEA", "GIRASOL", "VIOLETA", "AZUCENA"] },
-  { nombre: "Profesiones", palabras: ["MEDICO", "MAESTRO", "ABOGADO", "PINTOR", "MUSICO", "COCINERO", "BOMBERO", "PILOTO"] },
+  { nombre: "Animales", palabras: ["GATO", "PERRO", "LEON", "TIGRE", "JIRAFA", "ELEFANTE", "CONEJO", "OSO", "CABALLO", "DELFIN"] },
+  { nombre: "Frutas", palabras: ["MANZANA", "BANANA", "NARANJA", "UVA", "PERA", "LIMON", "ANANA", "DURAZNO", "FRUTILLA", "SANDIA"] },
+  { nombre: "Colores", palabras: ["ROJO", "AZUL", "VERDE", "AMARILLO", "VIOLETA", "NARANJA", "NEGRO", "BLANCO", "CELESTE", "MARRON"] },
+  { nombre: "Países de Sudamérica", palabras: ["CHILE", "BOLIVIA", "PARAGUAY", "BRASIL", "URUGUAY", "PERU", "ECUADOR", "COLOMBIA", "VENEZUELA", "GUYANA"] },
+  { nombre: "Capitales", palabras: ["LIMA", "QUITO", "BOGOTA", "ASUNCION", "CARACAS", "BRASILIA", "SANTIAGO", "PANAMA", "MONTEVIDEO", "OTTAWA"] },
+  { nombre: "Deportes", palabras: ["FUTBOL", "TENIS", "RUGBY", "BASQUET", "VOLEY", "NATACION", "BOXEO", "CICLISMO", "ATLETISMO", "HOCKEY"] },
+  { nombre: "Flores", palabras: ["ROSA", "TULIPAN", "CLAVEL", "JAZMIN", "ORQUIDEA", "GIRASOL", "VIOLETA", "AZUCENA", "MARGARITA", "HORTENSIA"] },
+  { nombre: "Profesiones", palabras: ["MEDICO", "MAESTRO", "ABOGADO", "PINTOR", "MUSICO", "COCINERO", "BOMBERO", "PILOTO", "INGENIERO", "PERIODISTA"] },
 ];
 
-const SOPA_TAMANO = 10;
+const SOPA_TAMANO = 13;
 const SOPA_DIRECCIONES = [
   { dx: 1, dy: 0 },
+  { dx: -1, dy: 0 },
   { dx: 0, dy: 1 },
+  { dx: 0, dy: -1 },
   { dx: 1, dy: 1 },
+  { dx: -1, dy: -1 },
+  { dx: 1, dy: -1 },
   { dx: -1, dy: 1 },
 ];
 
@@ -158,14 +162,14 @@ function celdasEnLinea(inicio, fin) {
 /* ---------- banco de sudoku (pistas fáciles, solución única) ---------- */
 
 const SUDOKU_BANCO = [
-  { puzzle: "020078000036915407490062050201080005763000204958000760502800046304500870089043510", solucion: "125478693836915427497362158241687935763159284958234761572891346314526879689743512" },
-  { puzzle: "000062380320498501807010460000800925002056048518020030089005003204030057135607090", solucion: "451762389326498571897513462643871925972356148518924736789245613264139857135687294" },
-  { puzzle: "020007060370060800684301000598006734736480002142000698010620007067050301003108026", solucion: "925847163371562849684391275598216734736489512142735698819623457267954381453178926" },
-  { puzzle: "630210987892570400074398060081039750300700600040180029517923000008050200000007105", solucion: "635214987892576431174398562281639754359742618746185329517923846968451273423867195" },
-  { puzzle: "800620100906000200152730964360915042200384790409076300590140008000802003708500009", solucion: "874629135936451287152738964367915842215384796489276351593147628641892573728563419" },
-  { puzzle: "904200506205908741007540920052480097098170032070020800009000078740850200083002015", solucion: "914237586235968741867541923352486197498175632176329854529614378741853269683792415" },
-  { puzzle: "046008271009217046702000308030780450974000823000904617003165080020800000800429105", solucion: "546398271389217546712546398631782459974651823258934617493165782125873964867429135" },
-  { puzzle: "903618000800340910104097306000024698600079405495003271040002109200406700706000820", solucion: "923618547867345912154297386371524698682179435495863271548732169219486753736951824" },
+  { puzzle: "908000050700000000563027000000000030000206410006004002004960700030100200050700063", solucion: "928431657741695328563827941472519836385276419196384572214963785637158294859742163" },
+  { puzzle: "020900080010050930036070004053096400040000008702000000009800126200000000100007000", solucion: "527934681418652937936178254853796412641523798792481563379845126264319875185267349" },
+  { puzzle: "000904163800100090009200080067510000100000040000408000048060000051000630000020008", solucion: "572984163834156297619237584467513829183692745925478316248365971751849632396721458" },
+  { puzzle: "900008040100000000050060100003000400640010085002500009408097000000402063025000070", solucion: "936128547184735692257964138513879426649213785872546319468397251791452863325681974" },
+  { puzzle: "000007080006009010071200043100970002600000030208605000013700000800400600004000001", solucion: "329147586486359217571286943145973862697824135238615794913762458852431679764598321" },
+  { puzzle: "500000013000031078000002004042017900001000350005090020260009100010000000004008002", solucion: "589746213426931578137852694342517986691284357875693421268379145713425869954168732" },
+  { puzzle: "001026080600500000070130040000300870000004092080000500700040230094070160030000000", solucion: "951426783643587921872139645425391876167854392389762514718645239594273168236918457" },
+  { puzzle: "020009005510040000800065930040000000001002007238000009305080000000006050090500806", solucion: "623819475519347268874265931746958123951432687238671549365184792182796354497523816" },
 ];
 
 /* ---------- banco de memoria (emojis) ---------- */
@@ -368,7 +372,7 @@ function renderSopa(contenedor, semilla) {
 function renderMemoria(contenedor, semilla) {
   function nuevoJuego() {
     const rng = crearRng(Date.now() % 100000 || semilla);
-    const elegidos = barajar(rng, MEMORIA_POOL).slice(0, 8);
+    const elegidos = barajar(rng, MEMORIA_POOL).slice(0, 12);
     const cartas = barajar(rng, [...elegidos, ...elegidos]).map((emoji, i) => ({
       id: i,
       emoji,
