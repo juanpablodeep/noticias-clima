@@ -1,4 +1,4 @@
-# Noticias y Clima
+# Canillita 2.0
 
 Una sola pantalla con el clima de Buenos Aires y las noticias del día, pensada para
 leer cómodo desde el celular. Se actualiza sola, todas las mañanas y un par de veces
