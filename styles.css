@@ -45,10 +45,15 @@ body {
   color: #cfe3f5;
 }
 
-main {
+main,
+.juego {
   max-width: 640px;
   margin: 0 auto;
   padding: 1rem 1rem 3rem;
+}
+
+.juego {
+  padding-bottom: 0.5rem;
 }
 
 .cargando,
@@ -212,6 +217,216 @@ main {
   color: var(--texto-suave);
   font-size: 0.95rem;
   padding: 1rem;
+}
+
+/* --- Juego de hoy --- */
+
+.juego-encabezado {
+  font-size: 1.4rem;
+  margin: 0 0 0.8rem;
+}
+
+.juego {
+  border-bottom: 1px solid var(--borde);
+}
+
+.juego-progreso {
+  font-size: 1.05rem;
+  color: var(--texto-suave);
+  margin: 0 0 0.8rem;
+}
+
+.juego-resultado {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0.8rem 0;
+}
+
+.juego-boton {
+  display: inline-block;
+  background: var(--azul);
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  padding: 0.7rem 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0.4rem 0.4rem 0.4rem 0;
+  cursor: pointer;
+}
+
+.juego-boton-secundario {
+  background: var(--chip-fondo);
+  color: var(--texto-chip);
+}
+
+/* trivia */
+
+.trivia-pregunta {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0 0 1rem;
+}
+
+.trivia-opciones {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.trivia-opcion {
+  font-size: 1.1rem;
+  padding: 0.8rem 1rem;
+  border-radius: 12px;
+  border: 2px solid var(--borde);
+  background: var(--fondo);
+  color: var(--texto);
+  text-align: left;
+  cursor: pointer;
+}
+
+.trivia-opcion.trivia-correcta {
+  border-color: #2e8b45;
+  background: #e6f4ea;
+  color: #1c5e2c;
+}
+
+.trivia-opcion.trivia-incorrecta {
+  border-color: #b3261e;
+  background: #fbe9e7;
+  color: #8c1d18;
+}
+
+/* sopa de letras */
+
+.sopa-grilla {
+  display: grid;
+  gap: 2px;
+  margin-bottom: 1rem;
+}
+
+.sopa-celda {
+  aspect-ratio: 1 / 1;
+  border: 1px solid var(--borde);
+  background: var(--fondo);
+  color: var(--texto);
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0;
+  cursor: pointer;
+}
+
+.sopa-celda-seleccionada {
+  background: var(--azul);
+  color: #ffffff;
+}
+
+.sopa-palabras {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.sopa-palabra {
+  background: var(--chip-fondo);
+  color: var(--texto-chip);
+  border-radius: 999px;
+  padding: 0.3rem 0.8rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.sopa-palabra.encontrada {
+  text-decoration: line-through;
+  opacity: 0.55;
+}
+
+/* memoria */
+
+.memoria-grilla {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.memoria-carta {
+  aspect-ratio: 1 / 1;
+  font-size: 1.8rem;
+  border-radius: 12px;
+  border: 2px solid var(--borde);
+  background: var(--azul);
+  cursor: pointer;
+}
+
+.memoria-carta.vuelta {
+  background: var(--fondo);
+}
+
+.memoria-carta.encontrada {
+  background: #e6f4ea;
+  border-color: #2e8b45;
+}
+
+/* sudoku */
+
+.sudoku-grilla {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 1px;
+  background: var(--borde);
+  border: 2px solid var(--texto);
+  margin-bottom: 1rem;
+}
+
+.sudoku-celda {
+  aspect-ratio: 1 / 1;
+  border: none;
+  background: var(--fondo);
+  color: var(--texto);
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0;
+  cursor: pointer;
+}
+
+.sudoku-celda.fija {
+  background: var(--chip-fondo);
+  color: var(--texto-chip);
+  cursor: default;
+}
+
+.sudoku-celda.seleccionada {
+  background: var(--azul);
+  color: #ffffff;
+}
+
+.sudoku-celda.borde-izq {
+  border-left: 2px solid var(--texto);
+}
+
+.sudoku-celda.borde-arriba {
+  border-top: 2px solid var(--texto);
+}
+
+.sudoku-numeros {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.sudoku-numeros .juego-boton {
+  margin: 0;
+  padding: 0.6rem 0;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.sudoku-acciones {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 @media (prefers-color-scheme: dark) {

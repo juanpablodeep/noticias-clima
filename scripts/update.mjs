@@ -10,6 +10,7 @@ const TOPICS = [
   { key: "sociedad", label: "Sociedad" },
   { key: "deportes", label: "Deportes" },
   { key: "espectaculos", label: "Espectáculos" },
+  { key: "opinion", label: "Opinión" },
 ];
 
 const MAX_ITEMS_PER_TOPIC = 10;
@@ -44,6 +45,11 @@ const DIRECT_FEEDS = [
   { source: "Página/12", topic: "sociedad", url: "https://www.pagina12.com.ar/arc/outboundfeeds/rss/secciones/sociedad/notas" },
   { source: "Página/12", topic: "deportes", url: "https://www.pagina12.com.ar/arc/outboundfeeds/rss/secciones/deportes/notas" },
   { source: "Página/12", topic: "espectaculos", url: "https://www.pagina12.com.ar/arc/outboundfeeds/rss/secciones/cultura/notas" },
+  // Opinión / columnistas
+  { source: "Clarín", topic: "opinion", url: "https://www.clarin.com/rss/opinion/" },
+  { source: "La Nación", topic: "opinion", url: "https://www.lanacion.com.ar/arc/outboundfeeds/rss/category/opinion/" },
+  { source: "Infobae", topic: "opinion", url: "https://www.infobae.com/arc/outboundfeeds/rss/category/opinion/" },
+  { source: "Página/12", topic: "opinion", url: "https://www.pagina12.com.ar/arc/outboundfeeds/rss/secciones/opinion/notas" },
 ];
 
 // Medios sin RSS por sección: traemos el feed general y adivinamos el
@@ -69,6 +75,9 @@ const SECTION_TO_TOPIC = {
   teleshow: "espectaculos",
   cultura: "espectaculos",
   entretenimiento: "espectaculos",
+  opinion: "opinion",
+  editorial: "opinion",
+  columnistas: "opinion",
 };
 
 function topicFromUrl(link) {

@@ -7,7 +7,10 @@ más durante el día, y es 100% gratis.
 ## Qué hay en esta carpeta
 
 - `index.html`, `styles.css`, `app.js`: la página en sí.
-- `data/data.json`: el clima y las noticias del momento. Lo genera el robot automático,
+- `games.js`: el "Juego de hoy" (trivia, sopa de letras, memoria y sudoku, van
+  rotando de a uno por día). Corre entero en el celular, no depende del robot.
+- `data/data.json`: el clima y las noticias del momento (incluye la sección
+  Opinión, con columnistas de los mismos diarios). Lo genera el robot automático,
   no hace falta tocarlo a mano.
 - `scripts/update.mjs`: el programa que busca el clima (en Open-Meteo, gratis y sin
   clave) y las noticias (en los RSS públicos de Clarín, La Nación, Infobae, Página/12,
@@ -62,3 +65,6 @@ node scripts/update.mjs
   `cron`. Las horas están en UTC (Argentina = UTC menos 3 horas).
 - **Medios o temas:** en `scripts/update.mjs`, las listas `DIRECT_FEEDS` y
   `GENERAL_FEEDS`.
+- **Juegos:** en `games.js`, el banco de preguntas `TRIVIA_BANCO`, los temas de
+  `SOPA_TEMAS`, los puzzles de `SUDOKU_BANCO` y los emojis de `MEMORIA_POOL`. El
+  orden en que rotan los cuatro juegos está en la función `tipoDeHoy`.
