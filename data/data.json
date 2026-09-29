@@ -1,34 +1,26 @@
 {
-  "generatedAt": "2026-09-29T01:52:28.611Z",
+  "generatedAt": "2026-09-29T16:10:20.062Z",
   "weather": {
     "current": {
-      "temp": 17,
-      "precipitation": 0.1,
-      "label": "Llovizna leve",
-      "emoji": "🌦️"
+      "temp": 19,
+      "precipitation": 0,
+      "label": "Nublado",
+      "emoji": "☁️"
     },
     "today": {
-      "date": "2026-09-28",
-      "max": 19,
+      "date": "2026-09-29",
+      "max": 20,
       "min": 14,
-      "precipProb": 59,
+      "precipProb": 100,
       "label": "Tormenta",
       "emoji": "⛈️"
     },
     "nextDays": [
       {
-        "date": "2026-09-29",
-        "max": 18,
-        "min": 14,
-        "precipProb": 100,
-        "label": "Chubascos leves",
-        "emoji": "🌦️"
-      },
-      {
         "date": "2026-09-30",
         "max": 18,
         "min": 9,
-        "precipProb": 15,
+        "precipProb": 18,
         "label": "Nublado",
         "emoji": "☁️"
       },
@@ -36,7 +28,7 @@
         "date": "2026-10-01",
         "max": 16,
         "min": 10,
-        "precipProb": 20,
+        "precipProb": 35,
         "label": "Llovizna leve",
         "emoji": "🌦️"
       },
@@ -44,16 +36,24 @@
         "date": "2026-10-02",
         "max": 17,
         "min": 9,
-        "precipProb": 17,
+        "precipProb": 10,
         "label": "Nublado",
         "emoji": "☁️"
       },
       {
         "date": "2026-10-03",
-        "max": 17,
-        "min": 14,
-        "precipProb": 82,
-        "label": "Llovizna",
+        "max": 15,
+        "min": 13,
+        "precipProb": 70,
+        "label": "Llovizna fuerte",
+        "emoji": "🌦️"
+      },
+      {
+        "date": "2026-10-04",
+        "max": 21,
+        "min": 12,
+        "precipProb": 8,
+        "label": "Llovizna leve",
         "emoji": "🌦️"
       }
     ]
@@ -64,73 +64,73 @@
       "label": "Política",
       "items": [
         {
-          "title": "Los testaferros de papel en el tráfico mercantil argentino",
-          "link": "https://www.pagina12.com.ar/2026/09/29/los-testaferros-de-papel-en-el-trafico-mercantil-argentino/",
-          "summary": "1. El inverosímil Proyecto de Ley de Sociedades que circula actualmente en el ambiente del derecho corporativo y que se caracteriza por…",
-          "pubDate": "2026-09-29T01:14:54.000Z",
-          "source": "Página/12"
+          "title": "“Posibles terroristas”: el vocero presidencial habló de las declaraciones de Milei sobre los extranjeros expulsados",
+          "link": "https://www.lanacion.com.ar/politica/posibles-terroristas-el-vocero-presidencial-hablo-de-las-declaraciones-de-milei-sobre-los-nid29092026/",
+          "summary": "El vocero presidencial se refirió a los dichos del presidente, quien aseguró que el Gobierno “deportó 20.000 terroristas” este año",
+          "pubDate": "2026-09-29T16:02:48.000Z",
+          "source": "La Nación"
         },
         {
-          "title": "Javier Milei y sus medidas, EN VIVO: el Presidente habló de Patricia Bullrich y dijo: “No la subestimen”",
-          "link": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-tengo-algunos-enemigos-muy-pesados-aca-y-en-el-mundo-dijo-el-nid28092026/",
+          "title": "El caso Edgardo Kueider en la Argentina: un juicio paralizado y un calabozo preparado para el ex senador",
+          "link": "https://www.infobae.com/politica/2026/09/29/el-caso-edgardo-kueider-en-la-argentina-un-juicio-paralizado-y-un-calabozo-preparado-para-el-ex-senador/",
+          "summary": "Mientras la Justicia paraguaya avanza con condenas, incautaciones y embargos, en los tribunales argentinos hay un juicio a sus presuntos…",
+          "pubDate": "2026-09-29T15:56:02.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Qué se sabe de la muerte del senador nacional Juan Carlos Pagotto",
+          "link": "https://www.lanacion.com.ar/politica/que-se-sabe-de-la-muerte-del-senador-nacional-juan-carlos-pagotto-nid29092026/",
+          "summary": "El legislador de La Libertad Avanza tenía 74 años y fue hallado sin vida en su domicilio de La Rioja; hasta el momento no se informaron…",
+          "pubDate": "2026-09-29T15:52:07.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "El Gobierno dijo que Claudia Cecilia López reemplazará a Juan Carlos Pagotto en el Senado tras su muerte en La Rioja",
+          "link": "https://www.lanacion.com.ar/politica/claudia-cecilia-lopez-reemplazara-a-juan-carlos-pagotto-en-el-senado-tras-su-muerte-en-la-rioja-nid29092026/",
+          "summary": "La libertaria ocupa hasta ahora el rol de legisladora en la Legislatura de la provincia",
+          "pubDate": "2026-09-29T15:47:55.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Murió el senador nacional Juan Carlos Pagotto",
+          "link": "https://www.lanacion.com.ar/politica/murio-el-senador-nacional-juan-carlos-pagotto-nid29092026/",
+          "summary": "Representaba a La Rioja e integraba el bloque de La Libertad Avanza; encabezaba la estratégica Comisión de Acuerdos; en la interna…",
+          "pubDate": "2026-09-29T15:46:12.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Javier Milei y sus medidas, EN VIVO: el Presidente insistió en la eliminación de las PASO y dijo que son “inmorales”",
+          "link": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-presidente-insistio-en-la-eliminacion-de-las-paso-y-dijo-que-nid29092026/",
           "summary": "El minuto a minuto de las decisiones del mandatario, las reacciones de la oposición y las declaraciones de los funcionarios",
-          "pubDate": "2026-09-29T01:09:29.000Z",
+          "pubDate": "2026-09-29T15:45:11.000Z",
           "source": "La Nación"
         },
         {
-          "title": "Poder Ciudadano cuestionó al Gobierno por \"ampliar la impunidad\" y alertó por el retroceso del país en la corrupción",
-          "link": "https://www.clarin.com/politica/poder-ciudadano-cuestiono-gobierno-ampliar-impunidad-alerto-retroceso-pais-corrupcion_0_x2HiwOPUZq.html",
-          "summary": "En su cena anual, el titular de la entidad advirtió que distintas medidas oficiales provocan que la Argentina haya caído en el Índice de…",
-          "pubDate": "2026-09-29T01:05:09.000Z",
-          "source": "Clarín"
-        },
-        {
-          "title": "El Gobierno avanza con su estrategia por Malvinas: reclamo ante organismos internacionales y medidas contra una empresa aérea",
-          "link": "https://tn.com.ar/politica/2026/09/28/el-gobierno-avanza-con-su-plan-por-malvinas-arbitraje-internacional-presion-sobre-petroleras-y-medidas-contra-una-empresa-aerea/",
-          "summary": "En menos de un mes, Javier Milei firmó decretos, hizo denuncias penales y envió una ley al Congreso. Ahora informó que buscará llevar al…",
-          "pubDate": "2026-09-29T00:52:58.000Z",
+          "title": "La paradoja de Milei: la economía se estabiliza, pero el crecimiento no aparece",
+          "link": "https://tn.com.ar/videos/politica/2026/09/29/la-paradoja-de-milei-la-economia-se-estabiliza-pero-el-crecimiento-no-aparece/",
+          "summary": "La actividad empieza a mostrar señales de alarma con una nueva caída de la industria. (Foto: AP/Jorge Saenz).",
+          "pubDate": "2026-09-29T15:44:22.000Z",
           "source": "TN"
         },
         {
-          "title": "Poder Ciudadano alertó sobre la falta de políticas anticorrupción: “Pareciera que buscamos ampliar la impunidad”",
-          "link": "https://www.lanacion.com.ar/politica/poder-ciudadano-alerto-sobre-falta-de-politicas-anticorrupcion-pareciera-que-buscamos-ampliar-la-nid28092026/",
-          "summary": "En su cena anual, la entidad advirtió sobre el enriquecimiento de funcionarios, los índices crecientes de corrupción y sus consecuencias…",
-          "pubDate": "2026-09-29T00:45:54.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Malvinas: qué puede pasar si el Reino Unido no frena el proyecto petrolero Sea Lion en dos semanas",
-          "link": "https://tn.com.ar/politica/2026/09/28/malvinas-que-puede-pasar-si-el-reino-unido-no-frena-el-proyecto-petrolero-sea-lion-en-dos-semanas/",
-          "summary": "El presidente Javier Milei anticipó que, si Londres no detiene la actividad petrolera, pedirá medidas provisionales en Hamburgo. Qué dice…",
-          "pubDate": "2026-09-29T00:36:22.000Z",
+          "title": "La paradoja de Milei: la economía se estabiliza, pero el crecimiento no aparece",
+          "link": "https://tn.com.ar/politica/2026/09/29/la-paradoja-de-milei-la-economia-se-estabiliza-pero-el-crecimiento-no-aparece/",
+          "summary": "Mientras el Gobierno sostiene la estabilidad macroeconómica, la actividad empieza a mostrar señales de alarma. La industria volvió a caer y…",
+          "pubDate": "2026-09-29T15:44:19.000Z",
           "source": "TN"
         },
         {
-          "title": "El Gobierno pidió al Reino Unido que frene la explotación petrolera en Malvinas y advirtió que acudirá a un tribunal internacional",
-          "link": "https://www.lanacion.com.ar/politica/el-gobierno-pedira-un-arbitraje-con-el-reino-unido-para-detener-la-explotacion-petrolera-en-malvinas-nid28092026/",
-          "summary": "Milei intimó al gobierno británico a parar el proyecto Sea Lion; además, dijo que hay “un saqueo ilegal” de los recursos argentinos",
-          "pubDate": "2026-09-29T00:30:49.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Supuesto enriquecimiento ilícito de Claudio Tapia: la Justicia ya recibió los primeros informes sobre sus DDJJ y compra de dólares",
-          "link": "https://tn.com.ar/politica/2026/09/28/supuesto-enriquecimiento-ilicito-de-claudio-tapia-la-justicia-ya-recibio-los-primeros-informes-sobre-sus-ddjj-y-compra-de-dolares/",
-          "summary": "En el expediente, que instruye el fiscal Pollicita, se intenta determinar si el titular de la Ceamse tuvo un crecimiento patrimonial…",
-          "pubDate": "2026-09-29T00:26:42.000Z",
+          "title": "El mensaje del Canciller al gobierno de Kast por la reunión entre empresarios de Malvinas y Chile: “Esperamos que cumplan”",
+          "link": "https://tn.com.ar/politica/2026/09/29/el-mensaje-del-canciller-al-gobierno-de-kast-por-la-reunion-entre-empresarios-de-malvinas-y-chile-esperamos-que-cumplan/",
+          "summary": "El Canciller afirmó que están monitoreando la ronda de negocios en Punta Arenas. Aseguró que hay un compromiso del país trasandino de…",
+          "pubDate": "2026-09-29T15:41:25.000Z",
           "source": "TN"
         },
         {
-          "title": "Crece la desaprobación al Gobierno y el escenario electoral está polarizado",
-          "link": "https://www.pagina12.com.ar/2026/09/29/crece-la-desaprobacion-al-gobierno-y-el-escenario-electoral-esta-polarizado/",
-          "summary": "La imagen del presidente Javier Milei y la desaprobación de su gestión siguen barranca abajo. En contraste, Cristina Kirchner y Axel…",
-          "pubDate": "2026-09-29T00:24:04.000Z",
-          "source": "Página/12"
-        },
-        {
-          "title": "Fernanda Miño reclamó fondos para los barrios populares: “El Gobierno desmanteló la integración urbana”",
-          "link": "https://www.infobae.com/politica/2026/09/29/fernanda-mino-reclamo-fondos-para-los-barrios-populares-el-gobierno-desmantelo-la-integracion-urbana/",
-          "summary": "La diputada nacional de Unión por la Patria respaldó un proyecto que reúne a más de 140 legisladores para extender por diez años la…",
-          "pubDate": "2026-09-29T00:13:57.000Z",
+          "title": "Se reúne la mesa política: la discusión más urgente que hay entre dos sectores del Gobierno por un proyecto clave",
+          "link": "https://www.infobae.com/politica/2026/09/29/se-reune-la-mesa-politica-la-discusion-mas-urgente-que-hay-entre-dos-sectores-del-gobierno-por-un-proyecto-clave/",
+          "summary": "Los integrantes de la mesa chica del Gobierno se encontrarán esta tarde en Casa Rosada. Se buscará poner en claro los próximos pasos con el…",
+          "pubDate": "2026-09-29T15:34:57.000Z",
           "source": "Infobae"
         }
       ]
@@ -140,74 +140,74 @@
       "label": "Economía",
       "items": [
         {
-          "title": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizan este lunes 28 de septiembre",
-          "link": "https://tn.com.ar/economia/2026/09/28/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-lunes-28-de-septiembre/",
+          "title": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizan este martes 29 de septiembre",
+          "link": "https://tn.com.ar/economia/2026/09/29/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-martes-29-de-septiembre/",
           "summary": "La cotización del dólar minuto a minuto en los bancos, donde desde abril de 2025 se pueden comprar divisas sin límites. También los precios…",
-          "pubDate": "2026-09-29T01:44:33.000Z",
+          "pubDate": "2026-09-29T16:06:35.000Z",
           "source": "TN"
         },
         {
-          "title": "YPF y Entre Ríos firmaron un acuerdo para mejorar la logística y reducir costos hacia Vaca Muerta",
-          "link": "https://www.infobae.com/economia/2026/09/29/ypf-y-entre-rios-firmaron-un-acuerdo-para-mejorar-la-logistica-y-reducir-costos-hacia-vaca-muerta/",
-          "summary": "La iniciativa apunta a evaluar alternativas para abaratar el traslado de insumos, sumar firmas locales a la cadena energética y definir…",
-          "pubDate": "2026-09-29T00:20:06.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "La actividad industrial volvió a caer en agosto y acumula una baja del 3% en lo que va del año",
-          "link": "https://tn.com.ar/economia/2026/09/28/la-actividad-industrial-volvio-a-caer-en-agosto-y-acumula-una-baja-del-3-en-lo-que-va-del-ano/",
-          "summary": "La producción se mantuvo prácticamente estable frente a julio, pero retrocedió 5,7% interanual. La industria todavía opera 11% por debajo…",
-          "pubDate": "2026-09-29T00:04:47.000Z",
+          "title": "El riesgo país baja hasta los 609 puntos y el dólar oficial se vende a $1545",
+          "link": "https://tn.com.ar/economia/2026/09/29/el-riesgo-pais-baja-hasta-los-604-puntos-y-el-dolar-oficial-se-vende-a-1545/",
+          "summary": "El indicador que elabora JP Morgan retrocedía 19 unidades luego de que el lunes llegó a tocar su valor más alto en el año. A cuánto cotizan…",
+          "pubDate": "2026-09-29T16:05:40.000Z",
           "source": "TN"
         },
         {
-          "title": "Jorge Colina: “Para crecer en serio, Argentina necesita llevar la inversión al 25% del PBI”",
-          "link": "https://www.infobae.com/economia/2026/09/28/jorge-colina-para-crecer-en-serio-argentina-necesita-llevar-la-inversion-al-25-del-pbi/",
-          "summary": "El economista de Idesa analizó la caída de la inversión productiva, que representa el 15,1% del PBI, y señaló a la desconfianza, el cepo,…",
-          "pubDate": "2026-09-28T23:23:58.000Z",
+          "title": "El número dos de la CAF alertó por el impacto del Super Niño en rutas, salud y producción",
+          "link": "https://www.infobae.com/economia/2026/09/29/el-numero-dos-de-la-caf-alerto-por-el-impacto-del-super-nino-en-rutas-salud-y-produccion/",
+          "summary": "Christain Asinelli vinculó las precipitaciones previstas con posibles inundaciones, dificultades para exportar y un escenario que coincide…",
+          "pubDate": "2026-09-29T16:04:48.000Z",
           "source": "Infobae"
         },
         {
-          "title": "La necesidad de la esperanza; el riesgo de la negación",
-          "link": "https://www.lanacion.com.ar/economia/la-necesidad-de-la-esperanza-el-riesgo-de-la-negacion-nid28092026/",
-          "summary": "La seguidilla de malos datos económicos desafía la narrativa del Gobierno en un momento sensible de los mercados y el humor social",
-          "pubDate": "2026-09-28T23:21:03.000Z",
+          "title": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este martes 29 de septiembre, minuto a minuto",
+          "link": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid29092026/",
+          "summary": "La divisa oficial opera a $1545 para la venta en el Banco Nación; el dólar blue cotiza a $1565 para esa operación; qué pasó con el MEP y el…",
+          "pubDate": "2026-09-29T16:00:19.000Z",
           "source": "La Nación"
         },
         {
-          "title": "Masivo acampe en Guernica para entregar currículums ante la apertura de un comercio mayorista",
-          "link": "https://www.perfil.com/noticias/economia/masivo-acampe-en-guernica-para-entregar-curriculums-ante-la-apertura-de-un-comercio-mayorista-a50.phtml",
-          "summary": "Cuadra de fila y cientos de postulantes visibilizan el impacto de la recesión del Conurbano, en medio del desplome del empleo formal. Leer…",
-          "pubDate": "2026-09-28T23:20:00.000Z",
-          "source": "Perfil"
+          "title": "Alerta por el Súper Niño: qué cubre el seguro del auto ante una inundación, granizo o caída de árboles",
+          "link": "https://www.infobae.com/economia/2026/09/29/alerta-por-el-super-nino-que-cubre-el-seguro-del-auto-ante-una-inundacion-granizo-o-caida-de-arboles/",
+          "summary": "La responsabilidad civil obligatoria no protege los daños del vehículo propio. Ante una temporada de lluvias como las pronosticadas, es…",
+          "pubDate": "2026-09-29T15:59:13.000Z",
+          "source": "Infobae"
         },
         {
-          "title": "La inflación cero son los padres",
-          "link": "https://www.pagina12.com.ar/2026/09/28/la-inflacion-cero-son-los-padres/",
-          "summary": "Habrá aumentos de hasta 5 por ciento en las prepagas, superiores al 3 en transporte, peajes y agua.",
-          "pubDate": "2026-09-28T23:13:55.000Z",
-          "source": "Página/12"
-        },
-        {
-          "title": "Día del Empleado de Comercio: ¿por qué no abren los supermercados, shoppings y comercios hoy, 28 de septiembre?",
-          "link": "https://www.lanacion.com.ar/economia/abren-los-supermercados-shoppings-y-comercios-manana-28-de-septiembre-por-el-dia-del-empleado-de-nid27092026/",
-          "summary": "Descubrí por qué se cambió la fecha del Día del Empleado de Comercio, celebración estipulada para cada 26 del mes corriente; los detalles…",
-          "pubDate": "2026-09-28T22:54:24.000Z",
+          "title": "Donald Trump reúne a los gigantes de la IA en la Casa Blanca mientras crecen las alertas",
+          "link": "https://www.lanacion.com.ar/tecnologia/donald-trump-reune-a-los-gigantes-de-la-ia-en-la-casa-blanca-mientras-crecen-las-alertas-nid29092026/",
+          "summary": "La reunión se celebra mientras aumentan los casos de modelos por fuera de control y en medio de la competencia tecnológica entre Washington…",
+          "pubDate": "2026-09-29T15:58:21.000Z",
           "source": "La Nación"
         },
         {
-          "title": "La confianza en Milei, en su punto más bajo",
-          "link": "https://www.pagina12.com.ar/2026/09/28/la-confianza-en-milei-en-su-punto-mas-bajo/",
-          "summary": "Según Di Tella, volvió a caer la percepción del gobierno, en un contexto de deterioro de varios indicadores de relevancia.",
-          "pubDate": "2026-09-28T22:48:37.000Z",
-          "source": "Página/12"
+          "title": "El riesgo país baja, pero se mantiene por encima de los 600 puntos",
+          "link": "https://www.lanacion.com.ar/economia/el-riesgo-pais-baja-pero-se-mantiene-por-encima-de-los-600-puntos-nid29092026/",
+          "summary": "El indicador elaborado por JP Morgan cae más de 20 unidades, pero aún se encuentra en niveles máximos de hace seis meses",
+          "pubDate": "2026-09-29T15:47:45.000Z",
+          "source": "La Nación"
         },
         {
-          "title": "Ley de semillas: pese al acercamiento y tras la falta de acuerdo, el Gobierno decidirá quiénes pagarán por el uso propio",
-          "link": "https://www.lanacion.com.ar/economia/campo/ley-de-semillas-pese-al-acercamiento-y-tras-la-falta-de-acuerdo-el-gobierno-decidira-quienes-pagaran-nid28092026/",
-          "summary": "Los productores plantean que el pago en soja, trigo y arroz alcance al 30% del universo, que concentra el 82,72% de la superficie; los…",
-          "pubDate": "2026-09-28T22:42:40.000Z",
+          "title": "Dólar hoy: a cuánto operan todas las cotizaciones minuto a minuto este martes 29 de septiembre",
+          "link": "https://www.infobae.com/economia/2026/09/28/dolar-hoy-a-cuanto-operan-todas-las-cotizaciones-minuto-a-minuto-este-lunes-28-de-septiembre/",
+          "summary": "El billete al público es negociado sin variantes a $1.545 en el Banco Nación. El blue es ofrecido a $1.555",
+          "pubDate": "2026-09-29T15:45:28.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Demanda por daños a menores: Florida pide a la corte que prohíba a OpenAI desarrollar nuevos modelos",
+          "link": "https://www.lanacion.com.ar/tecnologia/demanda-por-danos-a-menores-florida-pide-a-la-corte-que-prohiba-a-openai-desarrollar-nuevos-modelos-nid29092026/",
+          "summary": "Reclaman por el impacto de ChatGPT en los usuarios jóvenes",
+          "pubDate": "2026-09-29T15:38:53.000Z",
           "source": "La Nación"
+        },
+        {
+          "title": "La nueva era del consumo: crece el pesimismo, se recortan gastos y aparece la “bolucompra”",
+          "link": "https://www.infobae.com/economia/2026/09/28/la-nueva-era-del-consumo-crece-el-pesimismo-se-recortan-gastos-y-aparece-la-bolucompra/",
+          "summary": "De acuerdo con el informe de la consultora Moiguer del tercer trimestre, las expectativas negativas superan por primera vez a las…",
+          "pubDate": "2026-09-29T15:38:45.000Z",
+          "source": "Infobae"
         }
       ]
     },
@@ -216,74 +216,74 @@
       "label": "Mundo",
       "items": [
         {
-          "title": "Veintiún gusanos en un plato, 21 calorías al día y nueve huelgas de hambre: la crisis que devora a los presos políticos cubanos",
-          "link": "https://www.infobae.com/cuba/2026/09/29/veintiun-gusanos-en-un-plato-21-calorias-al-dia-y-nueve-huelgas-de-hambre-la-crisis-que-devora-a-los-presos-politicos-cubanos/",
-          "summary": "Un preso en Camagüey contó los gusanos de su propia comida y resignado se los sacó antes de comer. Detrás de ese plato hay un sistema…",
-          "pubDate": "2026-09-29T01:41:36.000Z",
+          "title": "Un bar lésbico, una regla sobre los barbijos y una insólita disputa que llegó hasta el Congreso de EE.UU.",
+          "link": "https://www.lanacion.com.ar/estados-unidos/un-bar-lesbico-una-regla-sobre-los-barbijos-y-una-insolita-disputa-que-llego-hasta-el-congreso-de-nid29092026/",
+          "summary": "El Last Ditch dejó de exigir mascarillas los sábados para intentar sobrevivir financieramente y terminó en el centro de una discusión…",
+          "pubDate": "2026-09-29T16:00:37.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Las lluvias desbordaron cuatro ríos en Ecuador",
+          "link": "https://www.infobae.com/america/america-latina/2026/09/29/las-lluvias-desbordaron-cuatro-rios-en-ecuador/",
+          "summary": "Los desbordamientos se registran en Guayas y Manabí, mientras otras provincias continúan con inundaciones y emergencias",
+          "pubDate": "2026-09-29T15:59:19.000Z",
           "source": "Infobae"
         },
         {
-          "title": "Malvinas: el Gobierno denunció a una empresa británica por realizar vuelos sin autorización hacia Chile",
-          "link": "https://tn.com.ar/internacional/2026/09/28/malvinas-el-gobierno-denuncio-a-una-empresa-britanica-por-realizar-vuelos-sin-autorizacion-hacia-chile/",
-          "summary": "Dijo que son realizados por la empresa Thales UK Limited. La aeronave tiene matrícula del Reino Unido.",
-          "pubDate": "2026-09-29T01:21:28.000Z",
-          "source": "TN"
+          "title": "Quién es quién: la lista de los trece bolivianos vetados para ingresar a Estados Unidos",
+          "link": "https://www.infobae.com/america/america-latina/2026/09/29/quien-es-quien-la-lista-de-los-trece-bolivianos-vetados-para-ingresar-a-estados-unidos/",
+          "summary": "El Gobierno de Donald Trump negó la visa a 13 bolivianos, entre los que figura el fiscal general, un exministro y un jefe policial que hace…",
+          "pubDate": "2026-09-29T15:59:10.000Z",
+          "source": "Infobae"
         },
         {
-          "title": "Elecciones Brasil 2026, EN VIVO: las últimas noticias sobre los comicios hoy",
-          "link": "https://www.lanacion.com.ar/el-mundo/elecciones-brasil-2026-en-vivo-las-ultimas-noticias-sobre-los-comicios-hoy-nid28092026/",
+          "title": "Cinco cuentas, terrenos y viajes al exterior: los movimientos de dinero que se atribuyen a la hija de alias Fito",
+          "link": "https://www.infobae.com/america/america-latina/2026/09/29/cinco-cuentas-terrenos-y-viajes-al-exterior-los-movimientos-de-dinero-que-se-atribuyen-a-la-hija-de-alias-fito/",
+          "summary": "Michelle Macías fue detenida en Colombia y deberá enfrentar un juicio por lavado de activos en Ecuador",
+          "pubDate": "2026-09-29T15:58:24.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Elecciones Brasil 2026, EN VIVO: encuestas, final de las campañas y el minuto a minuto",
+          "link": "https://www.lanacion.com.ar/el-mundo/elecciones-brasil-2026-en-vivo-encuestas-final-de-las-campanas-y-el-minuto-a-minuto-nid29092026/",
           "summary": "Los últimos sondeos de intención de voto marcan un panorama reñido entre Flavio Bolsonaro e Luiz Inácio “Lula” da Silva; los comicios…",
-          "pubDate": "2026-09-29T01:16:39.000Z",
+          "pubDate": "2026-09-29T15:52:00.000Z",
           "source": "La Nación"
         },
         {
-          "title": "Capturan a 29 motoladrones en Guatemala, 15 quedan libres",
-          "link": "https://www.infobae.com/guatemala/2026/09/29/capturan-a-29-motoladrones-en-guatemala-15-quedan-libres/",
-          "summary": "El ministro Marco Antonio Villeda cuestionó las resoluciones judiciales y afirmó que las excarcelaciones reducen el efecto de los…",
-          "pubDate": "2026-09-29T01:06:37.000Z",
+          "title": "El Salvador impulsa el turismo mediante la inteligencia artificial y la capacitación técnica gratuita",
+          "link": "https://www.infobae.com/el-salvador/2026/09/29/el-salvador-impulsa-el-turismo-mediante-la-inteligencia-artificial-y-la-capacitacion-tecnica-gratuita/",
+          "summary": "La estrategia gubernamental articula la enseñanza de inteligencia artificial con el despliegue de conectividad en plazas públicas y la…",
+          "pubDate": "2026-09-29T15:32:32.000Z",
           "source": "Infobae"
         },
         {
-          "title": "Fue al médico por un dolor de espalda, recibió un diagnóstico devastador y murió a las tres semanas: “Fue un gran shock”",
-          "link": "https://www.lanacion.com.ar/el-mundo/fue-al-medico-por-un-dolor-de-espalda-recibio-un-diagnostico-devastador-y-murio-a-las-tres-semanas-nid28092026/",
-          "summary": "Carl Scott, un joven de 19 años que vivía en Inglaterra, acudió a una consulta de rutina por molestias lumbares; tras el examen, los…",
-          "pubDate": "2026-09-29T00:39:00.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "El Salvador espera lluvias y riesgo de inundaciones y deslizamientos durante los próximos días",
-          "link": "https://www.infobae.com/el-salvador/2026/09/29/el-salvador-espera-lluvias-y-riesgo-de-inundaciones-y-deslizamientos-durante-los-proximos-dias/",
-          "summary": "El Ministerio de Medio Ambiente mantiene vigilancia durante 48 horas por deslizamientos, caída de rocas y dificultades temporales para…",
-          "pubDate": "2026-09-29T00:29:39.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Laura Fernández anuncia millonarias inversiones en Quepos y apuesta por atraer jets privados para impulsar el turismo",
-          "link": "https://www.infobae.com/costa-rica/2026/09/29/laura-fernandez-anuncia-millonarias-inversiones-en-quepos-y-apuesta-por-atraer-jets-privados-para-impulsar-el-turismo/",
-          "summary": "La presidenta inició su primera gira oficial por Puntarenas con la inauguración de un puente en Londres de Quepos y anuncios para…",
-          "pubDate": "2026-09-29T00:28:00.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "México: identificaron a nuevos implicados en el caso de los estudiantes desaparecidos de Ayotzinapa",
-          "link": "https://www.pagina12.com.ar/2026/09/29/mexico-identificaron-a-nuevos-implicados-en-el-caso-de-los-estudiantes-desaparecidos-de-ayotzinapa/",
-          "summary": "La fiscalía volvió a analizar las llamadas telefónicas realizadas la noche del crimen, ocurrido el 26 de septiembre de 2014, lo que…",
-          "pubDate": "2026-09-29T00:06:34.000Z",
-          "source": "Página/12"
-        },
-        {
-          "title": "El sastre del Papa: quién es el argentino que confeccionó las prendas usadas por León XIV en Lourdes",
-          "link": "https://tn.com.ar/videos/internacional/2026/09/28/el-sastre-del-papa-quien-es-el-argentino-que-confecciono-las-prendas-usadas-por-leon-xiv-en-lourdes/",
-          "summary": "Tomás Valentín Gómez, el sastre del papa (Foto: EFE)",
-          "pubDate": "2026-09-29T00:00:06.000Z",
+          "title": "Barcelona, bajo el agua por las lluvias torrenciales: dispusieron operativos de emergencia y hay caos en el transporte",
+          "link": "https://tn.com.ar/internacional/2026/09/29/las-lluvias-torrenciales-golpearon-barcelona-rescates-calles-inundadas-y-complicaciones-en-el-transporte/",
+          "summary": "Las precipitaciones provocaron decenas de demoras y cancelaciones de vuelos. También hubo crecidas de ríos y un fuerte operativo de…",
+          "pubDate": "2026-09-29T15:31:52.000Z",
           "source": "TN"
         },
         {
-          "title": "El sastre del Papa: quién es el argentino que confeccionó las prendas usadas por León XIV en Lourdes",
-          "link": "https://tn.com.ar/internacional/2026/09/28/el-sastre-del-papa-quien-es-el-argentino-que-confecciono-las-prendas-usadas-por-leon-xiv-en-lourdes/",
-          "summary": "Tomás Valentin Gomez se encuentra desde hace un año en Francia y no descarta acompañar al pontífice durante su próxima visita a la…",
-          "pubDate": "2026-09-29T00:00:02.000Z",
-          "source": "TN"
+          "title": "Confirman en Panamá condena de 49 años por un ataque armado que dejó un muerto y dos menores heridos",
+          "link": "https://www.infobae.com/panama/2026/09/29/confirman-en-panama-condena-de-49-anos-por-un-ataque-armado-que-dejo-un-muerto-y-dos-menores-heridos/",
+          "summary": "Un adulto murió y dos menores de edad sobrevivieron al atentado ocurrido en Santa Ana en mayo de 2023.",
+          "pubDate": "2026-09-29T15:30:50.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "La visita de Fujimori a El Salvador ya tiene fecha definida con una agenda centrada en temas de seguridad",
+          "link": "https://www.infobae.com/el-salvador/2026/09/29/la-visita-de-fujimori-a-el-salvador-ya-tiene-fecha-definida-con-una-agenda-centrada-en-temas-de-seguridad/",
+          "summary": "El encuentro bilateral abordará la seguridad ciudadana y el combate contra estructuras delictivas transnacionales, mientras las…",
+          "pubDate": "2026-09-29T15:29:32.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Presidente dominicano advierte: “A todo el que cometa un acto criminal, lo vamos a capturar, no le va a ir bien”",
+          "link": "https://www.infobae.com/republica-dominicana/2026/09/29/presidente-dominicano-advierte-a-todo-el-que-cometa-un-acto-criminal-lo-vamos-a-capturar-no-le-va-a-ir-bien/",
+          "summary": "El Gobierno ordenó a los cuerpos de seguridad ubicar a las personas requeridas antes de nuevos delitos, en medio de la preocupación social…",
+          "pubDate": "2026-09-29T15:26:42.000Z",
+          "source": "Infobae"
         }
       ]
     },
@@ -292,74 +292,74 @@
       "label": "Sociedad",
       "items": [
         {
-          "title": "Expertos en limpieza revelan: “El vinagre y el bicarbonato para lavar las sábanas es muy bueno, pero hay algo mejor”",
-          "link": "https://tn.com.ar/sociedad/2026/09/28/expertos-en-limpieza-revelan-el-vinagre-y-el-bicarbonato-para-lavar-las-sabanas-es-muy-bueno-pero-hay-algo-mejor/",
-          "summary": "La ropa de cama puede recuperar su aspecto y suavidad con una combinación de productos económicos.",
-          "pubDate": "2026-09-29T01:08:15.000Z",
-          "source": "TN"
-        },
-        {
-          "title": "Una casa de campo en Villa General Belgrano busca voluntarios para el Oktoberfest a cambio de alojamiento",
-          "link": "https://tn.com.ar/sociedad/2026/09/28/villa-general-belgrano-busca-voluntarios-durante-el-oktoberfest-ofrece-alojamiento-20-horas-de-trabajo-semanal-y-tres-dias-libre/",
-          "summary": "Conocé los detalles de la convocatoria, qué tareas se deben realizar y cómo postularse.",
-          "pubDate": "2026-09-29T01:04:16.000Z",
-          "source": "TN"
-        },
-        {
-          "title": "Marian Rojas Estapé, especialista en estrés: “Hay una frase de Séneca que me encanta: la suerte es donde confluyen la preparación y la oportunidad”",
-          "link": "https://www.lanacion.com.ar/sociedad/marian-rojas-estape-especialista-en-estres-hay-una-frase-de-seneca-que-me-encanta-la-suerte-es-donde-nid28092026/",
-          "summary": "La psiquiatra española analizó el factor suerte desde una perspectiva clínica; sostuvo que el éxito personal depende en gran medida de la…",
-          "pubDate": "2026-09-29T01:00:00.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Poder Ciudadano: Martín D’Alessandro habló sobre corrupción, transparencia y participación ciudadana",
-          "link": "https://www.perfil.com/noticias/sociedad/poder-ciudadano-martin-dalessandro-hablo-sobre-corrupcion-transparencia-y-participacion-ciudadana.phtml",
-          "summary": "El presidente de Poder Ciudadano expuso durante la cena aniversario de la organización y repasó distintos aspectos vinculados con la…",
-          "pubDate": "2026-09-29T01:00:00.000Z",
-          "source": "Perfil"
-        },
-        {
-          "title": "Esta es la fórmula ideal para lograr un descanso reparador para nuestro cerebro (y no pensar en nada)",
-          "link": "https://www.lanacion.com.ar/sociedad/esta-es-la-formula-ideal-para-lograr-un-descanso-reparador-para-nuestro-cerebro-y-no-pensar-en-nada-nid27092026/",
-          "summary": "La mente no se ‘apaga’ en estado de reposo, pero aprender algo nuevo o superar un reto puede ayudar a disminuir el agotamiento acumulado",
-          "pubDate": "2026-09-29T00:55:00.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Gabriel Rolón, psicólogo, sobre el amor: “La gracia es abrazar también la imperfección del otro”",
-          "link": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-psicologo-sobre-el-amor-la-gracia-es-abrazar-tambien-la-imperfeccion-del-otro-nid25092026/",
-          "summary": "En una entrevista exclusiva para LN+, el psicoanalista y escritor reflexionó sobre la naturaleza humana y propuso una mirada cruda sobre el…",
-          "pubDate": "2026-09-29T00:52:00.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Margarita, albañila: “Piensan que las mujeres no pueden levantar 25 kg, pero solo hay que ver a una madre levantando a su hijo”",
-          "link": "https://tn.com.ar/sociedad/2026/09/28/margarita-albanila-piensan-que-las-mujeres-no-pueden-levantar-25-kg-pero-solo-hay-que-ver-a-una-madre-levantando-a-su-hijo/",
-          "summary": "La trabajadora de la construcción fue contundente sobre los prejuicios que se sufren en el sector.",
-          "pubDate": "2026-09-29T00:42:56.000Z",
-          "source": "TN"
-        },
-        {
-          "title": "“Pity” Álvarez sigue internado: qué dice el informe sobre su salud y cómo podría participar de la audiencia desde el hospital",
-          "link": "https://www.infobae.com/sociedad/policiales/2026/09/28/pity-alvarez-sigue-internado-que-dice-el-informe-sobre-su-salud-y-como-podria-participar-de-la-audiencia-desde-el-tornu/",
-          "summary": "El músico permanece en el Tornú y su defensa reclamó que presencie la audiencia de manera remota. Qué detectó la evaluación realizada…",
-          "pubDate": "2026-09-29T00:27:41.000Z",
+          "title": "Juicio por la muerte de Maradona, en vivo: “Cinco años esperé para decir mi verdad”, dijo uno de los imputados en su última declaración",
+          "link": "https://www.infobae.com/sociedad/policiales/2026/09/29/juicio-por-la-muerte-de-maradona-en-vivo-las-ultimas-noticias-de-hoy-29-de-septiembre-minuto-a-minuto/",
+          "summary": "En principio serán Leopoldo Luque, Agustina Cosachov y Nancy Forlini. La semana que viene empezarán los alegatos",
+          "pubDate": "2026-09-29T15:53:36.000Z",
           "source": "Infobae"
         },
         {
-          "title": "Juicio a “Pity” Álvarez: una amenaza a Fernando Burlando, tres horas de cuarto intermedio y el músico “descalzo y a los gritos”",
-          "link": "https://www.infobae.com/sociedad/policiales/2026/09/28/juicio-a-pity-alvarez-en-vivo-el-musico-sigue-internado-y-citaron-siete-testigos-de-identidad-reservada-para-esta-jornada/",
-          "summary": "El querellante, que representa a una de las hijas de la víctima, recibió un mensaje intimidatorio de parte de un seguidor del músico. La…",
-          "pubDate": "2026-09-29T00:25:19.000Z",
-          "source": "Infobae"
+          "title": "Alarma por el Súper Niño 2026: qué se sabe del fenómeno “extremadamente fuerte” que cambiará por completo el pronóstico en la Argentina (y el mundo)",
+          "link": "https://www.lanacion.com.ar/sociedad/alarma-por-el-super-nino-2026-que-se-sabe-del-fenomeno-extremadamente-fuerte-que-cambiara-por-nid29092026/",
+          "summary": "Este escenario mantendrá la amenaza de lluvias abundantes, olas de calor y tormentas severas hasta febrero del año próximo; el Gobierno…",
+          "pubDate": "2026-09-29T15:51:56.000Z",
+          "source": "La Nación"
         },
         {
-          "title": "Pañuelazo en defensa del derecho al aborto",
-          "link": "https://www.pagina12.com.ar/2026/09/29/panuelazo-en-defensa-del-derecho-al-aborto/",
-          "summary": "La Campaña organizó diversas actividades en el Congreso para denunciar recortes y vaciamiento de la políticas de salud sexual y…",
-          "pubDate": "2026-09-29T00:05:20.000Z",
-          "source": "Página/12"
+          "title": "Avanza una ciclogénesis de 48 horas que provocará tormentas localmente intensas y un brusco cambio en la temperatura, en el cierre de septiembre: las zonas afectadas",
+          "link": "https://www.lanacion.com.ar/sociedad/avanza-una-ciclogenesis-de-48-horas-que-provocara-tormentas-localmente-intensas-y-un-brusco-cambio-nid29092026/",
+          "summary": "Un sistema de baja presión y el posterior avance de un frente frío modificarán las condiciones en gran parte del centro y norte del país;…",
+          "pubDate": "2026-09-29T15:51:43.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Pilar Sordo, sobre los recuerdos: “Queremos congelar momentos; somos conscientes de que todo pasa”",
+          "link": "https://www.lanacion.com.ar/sociedad/pilar-sordo-sobre-los-recuerdos-queremos-congelar-momentos-somos-conscientes-de-que-todo-pasa-nid28092026/",
+          "summary": "La psicóloga chilena analizó la crisis en la comunicación humana y el impacto de los cambios en la vida; reflexionó sobre el duelo y la…",
+          "pubDate": "2026-09-29T15:51:37.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "El Principito y su frase sobre el amor propio y los vínculos: “Sos el dueño de tu vida y tus emociones, nunca lo olvides; para bien y para mal”",
+          "link": "https://www.lanacion.com.ar/sociedad/el-principito-y-su-frase-sobre-el-amor-propio-y-los-vinculos-sos-el-dueno-de-tu-vida-y-tus-emociones-nid29092026/",
+          "summary": "La reconocida obra, que mezcla fábulas, filosofía y reflexiones profundas, revela frases resonantes que pueden influir en la vida cotidiana…",
+          "pubDate": "2026-09-29T15:51:32.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Gabriel Rolón, psicólogo: “La felicidad no es una decisión”",
+          "link": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-psicologo-la-felicidad-no-es-una-decision-nid28092026/",
+          "summary": "El psicoanalista analizó la complejidad del bienestar emocional frente a las presiones externas; reflexiona sobre la construcción de…",
+          "pubDate": "2026-09-29T15:51:23.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Arthur Brooks, experto en felicidad de Harvard: “Las personas que son felices y saludables cuando son mayores tienen un matrimonio sólido o amistades cercanas”",
+          "link": "https://www.lanacion.com.ar/sociedad/arthur-brooks-experto-en-felicidad-de-harvard-las-personas-que-son-felices-y-saludables-cuando-son-nid28092026/",
+          "summary": "El investigador identificó siete hábitos, físicos y psicológicos, que comparten las personas que llegan a edades avanzadas con salud y…",
+          "pubDate": "2026-09-29T15:51:09.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Pronóstico del tiempo: alerta por lluvias y viento en los próximos días en Buenos Aires",
+          "link": "https://www.lanacion.com.ar/sociedad/pronostico-del-tiempo-alerta-por-lluvias-y-viento-en-los-proximos-dias-en-buenos-aires-nid28092026/",
+          "summary": "El SMN anticipó precipitaciones y tormentas para el comienzo de la semana, con ráfagas que podrían acercarse a los 60 km/h; cuándo mejoran…",
+          "pubDate": "2026-09-29T15:50:57.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Las profesoras de pilates coinciden: “Sirve para fortalecer nuestros músculos de forma consciente y a largo plazo”",
+          "link": "https://www.lanacion.com.ar/sociedad/cadenas-miofasciales-los-ejercicios-que-revolucionaron-la-forma-de-practicar-pilates-una-tecnica-que-nid27092026/",
+          "summary": "La técnica, creada por el alemán Joseph Pilates, promueve un entrenamiento integral que trabaja utilizando pesas y el propio peso; la…",
+          "pubDate": "2026-09-29T15:50:54.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Tony Robbins, experto en crecimiento personal: “El enfoque en uno mismo crea sufrimiento”",
+          "link": "https://www.lanacion.com.ar/sociedad/tony-robbins-experto-en-crecimiento-personal-el-enfoque-en-uno-mismo-crea-sufrimiento-nid29092026/",
+          "summary": "El conferencista analizó cómo el ego y la atención centrada en uno mismo impactan en la salud emocional; propuso la gratitud como…",
+          "pubDate": "2026-09-29T15:50:37.000Z",
+          "source": "La Nación"
         }
       ]
     },
@@ -368,73 +368,73 @@
       "label": "Deportes",
       "items": [
         {
-          "title": "Escándalo en Estudiantes: un futbolista apareció en los festejos de Rosario Central tras la polémica en la Supercopa",
-          "link": "https://tn.com.ar/deportes/futbol/2026/09/28/escandalo-en-estudiantes-un-futbolista-aparecio-en-los-festejos-de-rosario-central-tras-la-polemica-en-la-supercopa/",
-          "summary": "Luego de un final caliente, la imagen no cayó bien en el Pincha y los hinchas no ocultaron su bronca.",
-          "pubDate": "2026-09-29T01:49:03.000Z",
-          "source": "TN"
-        },
-        {
-          "title": "El picante posteo del jugador de Columbus Crew tras su fuerte cruce con Lionel Messi",
-          "link": "https://tn.com.ar/deportes/futbol/2026/09/28/el-picante-posteo-del-jugador-de-columbus-crew-tras-su-fuerte-cruce-con-lionel-messi/",
-          "summary": "Santiago Rodríguez se cruzó con el capitán de la Selección argentina y luego realizó una publicación en redes que rápidamente llamó la…",
-          "pubDate": "2026-09-29T01:43:09.000Z",
-          "source": "TN"
-        },
-        {
-          "title": "La agenda de la TV del martes: España, Croacia e Inglaterra en la UEFA Nations League, y dos finales en tenis",
-          "link": "https://www.lanacion.com.ar/deportes/futbol/la-agenda-de-la-tv-del-martes-espana-croacia-e-inglaterra-en-la-uefa-nations-league-y-dos-finales-en-nid28092026/",
-          "summary": "La actividad deportiva en la continuidad de la semana, disponible a través de las pantallas",
-          "pubDate": "2026-09-29T01:28:48.000Z",
+          "title": "Por dónde pasan España vs. Croacia y qué canal lo transmite en vivo",
+          "link": "https://www.lanacion.com.ar/deportes/futbol/por-donde-pasan-espana-vs-croacia-y-que-canal-lo-transmite-en-vivo-nid29092026/",
+          "summary": "El encuentro correspondiente a la fecha 2 del Grupo 3 se disputa este miércoles a las 15.45 (horario argentino) en el estadio Ramón…",
+          "pubDate": "2026-09-29T15:59:05.000Z",
           "source": "La Nación"
         },
         {
-          "title": "Por qué el Gran Premio de Bahréin de Fórmula 1 se corre en Malasia: el desafío que tendrá Colapinto",
-          "link": "https://www.infobae.com/deportes/2026/09/29/por-que-el-gran-premio-de-bahrein-de-formula-1-se-corre-en-malasia-el-desafio-que-tendra-colapinto/",
-          "summary": "La Máxima vuelve a Sepang tras nueve años. Será un circuito nuevo para doce pilotos, entre ellos el argentino",
-          "pubDate": "2026-09-29T01:22:13.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Tras la operación, Daniel Osvaldo fue trasladado a un hospital en Monte Grande: los detalles de su estado de salud",
-          "link": "https://tn.com.ar/deportes/futbol/2026/09/28/tras-la-operacion-daniel-osvaldo-fue-trasladado-a-un-hospital-en-monte-grande-los-detalles-de-su-estado-de-salud/",
-          "summary": "La familia rompió el hermetismo y dio a conocer novedades del cuadro que atraviesa el exfutbolista de Boca.",
-          "pubDate": "2026-09-29T00:46:10.000Z",
+          "title": "República Checa vs Inglaterra en vivo por la fase de grupos de la UEFA Nations League: hora, dónde ver y formaciones",
+          "link": "https://tn.com.ar/deportes/futbol/2026/09/29/republica-checa-vs-inglaterra-en-vivo-por-la-fase-de-grupos-de-la-uefa-nations-league-hora-donde-ver-y-formaciones/",
+          "summary": "República Checa enfrenta a Inglaterra desde las 15:45 horas del martes 29 de septiembre. Podés seguirlo minuto a minuto por la web de TN.",
+          "pubDate": "2026-09-29T15:57:27.000Z",
           "source": "TN"
         },
         {
-          "title": "El crudo análisis de un medio inglés sobre Colapinto, tras ubicarlo en el último puesto de su ranking: “Falló estrepitosamente”",
-          "link": "https://www.infobae.com/deportes/2026/09/29/el-crudo-analisis-de-un-medio-ingles-sobre-colapinto-tras-ubicarlo-en-el-ultimo-puesto-de-su-ranking-fallo-estrepitosamente/",
-          "summary": "The Race armó su habitual listado de pilotos después de las carreras. Evaluó la labor del argentino y fue lapidario por su error en el GP…",
-          "pubDate": "2026-09-29T00:21:16.000Z",
+          "title": "Fernando Alonso renovó con Aston Martin y seguirá en la Fórmula 1 en 2027",
+          "link": "https://www.lanacion.com.ar/deportes/automovilismo/fernando-alonso-renovo-con-aston-martin-y-seguira-en-la-formula-1-en-2027-nid29092026/",
+          "summary": "El bicampeón mundial, de 45 años, extendió su contrato después de varios meses de incertidumbre sobre su futuro; también continuará Lance…",
+          "pubDate": "2026-09-29T15:53:28.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Se confirmó la nueva pelea del argentino Kevin Vallejos en UFC: por qué podría ser un punto de inflexión en su carrera",
+          "link": "https://www.infobae.com/deportes/2026/09/29/se-confirmo-la-nueva-pelea-del-argentino-kevin-vallejos-en-ufc-por-que-podria-ser-un-punto-de-inflexion-en-su-carrera/",
+          "summary": "Con 24 años buscará seguir escalando en el ranking para pelear por el título. El Chino se medirá ante Aljamain Sterling, ubicado en el…",
+          "pubDate": "2026-09-29T15:48:26.000Z",
           "source": "Infobae"
         },
         {
-          "title": "Tras el histórico triunfo de Boca ante Racing, la decisión que tomó Estudiantes con Marcos Rojo",
-          "link": "https://www.infobae.com/deportes/2026/09/29/tras-el-historico-triunfo-de-boca-ante-racing-la-decision-que-tomo-estudiantes-con-marcos-rojo/",
-          "summary": "El Pincha avanza para destrabar la salida anticipada del defensor y sumarlo a la última línea antes de las semifinales de la Copa…",
-          "pubDate": "2026-09-29T00:17:44.000Z",
+          "title": "Los dos campeones de mundo que fueron a ver a Rosario el TC Mouras",
+          "link": "https://www.infobae.com/deportes/2026/09/29/los-dos-campeones-de-mundo-que-fueron-a-ver-a-rosario-el-tc-mouras/",
+          "summary": "El Dibu Martínez y Marcos Acuña acompañaron al hermano del arquero durante la novena fecha del torneo",
+          "pubDate": "2026-09-29T15:45:52.000Z",
           "source": "Infobae"
         },
         {
-          "title": "Fernando Batista dejó de ser el entrenador de la selección de Costa Rica tras apenas seis partidos",
-          "link": "https://www.infobae.com/deportes/2026/09/28/fernando-batista-dejo-de-ser-el-entrenador-de-la-seleccion-de-costa-rica-tras-apenas-seis-partidos/",
-          "summary": "El técnico argentino terminó su ciclo de apenas siete meses: quién será su reemplazante",
-          "pubDate": "2026-09-29T00:01:47.000Z",
-          "source": "Infobae"
+          "title": "Cuándo es el último partido de Messi con la selección argentina",
+          "link": "https://www.lanacion.com.ar/deportes/futbol/cuando-es-el-ultimo-partido-de-messi-con-la-seleccion-argentina-nid29092026/",
+          "summary": "El astro jugará por última vez con la camiseta albiceleste frente a Benín en el estadio Monumental; será su primera vez contra el combinado…",
+          "pubDate": "2026-09-29T15:44:34.000Z",
+          "source": "La Nación"
         },
         {
-          "title": "La argentina Ailín Pérez mostró cómo quedó su cara tras su pelea en Las Vegas y reclamó la chance de ir por el título de la UFC",
-          "link": "https://tn.com.ar/deportes/polideportivo/2026/09/28/la-argentina-ailin-perez-mostro-como-quedo-su-cara-tras-su-pelea-en-las-vegas-y-reclamo-la-chance-de-ir-por-el-titulo-de-la-ufc/",
-          "summary": "La peleadora albiceleste viene de ganarle a la brasileña Norma Dumont y quedó a un paso de tener una oportunidad de ir por el cinturón en…",
-          "pubDate": "2026-09-28T23:53:41.000Z",
+          "title": "Vojvoda habló de su salida de Racing: “Yo estaba firme, fue una decisión del club”",
+          "link": "https://www.lanacion.com.ar/deportes/futbol/racing/vojvoda-hablo-de-su-salida-de-racing-yo-estaba-firme-fue-una-decision-del-club-nid29092026/",
+          "summary": "El entrenador contó los pormenores de su desvinculación de la Academia luego de la resonante derrota ante Boca por la Copa Argentina; dijo…",
+          "pubDate": "2026-09-29T15:37:35.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Horario de Argentina vs. Bolivia, por un amistoso internacional",
+          "link": "https://www.lanacion.com.ar/deportes/futbol/horario-de-argentina-vs-bolivia-por-un-amistoso-internacional-nid29092026/",
+          "summary": "El encuentro entre el subcampeón del mundo y el seleccionado boliviano se disputa este miércoles en el estadio Mario Alberto Kempes de…",
+          "pubDate": "2026-09-29T15:35:36.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Boca piensa en todos los frentes: Arruabarrena ya planifica una rotación para evitar el desgaste de los titulares",
+          "link": "https://tn.com.ar/deportes/futbol/2026/09/29/boca-piensa-en-todos-los-frentes-arruabarrena-ya-planifica-una-rotacion-para-evitar-el-desgaste-de-los-titulares/",
+          "summary": "Tras la remontada ante Racing, el DT planea en repetir el equipo ante Unión y luego hacer cambios ante Instituto por la cercanía de la…",
+          "pubDate": "2026-09-29T15:26:30.000Z",
           "source": "TN"
         },
         {
-          "title": "Rumbo a Tortugas y Palermo: La Zeta y La Dolfina II definirán un pase a la Doble Corona; La Irenita y Velay, por el otro boleto",
-          "link": "https://www.lanacion.com.ar/deportes/polo/rumbo-a-tortugas-y-palermo-la-zeta-y-la-dolfina-ii-definiran-un-pase-a-la-doble-corona-la-irenita-y-nid28092026/",
-          "summary": "La acción del lunes en Pilar, donde se definieron los cuatro finalistas",
-          "pubDate": "2026-09-28T23:51:43.000Z",
+          "title": "Lionel Scaloni define el equipo para el primer partido amistoso contra Bolivia, en Córdoba y con aforo reducido",
+          "link": "https://www.lanacion.com.ar/deportes/futbol/lionel-scaloni-define-el-equipo-para-el-primer-partido-amistoso-contra-bolivia-en-cordoba-y-con-nid29092026/",
+          "summary": "Lautaro Martínez y Julián Alvarez compartirían la delantera, mientras que hay una posibilidad de que Nico Paz y Franco Mastantuono se…",
+          "pubDate": "2026-09-29T15:19:43.000Z",
           "source": "La Nación"
         }
       ]
@@ -444,74 +444,74 @@
       "label": "Espectáculos",
       "items": [
         {
-          "title": "El gesto de amor de Rodrigo de Paul para Tini Stoessel después de su show con Lali Espósito: “Brillás siempre”",
-          "link": "https://www.infobae.com/teleshow/2026/09/29/el-gesto-de-amor-de-rodrigo-de-paul-para-tini-stoessel-despues-de-su-show-con-lali-esposito-brillas-siempre/",
-          "summary": "El campeón del mundo celebró en Instagram la participación sorpresa de su pareja en el Monumental y le dejó unas palabras a corazón abierto",
-          "pubDate": "2026-09-29T01:44:09.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Filtraron el chat por el que Eva Bargiela tomó la decisión de bloquear a Facundo Moyano cuando se separaron",
-          "link": "https://tn.com.ar/show/famosos/2026/09/28/filtraron-el-chat-por-el-que-eva-bargiela-tomo-la-decision-de-bloquear-a-facundo-moyano-cuando-se-separaron/",
-          "summary": "Yanina Latorre mostró la conversación que la modelo y el empresario tuvieron en 2023, cuando estaban en plena crisis.",
-          "pubDate": "2026-09-29T01:30:03.000Z",
+          "title": "Eva Bargiela habló de la polémica entrevista que Facundo Moyano hizo con Moria Casán: “Capaz estaba nervioso”",
+          "link": "https://tn.com.ar/videos/show/famosos/2026/09/29/eva-bargiela-hablo-de-la-polemica-entrevista-que-facundo-moyano-hizo-con-moria-casan-capaz-estaba-nervioso/",
+          "summary": "Eva BargielaEva Bargiela habló de Facundo Moyano y de la polémica entrevista con Moria Casán. (Foto: captura eltrece)",
+          "pubDate": "2026-09-29T16:06:28.000Z",
           "source": "TN"
         },
         {
-          "title": "Luck Ra y Juli Poggio, ¿muy cerca en las grabaciones de MasterChef Celebrity?",
-          "link": "https://www.infobae.com/teleshow/2026/09/29/luck-ra-y-juli-poggio-muy-cerca-en-las-grabaciones-de-masterchef-celebrity/",
-          "summary": "En Intrusos aseguraron que el cantante y la actriz fueron vistos muy cómplices, apartados del resto, en los pasillos de Telefe",
-          "pubDate": "2026-09-29T01:19:28.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Aseguran que Ricky Diotto pedirá que le quiten la tenencia de su hija a María Fernanda Callejón: “Está avanzado”",
-          "link": "https://tn.com.ar/videos/show/famosos/2026/09/28/aseguran-que-ricky-diotto-pedira-que-le-quiten-la-tenencia-de-su-hija-a-maria-fernanda-callejon-esta-avanzado/",
-          "summary": "Aseguran que Ricky Diotto podría pedir que le quiten la tenencia de su hija a María Fernanda Callejón: “Está todo muy avanzado” (Foto:…",
-          "pubDate": "2026-09-29T00:52:30.000Z",
+          "title": "Eva Bargiela habló de la polémica entrevista que Facundo Moyano hizo con Moria Casán: “Capaz estaba nervioso”",
+          "link": "https://tn.com.ar/show/famosos/2026/09/29/eva-bargiela-hablo-de-la-polemica-entrevista-que-facundo-moyano-hizo-con-moria-casan-capaz-estaba-nervioso/",
+          "summary": "La modelo contestó lo que piensa sobre la nota que su exnovio le dio a la diva y las repercusiones que hubo en las redes sociales sobre su…",
+          "pubDate": "2026-09-29T16:06:25.000Z",
           "source": "TN"
         },
         {
-          "title": "Aseguran que Ricky Diotto pedirá que le quiten la tenencia de su hija a María Fernanda Callejón: “Está avanzado”",
-          "link": "https://tn.com.ar/show/famosos/2026/09/28/aseguran-que-ricky-diotto-pedira-que-le-quiten-la-tenencia-de-su-hija-a-maria-fernanda-callejon-esta-avanzado/",
-          "summary": "Según lo que trascendió, el odontólogo ya definió cuáles son los argumentos que le presentará a la Justicia.",
-          "pubDate": "2026-09-29T00:52:28.000Z",
+          "title": "Pity Álvarez llamó a Moria Casán desde el hospital: “No me voy a declarar inocente” - Video 1",
+          "link": "https://tn.com.ar/videos/show/famosos/2026/09/29/pity-alvarez-llamo-a-moria-casan-desde-el-hospital-no-me-voy-a-declarar-inocente-video-1/",
+          "summary": "Video: el momento en el que Pity Álvarez intentó escapar del hospital donde está internado. (Foto: Captura TN)",
+          "pubDate": "2026-09-29T16:01:44.000Z",
           "source": "TN"
         },
         {
-          "title": "La China Suárez respondió a los rumores de crisis con Mauro Icardi: sus fotos juntos y enamorados",
-          "link": "https://www.infobae.com/teleshow/2026/09/29/la-china-suarez-respondio-a-los-rumores-de-crisis-con-mauro-icardi-sus-fotos-juntos-y-enamorados/",
-          "summary": "La actriz compartió postales abrazada al delantero en Instagram, luego de las especulaciones que siempre rodean a la pareja y del revuelo…",
-          "pubDate": "2026-09-29T00:39:54.000Z",
+          "title": "El viaje en familia de Sol Pérez con su hijo Marco por los parques de Disney: “La felicidad es total”",
+          "link": "https://www.infobae.com/teleshow/2026/09/29/el-viaje-en-familia-de-sol-perez-con-su-hijo-marco-por-los-parques-de-disney-la-felicidad-es-total/",
+          "summary": "Después de pasar por el Caribe, la conductora rumbeó para el universo mágico de Orlando junto a su esposo Guido Mazzoni y los abuelos del…",
+          "pubDate": "2026-09-29T15:53:40.000Z",
           "source": "Infobae"
         },
         {
-          "title": "La Joaqui volvió a mostrar su intimidad con Tiago PZK y un detalle llamó la atención: “Qué escándalo”",
-          "link": "https://tn.com.ar/videos/show/famosos/2026/09/28/la-joaqui-volvio-a-mostrar-su-intimidad-con-tiago-pzk-y-un-detalle-llamo-la-atencion-que-escandalo/",
-          "summary": "La Joaqui subió una foto de la intimidad con Tiago PZK: “Qué escándalo” (Foto: Instagram /lajoaqui /tiagopzk)",
-          "pubDate": "2026-09-29T00:06:06.000Z",
+          "title": "Pity Álvarez llamó a Moria Casán desde el hospital: “No me voy a declarar inocente”",
+          "link": "https://tn.com.ar/show/famosos/2026/09/29/pity-alvarez-llamo-a-moria-casan-desde-el-hospital-no-me-voy-a-declarar-inocente/",
+          "summary": "El músico contó cómo está luego de querer escaparse del Tornú.",
+          "pubDate": "2026-09-29T15:43:09.000Z",
           "source": "TN"
         },
         {
-          "title": "La Joaqui volvió a mostrar su intimidad con Tiago PZK y un detalle llamó la atención: “Qué escándalo”",
-          "link": "https://tn.com.ar/show/famosos/2026/09/28/la-joaqui-volvio-a-mostrar-su-intimidad-con-tiago-pzk-y-un-detalle-llamo-la-atencion-que-escandalo/",
-          "summary": "Tras blanquear su romance en redes sociales, la cantante fue por más.",
-          "pubDate": "2026-09-29T00:06:03.000Z",
+          "title": "El drama del actor Jorge Martínez: sufrió dos estafas virtuales y perdió todos sus ahorros",
+          "link": "https://tn.com.ar/show/famosos/2026/09/29/jorge-martinez-sufrio-dos-estafas-virtuales-y-perdio-todos-sus-ahorros-a-los-79-anos/",
+          "summary": "El actor relató el momento en que descubrió que habían vaciado sus cuentas y solicitado préstamos a su nombre.",
+          "pubDate": "2026-09-29T15:42:02.000Z",
           "source": "TN"
         },
         {
-          "title": "La virgen de la tosquera, la apuesta argentina para brillar en los Premios Oscar",
-          "link": "https://www.infobae.com/teleshow/2026/09/28/la-virgen-de-la-tosquera-la-apuesta-argentina-para-brillar-en-los-premios-oscar/",
-          "summary": "La Academia de Cine Argentina eligió a la película de Laura Casabé para competir en la categoría de Mejor película internacional en la gran…",
-          "pubDate": "2026-09-28T23:59:37.000Z",
+          "title": "El Polaco hizo un posteo relacionado a la China Suárez y dio que hablar en las redes",
+          "link": "https://tn.com.ar/show/famosos/2026/09/29/el-polaco-hizo-un-posteo-relacionado-a-la-china-suarez-y-dio-que-hablar-en-las-redes/",
+          "summary": "El artista sorprendió a sus seguidores de Instagram y recibió una particular sugerencia.",
+          "pubDate": "2026-09-29T15:32:21.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "Desde Italia, Elena Braccini, expareja de Daniel Osvaldo, habló sobre su salud: “Las nenas están rezando por él”",
+          "link": "https://www.infobae.com/teleshow/2026/09/29/desde-italia-elena-braccini-expareja-de-daniel-osvaldo-hablo-sobre-su-salud-las-nenas-estan-rezando-por-el/",
+          "summary": "La exmodelo y arquitecta, madre de dos hijas del exfutbolista, confirmó a Teleshow que ellas lograron comunicarse con su padre y que eso…",
+          "pubDate": "2026-09-29T15:17:23.000Z",
           "source": "Infobae"
         },
         {
-          "title": "Yanina Latorre opinó de la aparición de Tini Stoessel en el show de Lali Espósito: “En este quilombo la metió el padre”",
-          "link": "https://www.infobae.com/teleshow/2026/09/28/yanina-latorre-opino-de-la-aparicion-de-tini-stoessel-en-el-show-de-lali-esposito-en-este-quilombo-la-metio-el-padre/",
-          "summary": "La conductora analizó en su programa la primera actuación conjunta entre ambas artistas en el estadio de River Plate",
-          "pubDate": "2026-09-28T23:48:49.000Z",
-          "source": "Infobae"
+          "title": "Se conoció el gesto de amor que La Joaqui habría tenido con Tiago PZK a días de blanquear su romance",
+          "link": "https://tn.com.ar/show/famosos/2026/09/29/se-conocio-el-gesto-de-amor-que-la-joaqui-habria-tenido-con-tiago-pzk-a-dias-de-blanquear-su-romance/",
+          "summary": "Los artistas confirmaron su noviazgo este fin de semana luego de la polémica con Luck Ra.",
+          "pubDate": "2026-09-29T15:08:22.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "El hijo de Christopher Reeve, recordado actor de “Superman”, anunció que tiene cáncer de testículos a los 34 años",
+          "link": "https://tn.com.ar/show/hollywood/2026/09/29/el-hijo-del-recordado-actor-de-superman-christopher-reeve-anuncio-que-tiene-cancer-de-testiculos-a-los-34-anos/",
+          "summary": "Will Reeve habló del tratamiento que tuvo que hacer debido a la enfermedad que le diagnosticaron.",
+          "pubDate": "2026-09-29T14:59:09.000Z",
+          "source": "TN"
         }
       ]
     },
@@ -520,74 +520,74 @@
       "label": "Opinión",
       "items": [
         {
-          "title": "La enemiga del pueblo…",
-          "link": "https://www.pagina12.com.ar/2026/09/29/la-enemiga-del-pueblo/",
-          "summary": "A la ingeniera Virginia Aparicio, investigadora del INTA (Balcarce) y del CONICET, la quieren exonerar de la administración pública. Éste…",
-          "pubDate": "2026-09-29T01:26:49.000Z",
+          "title": "Argentina quiere —y puede— salir de la pobreza",
+          "link": "https://www.infobae.com/opinion/2026/09/29/argentina-quiere-y-puede-salir-de-la-pobreza/",
+          "summary": "La viabilidad del presente no depende de la confianza en una persona, sino de la solidez institucional que el país pueda representar de…",
+          "pubDate": "2026-09-29T15:57:12.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Ariana Harwicz: de la acusación a la expiación",
+          "link": "https://www.pagina12.com.ar/2026/09/29/ariana-harwicz-de-la-acusacion-a-la-expiacion/",
+          "summary": "Como lo reveló la “des invitación” promovida en el Festival Internacional de Arte, Literatura y Humanidades, Cultur-ALH, el problema no…",
+          "pubDate": "2026-09-29T15:29:02.000Z",
           "source": "Página/12"
         },
         {
-          "title": "Chiqui Tapia y AFA: nuevas escenas de una decadencia sin fin",
-          "link": "https://www.clarin.com/opinion/chiqui-tapia-afa-nuevas-escenas-decadencia-fin_0_Tp5SmeDcYe.html",
-          "summary": "Otra final bochornosa marca un nuevo episodio en la descomposición del fútbol. El presidente de la AFA y los dirigentes, máximos…",
-          "pubDate": "2026-09-29T00:08:48.000Z",
-          "source": "Clarín"
+          "title": "La exclusión de Ariana Harwicz",
+          "link": "https://www.pagina12.com.ar/2026/09/29/la-exclusion-de-ariana-harwicz/",
+          "summary": "En la última semana se generalizó una polémica a raíz de la exclusión de la escritora argentina Ariana Harwicz de la programación del…",
+          "pubDate": "2026-09-29T15:28:57.000Z",
+          "source": "Página/12"
         },
         {
-          "title": "Una casa para la música y el arte",
-          "link": "https://www.perfil.com/noticias/opinion/una-casa-para-la-musica-y-el-arte.phtml",
-          "summary": "“El cruce entre territorio, materia y clima” construye el espacio que necesita cualquier persona. Pero ¿qué tipo de hábitat necesita un…",
-          "pubDate": "2026-09-28T23:59:19.000Z",
+          "title": "Cuando ganar puede ser perder",
+          "link": "https://www.perfil.com/noticias/opinion/cuando-ganar-puede-ser-perder.phtml",
+          "summary": "La apuesta de Javier Milei por el retorno de la derecha en Brasil podría desplazar a la Argentina como el principal aliado de Estados…",
+          "pubDate": "2026-09-29T14:43:24.000Z",
           "source": "Perfil"
         },
         {
-          "title": "Más allá de la indignación: una responsabilidad como sociedad educadora",
-          "link": "https://www.infobae.com/peru/2026/09/28/mas-alla-de-la-indignacion-una-responsabilidad-como-sociedad-educadora/",
-          "summary": "El sistema SíseVe ha recibido denuncias por agresiones físicas, psicológicas y sexuales contra alumnado durante 2025, una cifra que sitúa…",
-          "pubDate": "2026-09-28T23:49:38.000Z",
+          "title": "Lo que la inteligencia artificial no puede automatizar",
+          "link": "https://www.infobae.com/opinion/2026/09/29/lo-que-la-inteligencia-artificial-no-puede-automatizar/",
+          "summary": "El Senado pasó meses discutiendo si puede existir una empresa sin humanos. Un juez de Chubut y una aerolínea canadiense ya habían mostrado…",
+          "pubDate": "2026-09-29T13:14:20.000Z",
           "source": "Infobae"
         },
         {
-          "title": "Alejados de la gente: cuando el crecimiento del país no necesariamente se traduce en bienestar individual",
-          "link": "https://tn.com.ar/opinion/2026/09/28/alejados-de-la-gente-cuando-el-crecimiento-del-pais-no-necesariamente-se-traduce-en-bienestar-individual/",
-          "summary": "Impera que el gobierno se acerque mucho más a los ciudadanos si quiere recuperar los números de las últimas elecciones. Lo dijo el otro día…",
-          "pubDate": "2026-09-28T23:33:03.000Z",
-          "source": "TN"
+          "title": "Volver a Ítaca",
+          "link": "https://www.clarin.com/opinion/volver-itaca_0_7BA6AdylNq.html",
+          "summary": "La elección de la propia muerte, el primer héroe moderno y qué mitos nos estarán hablando ahora que la razón parece no dar cuenta de lo que…",
+          "pubDate": "2026-09-29T09:04:57.000Z",
+          "source": "Clarín"
         },
         {
-          "title": "Nutrición en redes sociales: no todo lo que se viraliza alimenta bien",
-          "link": "https://www.infobae.com/peru/2026/09/28/nutricion-en-redes-sociales-no-todo-lo-que-se-viraliza-alimenta-bien/",
-          "summary": "Dietas milagro, recomendaciones sin evidencia y experiencias personales convertidas en “verdades” circulan cada día en redes sociales.…",
-          "pubDate": "2026-09-28T23:19:19.000Z",
+          "title": "Garantías constitucionales para todos, impunidad para nadie",
+          "link": "https://www.infobae.com/opinion/2026/09/29/garantias-constitucionales-para-todos-impunidad-para-nadie/",
+          "summary": "El Congreso aprobó la norma tras décadas de postergaciones, con medidas educativas y alternativas, prohibición de prisión perpetua,…",
+          "pubDate": "2026-09-29T08:23:00.000Z",
           "source": "Infobae"
         },
         {
-          "title": "La letra pequeña del amor",
-          "link": "https://www.perfil.com/noticias/opinion/la-letra-pequena-del-amor.phtml",
-          "summary": "“Se supone que cuando alguien nos lastima debemos borrarlo, superarlo, dar vuelta la página”, dice la autora. Pero el amor sigue viviendo…",
-          "pubDate": "2026-09-28T22:13:12.000Z",
-          "source": "Perfil"
+          "title": "Cuando la Inteligencia artificial responde, ¿qué nos queda por enseñar?",
+          "link": "https://www.infobae.com/opinion/2026/09/29/cuando-la-inteligencia-artificial-responde-que-nos-queda-por-ensenar/",
+          "summary": "El uso de herramientas automatizadas puede personalizar contenidos y sintetizar textos, pero docentes advierten sobre plagio, sesgos y…",
+          "pubDate": "2026-09-29T08:22:45.000Z",
+          "source": "Infobae"
         },
         {
-          "title": "La IA, el mercado y la confusión de Milei",
-          "link": "https://www.clarin.com/opinion/ia-mercado-confusion-milei_0_cj5OtYTkph.html",
-          "summary": "Por los riesgos de la IA, los líderes de esa industria piden que les pongan límites. El presidente Milei no ve allí una amenaza. Qué hay…",
-          "pubDate": "2026-09-28T22:00:46.000Z",
-          "source": "Clarín"
+          "title": "Sin educación, el desarrollo es una ilusión",
+          "link": "https://www.infobae.com/opinion/2026/09/29/sin-educacion-el-desarrollo-es-una-ilusion/",
+          "summary": "Los datos de Aprender muestran que solo el 55% de los estudiantes alcanza resultados satisfactorios en Matemáticas, mientras la…",
+          "pubDate": "2026-09-29T08:22:32.000Z",
+          "source": "Infobae"
         },
         {
-          "title": "¿A quién le debés cuando debés?",
-          "link": "https://www.perfil.com/noticias/opinion/a-quien-le-debes-cuando-debes.phtml",
-          "summary": "Se dice que “’hay más endeudados porque hay más crédito', pero es una mirada equivocada”, sostiene el autor. También aparecieron las…",
-          "pubDate": "2026-09-28T20:49:12.000Z",
-          "source": "Perfil"
-        },
-        {
-          "title": "Mantener viva la causa Malvinas",
-          "link": "https://www.clarin.com/opinion/mantener-viva-causa-malvinas_0_2Mh0pRFarP.html",
-          "summary": "Los argentinos debemos seguir proclamando nuestros derechos sobre Malvinas en todos los foros y circunstancias que se presten.",
-          "pubDate": "2026-09-28T20:38:13.000Z",
-          "source": "Clarín"
+          "title": "Chocolate Rigau: la basura debajo de la alfombra",
+          "link": "https://www.lanacion.com.ar/editoriales/chocolate-rigau-la-basura-debajo-de-la-alfombra-nid29092026/",
+          "summary": "Quedó en evidencia una decisión de los diputados bonaerenses de ocultar pruebas y entorpecer la investigación de un escandaloso caso de…",
+          "pubDate": "2026-09-29T03:10:00.000Z",
+          "source": "La Nación"
         }
       ]
     }
