@@ -7,6 +7,8 @@ más durante el día, y es 100% gratis.
 ## Qué hay en esta carpeta
 
 - `index.html`, `styles.css`, `app.js`: la página en sí.
+- `text-size.js`: el botón "AA" para agrandar o achicar el texto (como en Apple
+  Books). Se acuerda del tamaño elegido en cada celular.
 - `games.js`: el "Juego de hoy" (trivia, sopa de letras, memoria y sudoku, van
   rotando de a uno por día). Corre entero en el celular, no depende del robot.
 - `data/data.json`: el clima y las noticias del momento (incluye la sección
