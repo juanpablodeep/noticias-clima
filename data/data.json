@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-04T22:34:10.975Z",
+  "generatedAt": "2026-10-05T01:20:00.764Z",
   "weather": {
     "current": {
       "temp": 17,
       "precipitation": 0,
-      "label": "Despejado",
-      "emoji": "☀️"
+      "label": "Parcialmente nublado",
+      "emoji": "⛅"
     },
     "today": {
       "date": "2026-10-04",
@@ -28,31 +28,31 @@
         "date": "2026-10-06",
         "max": 20,
         "min": 14,
-        "precipProb": 36,
-        "label": "Nublado",
-        "emoji": "☁️"
+        "precipProb": 24,
+        "label": "Llovizna leve",
+        "emoji": "🌦️"
       },
       {
         "date": "2026-10-07",
         "max": 19,
         "min": 15,
-        "precipProb": 49,
-        "label": "Chubascos",
-        "emoji": "🌧️"
+        "precipProb": 80,
+        "label": "Chubascos leves",
+        "emoji": "🌦️"
       },
       {
         "date": "2026-10-08",
-        "max": 17,
+        "max": 18,
         "min": 15,
-        "precipProb": 24,
+        "precipProb": 41,
         "label": "Llovizna leve",
         "emoji": "🌦️"
       },
       {
         "date": "2026-10-09",
         "max": 18,
-        "min": 14,
-        "precipProb": 30,
+        "min": 15,
+        "precipProb": 35,
         "label": "Llovizna leve",
         "emoji": "🌦️"
       }
@@ -64,74 +64,74 @@
       "label": "Política",
       "items": [
         {
-          "title": "La soberanía de Malvinas y Magallanes, ejes del regreso de la tensión bilateral entre Argentina y Chile",
-          "link": "https://www.lanacion.com.ar/politica/la-soberania-de-malvinas-y-magallanes-ejes-del-regreso-de-la-tension-bilateral-entre-argentina-y-nid04102026/",
-          "summary": "A pesar de la sintonía personal entre Kast y Milei, distintas declaraciones reavivaron la desconfianza histórica entre los vecinos",
-          "pubDate": "2026-10-04T22:04:33.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Javier Milei monitorea las elecciones de Brasil desde Olivos y refuerza su respaldo a Flávio Bolsonaro",
-          "link": "https://tn.com.ar/politica/2026/10/04/javier-milei-monitorea-las-elecciones-en-brasil-desde-olivos-y-refuerza-su-respaldo-a-flavio-bolsonaro/",
-          "summary": "El mandatario dejó clara su preferencia en sus redes sociales, donde compartió una serie de posteos en favor del hijo del expresidente Jair…",
-          "pubDate": "2026-10-04T21:47:21.000Z",
-          "source": "TN"
-        },
-        {
-          "title": "Entrevista exclusiva a Jack Ford desde Malvinas: “Estamos decepcionados; a principios de año Milei habló de los deseos de autodeterminación”",
-          "link": "https://www.lanacion.com.ar/politica/entrevista-exclusiva-a-jack-ford-desde-malvinas-estamos-decepcionados-a-principios-de-ano-milei-nid04102026/",
-          "summary": "El presidente de la Asamblea de las islas habló con LA NACION; calificó de “amenazas” a las sanciones del gobierno argentino contra las…",
-          "pubDate": "2026-10-04T21:44:43.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Milei sigue con optimismo la elección en Brasil y respaldó a Bolsonaro en redes",
-          "link": "https://www.infobae.com/politica/2026/10/04/a-la-espera-de-los-primeros-resultados-milei-sigue-con-optimismo-la-eleccion-en-brasil-y-respaldo-a-bolsonaro-en-redes/",
-          "summary": "El mandatario se muestra expectante ante la potencial segunda vuelta por la presidencia del país vecino. La invitación del candidato de…",
-          "pubDate": "2026-10-04T21:40:04.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "La AFA fijó sede en Pilar para esquivar controles, pero ante sus socios del exterior sigue declarando Viamonte como domicilio registrado",
-          "link": "https://www.lanacion.com.ar/politica/la-afa-fijo-sede-en-pilar-para-esquivar-controles-pero-ante-sus-socios-del-exterior-sigue-declarando-nid04102026/",
-          "summary": "Chiqui Tapia reafirmó la sede histórica de la entidad en un comunicado que envió a sus contrapartes comerciales de todo el mundo",
-          "pubDate": "2026-10-04T21:28:40.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "El Senado se prepara para el último tramo de sesiones ordinarias: cuáles son los desafíos para el oficialismo",
-          "link": "https://www.infobae.com/politica/2026/10/04/el-senado-se-prepara-para-el-ultimo-tramo-de-sesiones-ordinarias-cuales-son-los-desafios-para-el-oficialismo/",
-          "summary": "Objeciones de temas no sólo por aliados, sino incluso por algunos mileístas. Ya hay una propuesta para reemplazar a Juan Carlos Pagotto en…",
-          "pubDate": "2026-10-04T21:22:14.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Patricia Bullrich se acerca al Círculo Rojo, pero hace equilibrio con Milei: “Sin divisiones ni traiciones”",
-          "link": "https://www.clarin.com/politica/patricia-bullrich-acerca-circulo-rojo-hace-equilibrio-milei-divisiones-traiciones_0_uS9q60PTbu.html",
-          "summary": "La senadora evitó dar definiciones de su candidatura a los empresarios con los que se reunió en IDEA, se mostró alineada con el Presidente,…",
-          "pubDate": "2026-10-04T21:22:13.000Z",
-          "source": "Clarín"
-        },
-        {
-          "title": "Argentina se sumó a una iniciativa internacional liderada por Estados Unidos para acelerar los descubrimientos científicos con IA",
-          "link": "https://www.infobae.com/politica/2026/10/04/argentina-se-sumo-a-una-iniciativa-internacional-liderada-por-estados-unidos-para-acelerar-los-descubrimientos-cientificos-con-ia/",
-          "summary": "La iniciativa reúne a 17 gobiernos de América, Europa, Asia y Oceanía, que prometen facilitar datos, cómputo y financiación flexible para…",
-          "pubDate": "2026-10-04T21:08:12.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "García Cuerva: “Las heridas de la intolerancia ya supuran y está infectando el corazón del pueblo”",
-          "link": "https://www.pagina12.com.ar/2026/10/04/garcia-cuerva-las-heridas-de-la-intolerancia-ya-supuran-y-esta-infectando-el-corazon-del-pueblo/",
-          "summary": "Al cierre de la multitudinaria peregrinación a pie que se inició en Liniers para culminar en la basílica de la Virgen, el arzobispo porteño…",
-          "pubDate": "2026-10-04T21:05:19.000Z",
+          "title": "Variaciones desde el hartazgo",
+          "link": "https://www.pagina12.com.ar/2026/10/05/variaciones-desde-el-hartazgo/",
+          "summary": "Desde hace varias semanas esta columna esboza y produce textos y tareas con el objetivo de recuperar la Patria perdida, que es en concreto…",
+          "pubDate": "2026-10-05T01:15:56.000Z",
           "source": "Página/12"
         },
         {
-          "title": "Santilli prepara dos semanas de reuniones con gobernadores para negociar el Presupuesto 2027 y la reforma electoral",
-          "link": "https://tn.com.ar/politica/2026/10/04/santilli-prepara-dos-semanas-de-reuniones-con-gobernadores-para-negociar-el-presupuesto-2027-y-la-reforma-electoral/",
-          "summary": "El Ejecutivo convocará a los mandatarios que acompañaron a Javier Milei a la Argentina Week y quiere sumar a otros. Los encuentros se…",
-          "pubDate": "2026-10-04T20:59:08.000Z",
+          "title": "Los enviados del peronismo y las principales figuras del partido miraron con cautela el resultado en Brasil",
+          "link": "https://www.lanacion.com.ar/politica/los-enviados-del-peronismo-y-las-principales-figuras-del-partido-miraron-con-cautela-el-resultado-en-nid04102026/",
+          "summary": "Viajaron dirigentes como De Pedro y Tolosa Paz, y varios mostraron su apoyo a Lula en la previa, pero con el cierre de la noche aún no…",
+          "pubDate": "2026-10-05T01:14:19.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "“Todos los candidatos apoyados por el presidente Milei ganaron esas elecciones”, dijo Quirno tras los comicios de Brasil",
+          "link": "https://www.infobae.com/politica/2026/10/05/todos-los-candidatos-apoyados-por-el-presidente-milei-ganaron-esas-elecciones-dijo-quirno-tras-los-comicios-de-brasil/",
+          "summary": "El canciller puso en duda una segunda vuelta en el país vecino y, ante la consulta sobre si cuestionaba su realización, respondió:…",
+          "pubDate": "2026-10-05T01:11:06.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Qué dijo Javier Milei de los resultados de las elecciones de Brasil 2026",
+          "link": "https://www.lanacion.com.ar/politica/que-dijo-javier-milei-de-los-resultados-de-las-elecciones-de-brasil-2026-nid04102026/",
+          "summary": "Tras el cierre de los comicios, el jefe de Estado se valió de las redes sociales para celebrar la victoria de Flavio Bolsonaro frente a…",
+          "pubDate": "2026-10-05T01:06:39.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Las mujeres argentinas, cada vez más lejos de Milei",
+          "link": "https://www.pagina12.com.ar/2026/10/05/las-mujeres-argentinas-cada-vez-mas-lejos-de-milei/",
+          "summary": "La brecha entre varones y mujeres en el apoyo a la gestión actual alcanzó una distancia histórica de 15 puntos porcentuales.",
+          "pubDate": "2026-10-05T01:05:10.000Z",
+          "source": "Página/12"
+        },
+        {
+          "title": "Javier Milei siguió las elecciones de Brasil desde Olivos y se ilusiona con la victoria de Flávio Bolsonaro",
+          "link": "https://tn.com.ar/politica/2026/10/04/javier-milei-monitorea-las-elecciones-en-brasil-desde-olivos-y-refuerza-su-respaldo-a-flavio-bolsonaro/",
+          "summary": "El mandatario dejó clara su preferencia en sus redes sociales, donde compartió una serie de posteos en favor del hijo del expresidente Jair…",
+          "pubDate": "2026-10-05T01:04:33.000Z",
           "source": "TN"
+        },
+        {
+          "title": "Milei brinda con caipirinha",
+          "link": "https://www.lanacion.com.ar/politica/milei-brinda-con-caipirinha-nid04102026/",
+          "summary": "El resultado de la elección en Brasil tiene una carga simbólica que el oficialismo potenciará: la nueva derecha internacional, de la que…",
+          "pubDate": "2026-10-05T00:50:46.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Milei festejó la ventaja de Flávio Bolsonaro y volvió a calificar a Lula de “comunista”",
+          "link": "https://www.pagina12.com.ar/2026/10/05/milei-festejo-la-ventaja-de-flavio-bolsonaro-y-volvio-a-calificar-a-lula-de-comunista/",
+          "summary": "El Presidente argentino no se privó de celebrar el resultado de la primera vuelta en Brasil y, fiel a su costumbre, atacó al líder del PT.",
+          "pubDate": "2026-10-05T00:46:32.000Z",
+          "source": "Página/12"
+        },
+        {
+          "title": "“Espero que pronto podamos empezar a trabajar juntos”, Javier Milei felicitó a Flávio Bolsonaro por el triunfo parcial en Brasil",
+          "link": "https://www.infobae.com/politica/2026/10/05/espero-que-pronto-podamos-empezar-a-trabajar-juntos-javier-milei-felicito-a-flavio-bolsonaro-por-el-triunfo-parcial-en-brasil/",
+          "summary": "Tanto el Presidente como referentes del peronismo se refirieron a la victoria en la primera vuelta del dirigente de derecha, que ahora…",
+          "pubDate": "2026-10-05T00:42:24.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "El Gobierno celebra el triunfo de Flavio Bolsonaro y es optimista de cara al balotaje en Brasil",
+          "link": "https://www.lanacion.com.ar/politica/el-gobierno-celebro-el-triunfo-de-bolsonaro-y-es-optimista-de-cara-al-balotaje-en-brasil-nid04102026/",
+          "summary": "El presidente Milei felicitó al candidato liberal y expresó su deseo de “trabajar juntos” luego de la segunda vuelta, el 25 de este mes;…",
+          "pubDate": "2026-10-05T00:35:58.000Z",
+          "source": "La Nación"
         }
       ]
     },
@@ -140,11 +140,60 @@
       "label": "Economía",
       "items": [
         {
+          "title": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizan este domingo 4 de octubre",
+          "link": "https://tn.com.ar/economia/2026/10/04/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-domingo-4-de-octubre/",
+          "summary": "La cotización del dólar minuto a minuto en los bancos, donde desde abril de 2025 se pueden comprar divisas sin límites. También los precios…",
+          "pubDate": "2026-10-05T00:44:35.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "Llega una misión de altos funcionarios de EE.UU. para analizar proyectos de inversión en la Argentina",
+          "link": "https://www.lanacion.com.ar/economia/llega-una-mision-de-altos-funcionarios-de-eeuu-para-analizar-proyectos-de-inversion-en-la-argentina-nid04102026/",
+          "summary": "La delegación recorrerá Buenos Aires, Salta y Jujuy para avanzar con los planes del Corredor Andes-Atlántico; el viaje se produce tras la…",
+          "pubDate": "2026-10-05T00:24:51.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "El secretario del Tesoro de EE.UU. afirmó que en caso de ser necesario volvería a apoyar financieramente a la Argentina",
+          "link": "https://www.infobae.com/economia/2026/10/04/el-secretario-del-tesoro-de-eeuu-afirmo-que-en-caso-de-ser-necesario-volveria-a-apoyar-financieramente-a-la-argentina/",
+          "summary": "En una entrevista con un portal financiero este domingo Scott Bessent reiteró el apoyo del gobierno de Donald Trump al de Javier Milei, a…",
+          "pubDate": "2026-10-04T23:09:08.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "El secretario del Tesoro de EE.UU. no descartó volver a asistir con fondos a la Argentina: “¿Podríamos hacerlo de nuevo? Claro”",
+          "link": "https://tn.com.ar/economia/2026/10/04/el-secretario-del-tesoro-de-eeuu-no-descarto-volver-a-asistir-con-fondos-a-la-argentina-podriamos-hacerlo-de-nuevo-claro/",
+          "summary": "Scott Bessent justificó la asistencia a la Casa Rosada en 2025 y aseguró que la estabilización argentina cambió el mapa de aliados en la…",
+          "pubDate": "2026-10-04T23:04:06.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "Una prestigiosa revista financiera de Estados Unidos advirtió que la economía argentina se debilita, aunque sus bonos aún son atractivos",
+          "link": "https://www.infobae.com/economia/2026/10/04/una-prestigiosa-revista-financiera-de-estados-unidos-advirtio-que-la-economia-argentina-se-debilita-aunque-sus-bonos-aun-son-atractivos/",
+          "summary": "El semanario Barron’s consideró que todavía hay oportunidades para los inversores en la deuda del país por sus elevados rendimientos y la…",
+          "pubDate": "2026-10-04T22:55:37.000Z",
+          "source": "Infobae"
+        },
+        {
           "title": "Las ventas minoristas subieron apenas 0,3% interanual en septiembre, pero cayeron frente a agosto",
           "link": "https://www.lanacion.com.ar/economia/las-ventas-minoristas-subieron-apenas-03-interanual-en-septiembre-pero-cayeron-frente-a-agosto-nid04102026/",
           "summary": "Acumulan una baja del 2,1% en nueve meses; CAME advirtió sobre las restricciones de los presupuestos familiares y la presión sobre la…",
           "pubDate": "2026-10-04T22:26:08.000Z",
           "source": "La Nación"
+        },
+        {
+          "title": "La venta de autos usados quebró una tendencia y saltó 9% en septiembre",
+          "link": "https://www.clarin.com/economia/venta-autos-usados-quebro-tendencia-salto-9-septiembre_0_gDsuIYF1wa.html",
+          "summary": "• El titular de ACARA, Sebastián Beato, confirmó que la desaceleración previa se detuvo y dio lugar a un cambio de tendencia. • El…",
+          "pubDate": "2026-10-04T22:19:24.000Z",
+          "source": "Clarín"
+        },
+        {
+          "title": "Scott Bessent vuelve a respaldar a la Argentina:\"¿Podríamos hacerlo de nuevo? Seguro\", señaló",
+          "link": "https://www.clarin.com/economia/scott-bessent-vuelve-respaldar-argentinapodriamos-hacerlo-nuevo-seguro-senalo_0_TpA7kIvItz.html",
+          "summary": "El secretario de Tesoro de Estados Unidos sugirió que podría volver a usar el swap para apoyar a Milei. Dijo que el año pasado le permitió…",
+          "pubDate": "2026-10-04T22:15:54.000Z",
+          "source": "Clarín"
         },
         {
           "title": "Aguantar, sin invertir: sólo dos de cada diez pymes planea realizar inversiones en los próximos seis meses",
@@ -154,60 +203,11 @@
           "source": "Infobae"
         },
         {
-          "title": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizan este domingo 4 de octubre",
-          "link": "https://tn.com.ar/economia/2026/10/04/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-domingo-4-de-octubre/",
-          "summary": "La cotización del dólar minuto a minuto en los bancos, donde desde abril de 2025 se pueden comprar divisas sin límites. También los precios…",
-          "pubDate": "2026-10-04T22:06:35.000Z",
-          "source": "TN"
-        },
-        {
           "title": "El Gobierno le avisó a los fondos extranjeros que suspendió la emisión de deuda en dólares a nivel local",
           "link": "https://www.clarin.com/economia/gobierno-aviso-fondos-extranjeros-suspendio-emision-deuda-dolares-nivel-local_0_LLdlvlcdas.html",
           "summary": "Fue en reuniones que mantuvo el equipo de Caputo la semana pasada con inversores del exterior. Dijo que la colocación de Bonares está…",
           "pubDate": "2026-10-04T21:52:32.000Z",
           "source": "Clarín"
-        },
-        {
-          "title": "Querían lograr un trigo con alto contenido de fibra y en la edición génica encontraron la solución",
-          "link": "https://www.lanacion.com.ar/economia/campo/querian-lograr-un-trigo-con-alto-contenido-de-fibra-y-en-la-edicion-genica-encontraron-la-solucion-nid04102026/",
-          "summary": "Es una alianza entre una firma de chilena de biotecnología, Neocrop, y otra argentina de semillas, Buck, que obtuvo financiamiento por…",
-          "pubDate": "2026-10-04T21:34:00.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Dependencia con EE. UU.",
-          "link": "https://www.pagina12.com.ar/2026/10/04/dependencia-con-ee-uu/",
-          "summary": "El secretario del Tesoro norteamericano habló sobre estabilización en la región, en medio de las elecciones presidenciales en Brasil, y…",
-          "pubDate": "2026-10-04T21:19:59.000Z",
-          "source": "Página/12"
-        },
-        {
-          "title": "La producción textil cayó más de 22% en lo que va del año y seis de cada diez máquinas del sector no se usan",
-          "link": "https://tn.com.ar/economia/2026/10/04/la-produccion-textil-cayo-mas-de-22-en-lo-que-va-del-ano-y-seis-de-cada-diez-maquinas-del-sector-no-se-usan/",
-          "summary": "Así surge del último informe de la Federación de Industrias Textiles Argentinas (FITA). Se profundizó la pérdida de puestos de trabajo en…",
-          "pubDate": "2026-10-04T21:17:06.000Z",
-          "source": "TN"
-        },
-        {
-          "title": "El crédito, espejo de una economía a dos velocidades: récord en dólares, frenado en pesos",
-          "link": "https://www.lanacion.com.ar/economia/el-credito-espejo-de-una-economia-a-dos-velocidades-record-en-dolares-frenado-en-pesos-nid04102026/",
-          "summary": "Los datos de septiembre consolidan la brecha abierta hace más de un año",
-          "pubDate": "2026-10-04T21:12:28.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Números rojos para Argentina",
-          "link": "https://www.pagina12.com.ar/2026/10/04/numeros-rojos-para-argentina/",
-          "summary": "Por el desplome del 11,2 por ciento de la actividad manufacturera en 2026 comparado con los niveles promedio del año 2023.",
-          "pubDate": "2026-10-04T21:06:26.000Z",
-          "source": "Página/12"
-        },
-        {
-          "title": "Maraña impositiva: una persona puede pagar hasta 43 tributos distintos en un año",
-          "link": "https://www.lanacion.com.ar/economia/marana-impositiva-una-persona-puede-pagar-hasta-43-tributos-distintos-en-un-ano-nid04102026/",
-          "summary": "Aunque el Gobierno eliminó tres impuestos internos en comparación con la medición del año pasado, la carga impositiva sigue siendo elevada,…",
-          "pubDate": "2026-10-04T21:01:01.000Z",
-          "source": "La Nación"
         }
       ]
     },
@@ -216,74 +216,74 @@
       "label": "Mundo",
       "items": [
         {
-          "title": "Elecciones en Brasil 2026, EN VIVO: Lula vs. Flavio Bolsonaro y las últimas noticias, voto a voto",
-          "link": "https://www.lanacion.com.ar/el-mundo/elecciones-en-brasil-2026-en-vivo-lula-vs-flavio-bolsonaro-y-las-ultimas-noticias-voto-a-voto-nid04102026/",
-          "summary": "El hijo del exmandatario encabeza el conteo con casi el 50% de los votos y 7,3 puntos de ventaja sobre el actual presidente; Datafolha…",
-          "pubDate": "2026-10-04T22:29:27.000Z",
-          "source": "La Nación"
+          "title": "¿Posible injerencia de EE.UU.?",
+          "link": "https://www.pagina12.com.ar/2026/10/05/posible-injerencia-de-eeuu/",
+          "summary": "El director general de la Policía Federal de Brasil, Andrei Rodrigues, anunció ayer que la corporación está investigando una posible…",
+          "pubDate": "2026-10-06T01:13:00.000Z",
+          "source": "Página/12"
         },
         {
-          "title": "Cómo van las elecciones Brasil 2026, EN VIVO: resultados y quién va ganando hoy entre Lula y Flávio Bolsonaro",
-          "link": "https://www.lanacion.com.ar/el-mundo/como-van-las-elecciones-brasil-2026-en-vivo-resultados-y-quien-va-ganando-hoy-entre-lula-y-flavio-nid04102026/",
-          "summary": "Ya comenzó el escrutinio oficial; con casi el 65% de los votos escrutados, Bolsonaro le lleva una ventaja a Lula de 7 puntos",
-          "pubDate": "2026-10-04T22:27:38.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Sergio Moro, el juez que condenó a Lula da Silva en Brasil, se impone como gobernador en las elecciones de Paraná",
-          "link": "https://www.lanacion.com.ar/el-mundo/sergio-moro-el-juez-que-condeno-a-lula-da-silva-en-brasil-se-impone-como-gobernador-en-las-nid04102026/",
-          "summary": "Con poco más del 96% de las mesas escrutadas, el exmagistrado obtenía más del 50% de los votos a su favor",
-          "pubDate": "2026-10-04T22:27:20.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Resultados en vivo de las elecciones en Brasil: cómo van las presidenciales 2026",
-          "link": "https://www.lanacion.com.ar/el-mundo/resultados-en-vivo-de-las-elecciones-en-brasil-como-van-las-presidenciales-2026-nid04102026/",
-          "summary": "El país vecino define a su próximo presidente; con el 64% de las mesas escrutadas, Flávio Bolsonaro, hijo del exmandatario, le lleva 9…",
-          "pubDate": "2026-10-04T22:26:08.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "EN VIVO | Elecciones en Brasil: Flávio Bolsonaro le saca una ventaja de casi ocho puntos a Lula mientras avanza el conteo",
-          "link": "https://www.infobae.com/america/america-latina/2026/10/04/en-vivo-elecciones-brasil-2026/",
-          "summary": "El senador y candidato por el Partido Libertal (PL) encabeza el escrutinio con más del 49% de los votos, seguido por el presidente, quien…",
-          "pubDate": "2026-10-04T22:24:22.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Elecciones en Brasil: con más del 60% de las mesas escrutadas, Flávio Bolsonaro se impone sobre Lula da Silva",
+          "title": "Elecciones en Brasil: Flávio Bolsonaro se impuso sobre Lula, pero deberán definir la presidencia en el balotaje del 25 de octubre",
           "link": "https://tn.com.ar/internacional/2026/10/04/elecciones-en-brasil-flavio-bolsonaro-ya-voto-y-se-espera-que-en-instantes-lo-haga-lula-da-silva/",
-          "summary": "El hijo del exmandatario encabeza el conteo con casi el 50% de los votos y le saca más de siete puntos al jefe de Estado. Crecen las…",
-          "pubDate": "2026-10-04T22:23:51.000Z",
+          "summary": "El senador e hijo del exmandatario se quedó con más del 47% de los votos y aventajó por tres puntos al jefe de Estado. Sin embargo, se…",
+          "pubDate": "2026-10-05T01:15:53.000Z",
           "source": "TN"
         },
         {
-          "title": "Padre e hija mueren arrastrados por la corriente al intentar cruzar una quebrada en Honduras",
-          "link": "https://www.infobae.com/honduras/2026/10/04/padre-e-hija-mueren-arrastrados-por-la-corriente-al-intentar-cruzar-una-quebrada-en-honduras/",
-          "summary": "El Cenaos prevé precipitaciones persistentes en distintas regiones del país y mantiene bajo atención los sectores próximos a cauces, donde…",
-          "pubDate": "2026-10-04T22:21:13.000Z",
+          "title": "Pablo Quirno puso en duda la segunda vuelta en Brasil: “¿Lula le va a regalar el triunfo a Bolsonaro?”",
+          "link": "https://www.lanacion.com.ar/el-mundo/pablo-quirno-dijo-que-el-triunfo-de-bolsonaro-sobre-lula-ratifica-la-influencia-global-de-javier-nid04102026/",
+          "summary": "El canciller destacó la sintonía entre el oficialismo argentino y los sectores de la derecha brasileña, y anticipó un impacto positivo para…",
+          "pubDate": "2026-10-05T01:13:56.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Flavio Bolsonaro se impuso en las elecciones de Brasil y parte con ventaja frente a Lula para la segunda vuelta",
+          "link": "https://www.lanacion.com.ar/el-mundo/flavio-bolsonaro-sorprendio-en-brasil-se-impuso-en-las-elecciones-y-parte-con-ventaja-frente-a-lula-nid04102026/",
+          "summary": "El hijo del exmandatario aventajó al presidente por dos puntos en una elección atravesada por la polarización, la influencia de Trump y el…",
+          "pubDate": "2026-10-05T01:12:11.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Flávio Bolsonaro dijo que está “muy contento” con el resultado de la primera vuelta: “Brasil quiere un cambio”",
+          "link": "https://www.infobae.com/america/america-latina/2026/10/05/flavio-bolsonaro-dijo-que-esta-muy-contento-con-el-resultado-de-la-primera-vuelta-brasil-quiere-un-cambio/",
+          "summary": "El senador hizo un breve pronunciamiento ante la prensa luego de imponerse en los comicios de este domingo, aunque no le alcanzó para…",
+          "pubDate": "2026-10-05T01:12:08.000Z",
           "source": "Infobae"
         },
         {
-          "title": "Qué se sabe de los resultados de las Elecciones Brasil 2026, este domingo 4 de octubre",
-          "link": "https://www.lanacion.com.ar/el-mundo/que-se-sabe-de-los-resultados-de-las-elecciones-brasil-2026-este-domingo-4-de-octubre-nid04102026/",
-          "summary": "Con el 41% de los votos escrutados, Bolsonaro sigue por encima de los 50 puntos, mientras que Lula sigue en el 41%. Son casi nueve puntos…",
-          "pubDate": "2026-10-04T22:14:27.000Z",
+          "title": "EN VIVO | Flávio Bolsonaro dijo que está “muy contento” con el resultado de la primera vuelta: “Brasil quiere un cambio”",
+          "link": "https://www.infobae.com/america/america-latina/2026/10/04/en-vivo-elecciones-brasil-2026/",
+          "summary": "El senador hizo un breve pronunciamiento ante la prensa luego de imponerse en los comicios de este domingo, aunque no le alcanzó para…",
+          "pubDate": "2026-10-05T01:11:17.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Quién ganó las elecciones presidenciales 2026 en Brasil",
+          "link": "https://www.lanacion.com.ar/el-mundo/quien-gano-las-elecciones-presidenciales-2026-en-brasil-nid04102026/",
+          "summary": "En una reñida contienda que tuvo a Lula y Flávio Bolsonaro como los favoritos, ya se conocen los resultados de los comicios; ninguno de los…",
+          "pubDate": "2026-10-05T01:10:02.000Z",
           "source": "La Nación"
         },
         {
-          "title": "Quiénes son las mujeres que se disputan el rol de primera dama en Brasil: Fernanda Bolsonaro vs. Janja da Silva",
-          "link": "https://www.lanacion.com.ar/el-mundo/quienes-son-las-mujeres-que-se-disputan-el-rol-de-primera-dama-en-brasil-fernanda-bolsonaro-vs-janja-nid04102026/",
-          "summary": "Con el cierre de las urnas, el foco también se posa sobre los perfiles y trayectorias de quienes acompañan a los dos principales…",
-          "pubDate": "2026-10-04T22:14:24.000Z",
+          "title": "Resultados de las elecciones en Brasil: Flavio Bolsonaro y Lula da Silva van al balotaje en las presidenciales 2026",
+          "link": "https://www.lanacion.com.ar/el-mundo/elecciones-en-brasil-2026-en-vivo-lula-vs-flavio-bolsonaro-y-las-ultimas-noticias-voto-a-voto-nid04102026/",
+          "summary": "Pese a lo que anticipaban las encuestas, el hijo del exmandatario quedó primero, con una ventaja de 2,1 puntos sobre el presidente",
+          "pubDate": "2026-10-05T01:09:24.000Z",
           "source": "La Nación"
         },
         {
-          "title": "Flavio Bolsonari tiene más del 50%, pero los resultados cambian cuando se empiecen a computar los datos de los estados del Nordeste",
-          "link": "https://www.perfil.com/noticias/internacional/flavio-bolsonari-tiene-mas-del-50-pero-los-resultados-cambian-cuando-se-empiecen-a-computar-los-datos-de-los-estados-del-nordeste.phtml",
-          "summary": "Hay que aguardar los cómputos totales del escrutinio antes de dar la elección por cerrada. Leer más",
-          "pubDate": "2026-10-04T22:11:49.000Z",
-          "source": "Perfil"
+          "title": "Flávio Bolsonaro celebró el resultado de las elecciones y cuestionó al partido de Lula: “Brasil quiere un cambio”",
+          "link": "https://tn.com.ar/internacional/2026/10/04/flavio-bolsonaro-celebro-el-resultado-de-las-elecciones-y-cuestiono-al-partido-de-lula-brasil-quiere-un-cambio/",
+          "summary": "El candidato del Partido Liberal festejó haber conseguido el primer lugar y se prepara para el balotaje que se realizará el próximo 25 de…",
+          "pubDate": "2026-10-05T01:09:20.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "Resultados: quién ganó las Elecciones 2026 en Brasil",
+          "link": "https://www.lanacion.com.ar/el-mundo/resultados-en-vivo-de-las-elecciones-en-brasil-como-van-las-presidenciales-2026-nid04102026/",
+          "summary": "Flávio Bolsonaro ganó las elecciones a presidente y segundo, dos puntos por abajo, quedó Lula; como ningún candidato superó el piso…",
+          "pubDate": "2026-10-05T01:08:02.000Z",
+          "source": "La Nación"
         }
       ]
     },
@@ -292,73 +292,73 @@
       "label": "Sociedad",
       "items": [
         {
-          "title": "Cortar una ramita de potus y ponerla en agua: cómo hacer esta técnica para llenar tu casa de plantas esta primavera",
-          "link": "https://tn.com.ar/sociedad/2026/10/04/cortar-una-ramita-de-potus-y-ponerla-en-agua-como-hacer-esta-tecnica-para-llenar-tu-casa-de-plantas-esta-primavera/",
-          "summary": "Con un simple esqueje y algunos cuidados básicos, es posible obtener nuevos ejemplares sin gastar dinero.",
-          "pubDate": "2026-10-04T22:09:48.000Z",
-          "source": "TN"
+          "title": "Día de la Madre 2026: qué domingo de octubre cae en la Argentina",
+          "link": "https://www.lanacion.com.ar/sociedad/dia-de-la-madre-2026-que-domingo-de-octubre-cae-en-la-argentina-nid01102026/",
+          "summary": "Esta celebración impacta en la vida afectiva y comercial de la mayoría de los argentinos; conocé cuál es la fecha exacta del festejo y cómo…",
+          "pubDate": "2026-10-05T01:02:37.000Z",
+          "source": "La Nación"
         },
         {
-          "title": "Una niña de tres años asesinada en Villa La Angostura",
-          "link": "https://www.pagina12.com.ar/2026/10/04/una-nina-de-tres-anos-asesinada-en-villa-la-angostura/",
-          "summary": "La madre escapó por la ventana y su expareja se cortó el cuello pero no murió y sigue internado bajo custodia policial.",
-          "pubDate": "2026-10-04T22:07:09.000Z",
-          "source": "Página/12"
+          "title": "“El único momento real que existe es el presente”, según el autor de El Poder del Ahora",
+          "link": "https://www.lanacion.com.ar/sociedad/el-unico-momento-real-que-existe-es-el-presente-segun-el-autor-de-el-poder-del-ahora-nid04102026/",
+          "summary": "El escritor sostiene que gran parte del sufrimiento humano nace de la identificación constante con el pasado y el futuro, y propone un…",
+          "pubDate": "2026-10-05T01:00:00.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "La revolucionaria técnica que practica Mick Jagger y que le permite hacer un entrenamiento de alto rendimiento con más de 80 años",
+          "link": "https://www.lanacion.com.ar/sociedad/la-revolucionaria-tecnica-que-practica-mick-jagger-y-que-le-permite-hacer-un-entrenamiento-de-alto-nid04102026/",
+          "summary": "El cardiólogo Jorge Tartaglione explicó en LN+ cómo funciona el procedimiento mínimamente invasivo al que se sometió el cantante en 2019;…",
+          "pubDate": "2026-10-05T01:00:00.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Inquietante hallazgo en Neuquén: encontraron un dedo humano frente a un bar",
+          "link": "https://www.infobae.com/sociedad/policiales/2026/10/05/inquietante-hallazgo-en-neuquen-encontraron-un-dedo-humano-frente-a-un-bar/",
+          "summary": "La Fiscalía de Homicidios ordenó pericias para determinar a quién pertenece, mientras que la Policía consultó a hospitales de la zona por…",
+          "pubDate": "2026-10-05T00:59:34.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Ranking: una ruta aérea argentina fue señalada como la más turbulenta del mundo",
+          "link": "https://www.lanacion.com.ar/sociedad/ranking-una-ruta-aerea-argentina-fue-senalada-como-la-mas-turbulenta-del-mundo-nid04102026/",
+          "summary": "El análisis evaluó miles de trayectos y aeropuertos y ubicó en el primer lugar a una conexión corta de la Argentina, debido a la…",
+          "pubDate": "2026-10-05T00:53:33.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Joseph Pilates, creador de la actividad: “Sirve para fortalecer nuestros músculos de forma consciente”",
+          "link": "https://www.lanacion.com.ar/sociedad/joseph-pilates-creador-de-la-actividad-sirve-para-fortalecer-nuestros-musculos-de-forma-consciente-nid04102026/",
+          "summary": "Un móvil de LN+ dialogó con la instructora Melani Giommetti, quien sostuvo que “la actividad sirve para fortalecer nuestros músculos de…",
+          "pubDate": "2026-10-05T00:53:27.000Z",
+          "source": "La Nación"
         },
         {
           "title": "Un neurólogo explicó cómo la educación temprana puede influir en el riesgo de demencia",
           "link": "https://www.lanacion.com.ar/sociedad/conrado-estol-neurologo-la-educacion-temprana-reduce-un-porcentaje-importante-del-riesgo-de-llegar-a-nid06082026/",
           "summary": "En una entrevista exclusiva para LA NACION, el especialista profundizó en los pilares fundamentales para alcanzar una longevidad saludable",
-          "pubDate": "2026-10-04T22:03:33.000Z",
+          "pubDate": "2026-10-05T00:53:23.000Z",
           "source": "La Nación"
         },
         {
           "title": "¿Qué es dormir correctamente? Esto es lo que recomienda un especialista en sueño",
           "link": "https://www.lanacion.com.ar/sociedad/que-es-dormir-correctamente-esto-es-lo-que-recomienda-un-especialista-en-sueno-nid04102026/",
           "summary": "El médico Jorge Tartaglione explicó en LN+ las claves fundamentales para lograr un descanso reparador; detalló desde la ambientación del…",
-          "pubDate": "2026-10-04T22:02:44.000Z",
+          "pubDate": "2026-10-05T00:53:18.000Z",
           "source": "La Nación"
         },
         {
           "title": "Daniel López Rosetti, médico cardiólogo: “La dosis indicada de caminata rápida es de 150 minutos semanales”",
           "link": "https://www.lanacion.com.ar/sociedad/daniel-lopez-rosetti-medico-cardiologo-la-dosis-indicada-de-caminata-rapida-es-de-150-minutos-nid04102026/",
           "summary": "El especialista detalló cómo la actividad programada impacta en la salud mental; sostiene que el ejercicio físico actúa como una…",
-          "pubDate": "2026-10-04T21:53:00.000Z",
+          "pubDate": "2026-10-05T00:53:05.000Z",
           "source": "La Nación"
         },
         {
           "title": "Se avecinan tormentas aisladas, inestabilidad, temperaturas en ascenso e invasión de nieblas: las zonas afectadas",
           "link": "https://www.lanacion.com.ar/sociedad/se-recupera-la-primavera-y-se-avecinan-tormentas-aisladas-inestabilidad-temperaturas-en-ascenso-e-nid04102026/",
           "summary": "El centro del país tendrá una mejora durante este domingo, con el regreso del sol y marcas superiores a los 20°C; en el nordeste persistirá…",
-          "pubDate": "2026-10-04T21:53:00.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "El obispo auxiliar de Córdoba fue apartado de sus funciones por conductas impropias",
-          "link": "https://www.lanacion.com.ar/sociedad/el-obispo-auxiliar-de-cordoba-fue-apartado-de-sus-funciones-por-conductas-impropias-nid04102026/",
-          "summary": "Así lo informó el Arzobispado en un comunicado, al término de un proceso judicial canónico en contra de Ricardo Seirutti; pedido de perdón…",
-          "pubDate": "2026-10-04T21:52:17.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Gabriel Rolón, psicoanalista: “La peor de las condenas posibles es que te olviden”",
-          "link": "https://www.lanacion.com.ar/sociedad/gabriel-rolon-psicoanalista-la-peor-de-las-condenas-posibles-es-que-te-olviden-nid04102026/",
-          "summary": "El reconocido psicólogo y escritor cuestionó los mandatos sociales y propuso una mirada sobre la finitud y el deseo",
-          "pubDate": "2026-10-04T21:51:00.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Pilar Sordo, psicóloga: “Hay que hacer las cosas con miedo”",
-          "link": "https://www.lanacion.com.ar/sociedad/pilar-sordo-psicologa-hay-que-hacer-las-cosas-con-miedo-con-osadia-y-arrojo-nid04102026/",
-          "summary": "Durante una entrevista con LA NACION, la psicóloga chilena invitó a sus seguidores a vencer los obstáculos a la hora de asumir desafíos y…",
-          "pubDate": "2026-10-04T21:51:00.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Tras las críticas de los vecinos, el Gobierno de la Ciudad intimó al ACA para que restituya el histórico tótem de avenida del Libertador",
-          "link": "https://www.lanacion.com.ar/sociedad/tras-las-criticas-de-los-vecinos-el-gobierno-de-la-ciudad-intimo-al-aca-para-que-restituya-el-nid02102026/",
-          "summary": "La institución reemplazó el cartel que databa de 1936 y que había sido declarado Monumento Histórico Nacional; aseguraron que lo están…",
-          "pubDate": "2026-10-04T21:49:34.000Z",
+          "pubDate": "2026-10-05T00:53:00.000Z",
           "source": "La Nación"
         }
       ]
@@ -368,74 +368,74 @@
       "label": "Deportes",
       "items": [
         {
-          "title": "Belgrano derrotó a Talleres por 1 a 0 en el clásico cordobés del torneo Clausura",
-          "link": "https://www.lanacion.com.ar/deportes/futbol/talleres-vs-belgrano-en-vivo-nid04102026/",
-          "summary": "Ramiro Hernandes marcó el único tanto del partido en el que, hasta ahí, los dirigidos por De Felippe habían tenido las dos chances más…",
-          "pubDate": "2026-10-04T22:27:36.000Z",
+          "title": "En vivo - Estudiantes RC vs. Racing: 0 - 2, por la fase de grupos de la Liga Profesional",
+          "link": "https://tn.com.ar/deportes/futbol/2026/10/04/estudiantes-rc-vs-racing-en-vivo-por-la-fase-de-grupos-de-la-liga-profesional-hora-donde-ver-y-formaciones/",
+          "summary": "Estudiantes RC enfrenta a Racing desde las 21:30 horas. Seguilo minuto a minuto por la web de TN.",
+          "pubDate": "2026-10-05T01:16:28.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "Tras el golpazo ante Boca, Racing le gana a Estudiantes de Río Cuarto por el Torneo Clausura",
+          "link": "https://www.infobae.com/deportes/2026/10/04/racing-se-enfrentara-a-estudiantes-de-rio-cuarto-en-uno-de-los-partidos-mas-destacados-del-domingo-en-el-clausura-la-agenda-completa/",
+          "summary": "En Córdoba, la Academia vence al León del Imperio, con goles de Tomás Conechny y Maravilla Martínez, y se recupera. Antes, Huracán venció…",
+          "pubDate": "2026-10-05T01:08:27.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Las posiciones del torneo Clausura: cómo quedaron Boca y River con la 11ª fecha en juego",
+          "link": "https://www.lanacion.com.ar/deportes/futbol/las-posiciones-del-torneo-clausura-como-quedaron-boca-y-river-con-la-11-fecha-en-juego-nid04102026/",
+          "summary": "Además, cómo está la tabla anual y el ingreso a las copas, los playoffs y el descenso",
+          "pubDate": "2026-10-05T00:58:31.000Z",
           "source": "La Nación"
         },
         {
-          "title": "En vivo - Argentinos vs. Tigre: 1 - 0, por la fase de grupos de la Liga Profesional",
+          "title": "Argentinos le ganó a Tigre 2 a 1 por la fase de grupos de la Liga Profesional",
           "link": "https://tn.com.ar/deportes/futbol/2026/10/04/argentinos-vs-tigre-en-vivo-por-la-fase-de-grupos-de-la-liga-profesional-hora-donde-ver-y-formaciones/",
-          "summary": "Argentinos enfrenta a Tigre desde las 19:15 horas. Seguilo minuto a minuto por la web de TN.",
-          "pubDate": "2026-10-04T22:27:29.000Z",
+          "summary": "Los goles para Argentinos fueron de Kevin Gutiérrez y Gastón Verón, mientras que para Tigre convirtió Jerónimo Dómina.",
+          "pubDate": "2026-10-05T00:44:41.000Z",
           "source": "TN"
         },
         {
-          "title": "En vivo - Godoy Cruz vs. Los Andes: 0 - 1, por la fecha 32 de la Primera Nacional",
-          "link": "https://tn.com.ar/deportes/futbol/2026/10/04/godoy-cruz-vs-los-andes-en-vivo-por-la-fecha-32-de-la-primera-nacional-hora-donde-ver-y-formaciones/",
-          "summary": "Godoy Cruz enfrenta a Los Andes desde las 18:00 horas. Seguilo minuto a minuto por la web de TN.",
-          "pubDate": "2026-10-04T22:27:29.000Z",
-          "source": "TN"
-        },
-        {
-          "title": "Belgrano le ganó a Talleres 1 a 0 por la fase de grupos de la Liga Profesional",
-          "link": "https://tn.com.ar/deportes/futbol/2026/10/04/talleres-vs-belgrano-en-vivo-por-la-fase-de-grupos-de-la-liga-profesional-hora-donde-ver-y-formaciones/",
-          "summary": "El gol para Belgrano fue de Ramiro Hernándes.",
-          "pubDate": "2026-10-04T22:25:42.000Z",
-          "source": "TN"
-        },
-        {
-          "title": "Atlanta le ganó a At. Rafaela 3 a 2 por la fecha 32 de la Primera Nacional",
-          "link": "https://tn.com.ar/deportes/futbol/2026/10/04/at-rafaela-vs-atlanta-en-vivo-por-la-fecha-32-de-la-primera-nacional-hora-donde-ver-y-formaciones/",
-          "summary": "Los goles para Atlanta fueron de Federico Álvarez, Braian Rivero y Leonel Galeano, mientras que para At. Rafaela convirtieron Martín García…",
-          "pubDate": "2026-10-04T22:25:30.000Z",
-          "source": "TN"
-        },
-        {
-          "title": "Portugal sigue ganando sin Cristiano Ronaldo, mientras el técnico se abre a una conciliación",
-          "link": "https://www.lanacion.com.ar/deportes/futbol/portugal-sigue-ganando-sin-cristiano-ronaldo-mientras-el-tecnico-se-abre-a-una-conciliacion-nid04102026/",
-          "summary": "Por la Nations League venció 2-1 a Noruega, tercer triunfo consecutivo desde que CR7 abandonó la selección; viajó a Arabia Saudita para…",
-          "pubDate": "2026-10-04T22:22:27.000Z",
+          "title": "Argentinos no se baja: la pegada de Kevin Gutiérrez, el penal atajado por Siri y el insólito gol errado por Dómina",
+          "link": "https://www.lanacion.com.ar/deportes/futbol/argentinos-no-se-baja-la-pegada-de-kevin-gutierrez-el-penal-atajado-y-el-insolito-gol-errado-por-nid04102026/",
+          "summary": "El equipo de Nico Diez ganó 2-1 en un partido lleno de emociones; los dirigidos por Dabove merecieron algo más",
+          "pubDate": "2026-10-05T00:43:19.000Z",
           "source": "La Nación"
         },
         {
-          "title": "Chaco F. E. empató con Defensores 2 a 2 por la fecha 32 de la Primera Nacional",
-          "link": "https://tn.com.ar/deportes/futbol/2026/10/04/chaco-f-e-vs-defensores-en-vivo-por-la-fecha-32-de-la-primera-nacional-hora-donde-ver-y-formaciones/",
-          "summary": "Los goles para Chaco F. E. fueron de Brian Nievas en 2 ocasiones, mientras que para Defensores convirtió Ezequiel Aguirre en 2 ocasiones.",
-          "pubDate": "2026-10-04T22:21:31.000Z",
-          "source": "TN"
+          "title": "Argentinos superó a Tigre y está en la punta de la zona B",
+          "link": "https://www.pagina12.com.ar/2026/10/05/argentinos-supero-a-tigre-y-esta-en-la-punta-de-la-zona-b/",
+          "summary": "Los goleadores del local, en el estadio Diego Armando Maradona, fueron el volante Kevin Gutiérrez y el delantero Gastón Verón.",
+          "pubDate": "2026-10-05T00:34:30.000Z",
+          "source": "Página/12"
         },
         {
-          "title": "En vivo - S. Martín T vs. G. y Tiro: 0 - 0, por la fecha 32 de la Primera Nacional",
-          "link": "https://tn.com.ar/deportes/futbol/2026/10/04/s-martin-t-vs-g-y-tiro-en-vivo-por-la-fecha-32-de-la-primera-nacional-hora-donde-ver-y-formaciones/",
-          "summary": "S. Martín T enfrenta a G. y Tiro desde las 18:30 horas. Seguilo minuto a minuto por la web de TN.",
-          "pubDate": "2026-10-04T22:21:29.000Z",
-          "source": "TN"
-        },
-        {
-          "title": "Nico Paz reveló el consejo que Lionel Messi le dio en pleno Mundial con la Selección argentina: “Me lo voy a llevar para siempre”",
-          "link": "https://tn.com.ar/deportes/futbol/2026/10/04/nico-paz-revelo-el-consejo-que-lionel-messi-le-dio-en-pleno-mundial-con-la-seleccion-argentina-me-lo-voy-a-llevar-para-siempre/",
-          "summary": "El volante del Como es uno de los principales apuntados para heredar la camiseta 10 del conjunto nacional. Antes de la despedida del…",
-          "pubDate": "2026-10-04T22:14:46.000Z",
-          "source": "TN"
-        },
-        {
-          "title": "La Natividad-La Dolfina venció a La Hache y es bicampeón del Abierto de Hurlingham de polo",
-          "link": "https://www.lanacion.com.ar/deportes/polo/la-natividad-la-dolfina-vencio-a-la-hache-y-es-bicampeon-del-abierto-de-hurlingham-de-polo-nid04102026/",
-          "summary": "El equipo de Cañuelas ganó por 18-14, obtuvo por segundo año seguido el torneo y dilató a 16 partidos su invicto",
-          "pubDate": "2026-10-04T22:14:12.000Z",
+          "title": "La agenda de la TV del lunes: Francia vs. Bélgica e Italia vs. Turquía, por la Nations League y se cierra la 11° fecha del Clausura",
+          "link": "https://www.lanacion.com.ar/deportes/futbol/la-agenda-de-la-tv-del-lunes-francia-vs-belgica-e-italia-vs-turquia-por-la-nations-league-y-se-nid04102026/",
+          "summary": "La actividad deportiva en el inicio de la semana, disponible a través de las pantallas",
+          "pubDate": "2026-10-05T00:32:49.000Z",
           "source": "La Nación"
+        },
+        {
+          "title": "Lionel Messi participó del entrenamiento de la Selección argentina en Ezeiza y se prepara para su partido de despedida",
+          "link": "https://tn.com.ar/deportes/futbol/2026/10/04/la-seleccion-entrena-en-ezeiza-y-espera-la-llegada-de-lionel-messi-para-compartir-un-asado-con-el-plantel-antes-de-su-despedida/",
+          "summary": "El equipo de Lionel Scaloni se medirá ante Benín este martes en el Monumental. Será el último encuentro del capitán después de más de 20…",
+          "pubDate": "2026-10-05T00:22:56.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "La nostálgica bienvenida \"con estilo\" que le dio Chiqui Tapia a Messi en su llegada a Ezeiza",
+          "link": "https://www.clarin.com/deportes/nostalgica-bienvenida-estilo-dio-chiqui-tapia-messi-llegada-ezeiza_0_B2CqlfVHyO.html",
+          "summary": "El capitán de la Selección Argentina arribó al predio para comenzar los preparativos de su partido de despedida frente a Benín. El…",
+          "pubDate": "2026-10-04T23:54:11.000Z",
+          "source": "Clarín"
+        },
+        {
+          "title": "La selección que perdió 9-2 y desató un escándalo por una foto de sus jugadores en una discoteca: “Tomaremos medidas”",
+          "link": "https://www.infobae.com/deportes/2026/10/04/la-seleccion-que-perdio-9-2-y-desato-un-escandalo-por-una-foto-de-sus-jugadores-en-una-discoteca-tomaremos-medidas/",
+          "summary": "Horas después de su partido, una selección vivió momentos turbulentos tras la viralización de una imagen",
+          "pubDate": "2026-10-04T23:54:08.000Z",
+          "source": "Infobae"
         }
       ]
     },
@@ -444,74 +444,74 @@
       "label": "Espectáculos",
       "items": [
         {
-          "title": "Roberto Pettinato canceló su show en Málaga por problemas de salud: “No hubo caso”",
-          "link": "https://www.infobae.com/teleshow/2026/10/04/roberto-pettinato-cancelo-su-show-en-malaga-por-problemas-de-salud-no-hubo-caso/",
-          "summary": "El conductor, de 70 años, compartió un video desde la cama con dificultades para hablar y ofreció un beneficio a quienes compraron entradas…",
-          "pubDate": "2026-10-04T22:14:40.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Rocío Marengo peregrinó a Luján y contó cómo se acercó a la fe: “No fue fácil”",
-          "link": "https://tn.com.ar/show/famosos/2026/10/04/rocio-marengo-peregrino-a-lujan-y-conto-como-se-acerco-a-la-fe-no-fue-facil/",
-          "summary": "La mediática se mostró feliz de haber llegado a la Basílica tras una larga jornada de caminata.",
-          "pubDate": "2026-10-04T21:44:45.000Z",
+          "title": "Así pasaron el fin de semana el Chato Prada y Lourdes Sánchez tras su separación",
+          "link": "https://tn.com.ar/show/famosos/2026/10/04/asi-pasaron-el-fin-de-semana-el-chato-prada-y-lourdes-sanchez-tras-su-separacion/",
+          "summary": "La bailarina y el productor se separaron después de 18 años en medio de rumores de infidelidad.",
+          "pubDate": "2026-10-05T01:04:12.000Z",
           "source": "TN"
         },
         {
-          "title": "El detrás del enojo de Fito Páez en Mar del Plata: qué pasó con la seguridad y qué dijeron los responsables del show",
-          "link": "https://www.lanacion.com.ar/espectaculos/personajes/el-detras-del-enojo-de-fito-paez-en-mar-del-plata-que-paso-con-la-seguridad-y-que-dijeron-los-nid04102026/",
-          "summary": "Una fuente vinculada con la producción reconstruyó ante LA NACION el episodio que desató la furia del músico y aclaró lo que ocurrió con el…",
-          "pubDate": "2026-10-04T21:37:13.000Z",
+          "title": "La sorpresa que Evelyn Botto le dio a Fede Bal en su cumpleaños: “Confío en que se va a poner contento”",
+          "link": "https://www.infobae.com/teleshow/2026/10/05/la-sorpresa-que-evelyn-botto-le-dio-a-fede-bal-en-su-cumpleanos-confio-en-que-se-va-a-poner-contento/",
+          "summary": "La actriz e integrante de Otro Día Perdido organizó un recibimiento especial para su pareja, que regresaba de un mes de grabaciones. El…",
+          "pubDate": "2026-10-05T00:32:46.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Lita Stantic recibió el doctorado Honoris Causa de la UBA en el marco de su festival de cine",
+          "link": "https://www.lanacion.com.ar/espectaculos/cine/lita-stantic-recibio-el-doctorado-honoris-causa-de-la-uba-en-el-marco-de-su-festival-de-cine-nid04102026/",
+          "summary": "Hasta el miércoles se podrán ver de forma gratuita los films Yo, la peor de todas, de María Luisa Bemberg y La niña santa, de Lucrecia…",
+          "pubDate": "2026-10-05T00:26:04.000Z",
           "source": "La Nación"
         },
         {
-          "title": "Una fanática de Santiago del Moro celebró su cumpleaños inspirado en el conductor de Gran Hermano: “La próxima ahí estaré”",
-          "link": "https://www.infobae.com/teleshow/2026/10/04/una-fanatica-de-santiago-del-moro-celebro-su-cumpleanos-inspirado-en-el-conductor-de-gran-hermano-la-proxima-ahi-estare/",
-          "summary": "El animador compartió el video de una mujer que festejó sus 80 años entre globos amarillos, fotos y una gigantografía suya. El mensaje que…",
-          "pubDate": "2026-10-04T21:20:22.000Z",
+          "title": "La emoción de Sofía Jiménez tras cumplir una promesa con su novio en Luján: “Hace 2 años que sentía la necesidad de ir” - Video 2",
+          "link": "https://tn.com.ar/videos/show/famosos/2026/10/04/la-emocion-de-sofia-jimenez-tras-cumplir-una-promesa-con-su-novio-en-lujan-hace-2-anos-que-sentia-la-necesidad-de-ir-video-2/",
+          "summary": "Sofía \"Jujuy\" Jiménez mostró su peregrinaje a Luján. (Foto: Instragram / sofijuok)",
+          "pubDate": "2026-10-05T00:12:21.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "La emoción de Sofía Jiménez tras cumplir una promesa con su novio en Luján: “Hace 2 años que sentía la necesidad de ir”",
+          "link": "https://tn.com.ar/videos/show/famosos/2026/10/04/la-emocion-de-sofia-jimenez-tras-cumplir-una-promesa-con-su-novio-en-lujan-hace-2-anos-que-sentia-la-necesidad-de-ir/",
+          "summary": "La emoción de Sofía \"Jujuy\" Jiménez tras cumplir una promesa con su novio en Luján: “Hace 2 años que sentía la necesidad de ir”. (Foto:…",
+          "pubDate": "2026-10-05T00:12:21.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "La emoción de Sofía Jiménez tras cumplir una promesa con su novio en Luján: “Hace 2 años que sentía la necesidad de ir”",
+          "link": "https://tn.com.ar/show/famosos/2026/10/04/la-emocion-de-sofia-jimenez-tras-cumplir-una-promesa-con-su-novio-en-lujan-hace-2-anos-que-sentia-la-necesidad-de-ir/",
+          "summary": "La influencer caminó junto a Gustavo Qüerio Hormaechea y compartió fotos y videos de la experiencia.",
+          "pubDate": "2026-10-05T00:12:18.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "La sorpresa que Marcos Giles le dio a Ángela Torres en la cancha y la reacción de la artista: “¡Es increíble!”",
+          "link": "https://www.infobae.com/teleshow/2026/10/04/la-sorpresa-que-marcos-giles-le-dio-a-angela-torres-en-la-cancha-y-la-reaccion-de-la-artista-es-increible/",
+          "summary": "El influencer hizo una videollamada con la cantante desde la cancha de Defensa y Justicia. El video",
+          "pubDate": "2026-10-04T23:44:26.000Z",
           "source": "Infobae"
         },
         {
-          "title": "Filtraron un video que mostraría a Facundo Moyano y Candela Arizaga juntos en Madrid pese a la restricción judicial",
-          "link": "https://tn.com.ar/videos/show/famosos/2026/10/04/filtraron-un-video-que-mostraria-a-facundo-moyano-y-candela-arizaga-juntos-en-madrid-pese-a-la-restriccion-judicial/",
-          "summary": "El video de Facundo Moyano y Candela Arizaga juntos en Madrid pese a la restricción judicial. (Foto: Instagram/facundomoyanook -…",
-          "pubDate": "2026-10-04T21:09:56.000Z",
+          "title": "Daniela Christiansson contó que su hijo de 10 meses tuvo una enfermedad: “Está mucho mejor”",
+          "link": "https://tn.com.ar/show/famosos/2026/10/04/daniela-christiansson-conto-que-su-hijo-de-10-meses-tuvo-una-enfermedad-esta-mucho-mejor/",
+          "summary": "El bebé evoluciona favorablemente tras atravesar un cuadro viral.",
+          "pubDate": "2026-10-04T23:30:43.000Z",
           "source": "TN"
         },
         {
-          "title": "Filtraron un video que mostraría a Facundo Moyano y Candela Arizaga juntos en Madrid pese a la restricción judicial",
-          "link": "https://tn.com.ar/show/famosos/2026/10/04/filtraron-un-video-que-mostraria-a-facundo-moyano-y-candela-arizaga-juntos-en-madrid-pese-a-la-restriccion-judicial/",
-          "summary": "En las imágenes se puede ver al exdiputado junto a la influencer en un restaurante de la capital española.",
-          "pubDate": "2026-10-04T21:09:52.000Z",
-          "source": "TN"
-        },
-        {
-          "title": "Nicolás Giacobone, el guionista detrás de la última película de Tom Cruise: “La crisis del cine argentino es desastrosa”",
-          "link": "https://www.infobae.com/teleshow/2026/10/04/nicolas-giacobone-el-guionista-detras-de-la-ultima-pelicula-de-tom-cruise-la-crisis-del-cine-argentino-es-desastrosa/",
-          "summary": "En una charla con Teleshow el escritor palpitó el estreno de Digger, filme que busca un lugar en la carrera para el Oscar donde vuelve a…",
-          "pubDate": "2026-10-04T21:05:58.000Z",
+          "title": "Daniela Christiansson contó la enfermedad que padeció Lando, su hijo menor: “Está mucho mejor”",
+          "link": "https://www.infobae.com/teleshow/2026/10/04/daniela-christiansson-conto-la-enfermedad-que-padecio-lando-su-hijo-menor-esta-mucho-mejor/",
+          "summary": "El bebé de nueve meses, fruto de su relación con Maxi López, evoluciona favorablemente tras atravesar un cuadro viral",
+          "pubDate": "2026-10-04T23:02:13.000Z",
           "source": "Infobae"
         },
         {
-          "title": "El desentierro de la Diabla: Cazzu hizo en Jujuy el primer estadio de su carrera... y jugó de local",
-          "link": "https://www.clarin.com/espectaculos/desentierro-diabla-cazzu-hizo-jujuy-primer-estadio-carrera-jugo-local_0_nk3GrF8cEQ.html",
-          "summary": "Ante 20 mil personas, la jujeña dio el gran salto de su carrera en su propia tierra, con su hermana, Florencia, como telonera. En su gran…",
-          "pubDate": "2026-10-04T20:45:05.000Z",
-          "source": "Clarín"
-        },
-        {
-          "title": "La emoción de Pampita después de 12 horas de caminata a Luján: “Al final hay recompensa”",
-          "link": "https://tn.com.ar/show/famosos/2026/10/04/la-emocion-de-pampita-despues-de-12-horas-de-caminata-a-lujan-al-final-hay-recompensa/",
-          "summary": "La modelo compartió con sus seguidores su felicidad por haber llegado a la Basílica.",
-          "pubDate": "2026-10-04T20:44:52.000Z",
+          "title": "Quién es el rugbier de 27 años al que vinculan con Lourdes Sánchez tras su separación del Chato Prada",
+          "link": "https://tn.com.ar/show/famosos/2026/10/04/quien-es-el-rugbier-de-27-anos-al-que-vinculan-con-lourdes-sanchez-tras-su-separacion-del-chato-prada/",
+          "summary": "El correntino Francisco Liotta Hernández jugó en uno de los clubes más importantes de la región y actualmente está vinculado al sector…",
+          "pubDate": "2026-10-04T22:44:52.000Z",
           "source": "TN"
-        },
-        {
-          "title": "Die Toten Hosen: con un show sorpresa y un nombre muy particular abrieron su última gira por Argentina",
-          "link": "https://www.lanacion.com.ar/espectaculos/musica/die-toten-hosen-con-un-show-sorpresa-y-un-nombre-muy-particular-abrieron-su-ultima-gira-por-nid04102026/",
-          "summary": "La banda alemana, liderada por Campino, tocó en Vorterix; el sábado se presentará en el Movistar Arena",
-          "pubDate": "2026-10-04T20:14:48.000Z",
-          "source": "La Nación"
         }
       ]
     },
@@ -519,6 +519,27 @@
       "key": "opinion",
       "label": "Opinión",
       "items": [
+        {
+          "title": "Entre la necesidad de acuerdos de Milei y las jugadas de Bullrich y Villarruel",
+          "link": "https://www.clarin.com/opinion/necesidad-acuerdos-milei-jugadas-bullrich-villarruel_0_UfxHmvTCMP.html",
+          "summary": "El Gobierno requiere imperiosamente del respaldo de los gobernadores para la reforma política. En medio de la incertidumbre, la jefa de los…",
+          "pubDate": "2026-10-05T00:28:39.000Z",
+          "source": "Clarín"
+        },
+        {
+          "title": "Se inicia el camino a la segunda vuelta, pero con Lula partiendo de un nivel más bajo que el anticipado por encuestas",
+          "link": "https://www.perfil.com/noticias/columnistas/se-inicia-el-camino-a-la-segunda-vuelta-pero-con-lula-partiendo-de-un-nivel-mas-bajo-que-el-anticipado-por-las-encuestas.phtml",
+          "summary": "Flávio Bolsonaro lideró el escrutinio desde temprano, consiguió en el final dos puntos de ventaja, y encarará el balotaje del 25 de octubre…",
+          "pubDate": "2026-10-05T00:00:01.000Z",
+          "source": "Perfil"
+        },
+        {
+          "title": "Jugar contra nadie es un gran negocio",
+          "link": "https://www.perfil.com/noticias/columnistas/jugar-contra-nadie-es-un-gran-negocio.phtml",
+          "summary": "Con el 7-0 a Burkina Faso, la Selección Argentina apila 21 victorias consecutivas en amistosos... Pero hay que pensar un poco más en el…",
+          "pubDate": "2026-10-04T22:40:40.000Z",
+          "source": "Perfil"
+        },
         {
           "title": "Paul Lafargue, el perezoso yerno de Marx",
           "link": "https://www.clarin.com/opinion/paul-lafargue-perezoso-yerno-marx_0_hALzoZspcd.html",
@@ -555,13 +576,6 @@
           "source": "Página/12"
         },
         {
-          "title": "Por qué hay que esperar definiciones fuertes del papa León XIV sobre la realidad de la Argentina",
-          "link": "https://tn.com.ar/opinion/2026/10/04/por-que-hay-que-esperar-definiciones-fuertes-del-papa-leon-xiv-sobre-la-realidad-de-la-argentina/",
-          "summary": "Pese a su estilo sobrio, este pontífice está demostrando, como en su cruce con Donald Trump, que puede llegar a ser severo. O, como en su…",
-          "pubDate": "2026-10-04T08:55:00.000Z",
-          "source": "TN"
-        },
-        {
           "title": "Ojos gelatina",
           "link": "https://www.perfil.com/noticias/columnistas/ojos-gelatina.phtml",
           "summary": "Serpentear el tendido arterial claustrofóbico; esnifar unas dos horas el polvo denso que los condenados inhalan durante años hasta secar el…",
@@ -573,20 +587,6 @@
           "link": "https://www.perfil.com/noticias/columnistas/fecundidad-conservacion-de-ovulos-y-anticoncepcion-hoy.phtml",
           "summary": "Leer más",
           "pubDate": "2026-10-04T07:10:00.000Z",
-          "source": "Perfil"
-        },
-        {
-          "title": "Del boicot a la hoguera",
-          "link": "https://www.perfil.com/noticias/columnistas/del-boicot-a-la-hoguera.phtml",
-          "summary": "Leer más",
-          "pubDate": "2026-10-04T07:00:45.000Z",
-          "source": "Perfil"
-        },
-        {
-          "title": "Las amistades peligrosas",
-          "link": "https://www.perfil.com/noticias/columnistas/las-amistades-peligrosas.phtml",
-          "summary": "Un amigo construyó con Claude un juego que si tiene éxito puede convertirse en un furor. Leer más",
-          "pubDate": "2026-10-04T06:46:33.000Z",
           "source": "Perfil"
         }
       ]
