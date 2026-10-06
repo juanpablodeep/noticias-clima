@@ -438,16 +438,6 @@ main,
   --cru-mal: #c62828;
 }
 
-.juego-enlace {
-  margin: 0.8rem 0 0;
-  font-size: 1.05rem;
-  font-weight: 700;
-}
-
-.juego-enlace a {
-  color: var(--texto-chip);
-}
-
 .juego-ln {
   border-top: 1px solid var(--borde);
   border-bottom: none;

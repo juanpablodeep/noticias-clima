@@ -11,6 +11,9 @@ más durante el día, y es 100% gratis.
   Books). Se acuerda del tamaño elegido en cada celular.
 - `games.js`: el "Juego de hoy" (trivia, sopa de letras, memoria y sudoku, van
   rotando de a uno por día). Corre entero en el celular, no depende del robot.
+- `bancos-trivia.js` y `bancos-palabras.js`: los datos con los que se arman las preguntas
+  de trivia, las sopas de letras, los crucigramas y Palabra oculta. Para sumar contenido
+  se agregan filas ahí (el formato está explicado arriba de cada tabla).
 - `juegos-ln.js`: la sección "Juegos La Nación" (Diferencias, Crucigrama y Palabra
   oculta, uno por día). Son versiones propias, con contenido original: no usan nada
   del diario. También corre entero en el celular y guarda el avance del día.
@@ -70,6 +73,8 @@ node scripts/update.mjs
   `cron`. Las horas están en UTC (Argentina = UTC menos 3 horas).
 - **Medios o temas:** en `scripts/update.mjs`, las listas `DIRECT_FEEDS` y
   `GENERAL_FEEDS`.
-- **Juegos:** en `games.js`, el banco de preguntas `TRIVIA_BANCO`, los temas de
-  `SOPA_TEMAS`, los puzzles de `SUDOKU_BANCO` y los emojis de `MEMORIA_POOL`. El
-  orden en que rotan los cuatro juegos está en la función `tipoDeHoy`.
+- **Juegos:** casi todo se genera solo a partir de la fecha (sudoku, sopa de letras,
+  crucigrama, diferencias y las cuentas y series de la trivia), así que no se repite.
+  Lo que sí viene de listas fijas está en `bancos-trivia.js` (tablas de la trivia y temas
+  de la sopa) y `bancos-palabras.js` (pistas del crucigrama y palabras de Palabra
+  oculta). El orden en que rotan los juegos está en `tipoDeHoy` (`games.js`).

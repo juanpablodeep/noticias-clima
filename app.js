@@ -68,7 +68,7 @@ function renderClima(weather) {
 }
 
 function renderNav(topics) {
-  const chips = topics.map((t) => `<a href="#${t.key}">${t.label}</a>`).join("");
+  const chips = [...topics.map((t) => `<a href="#${t.key}">${t.label}</a>`), '<a href="#juego-ln">Juegos La Nación</a>'].join("");
   return `<nav class="temas-nav">${chips}</nav>`;
 }
 

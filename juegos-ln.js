@@ -76,7 +76,10 @@
 
   /* ---------- PALABRA OCULTA ---------- */
 
-  const PALABRAS = "PLAYA LIBRO SILLA FELIZ TIGRE NUBES RELOJ CAMPO FUEGO PLATO VERDE BLUSA CARTA MUNDO NOCHE TARDE ARBOL FRUTA PERRO PAPEL LLAVE CALLE JUEGO VIAJE DULCE AMIGO CINTA BANCO PLAZA RADIO TRIGO LIMON MANGO PIANO NIEVE BRISA CIELO SELVA TENIS RUGBY GLOBO MUSEO CLIMA TRUCO NAIPE TANGO ASADO AVION BARCO COCHE MOTOR RUEDA PUNTO LINEA NORTE OESTE COSTA ARENA ROBLE CEDRO PALMA ROSAL FLORA FAUNA POTRO GANSO AGUJA SABOR AROMA GUSTO DIETA SALUD ANDEN VAGON METRO TECHO PARED HORNO JARRA PASTA PIZZA HUEVO LECHE QUESO TORTA CREMA SALSA BRAZO CARNE PECHO MENTE SABIO TEMOR HONOR AVENA ARROZ MIEDO RISAS CANTO BAILE COLOR TINTA FERIA CLASE MONTE VALLE CERRO HIELO PLUMA LLAMA".split(" ");
+  // El banco (PALABRAS_OCULTAS) está en bancos-palabras.js. Se recorre en un orden mezclado y fijo:
+  // una palabra vuelve recién cuando se terminaron todas las demás.
+  const PALABRAS = PALABRAS_OCULTAS.filter((w) => /^[A-Z]{5}$/.test(w));
+  const ORDEN_PALABRAS = barajar(crearRng(4242), [...Array(PALABRAS.length).keys()]);
 
   const INTENTOS_MAX = 6;
   const LARGO = 5;
@@ -98,7 +101,7 @@
   }
 
   function renderPalabraOculta(cont, fecha, ciclo) {
-    const resp = PALABRAS[ciclo % PALABRAS.length];
+    const resp = PALABRAS[ORDEN_PALABRAS[ciclo % PALABRAS.length]];
     const clave = `${fecha}-palabra`;
     const guardado = leer(clave);
     const intentos = Array.isArray(guardado) ? guardado.filter((s) => typeof s === "string" && s.length === LARGO) : [];
@@ -175,8 +178,190 @@
   // Cada palabra: [número, fila, columna, dirección, respuesta, pista]
   const CRUCIGRAMAS = [{"f":13,"c":11,"p":[[1,0,1,"V","COMETA","Cuerpo celeste con cola luminosa"],[2,0,4,"V","PUMA","Felino de montaña americano"],[3,0,8,"V","SATELITE","La Luna lo es de la Tierra"],[4,1,1,"H","ORQUESTA","Conjunto de músicos que tocan juntos"],[5,1,10,"V","TOMATE","Fruto rojo de la ensalada"],[6,3,0,"H","LETRA","Signo del alfabeto"],[7,3,3,"V","ROSA","Flor con espinas"],[8,3,6,"V","ESCUELA","Donde estudian los chicos"],[9,4,6,"H","SELVA","Bosque tropical espeso"],[10,6,2,"H","BASQUET","Se juega con aro y pelota naranja"],[11,7,1,"V","HUESO","Parte dura del esqueleto"],[12,9,1,"H","ESCOBA","Sirve para barrer"],[13,9,3,"V","CINE","Sala donde se proyectan películas"],[14,11,0,"H","HORNERO","Ave que construye su nido de barro"]]},{"f":11,"c":11,"p":[[1,0,0,"H","TREN","Va sobre rieles"],[2,0,2,"V","EMPANADA","Masa rellena, plato típico"],[3,0,5,"V","SUBTE","Tren subterráneo porteño"],[4,1,8,"V","DADO","Cubo con puntos del uno al seis"],[5,1,10,"V","BOMBERO","Apaga incendios"],[6,2,4,"H","ABOGADO","Defiende en los juicios"],[7,4,1,"H","INVIERNO","Estación más fría"],[8,6,5,"V","LEON","Rey de la selva"],[9,6,7,"V","BARCO","Navega por el agua"],[10,7,1,"H","BANDERA","Símbolo patrio de colores"],[11,9,0,"H","PULMON","Órgano de la respiración"],[12,10,6,"H","POETA","Autor de versos"]]},{"f":11,"c":10,"p":[[1,0,1,"V","CRUCIGRAMA","Pasatiempo de palabras cruzadas"],[2,0,7,"V","GEOGRAFIA","Estudia la Tierra y sus paisajes"],[3,0,9,"V","PAPA","Tubérculo que se come frito, hervido o en puré"],[4,1,4,"H","NOVELA","Obra literaria extensa de ficción"],[5,3,3,"V","RELOJ","Marca la hora"],[6,5,1,"H","GALLINA","Pone huevos"],[7,5,5,"V","ISLA","Tierra rodeada de agua por todos lados"],[8,5,9,"V","PILOTO","Conduce un avión"],[9,8,4,"H","ZAPATO","Calzado"],[10,9,0,"H","LAGO","Masa de agua dulce rodeada de tierra"],[11,10,4,"H","HELADO","Postre frío de crema"]]},{"f":12,"c":10,"p":[[1,0,4,"V","CANCION","Composición para cantar"],[2,1,0,"H","CARNAVAL","Fiesta con disfraces y murgas"],[3,1,9,"V","PINGUINO","Ave que no vuela y vive en el frío"],[4,3,0,"V","JAZMIN","Flor blanca muy perfumada"],[5,3,2,"H","COCINA","Habitación donde se prepara la comida"],[6,5,2,"V","LLUVIA","Cae de las nubes"],[7,5,7,"V","ZAPALLO","Hortaliza grande y anaranjada"],[8,6,0,"H","MILANESA","Carne rebozada y frita"],[9,8,4,"H","VERANO","Estación más calurosa"],[10,10,0,"H","ASADO","Comida típica argentina que se prepara a la parrilla"],[11,11,6,"H","ROJO","Color de la sangre"]]},{"f":13,"c":10,"p":[[1,0,5,"H","VERDE","Color del pasto"],[2,0,8,"V","DELFIN","Mamífero marino muy inteligente"],[3,1,1,"V","TELESCOPIO","Instrumento para mirar los astros"],[4,1,4,"V","VITAMINA","Sustancia que el cuerpo necesita en pequeñas dosis"],[5,2,6,"V","TEATRO","Sala donde se representan obras"],[6,4,3,"H","GALAXIA","Conjunto de millones de estrellas"],[7,6,1,"H","COLIBRI","Ave diminuta que vuela quieta en el aire"],[8,8,8,"V","PIANO","Instrumento de teclas blancas y negras"],[9,9,3,"V","VACA","Da leche"],[10,10,0,"H","CORAZON","Órgano que bombea sangre"],[11,12,2,"H","CABILDO","Edificio histórico de la Plaza de Mayo"]]},{"f":13,"c":10,"p":[[1,0,1,"H","MONEDA","Pieza de metal para pagar"],[1,0,1,"V","MENDOZA","Provincia argentina famosa por sus vinos"],[2,2,1,"H","NIEBLA","Nube baja que reduce la visibilidad"],[3,2,8,"V","BANCO","Guarda el dinero"],[4,4,5,"H","HIMNO","Canción patria"],[5,5,4,"V","TRUCO","Juego de cartas muy popular en Argentina"],[6,6,1,"H","AMARILLO","Color del limón"],[7,6,2,"V","MEDICO","Profesional que atiende enfermos"],[8,7,0,"V","MUSICA","Arte de combinar sonidos"],[9,8,4,"H","CAFE","Bebida oscura y estimulante"],[10,11,0,"H","CHOCOLATE","Dulce hecho con cacao"]]},{"f":13,"c":10,"p":[[1,0,5,"V","MESSI","Capitán campeón del mundo en Qatar 2022"],[2,1,3,"H","MAESTRO","Enseña en la escuela"],[3,1,9,"V","ORQUIDEA","Flor exótica y delicada"],[4,4,2,"V","HORMIGA","Insecto trabajador que camina en fila"],[5,5,4,"V","SANDIA","Fruta grande, verde por fuera y roja por dentro"],[6,5,7,"V","PANADERO","Hace el pan"],[7,6,0,"H","FARMACIA","Lugar donde se venden remedios"],[7,6,0,"V","FARO","Torre con luz que guía a los barcos"],[8,8,6,"H","MAPA","Representa un territorio dibujado"],[9,10,1,"H","DAMAS","Juego de fichas en un tablero"],[10,12,1,"H","NATACION","Deporte que se practica en la pileta"]]},{"f":13,"c":11,"p":[[1,0,0,"H","TENIS","Deporte de raqueta y red"],[1,0,0,"V","TORTUGA","Reptil con caparazón"],[2,0,2,"V","NAVIDAD","Fiesta del 25 de diciembre"],[3,2,5,"H","ESPEJO","Refleja la imagen"],[3,2,5,"V","ELEFANTE","Mamífero con trompa"],[4,2,7,"V","PARANA","Río que baña Brasil, Paraguay y Argentina"],[5,4,10,"V","OCEANO","Gran extensión de agua salada"],[6,6,2,"H","DURAZNO","Fruta aterciopelada con carozo"],[7,8,2,"V","CALLE","Vía urbana entre edificios"],[8,9,2,"H","ATLETISMO","Carreras y saltos en la pista"],[9,11,1,"H","FLAUTA","Instrumento de viento"]]},{"f":13,"c":10,"p":[[1,0,0,"V","HOSPITAL","Lugar donde se atiende a los enfermos"],[2,1,5,"H","BRUJA","Personaje de los cuentos que vuela en escoba"],[3,1,8,"V","JIRAFA","Animal de cuello larguísimo"],[4,3,0,"H","PINTOR","Artista de los pinceles y el óleo"],[5,3,3,"V","TIGRE","Felino rayado"],[6,5,6,"V","MUSEO","Lugar donde se exhiben objetos históricos"],[7,6,2,"H","BRUJULA","Señala el norte"],[8,7,9,"V","PELOTA","Se patea o se lanza en muchos deportes"],[9,8,2,"V","RADIO","Medio que se escucha"],[10,8,4,"H","ACEITE","Líquido graso que se saca de la oliva"],[10,8,4,"V","AZUL","Color del cielo despejado"],[11,11,1,"H","BILLETE","Papel moneda"]]},{"f":13,"c":11,"p":[[1,0,0,"H","PAMPA","Llanura extensa del centro de la Argentina"],[1,0,0,"V","PALABRA","Conjunto de letras con significado"],[2,1,5,"H","GAUCHO","Jinete de la pampa argentina"],[3,1,8,"V","CANCHA","Terreno de juego"],[4,1,10,"V","OBELISCO","Monumento emblemático de Buenos Aires"],[5,2,0,"H","LIMON","Cítrico ácido"],[6,2,4,"V","NAIPE","Carta de la baraja"],[7,3,4,"H","AVION","Vuela con alas y motores"],[8,5,2,"V","CASTILLO","Fortaleza de los reyes"],[9,6,2,"H","AVENIDA","Calle ancha y principal"],[10,8,0,"H","FUTBOL","Deporte más popular del país"],[11,10,0,"H","BALLENA","Mamífero marino gigante que visita Península Valdés"],[12,12,1,"H","BOSQUE","Terreno poblado de árboles"]]},{"f":13,"c":11,"p":[[1,0,0,"H","CARPINTERO","Trabaja la madera"],[1,0,0,"V","CAMISA","Prenda con cuello y botones"],[2,0,6,"V","TELEFONO","Sirve para hablar a distancia"],[3,2,2,"H","CEBOLLA","Hortaliza que hace llorar"],[4,4,2,"V","LLAVE","Abre una cerradura"],[5,4,4,"H","BUFANDA","Abriga el cuello"],[6,6,1,"H","CARPINCHO","Roedor más grande del mundo"],[7,8,0,"H","VIENTO","Aire en movimiento"],[7,8,0,"V","VOLEY","Deporte de red con pelota en el aire"],[8,8,4,"V","TANGO","Baile rioplatense nacido en Buenos Aires"],[9,8,8,"V","QUESO","Derivado de la leche"],[10,11,4,"H","GIRASOL","Flor que sigue al Sol"]]},{"f":13,"c":10,"p":[[1,0,3,"H","ALFAJOR","Golosina de dos tapas rellena"],[2,0,9,"V","RELAMPAGO","Destello de luz en una tormenta"],[3,2,1,"H","VIOLETA","Color entre el azul y el rojo"],[4,2,3,"V","OPERA","Obra teatral cantada con orquesta"],[5,4,0,"H","ANDES","Cordillera que bordea la Argentina por el oeste"],[6,6,0,"H","PARAGUAS","Protege de la lluvia"],[6,6,0,"V","PIRATA","Ladrón de los mares"],[7,6,6,"V","AJEDREZ","Juego de reyes, torres y alfiles"],[8,8,2,"H","DESIERTO","Región árida con muy poca lluvia"],[9,10,3,"H","PUERTA","Se abre para entrar"],[10,12,3,"H","PLAZA","Espacio público con bancos y árboles"]]},{"f":12,"c":11,"p":[[1,0,1,"V","RUGBY","Deporte donde juegan Los Pumas"],[2,1,3,"V","CARTERO","Reparte las cartas"],[3,2,0,"H","IGUAZU","Cataratas en el límite con Brasil"],[4,2,8,"V","VENTANA","Abertura de la pared con vidrio"],[5,3,10,"V","COCINERO","Prepara la comida en un restaurante"],[6,4,5,"H","CUENTO","Narración breve"],[7,6,1,"H","TORMENTA","Lluvia con truenos y relámpagos"],[7,6,1,"V","TAMBOR","Instrumento que se golpea"],[8,8,5,"H","YACARE","Reptil del litoral, parecido al cocodrilo"],[9,9,0,"H","ABEJA","Insecto que hace miel"],[10,11,0,"H","ARQUITECTO","Diseña edificios"]]},{"f":12,"c":11,"p":[[1,0,0,"H","PUENTE","Une dos orillas"],[1,0,0,"V","POETA","Autor de versos"],[2,2,0,"H","ESTOMAGO","Órgano que digiere"],[3,2,5,"V","AVION","Vuela con alas y motores"],[4,4,2,"V","MILANESA","Carne rebozada y frita"],[5,4,8,"V","JARDIN","Terreno con plantas junto a la casa"],[6,4,10,"V","ECLIPSE","Oscurecimiento del Sol por la Luna"],[7,5,1,"H","HISTORIA","Ciencia que estudia el pasado"],[8,8,0,"H","CONDOR","Gran ave de los Andes"],[9,9,6,"H","TENIS","Deporte de raqueta y red"],[10,11,2,"H","ARCOIRIS","Aparece tras la lluvia cuando sale el sol"]]},{"f":13,"c":11,"p":[[1,0,6,"V","PIANO","Instrumento de teclas blancas y negras"],[2,1,0,"V","OPERA","Obra teatral cantada con orquesta"],[3,1,4,"V","LECHUGA","Hoja verde de la ensalada"],[4,1,10,"V","ESCULTOR","Artista que talla estatuas"],[5,2,0,"H","PLANETA","Cuerpo que gira alrededor de una estrella"],[6,4,2,"V","PRINCIPE","Hijo del rey"],[7,5,8,"V","SOMBRERO","Prenda para la cabeza"],[8,6,1,"H","PINGUINO","Ave que no vuela y vive en el frío"],[9,8,5,"H","TAMBOR","Instrumento que se golpea"],[10,10,2,"H","PRIMAVERA","Estación de las flores"],[11,12,3,"H","MARIPOSA","Insecto de alas coloridas"]]},{"f":13,"c":10,"p":[[1,0,9,"V","DAMAS","Juego de fichas en un tablero"],[2,1,1,"V","CORAZON","Órgano que bombea sangre"],[3,1,3,"H","CALLE","Vía urbana entre edificios"],[4,1,4,"V","ARBITRO","Juez de un partido"],[5,3,6,"H","MAPA","Representa un territorio dibujado"],[6,3,7,"V","ALMOHADA","Se apoya la cabeza para dormir"],[7,6,0,"H","CONGRESO","Edificio donde se sancionan las leyes"],[8,8,6,"H","CAFE","Bebida oscura y estimulante"],[9,9,3,"V","ROSA","Flor con espinas"],[10,10,1,"H","CHOCOLATE","Dulce hecho con cacao"],[11,12,2,"H","PALABRA","Conjunto de letras con significado"]]}];
 
+  /* --- generador de crucigramas: cada día arma uno nuevo con palabras del banco --- */
+
+  const CRUCI_BANCO = CRUCI_BANCO_TEXTO.trim()
+    .split("\n")
+    .map((l) => {
+      const [resp, pista] = l.split("|");
+      return { resp, pista };
+    })
+    .filter((e) => /^[A-Z]{4,10}$/.test(e.resp) && e.pista);
+  const CRU_FILAS = 13;
+  const CRU_COLS = 11;
+
+  function cruDentro(r, c) {
+    return r >= 0 && r < CRU_FILAS && c >= 0 && c < CRU_COLS;
+  }
+
+  function cruPuedeColocar(G, resp, r, c, d) {
+    const dr = d === "V" ? 1 : 0;
+    const dc = d === "H" ? 1 : 0;
+    if (!cruDentro(r, c) || !cruDentro(r + dr * (resp.length - 1), c + dc * (resp.length - 1))) return 0;
+    if (cruDentro(r - dr, c - dc) && G.g[r - dr][c - dc]) return 0;
+    if (cruDentro(r + dr * resp.length, c + dc * resp.length) && G.g[r + dr * resp.length][c + dc * resp.length]) return 0;
+    let cruces = 0;
+    for (let i = 0; i < resp.length; i++) {
+      const rr = r + dr * i;
+      const cc = c + dc * i;
+      const ch = G.g[rr][cc];
+      if (ch) {
+        if (ch !== resp[i]) return 0;
+        if (d === "H" ? G.h[rr][cc] : G.v[rr][cc]) return 0;
+        cruces++;
+      } else {
+        const r1 = rr + (d === "H" ? -1 : 0), c1 = cc + (d === "V" ? -1 : 0);
+        const r2 = rr + (d === "H" ? 1 : 0), c2 = cc + (d === "V" ? 1 : 0);
+        if (cruDentro(r1, c1) && G.g[r1][c1]) return 0;
+        if (cruDentro(r2, c2) && G.g[r2][c2]) return 0;
+      }
+    }
+    return cruces >= 1 && cruces < resp.length ? cruces : 0;
+  }
+
+  function cruColocar(G, e, r, c, d) {
+    const dr = d === "V" ? 1 : 0;
+    const dc = d === "H" ? 1 : 0;
+    for (let i = 0; i < e.resp.length; i++) {
+      const rr = r + dr * i;
+      const cc = c + dc * i;
+      G.g[rr][cc] = e.resp[i];
+      if (d === "H") G.h[rr][cc] = true;
+      else G.v[rr][cc] = true;
+    }
+    G.palabras.push({ resp: e.resp, pista: e.pista, r, c, d });
+  }
+
+  function cruIntentar(candidatas, rng) {
+    const vacia = () => Array.from({ length: CRU_FILAS }, () => Array(CRU_COLS).fill(null));
+    const G = { g: vacia(), h: vacia(), v: vacia(), palabras: [] };
+    const orden = barajar(rng, candidatas);
+    const largas = orden.filter((e) => e.resp.length >= 7);
+    const primera = largas.length ? largas[0] : orden[0];
+    cruColocar(G, primera, Math.floor(CRU_FILAS / 2), Math.floor((CRU_COLS - primera.resp.length) / 2), "H");
+    let progreso = true;
+    while (progreso && G.palabras.length < 15) {
+      progreso = false;
+      for (const e of barajar(rng, candidatas)) {
+        if (G.palabras.some((p) => p.resp === e.resp)) continue;
+        const opciones = [];
+        for (let r = 0; r < CRU_FILAS; r++) {
+          for (let c = 0; c < CRU_COLS; c++) {
+            for (const d of ["H", "V"]) {
+              const cruces = cruPuedeColocar(G, e.resp, r, c, d);
+              if (cruces) opciones.push({ r, c, d, cruces });
+            }
+          }
+        }
+        if (opciones.length) {
+          opciones.sort((a, b) => b.cruces - a.cruces);
+          const o = opciones[Math.floor(rng() * Math.min(3, opciones.length))];
+          cruColocar(G, e, o.r, o.c, o.d);
+          progreso = true;
+          if (G.palabras.length >= 15) break;
+        }
+      }
+    }
+    return G;
+  }
+
+  // Recorta la grilla, numera las palabras y devuelve el formato que usa el juego.
+  function cruFormatear(G) {
+    let rmin = CRU_FILAS, rmax = -1, cmin = CRU_COLS, cmax = -1;
+    for (let r = 0; r < CRU_FILAS; r++) {
+      for (let c = 0; c < CRU_COLS; c++) {
+        if (!G.g[r][c]) continue;
+        rmin = Math.min(rmin, r);
+        rmax = Math.max(rmax, r);
+        cmin = Math.min(cmin, c);
+        cmax = Math.max(cmax, c);
+      }
+    }
+    const palabras = G.palabras.map((p) => ({ ...p, r: p.r - rmin, c: p.c - cmin }));
+    const claves = [...new Set(palabras.map((p) => p.r * 100 + p.c))].sort((a, b) => a - b);
+    const numero = new Map(claves.map((k, i) => [k, i + 1]));
+    palabras.sort((a, b) => numero.get(a.r * 100 + a.c) - numero.get(b.r * 100 + b.c) || (a.d < b.d ? -1 : 1));
+    return {
+      f: rmax - rmin + 1,
+      c: cmax - cmin + 1,
+      p: palabras.map((p) => [numero.get(p.r * 100 + p.c), p.r, p.c, p.d, p.resp, p.pista]),
+    };
+  }
+
+  // Comprueba que toda secuencia de 2 o más letras seguidas sea una palabra del crucigrama.
+  function cruValido(P) {
+    const g = Array.from({ length: P.f }, () => Array(P.c).fill(null));
+    for (const [, r0, c0, d, resp] of P.p) {
+      for (let i = 0; i < resp.length; i++) {
+        const r = r0 + (d === "V" ? i : 0);
+        const c = c0 + (d === "H" ? i : 0);
+        if (r >= P.f || c >= P.c || (g[r][c] && g[r][c] !== resp[i])) return false;
+        g[r][c] = resp[i];
+      }
+    }
+    const esperadas = new Set(P.p.map(([, r, c, d, resp]) => `${d}${r},${c},${resp}`));
+    for (let r = 0; r < P.f; r++) {
+      for (let c = 0; c < P.c; ) {
+        if (!g[r][c]) { c++; continue; }
+        let f = c;
+        while (f < P.c && g[r][f]) f++;
+        if (f - c >= 2 && !esperadas.has(`H${r},${c},${g[r].slice(c, f).join("")}`)) return false;
+        c = f;
+      }
+    }
+    for (let c = 0; c < P.c; c++) {
+      for (let r = 0; r < P.f; ) {
+        if (!g[r][c]) { r++; continue; }
+        let f = r;
+        let s = "";
+        while (f < P.f && g[f][c]) s += g[f++][c];
+        if (f - r >= 2 && !esperadas.has(`V${r},${c},${s}`)) return false;
+        r = f;
+      }
+    }
+    return true;
+  }
+
+  function cruMcd(a, b) {
+    return b ? cruMcd(b, a % b) : a;
+  }
+
+  // Cada día se mira una "ventana" distinta del banco, mezclado siempre igual.
+  function cruCandidatas(ciclo) {
+    const N = CRUCI_BANCO.length;
+    const orden = barajar(crearRng(9091), [...Array(N).keys()]);
+    const paso = [37, 41, 43, 47, 53].find((p) => cruMcd(p, N) === 1) || 1;
+    const inicio = (ciclo * paso) % N;
+    return Array.from({ length: 70 }, (_, j) => CRUCI_BANCO[orden[(inicio + j) % N]]);
+  }
+
+  function generarCrucigrama(ciclo) {
+    const candidatas = cruCandidatas(ciclo);
+    for (let intento = 0; intento < 60; intento++) {
+      const G = cruIntentar(candidatas, crearRng(ciclo * 1000003 + intento * 7919 + 17));
+      if (G.palabras.length < 11) continue;
+      const P = cruFormatear(G);
+      if (P.c <= CRU_COLS && P.f <= CRU_FILAS && P.f * P.c <= 150 && cruValido(P)) return P;
+    }
+    return null;
+  }
+
+  function crucigramaDelDia(fecha, ciclo) {
+    const guardado = leer(`${fecha}-cruci-datos`);
+    if (guardado && guardado.f && guardado.c && Array.isArray(guardado.p) && cruValido(guardado)) return guardado;
+    let P = null;
+    try {
+      P = generarCrucigrama(ciclo);
+    } catch {
+      P = null;
+    }
+    if (!P) P = CRUCIGRAMAS[ciclo % CRUCIGRAMAS.length];
+    guardar(`${fecha}-cruci-datos`, P);
+    return P;
+  }
+
   function renderCrucigrama(cont, fecha, ciclo) {
-    const P = CRUCIGRAMAS[ciclo % CRUCIGRAMAS.length];
+    const P = crucigramaDelDia(fecha, ciclo);
     const palabras = P.p.map(([n, r, c, d, resp, pista]) => ({
       n, r, c, d, resp, pista,
       celdas: resp.split("").map((_, i) => ({ r: r + (d === "V" ? i : 0), c: c + (d === "H" ? i : 0) })),
