@@ -123,3 +123,16 @@ async function main() {
 }
 
 main();
+
+// Al abrir el ícono, el celular suele mostrar la página que había dejado "dormida". Si pasó
+// un rato largo o cambió el día, se recarga sola para traer las noticias y los juegos nuevos.
+const CARGADA_EN = Date.now();
+const DIA_CARGADO = fechaHoyART();
+function recargarSiEstaVieja() {
+  if (document.visibilityState !== "visible") return;
+  if (Date.now() - CARGADA_EN > 45 * 60 * 1000 || fechaHoyART() !== DIA_CARGADO) location.reload();
+}
+document.addEventListener("visibilitychange", recargarSiEstaVieja);
+window.addEventListener("pageshow", (e) => {
+  if (e.persisted) recargarSiEstaVieja();
+});
