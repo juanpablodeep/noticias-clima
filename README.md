@@ -11,6 +11,9 @@ más durante el día, y es 100% gratis.
   Books). Se acuerda del tamaño elegido en cada celular.
 - `games.js`: el "Juego de hoy" (trivia, sopa de letras, memoria y sudoku, van
   rotando de a uno por día). Corre entero en el celular, no depende del robot.
+- `juegos-ln.js`: la sección "Juegos La Nación" (Diferencias, Crucigrama y Palabra
+  oculta, uno por día). Son versiones propias, con contenido original: no usan nada
+  del diario. También corre entero en el celular y guarda el avance del día.
 - `data/data.json`: el clima y las noticias del momento (incluye la sección
   Opinión, con columnistas de los mismos diarios). Lo genera el robot automático,
   no hace falta tocarlo a mano.

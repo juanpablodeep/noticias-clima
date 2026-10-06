@@ -429,6 +429,246 @@ main,
   flex-wrap: wrap;
 }
 
+/* --- Juegos La Nación --- */
+
+:root {
+  --cru-resalte: #cfe4ff;
+  --cru-activa: #ffe08a;
+  --cru-bloque: #3b4552;
+  --cru-mal: #c62828;
+}
+
+.juego-enlace {
+  margin: 0.8rem 0 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.juego-enlace a {
+  color: var(--texto-chip);
+}
+
+.juego-ln {
+  border-top: 1px solid var(--borde);
+  border-bottom: none;
+  padding-top: 1.2rem;
+}
+
+.juego-aclaracion {
+  font-size: 0.95rem;
+  color: var(--texto-suave);
+  margin: 0 0 0.8rem;
+}
+
+.juego-aviso {
+  min-height: 1.6em;
+  margin: 0.5rem 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+/* teclado en pantalla */
+
+.teclado {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 0.6rem 0;
+}
+
+.tec-fila {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+}
+
+.tec {
+  flex: 1 1 0;
+  min-width: 0;
+  height: 48px;
+  border: none;
+  border-radius: 8px;
+  background: var(--chip-fondo);
+  color: var(--texto-chip);
+  font-family: inherit;
+  font-size: clamp(14px, 4.6vw, 20px);
+  font-weight: 700;
+  padding: 0;
+  cursor: pointer;
+}
+
+.tec-ancha {
+  flex: 1.6 1 0;
+  font-size: clamp(12px, 3.6vw, 16px);
+}
+
+.tec.correcta,
+.pal-casilla.correcta {
+  background: #2e7d32;
+  border-color: #2e7d32;
+  color: #ffffff;
+}
+
+.tec.presente,
+.pal-casilla.presente {
+  background: #f2c230;
+  border-color: #f2c230;
+  color: #1a1a1a;
+}
+
+.tec.ausente,
+.pal-casilla.ausente {
+  background: #4b5563;
+  border-color: #4b5563;
+  color: #ffffff;
+}
+
+/* palabra oculta */
+
+.pal-grilla {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 320px;
+  margin: 0 auto 0.6rem;
+}
+
+.pal-fila {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;
+}
+
+.pal-casilla {
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--borde);
+  border-radius: 8px;
+  background: var(--fondo);
+  color: var(--texto);
+  font-size: clamp(22px, 8vw, 32px);
+  font-weight: 800;
+}
+
+.pal-casilla.escribiendo {
+  border-color: var(--texto-suave);
+}
+
+/* crucigrama */
+
+.cru-barra {
+  margin: 0 0 0.6rem;
+  padding: 0.5rem 0.7rem;
+  border-radius: 10px;
+  background: var(--chip-fondo);
+  color: var(--texto-chip);
+  font-size: 1.05rem;
+}
+
+.cru-grilla {
+  display: grid;
+  gap: 2px;
+  margin-bottom: 0.8rem;
+}
+
+.cru-bloque {
+  aspect-ratio: 1 / 1;
+  background: var(--cru-bloque);
+  border-radius: 2px;
+}
+
+.cru-celda {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  border: 1px solid var(--texto-suave);
+  border-radius: 2px;
+  background: var(--fondo);
+  color: var(--texto);
+  font-family: inherit;
+  font-size: clamp(14px, 4.8vw, 22px);
+  font-weight: 800;
+  padding: 0;
+  cursor: pointer;
+}
+
+.cru-celda.resaltada {
+  background: var(--cru-resalte);
+}
+
+.cru-celda.activa {
+  background: var(--cru-activa);
+  outline: 2px solid var(--azul);
+  z-index: 1;
+}
+
+.cru-celda.incorrecta {
+  color: var(--cru-mal);
+}
+
+.cru-num {
+  position: absolute;
+  top: 1px;
+  left: 2px;
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--texto-suave);
+}
+
+.cru-titulo {
+  font-size: 1.15rem;
+  margin: 1rem 0 0.4rem;
+}
+
+.cru-pistas {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.cru-pista {
+  text-align: left;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.55rem 0.7rem;
+  border-radius: 10px;
+  border: 2px solid var(--borde);
+  background: var(--fondo);
+  color: var(--texto);
+  cursor: pointer;
+}
+
+.cru-pista.actual {
+  border-color: var(--azul);
+  background: var(--chip-fondo);
+}
+
+/* diferencias */
+
+.dif-contador {
+  margin: 0 0 0.6rem;
+  font-size: 1.15rem;
+}
+
+.dif-imagenes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 0.6rem;
+}
+
+.dif-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 2px solid var(--borde);
+  border-radius: 12px;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
 /* --- Regulador de tamaño de texto --- */
 
 body {
@@ -545,5 +785,8 @@ body {
     --borde: #2b2f36;
     --chip-fondo: #1c2733;
     --texto-chip: #bfe0ff;
+    --cru-resalte: #1f3b5c;
+    --cru-activa: #8a6a00;
+    --cru-mal: #ff8a80;
   }
 }

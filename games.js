@@ -18,10 +18,13 @@ function diasDesdeEpoch(fechaStr) {
 function crearRng(semilla) {
   let s = semilla % 2147483647;
   if (s <= 0) s += 2147483646;
-  return function () {
+  const siguiente = function () {
     s = (s * 16807) % 2147483647;
     return (s - 1) / 2147483646;
   };
+  // Semillas consecutivas dan primeros valores casi iguales: se descartan unos cuantos.
+  for (let i = 0; i < 5; i++) siguiente();
+  return siguiente;
 }
 
 function elegir(rng, arr) {
@@ -201,24 +204,27 @@ function iniciarJuegoDelDia() {
 
   tituloEl.textContent = NOMBRES_JUEGO[tipo];
 
-  if (tipo === "trivia") renderTrivia(contenedor, semilla);
-  else if (tipo === "sopa") renderSopa(contenedor, semilla);
+  // Cada juego aparece cada 4 días: "ciclo" cuenta sus apariciones para recorrer todo el banco.
+  const ciclo = Math.floor(semilla / 4);
+
+  if (tipo === "trivia") renderTrivia(contenedor, ciclo);
+  else if (tipo === "sopa") renderSopa(contenedor, semilla, ciclo);
   else if (tipo === "memoria") renderMemoria(contenedor, semilla);
-  else renderSudoku(contenedor, semilla);
+  else renderSudoku(contenedor, ciclo);
 }
 
 /* ---------- trivia ---------- */
 
-function preguntasTrivia(semilla) {
+function preguntasTrivia(ciclo) {
   const n = TRIVIA_BANCO.length;
-  const inicio = (semilla * 5) % n;
+  const inicio = (ciclo * 5) % n;
   const preguntas = [];
   for (let i = 0; i < 5; i++) preguntas.push(TRIVIA_BANCO[(inicio + i) % n]);
   return preguntas;
 }
 
-function renderTrivia(contenedor, semilla) {
-  let preguntas = preguntasTrivia(semilla);
+function renderTrivia(contenedor, ciclo) {
+  let preguntas = preguntasTrivia(ciclo);
   let actual = 0;
   let aciertos = 0;
 
@@ -273,10 +279,10 @@ function renderTrivia(contenedor, semilla) {
 
 /* ---------- sopa de letras ---------- */
 
-function renderSopa(contenedor, semilla) {
-  function nuevoJuego(rngSemilla) {
+function renderSopa(contenedor, semilla, ciclo) {
+  function nuevoJuego(rngSemilla, indiceTema) {
     const rng = crearRng(rngSemilla);
-    const tema = elegir(rng, SOPA_TEMAS);
+    const tema = indiceTema === undefined ? elegir(rng, SOPA_TEMAS) : SOPA_TEMAS[indiceTema % SOPA_TEMAS.length];
     const grilla = crearGrillaSopa(tema.palabras, rng);
     const encontradas = new Set();
     let inicioSeleccion = null;
@@ -364,7 +370,7 @@ function renderSopa(contenedor, semilla) {
     dibujar();
   }
 
-  nuevoJuego(semilla);
+  nuevoJuego(semilla, ciclo);
 }
 
 /* ---------- memoria ---------- */
@@ -455,8 +461,8 @@ function renderMemoria(contenedor, semilla) {
 
 /* ---------- sudoku ---------- */
 
-function renderSudoku(contenedor, semilla) {
-  const { puzzle, solucion } = SUDOKU_BANCO[semilla % SUDOKU_BANCO.length];
+function renderSudoku(contenedor, ciclo) {
+  const { puzzle, solucion } = SUDOKU_BANCO[ciclo % SUDOKU_BANCO.length];
   const valores = puzzle.split("").map(Number);
   const fijas = valores.map((v) => v !== 0);
   let seleccionada = null;
