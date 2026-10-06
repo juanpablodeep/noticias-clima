@@ -644,6 +644,8 @@
 
     limpiarViejos(fecha);
     titulo.textContent = NOMBRES_LN[tipo];
+    const bannerHoy = document.getElementById("banner-ln-hoy");
+    if (bannerHoy) bannerHoy.textContent = `Hoy toca: ${NOMBRES_LN[tipo]}`;
 
     if (tipo === "diferencias") renderDiferencias(cont, fecha, semilla);
     else if (tipo === "crucigrama") renderCrucigrama(cont, fecha, ciclo);
