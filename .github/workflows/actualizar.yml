@@ -1,14 +1,20 @@
 name: Actualizar clima y noticias
 
 on:
-  # 7, 12, 17 y 20 hs de Argentina (Argentina está siempre 3 horas detrás de UTC)
+  # Argentina está siempre 3 horas detrás de UTC. Corre a las 6:17, 7:17 y 8:17 (por si GitHub
+  # se saltea alguna a la mañana) y después a las 12:17, 15:17, 17:17 y 20:17 hs de Argentina.
+  # Se evita la hora en punto porque GitHub la tiene saturada y ahí se atrasa o se saltea corridas.
   schedule:
-    - cron: "0 10,15,20,23 * * *"
+    - cron: "17 9,10,11,15,18,20,23 * * *"
   # Permite tocar el botón "Run workflow" en GitHub para actualizar a mano
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: actualizar-datos
+  cancel-in-progress: false
 
 jobs:
   actualizar:
@@ -34,5 +40,6 @@ jobs:
             echo "No hay noticias nuevas, no hace falta guardar nada."
           else
             git commit -m "Actualizar clima y noticias"
+            git pull --rebase origin main
             git push
           fi

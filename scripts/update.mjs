@@ -1,7 +1,7 @@
 // Trae el clima de Buenos Aires y las noticias del día, y arma data/data.json.
 // No usa ninguna clave/API key: todo son fuentes públicas y gratuitas.
 
-import { writeFileSync } from "node:fs";
+import { readFileSync, writeFileSync } from "node:fs";
 
 const TOPICS = [
   { key: "politica", label: "Política" },
@@ -290,6 +290,7 @@ async function collectWeather() {
   });
 
   return {
+    obtenidoEn: new Date().toISOString(),
     current: {
       temp: Math.round(current.temperature_2m),
       precipitation: current.precipitation,
@@ -301,14 +302,50 @@ async function collectWeather() {
   };
 }
 
+// Reintenta con esperas crecientes: un tropiezo pasajero de la red no debería dejar la página sin datos.
+async function conReintentos(fn, veces = 4) {
+  let ultimo;
+  for (let i = 0; i < veces; i++) {
+    try {
+      return await fn();
+    } catch (err) {
+      ultimo = err;
+      console.error(`Intento ${i + 1} de ${veces} falló: ${err.message}`);
+      if (i < veces - 1) await new Promise((r) => setTimeout(r, 2000 * (i + 1)));
+    }
+  }
+  throw ultimo;
+}
+
+function leerDatosAnteriores() {
+  try {
+    return JSON.parse(readFileSync(new URL("../data/data.json", import.meta.url), "utf8"));
+  } catch {
+    return null;
+  }
+}
+
 async function main() {
-  const [weather, topics] = await Promise.all([
-    collectWeather().catch((err) => {
+  const anterior = leerDatosAnteriores();
+
+  const [climaNuevo, noticiasNuevas] = await Promise.all([
+    conReintentos(collectWeather).catch((err) => {
       console.error(`No se pudo traer el clima: ${err.message}`);
       return null;
     }),
     collectNews(),
   ]);
+
+  // Nunca se pisa un dato bueno con nada: si algo falla, se conserva lo último que sí se pudo traer.
+  const weather = climaNuevo || anterior?.weather || null;
+
+  const topics = TOPICS.map((t) => {
+    const nuevo = noticiasNuevas.find((n) => n.key === t.key);
+    if (nuevo && nuevo.items.length > 0) return nuevo;
+    const viejo = anterior?.topics?.find((n) => n.key === t.key);
+    if (viejo) console.error(`Sin noticias nuevas de ${t.label}: se conservan las anteriores.`);
+    return viejo || null;
+  }).filter(Boolean);
 
   const data = {
     generatedAt: new Date().toISOString(),
@@ -319,7 +356,7 @@ async function main() {
   writeFileSync(new URL("../data/data.json", import.meta.url), JSON.stringify(data, null, 2) + "\n");
   console.log(
     `Listo: ${topics.reduce((n, t) => n + t.items.length, 0)} noticias en ${topics.length} temas. Clima: ${
-      weather ? "ok" : "falló"
+      climaNuevo ? "ok" : weather ? "falló (se conserva el anterior)" : "falló"
     }.`
   );
 }

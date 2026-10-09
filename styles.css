@@ -143,6 +143,12 @@ main,
   font-weight: 600;
 }
 
+.clima-nota {
+  margin-top: 0.9rem;
+  font-size: 0.95rem;
+  color: #e3f0fc;
+}
+
 /* --- Navegación por temas --- */
 
 .temas-nav {

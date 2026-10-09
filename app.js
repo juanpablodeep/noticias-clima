@@ -33,12 +33,96 @@ function formatoHora(fechaISO) {
   });
 }
 
+const CODIGOS_CLIMA = {
+  0: ["Despejado", "☀️"],
+  1: ["Mayormente despejado", "🌤️"],
+  2: ["Parcialmente nublado", "⛅"],
+  3: ["Nublado", "☁️"],
+  45: ["Niebla", "🌫️"],
+  48: ["Niebla", "🌫️"],
+  51: ["Llovizna leve", "🌦️"],
+  53: ["Llovizna", "🌦️"],
+  55: ["Llovizna fuerte", "🌦️"],
+  56: ["Llovizna helada", "🌧️"],
+  57: ["Llovizna helada", "🌧️"],
+  61: ["Lluvia leve", "🌧️"],
+  63: ["Lluvia", "🌧️"],
+  65: ["Lluvia fuerte", "🌧️"],
+  66: ["Lluvia helada", "🌧️"],
+  67: ["Lluvia helada", "🌧️"],
+  71: ["Nieve leve", "🌨️"],
+  73: ["Nieve", "🌨️"],
+  75: ["Nieve fuerte", "🌨️"],
+  77: ["Granizo fino", "🌨️"],
+  80: ["Chubascos leves", "🌦️"],
+  81: ["Chubascos", "🌧️"],
+  82: ["Chubascos fuertes", "⛈️"],
+  85: ["Nevadas leves", "🌨️"],
+  86: ["Nevadas fuertes", "🌨️"],
+  95: ["Tormenta", "⛈️"],
+  96: ["Tormenta con granizo", "⛈️"],
+  99: ["Tormenta con granizo", "⛈️"],
+};
+
+function descripcionClima(codigo) {
+  const [label, emoji] = CODIGOS_CLIMA[codigo] || ["Sin datos", "🌡️"];
+  return { label, emoji };
+}
+
+// Pide el clima directo a Open-Meteo (gratis, sin clave). Así está siempre al día aunque el
+// robot de GitHub no haya corrido. Si falla, la página usa el que dejó el robot.
+async function climaEnVivo() {
+  const control = new AbortController();
+  const timer = setTimeout(() => control.abort(), 10000);
+  try {
+    const url =
+      "https://api.open-meteo.com/v1/forecast?latitude=-34.6037&longitude=-58.3816" +
+      "&current=temperature_2m,precipitation,weather_code" +
+      "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max" +
+      "&timezone=America%2FArgentina%2FBuenos_Aires&forecast_days=6";
+    const res = await fetch(url, { signal: control.signal });
+    if (!res.ok) return null;
+    const d = await res.json();
+    const daily = d.daily.time.map((date, i) => {
+      const w = descripcionClima(d.daily.weather_code[i]);
+      return {
+        date,
+        max: Math.round(d.daily.temperature_2m_max[i]),
+        min: Math.round(d.daily.temperature_2m_min[i]),
+        precipProb: d.daily.precipitation_probability_max[i],
+        label: w.label,
+        emoji: w.emoji,
+      };
+    });
+    const actual = descripcionClima(d.current.weather_code);
+    return {
+      obtenidoEn: new Date().toISOString(),
+      current: {
+        temp: Math.round(d.current.temperature_2m),
+        precipitation: d.current.precipitation,
+        label: actual.label,
+        emoji: actual.emoji,
+      },
+      today: daily[0],
+      nextDays: daily.slice(1),
+    };
+  } catch {
+    return null;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 function renderClima(weather) {
   if (!weather) {
-    return '<p class="error">No se pudo cargar el clima en esta actualización.</p>';
+    return '<p class="error">No se pudo cargar el clima. Probá de nuevo en un rato.</p>';
   }
 
   const { current, today, nextDays } = weather;
+  const viejo = weather.obtenidoEn && Date.now() - Date.parse(weather.obtenidoEn) > 6 * 3600 * 1000;
+  const nota = viejo
+    ? `<div class="clima-nota">Datos de las ${formatoHora(weather.obtenidoEn)} (no se pudieron actualizar ahora)</div>`
+    : "";
 
   const proximos = nextDays
     .map(
@@ -63,6 +147,7 @@ function renderClima(weather) {
       <div class="clima-minmax">Hoy: máxima ${today.max}° · mínima ${today.min}°</div>
       <div class="clima-lluvia">Probabilidad de lluvia hoy: ${today.precipProb}%</div>
       <div class="clima-proximos">${proximos}</div>
+      ${nota}
     </section>
   `;
 }
@@ -111,10 +196,15 @@ async function main() {
     const hayNoticias = data.topics && data.topics.length > 0;
 
     contenido.innerHTML =
-      renderClima(data.weather) +
+      `<div id="clima-bloque">${renderClima(data.weather)}</div>` +
       (hayNoticias
         ? renderNav(data.topics) + renderTopics(data.topics)
         : '<p class="error">No se pudieron cargar las noticias en esta actualización.</p>');
+
+    climaEnVivo().then((clima) => {
+      const bloque = document.getElementById("clima-bloque");
+      if (clima && bloque) bloque.innerHTML = renderClima(clima);
+    });
   } catch (err) {
     console.error(err);
     contenido.innerHTML = '<p class="error">No se pudo cargar la información. Probá de nuevo más tarde.</p>';
