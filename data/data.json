@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-10-15T14:09:00.248Z",
+  "generatedAt": "2026-10-15T19:06:04.079Z",
   "weather": {
-    "obtenidoEn": "2026-10-15T14:08:56.446Z",
+    "obtenidoEn": "2026-10-15T19:06:02.291Z",
     "current": {
       "temp": 17,
-      "precipitation": 0,
-      "label": "Nublado",
-      "emoji": "☁️"
+      "precipitation": 0.2,
+      "label": "Llovizna",
+      "emoji": "🌦️"
     },
     "today": {
       "date": "2026-10-15",
       "max": 19,
       "min": 13,
-      "precipProb": 92,
+      "precipProb": 100,
       "label": "Tormenta",
       "emoji": "⛈️"
     },
     "nextDays": [
       {
         "date": "2026-10-16",
-        "max": 15,
-        "min": 11,
-        "precipProb": 37,
-        "label": "Llovizna leve",
-        "emoji": "🌦️"
+        "max": 16,
+        "min": 10,
+        "precipProb": 33,
+        "label": "Nublado",
+        "emoji": "☁️"
       },
       {
         "date": "2026-10-17",
         "max": 14,
         "min": 7,
-        "precipProb": 4,
+        "precipProb": 2,
         "label": "Llovizna leve",
         "emoji": "🌦️"
       },
@@ -37,23 +37,23 @@
         "date": "2026-10-18",
         "max": 15,
         "min": 7,
-        "precipProb": 0,
+        "precipProb": 2,
         "label": "Nublado",
         "emoji": "☁️"
       },
       {
         "date": "2026-10-19",
-        "max": 16,
-        "min": 10,
-        "precipProb": 25,
-        "label": "Nublado",
-        "emoji": "☁️"
+        "max": 15,
+        "min": 8,
+        "precipProb": 20,
+        "label": "Llovizna leve",
+        "emoji": "🌦️"
       },
       {
         "date": "2026-10-20",
         "max": 19,
-        "min": 12,
-        "precipProb": 19,
+        "min": 11,
+        "precipProb": 7,
         "label": "Nublado",
         "emoji": "☁️"
       }
@@ -65,74 +65,74 @@
       "label": "Política",
       "items": [
         {
-          "title": "Javier Milei se presenta ante empresarios en EE.UU.",
-          "link": "https://www.lanacion.com.ar/politica/javier-milei-se-presenta-ante-empresarios-en-eeuu-nid15102026/",
-          "summary": "El presidente habla en la Cámara de Comercio de Estados Unidos; “El desafío del crecimiento económico tras décadas de populismo”, el…",
-          "pubDate": "2026-10-15T14:05:07.000Z",
+          "title": "Multitudinaria marcha universitaria frente al Congreso: “No se puedo creer lo que ganan los docentes”",
+          "link": "https://www.infobae.com/politica/2026/10/15/marcha-universitaria-y-contra-el-dnu-702023-en-vivo-las-ultimas-noticias-de-las-protestas-en-congreso/",
+          "summary": "El reclamo por fondos para la educación superior se renueva esta tarde y tendrá como destino el Congreso. Buscará exigir la aplicación…",
+          "pubDate": "2026-10-15T19:04:06.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Marcha Federal Universitaria: estudiantes, gremios y organizaciones sociales se movilizan en reclamo de la Ley de Financiamiento",
+          "link": "https://tn.com.ar/politica/2026/10/15/marcha-federal-universitaria-gremios-organizaciones-sociales-y-partidos-se-movilizan-contra-el-gobierno-de-milei/",
+          "summary": "Es la quinta convocatoria del ámbito académico. Se registraron incidentes con la policía, que utilizó el camión hidrante y gases para…",
+          "pubDate": "2026-10-15T18:59:49.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "Lilia Lemoine fue increpada por un grupo de manifestantes la la salida del Congreso",
+          "link": "https://www.lanacion.com.ar/politica/lilia-lemoine-fue-increpada-por-un-grupo-de-manifestantes-la-la-salida-del-congreso-nid15102026/",
+          "summary": "La diputada caminó por un sector de la avenida Rivadavia donde se encontraban estudiantes, organizaciones sociales y políticas protestando…",
+          "pubDate": "2026-10-15T18:57:25.000Z",
           "source": "La Nación"
         },
         {
-          "title": "Javier Milei y sus medidas, EN VIVO: el Presidente pidió que Trump salga “fortalecido” en las elecciones de Estados Unidos",
+          "title": "Por falta de quorum, fracasó la sesión convocada por la oposición para voltear el DNU 70/23 de Milei",
+          "link": "https://www.lanacion.com.ar/politica/por-falta-de-quorum-fracaso-la-sesion-convocada-por-la-oposicion-para-voltear-el-dnu-7023-nid15102026/",
+          "summary": "Los bloques críticos no lograron conseguir los avales necesarios para abrir el recinto; el oficialismo logró el apoyo clave de los…",
+          "pubDate": "2026-10-15T18:56:15.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Javier Milei y sus medidas, EN VIVO: la Quinta Marcha Universitaria Federal se concentra en el Congreso",
           "link": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-presidente-pidio-que-trump-salga-fortalecido-en-las-elecciones-nid15102026/",
           "summary": "El minuto a minuto de las decisiones del mandatario, las reacciones de la oposición y las declaraciones de los funcionarios",
-          "pubDate": "2026-10-15T13:55:51.000Z",
+          "pubDate": "2026-10-15T18:50:50.000Z",
           "source": "La Nación"
         },
         {
-          "title": "Mientras incumple la ley de financiamiento, el Gobierno vuelve a la carga con las auditorías a las universidades",
-          "link": "https://www.pagina12.com.ar/2026/10/15/mientras-incumple-la-ley-de-financiamiento-el-gobierno-vuelve-a-la-carga-con-las-auditorias-a-las-universidades/",
-          "summary": "Les dio 15 días de plazo a las casas de altos estudios para que presenten sus planes de trabajo de 2027 y justifiquen sus presupuestos.",
-          "pubDate": "2026-10-15T13:51:09.000Z",
+          "title": "Alquileres, prepagas, tarjetas de crédito y más: todo lo que desreguló el DNU 70/23",
+          "link": "https://www.pagina12.com.ar/2026/10/15/alquileres-prepagas-tarjetas-de-credito-y-mas-todo-lo-que-desrregulo-el-dnu-7023/",
+          "summary": "No hubo quórum en la Cámara de Diputados y el Gobierno y sus aliados lograron defender el mega decreto que el presidente Javier Milei…",
+          "pubDate": "2026-10-15T18:49:51.000Z",
           "source": "Página/12"
         },
         {
-          "title": "Las universidades marchan al Congreso, mientras siguen las negociaciones por la sesión y el DNU 70/23",
-          "link": "https://www.pagina12.com.ar/2026/10/15/las-universidades-marchan-al-congreso-mientras-siguen-las-negociaciones-por-la-sesion-y-el-dnu-7023/",
-          "summary": "A las 14 está convocada la sesión especial impulsada por la oposición para derogar el megadecreto de Milei. Afuera, estudiantes, graduados,…",
-          "pubDate": "2026-10-15T13:39:51.000Z",
-          "source": "Página/12"
-        },
-        {
-          "title": "Por la escalada sobre Malvinas, Reino Unido podría vetar el ingreso de Argentina a un bloque comercial que representa el 13% del PIB mundial",
-          "link": "https://www.infobae.com/politica/2026/10/15/por-la-escalada-sobre-malvinas-reino-unido-podria-vetar-el-ingreso-de-argentina-a-un-bloque-comercial-que-representa-el-13-del-pib-mundial/",
-          "summary": "La ministra británica Uma Kumaran dijo que las acciones de Buenos Aires por las islas “dañan la seguridad jurídica y la confianza en…",
-          "pubDate": "2026-10-15T13:35:03.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Marcha Universitaria y contra el DNU 70/2023, en vivo: “Agotamos todas las instancias”, advirtió el líder de la FUA",
-          "link": "https://www.infobae.com/politica/2026/10/15/marcha-universitaria-y-contra-el-dnu-702023-en-vivo-las-ultimas-noticias-de-las-protestas-en-congreso/",
-          "summary": "El reclamo por fondos para la educación superior se renueva esta tarde y tendrá como destino el Congreso de la Nación. Buscará exigir la…",
-          "pubDate": "2026-10-15T13:30:50.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "La ciudad de China que solo utiliza energía renovable",
-          "link": "https://www.pagina12.com.ar/2026/10/15/la-ciudad-de-china-que-solo-utiliza-energia-renovable/",
-          "summary": "En la provincia de Gansu está uno de los parques solares más grandes del mundo que utiliza sales fundidas. Además, las estrategias…",
-          "pubDate": "2026-10-15T13:25:14.000Z",
-          "source": "Página/12"
-        },
-        {
-          "title": "Los gobernadores que podrían auxiliar a Milei para bloquear la sesión impulsada por la oposición en Diputados",
-          "link": "https://www.lanacion.com.ar/politica/los-gobernadores-que-podrian-auxiliar-a-milei-para-bloquear-la-sesion-impulsada-por-la-oposicion-en-nid15102026/",
-          "summary": "El oficialismo negocia para que los mandatarios aliados no ayuden al kirchnerismo a reunir el quorum; Pullaro, Sáenz y Jaldo son claves…",
-          "pubDate": "2026-10-15T13:23:49.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "El mismo juez que multó al Gobierno por las Universidades, frenó dos artículos de la Reforma Laboral",
-          "link": "https://www.clarin.com/politica/mismo-juez-multo-gobierno-universidades-freno-articulos-reforma-laboral_0_IqkQRaM5zE.html",
-          "summary": "La decisión la tomó Martín Cormick. Son artículos que afectan los honorarios de los abogados laboralistas.",
-          "pubDate": "2026-10-15T13:22:27.000Z",
-          "source": "Clarín"
-        },
-        {
-          "title": "\"Morir con las botas puestas\": la oposición se ve sin chances de abrir la sesión para derribar el DNU 70",
-          "link": "https://www.perfil.com/noticias/politica/morir-con-las-botas-puestas-la-oposicion-se-ve-sin-chances-de-abrir-la-sesion-para-derribar-el-dnu-70.phtml",
-          "summary": "La convocatoria perdió impulso durante la última semana por una serie de movimientos políticos y judiciales que alteraron el escenario…",
-          "pubDate": "2026-10-15T13:15:14.000Z",
+          "title": "Diputados, EN VIVO: la oposición no consiguió quorum y se cayó la sesión por el DNU 70/23 de Milei",
+          "link": "https://www.perfil.com/noticias/politica/sesion-en-diputados-la-oposicion-busca-derribar-el-dnu-7023-pero-hay-dudas-sobre-el-quorum-para-abrir-la-sesion.phtml",
+          "summary": "La jornada parlamentaria buscaba debatir el megadecreto que impulsó una amplia desregulación de la economía y derogó o modificó numerosas…",
+          "pubDate": "2026-10-15T18:40:00.000Z",
           "source": "Perfil"
+        },
+        {
+          "title": "Martín Menem celebró la sesión fallida en Diputados: “Quisieron ponerle un freno a la Argentina y se quedaron en el intento”",
+          "link": "https://tn.com.ar/politica/2026/10/15/ante-empresarios-de-eeuu-milei-defendio-su-plan-economico-la-apertura-genera-que-algunos-sectores-se-expandan-mas/",
+          "summary": "“El país ya eligió un rumbo y no va a retroceder para satisfacer a los que nos llevaron al fracaso”, aseguró el presidente de la Cámara de…",
+          "pubDate": "2026-10-15T18:39:32.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "El dueño de la empresa que denunció extorsión calificó la absolución del jefe camionero de “cheque en blanco a la mafia sindical”",
+          "link": "https://www.lanacion.com.ar/politica/el-dueno-de-la-empresa-que-denuncio-extorsion-califico-la-absolucion-del-jefe-camionero-de-cheque-en-nid15102026/",
+          "summary": "En una entrevista con LA NACION, planteó que la decisión envía un mensaje a los empresarios de la zona; apelarán el fallo y confían en que…",
+          "pubDate": "2026-10-15T18:19:40.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Diputados: tras la fallida sesión, la oposición expone en minoría por qué busca derogar el decreto 70",
+          "link": "https://www.infobae.com/politica/2026/10/15/diputados-en-vivo-ultimas-noticias-sobre-el-rechazo-al-dnu-702023-endeudamiento-y-emergencia-en-discapacidad/",
+          "summary": "Los bloques opositores permanecen en el recinto argumentando contra el DNU del Gobierno. Alrededor del Congreso continúa la “V Marcha…",
+          "pubDate": "2026-10-15T18:18:03.000Z",
+          "source": "Infobae"
         }
       ]
     },
@@ -141,74 +141,74 @@
       "label": "Economía",
       "items": [
         {
-          "title": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizan este jueves 15 de octubre",
-          "link": "https://tn.com.ar/economia/2026/10/15/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-jueves-15-de-octubre/",
-          "summary": "La cotización del dólar minuto a minuto en los bancos, donde desde abril de 2025 se pueden comprar divisas sin límites. También los precios…",
-          "pubDate": "2026-10-15T14:00:34.000Z",
-          "source": "TN"
+          "title": "Cuál es el precio y cuándo salen a la venta en la Argentina las Galaxy Tab S12+ y S12 Ultra de Samsung",
+          "link": "https://www.lanacion.com.ar/tecnologia/cual-es-el-precio-y-cuando-salen-a-la-venta-en-la-argentina-las-galaxy-tab-s12-y-s12-ultra-de-nid15102026/",
+          "summary": "Los equipos ya están en preventa en nuestro país, en una configuración que incluye la funda con teclado y el lápiz para escribir en pantalla",
+          "pubDate": "2026-10-15T19:00:36.000Z",
+          "source": "La Nación"
         },
         {
           "title": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este jueves 15 de octubre, minuto a minuto",
           "link": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotiza-el-oficial-y-cual-es-el-precio-del-paralelo-este-nid15102026/",
-          "summary": "La divisa oficial opera a $1535 para la venta en el Banco Nación; el dólar blue cotiza a $1550 para esa operación; qué pasa con el MEP y el…",
-          "pubDate": "2026-10-15T14:00:00.000Z",
+          "summary": "La divisa oficial opera a $1530 para la venta en el Banco Nación; el dólar blue cotiza a $1545 para esa operación; qué pasa con el MEP y el…",
+          "pubDate": "2026-10-15T18:59:48.000Z",
           "source": "La Nación"
         },
         {
-          "title": "La puerta de entrada al RIGI: 1800 empresas buscan hacer negocios con los gigantes de la inversión",
-          "link": "https://www.lanacion.com.ar/economia/la-puerta-de-entrada-al-rigi-1800-empresas-buscan-hacer-negocios-con-los-gigantes-de-la-inversion-nid15102026/",
-          "summary": "El encuentro organizado por el Ministerio de Economía se realizará el próximo 29 de octubre en Rosario, con el objetivo de generar…",
-          "pubDate": "2026-10-15T13:53:01.000Z",
+          "title": "Georgieva dijo que la Argentina pagará por adelantado al FMI y Caputo respondió: “Te vas a sorprender”",
+          "link": "https://www.lanacion.com.ar/economia/georgieva-dijo-que-la-argentina-pagara-por-adelantado-al-fmi-y-caputo-respondio-te-vas-a-sorprender-nid15102026/",
+          "summary": "La directora del organismo multilateral comparó al país con Grecia y elogió la disciplina fiscal; el ministro defendió las reformas,…",
+          "pubDate": "2026-10-15T18:57:35.000Z",
           "source": "La Nación"
         },
         {
-          "title": "Los servicios públicos subieron casi el doble que la inflación en el año: los gastos fijos ganan peso en el presupuesto familiar",
-          "link": "https://www.infobae.com/economia/2026/10/15/los-servicios-publicos-subieron-casi-el-doble-que-la-inflacion-en-el-ano-los-gastos-fijos-ganan-peso-en-el-presupuesto-familiar/",
-          "summary": "La canasta de luz, gas, agua y transporte para un hogar sin subsidios del AMBA acumuló una suba de 46,3% hasta septiembre, frente al 23,6%…",
-          "pubDate": "2026-10-15T13:51:01.000Z",
+          "title": "Movistar dejará de existir como marca de telefonía celular: cuál va a ser el nuevo nombre",
+          "link": "https://www.infobae.com/economia/2026/10/15/movistar-dejara-de-existir-como-marca-de-telefonia-celular-cual-va-a-ser-el-nuevo-nombre/",
+          "summary": "Telecom aceptó la venta de unos 6 millones de usuarios móviles y 200.000 clientes de internet fija a Metrotel, que operará bajo la marca…",
+          "pubDate": "2026-10-15T18:54:26.000Z",
           "source": "Infobae"
         },
         {
-          "title": "Monto de la Asignación Universal por Hijo: de cuánto es la AUH en noviembre 2026, con el aumento oficial",
-          "link": "https://www.lanacion.com.ar/economia/monto-de-la-asignacion-universal-por-hijo-de-cuanto-es-la-auh-en-noviembre-2026-con-el-aumento-nid15102026/",
-          "summary": "El aumento automático para esta prestación es del 1,93%; cuál es el valor que perciben las familias",
-          "pubDate": "2026-10-15T13:46:58.000Z",
+          "title": "Mejora el ánimo de los grandes fondos con la Argentina: según un gigante de Wall Street, el 41% espera una suba de los activos",
+          "link": "https://www.lanacion.com.ar/economia/mejora-el-animo-de-los-grandes-fondos-con-la-argentina-segun-un-gigante-de-wall-street-el-41-espera-nid15102026/",
+          "summary": "El relevamiento de Bank of America mostró un avance de 14 puntos frente a septiembre en las expectativas de mejora de las cotizaciones…",
+          "pubDate": "2026-10-15T18:53:59.000Z",
           "source": "La Nación"
         },
         {
-          "title": "Quebró una importante algodonera vinculada a Vicentin: debe más de USD 260 millones y peligran 350 empleos",
-          "link": "https://www.infobae.com/economia/2026/10/15/quebro-una-importante-algodonera-vinculada-a-vicentin-debe-mas-de-usd-260-millones-y-peligran-350-empleos/",
-          "summary": "La Justicia santafesina decretó la bancarrota de la firma tras fracasar las negociaciones con sus acreedores y el proceso de salvataje",
-          "pubDate": "2026-10-15T13:42:25.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Horacio Marín expuso ante el CICyP sobre el futuro de YPF y las inversiones en Vaca Muerta",
-          "link": "https://www.lanacion.com.ar/economia/horacio-marin-expuso-ante-el-cicyp-sobre-el-futuro-de-ypf-y-las-inversiones-en-vaca-muerta-nid15102026/",
-          "summary": "El presidente y CEO de YPF participó del tradicional almuerzo institucional encabezado por Bettina Bulgheroni; repasó los proyectos y las…",
-          "pubDate": "2026-10-15T13:32:20.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "El Gobierno buscará inversiones en dos ramales del Belgrano Cargas para facilitar las exportaciones mineras",
-          "link": "https://tn.com.ar/economia/2026/10/15/el-gobierno-buscara-inversiones-en-dos-ramales-del-belgrano-cargas-para-facilitar-las-exportaciones-mineras/",
-          "summary": "El anuncio llegó luego de los reclamos del gobernador de Salta, Gustavo Saénz. La iniciativa se enmarca en el proceso de privatización de…",
-          "pubDate": "2026-10-15T13:22:08.000Z",
+          "title": "Una calificadora de riesgo respaldó el programa económico de Milei, pero alertó por las reservas y la actividad",
+          "link": "https://tn.com.ar/economia/2026/10/15/una-calificadora-de-riesgo-respaldo-el-programa-economico-de-milei-pero-alerto-por-las-reservas-y-la-actividad/",
+          "summary": "La agencia Fitch, que subió la nota del país este año, dijo que la mejora todavía está limitada por la débil posición externa y la…",
+          "pubDate": "2026-10-15T18:50:49.000Z",
           "source": "TN"
         },
         {
-          "title": "Luciana Bilbao, analista de granos: “El trigo nuevo ya no está en máximos, pero continúa en una zona relativamente elevada”",
-          "link": "https://www.lanacion.com.ar/economia/campo/luciana-bilbao-analista-de-granos-el-trigo-nuevo-ya-no-esta-en-maximos-pero-continua-en-una-zona-nid15102026/",
-          "summary": "La evolución del precio dependerá, en gran medida, de las condiciones climáticas en las próximas semanas",
-          "pubDate": "2026-10-15T13:13:52.000Z",
-          "source": "La Nación"
+          "title": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizan este jueves 15 de octubre",
+          "link": "https://tn.com.ar/economia/2026/10/15/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-jueves-15-de-octubre/",
+          "summary": "La cotización del dólar minuto a minuto en los bancos, donde desde abril de 2025 se pueden comprar divisas sin límites. También los precios…",
+          "pubDate": "2026-10-15T18:46:34.000Z",
+          "source": "TN"
         },
         {
-          "title": "Thiago Príncipe tiene 14 años, construyó un tractor con piezas recuperadas y ahora quiere automatizarlo: “Sentí la innovación”",
-          "link": "https://www.lanacion.com.ar/economia/campo/thiago-principe-tiene-14-anos-construyo-un-tractor-con-piezas-recuperadas-y-ahora-quiere-nid14102026/",
-          "summary": "El adolescente vive en la zona rural de San Ambrosio, cerca de Río Cuarto; después de presentar su “tractoneta” en exposiciones, visitó la…",
-          "pubDate": "2026-10-15T13:07:49.000Z",
-          "source": "La Nación"
+          "title": "Bajó el euro blue: se ubicó en los $1.838,75 este jueves 15 de octubre",
+          "link": "https://www.perfil.com/noticias/economia/a-cuanto-cotiza-el-euro-blue-hoy-jueves-15-de-octubre.phtml",
+          "summary": "La divisa europea informal cerró a la baja la cuarta rueda cambiaria de la semana, con una caída de $6. Leer más",
+          "pubDate": "2026-10-15T18:42:00.000Z",
+          "source": "Perfil"
+        },
+        {
+          "title": "Mientras se debate su futuro en la Argentina, otro auto apela a la historia para reinventarse en versión eléctrica",
+          "link": "https://www.infobae.com/economia/2026/10/15/mientras-se-debate-su-futuro-en-la-argentina-otro-auto-apela-a-la-historia-para-reinventarse-en-version-electrica/",
+          "summary": "Peugeot revive el espíritu del 205 T16 campeón del mundo en los años 80, como un vínculo hacia la próxima generación del 208 eléctrico. En…",
+          "pubDate": "2026-10-15T18:31:20.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Qué tan difícil es abrir un negocio en la Argentina: un ranking de 30 municipios revela cuáles tienen más y menos trabas",
+          "link": "https://www.infobae.com/economia/2026/10/15/que-tan-dificil-es-abrir-un-negocio-en-la-argentina-un-ranking-de-30-municipios-revela-cuales-tienen-mas-y-menos-trabas/",
+          "summary": "Un estudio de IDESA, financiado por el BID, expone fuertes diferencias territoriales en materia de habilitaciones comerciales. La…",
+          "pubDate": "2026-10-15T18:17:28.000Z",
+          "source": "Infobae"
         }
       ]
     },
@@ -217,73 +217,73 @@
       "label": "Mundo",
       "items": [
         {
-          "title": "La probabilidad de un Súper Niño histórico trepó al 75% según los últimos datos científicos",
-          "link": "https://www.infobae.com/america/medio-ambiente/2026/10/15/la-probabilidad-de-un-super-nino-historico-trepo-al-75-segun-los-ultimos-datos-cientificos/",
-          "summary": "La Administración Nacional Oceánica y Atmosférica de Estados Unidos elevó al 75% la probabilidad de que el fenómeno supere los registros…",
-          "pubDate": "2026-10-15T14:03:04.000Z",
+          "title": "Condenan a cuatro miembros de la pandilla La Favela en Panamá, incluido su cabecilla",
+          "link": "https://www.infobae.com/panama/2026/10/15/condenan-a-cuatro-miembros-de-la-pandilla-la-favela-en-panama-incluido-su-cabecilla/",
+          "summary": "La estructura estaba asentada en comunidades de Chiriquí y era investigada desde 2021 por su presunta participación en distintos hechos…",
+          "pubDate": "2026-10-15T18:59:55.000Z",
           "source": "Infobae"
         },
         {
-          "title": "Salud del Papa: cómo sigue la recuperación de León XIV y qué dice el parte médico del 15 de octubre",
-          "link": "https://www.lanacion.com.ar/el-mundo/salud-del-papa-leon-xiv-las-ultimas-novedades-medicas-tras-su-operacion-por-un-cancer-de-pulmon-nid15102026/",
-          "summary": "El pontífice realiza sus actividades de forma autónoma y ya “retomó un poco el trabajo”, según fuentes vaticanas; por ahora, el viaje a…",
-          "pubDate": "2026-10-15T14:02:07.000Z",
+          "title": "Nicaragua amplía hospitales pero enfrenta escasez de médicos para operarlos",
+          "link": "https://www.infobae.com/nicaragua/2026/10/15/nicaragua-amplia-hospitales-pero-enfrenta-escasez-de-medicos-para-operarlos/",
+          "summary": "Entre 2018 y 2025, el Minsa destinó 5.305,3 millones de córdobas a obras y sumó 1.922 puestos, mientras la red incorporó 1.074 camas…",
+          "pubDate": "2026-10-15T18:58:58.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "República Dominicana incorporó más de 3,000 médicos por año, de los cuales el 38% son especialistas",
+          "link": "https://www.infobae.com/republica-dominicana/2026/10/15/republica-dominicana-incorporo-mas-de-3000-medicos-por-ano-de-los-cuales-el-38-son-especialistas/",
+          "summary": "La entidad sanitaria vinculó esas incorporaciones a las políticas del gobierno de Luis Abinader para reforzar el personal asistencial y…",
+          "pubDate": "2026-10-15T18:56:55.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Cuál es el Arco del Triunfo más grande del mundo y dónde se encuentra",
+          "link": "https://www.infobae.com/tendencias/2026/10/15/cual-es-el-arco-del-triunfo-mas-grande-del-mundo-y-donde-se-encuentra/",
+          "summary": "Con 67 metros de altura, el Monumento a la Revolución pasó de proyecto parlamentario inconcluso a símbolo urbano, mausoleo y mirador…",
+          "pubDate": "2026-10-15T18:56:39.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Seis condenas en El Salvador por violación, agresión y acoso sexual: tres acusados tienen órdenes de captura",
+          "link": "https://www.infobae.com/el-salvador/2026/10/15/seis-condenas-en-el-salvador-por-violacion-agresion-y-acoso-sexual-tres-acusados-tienen-ordenes-de-captura/",
+          "summary": "Los tribunales salvadoreños impusieron penas de entre 10 y 23 años y tres meses de prisión a seis hombres acusados de delitos sexuales.…",
+          "pubDate": "2026-10-15T18:56:35.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Sugar y Moss, los perros que buscan salvar a uno de los lagartos más amenazados de Australia",
+          "link": "https://www.infobae.com/america/medio-ambiente/2026/10/15/sugar-y-moss-los-perros-que-buscan-salvar-a-uno-de-los-lagartos-mas-amenazados-de-australia/",
+          "summary": "El dragón sin orejas de los pastizales de Victoria, redescubierto en 2023 tras más de medio siglo sin registros, tiene una única población…",
+          "pubDate": "2026-10-15T18:56:15.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Guatemala registra una acumulación de 2,195 emergencias por la época de lluvias, que elevan el riesgo de inundaciones y deslizamientos",
+          "link": "https://www.infobae.com/guatemala/2026/10/15/guatemala-registra-una-acumulacion-de-2195-emergencias-por-la-epoca-de-lluvias-que-elevan-el-riesgo-de-inundaciones-y-deslizamientos/",
+          "summary": "El departamento de Alta Verapaz concentra 568 emergencias, la cifra más alta de la temporada. La Conred ubicó después al departamento de…",
+          "pubDate": "2026-10-15T18:53:08.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "El número dos de León XIV dijo que el Papa “podría ajustar” su pontificado y que los médicos decidirán si viaja",
+          "link": "https://www.lanacion.com.ar/el-mundo/el-numero-dos-de-leon-xiv-dijo-que-el-papa-podria-ajustar-su-pontificado-y-que-los-medicos-decidiran-nid15102026/",
+          "summary": "Pietro Parolin habló sobre la enfermedad del pontífice y dijo que hay que “esperar”",
+          "pubDate": "2026-10-15T18:47:06.000Z",
           "source": "La Nación"
         },
         {
-          "title": "Una sanción que confirma el camino",
-          "link": "https://www.infobae.com/america/opinion/2026/10/15/una-sancion-que-confirma-el-camino/",
-          "summary": "Las naciones soberanas no necesitan coincidir en todo para tener relaciones constructivas, pero la reciprocidad y el respeto a la…",
-          "pubDate": "2026-10-15T14:00:03.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Trump amenaza con utilizar la “madre de todas las bombas” contra Irán: cuál es su poder destructivo y cuándo se usó por última vez",
-          "link": "https://tn.com.ar/internacional/2026/10/15/trump-amenaza-con-utilizar-la-madre-de-todas-las-bombas-contra-iran-cual-es-su-poder-destructivo-y-cuando-se-uso-por-ultima-vez/",
-          "summary": "Según CNN, citada por AFP, el Ejército analiza la posibilidad de emplearla contra objetivos iraníes si Donald Trump decide reanudar los…",
-          "pubDate": "2026-10-15T13:56:07.000Z",
-          "source": "TN"
-        },
-        {
-          "title": "Los mercados de barrio ofrecen alimentos con precios que cuestionan las rebajas prometidas por el Gobierno",
-          "link": "https://www.infobae.com/cuba/2026/10/15/los-mercados-de-barrio-ofrecen-alimentos-con-precios-que-cuestionan-las-rebajas-prometidas-por-el-gobierno/",
-          "summary": "En un local de Cerro, la leche en polvo costaba 4.500 pesos y el aceite 2.700, mientras consumidores reportaron valores iguales o…",
-          "pubDate": "2026-10-15T13:53:53.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "La Guardia Costera descargó en Florida casi 15.000 kilos de droga valorados en USD 226,7 millones",
-          "link": "https://www.infobae.com/estados-unidos/2026/10/15/la-guardia-costera-descargo-en-florida-casi-15000-kilos-de-droga-valorados-en-usd-2267-millones/",
-          "summary": "El operativo incluyó cocaína y marihuana; tres de las seis interceptaciones requirieron disparos de precisión contra los motores de…",
-          "pubDate": "2026-10-15T13:50:34.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Tercer día de disturbios en Albania mientras crece la oposición a un proyecto de lujo ligado a los Trump",
-          "link": "https://www.lanacion.com.ar/el-mundo/tercer-dia-de-disturbios-en-albania-mientras-crece-la-oposicion-a-un-proyecto-de-lujo-ligado-a-los-nid15102026/",
-          "summary": "El movimiento que rechaza un hotel de lujo sumó reclamos estudiantiles y exige la renuncia de Edi Rama, el primer ministro; los disturbios…",
-          "pubDate": "2026-10-15T13:46:37.000Z",
+          "title": "Elon Musk se suma a la ofensiva de Trump contra Zelensky y crece el temor por una herramienta clave contra Rusia",
+          "link": "https://www.lanacion.com.ar/el-mundo/elon-musk-se-suma-a-la-ofensiva-de-trump-contra-zelensky-y-crece-el-temor-por-una-herramienta-clave-nid15102026/",
+          "summary": "El multimillonario exigió la salida del presidente ucraniano en medio de una creciente disputa por las restricciones a las comunicaciones…",
+          "pubDate": "2026-10-15T18:44:52.000Z",
           "source": "La Nación"
         },
         {
-          "title": "La joven que fue asesinada de un tiro en la cabeza por su exnovio, mandó un audio a una amiga días antes: “No quiero morir”",
-          "link": "https://tn.com.ar/internacional/2026/10/15/la-joven-que-fue-asesinada-de-un-tiro-en-la-cabeza-por-su-exnovio-mando-un-audio-a-una-amiga-dias-antes-no-quiero-morir/",
-          "summary": "La brasileña Ana Clara Soares de Oliveira fue encontrada muerta en su casa. Su exnovio fue detenido y afirmó que el disparo “se le escapó”.",
-          "pubDate": "2026-10-15T13:33:58.000Z",
-          "source": "TN"
-        },
-        {
-          "title": "Un deslizamiento soterró una vivienda y causó la muerte de un hombre en la zona 7, ciudad de Guatemala",
-          "link": "https://www.infobae.com/guatemala/2026/10/15/un-deslizamiento-soterro-una-vivienda-y-causo-la-muerte-de-un-hombre-en-la-zona-7-ciudad-de-guatemala/",
-          "summary": "Los bomberos retiraron dos cilindros de gas tras detectar una fuga en la vivienda colapsada. El operativo de rescate fue suspendido…",
-          "pubDate": "2026-10-15T13:33:26.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Cómo es la megacárcel inspirada en Bukele que inauguró la presidenta de Costa Rica",
-          "link": "https://www.lanacion.com.ar/el-mundo/como-es-la-megacarcel-inspirada-en-bukele-que-inauguro-la-presidenta-de-costa-rica-nid15102026/",
-          "summary": "La prisión de máxima seguridad cuenta con una capacidad de hasta 5100 prisioneros, el 20% de la actual población carcelaria del país; la…",
-          "pubDate": "2026-10-15T13:32:54.000Z",
+          "title": "¿Viene el papa León XIV a la Argentina? Esto es lo que se sabe de su visita de noviembre",
+          "link": "https://www.lanacion.com.ar/el-mundo/viene-el-papa-leon-xiv-a-la-argentina-esto-es-lo-que-se-sabe-de-su-visita-de-noviembre-nid14102026/",
+          "summary": "La gira por Uruguay, Argentina y Perú está prevista del 6 al 17 del próximo mes; su recuperación tras una cirugía pulmonar genera…",
+          "pubDate": "2026-10-15T18:26:38.000Z",
           "source": "La Nación"
         }
       ]
@@ -293,73 +293,73 @@
       "label": "Sociedad",
       "items": [
         {
-          "title": "El sastre del Papa: quién es Tomás Valentín Gómez, el argentino que confeccionó la vestimenta de León XIV",
-          "link": "https://www.lanacion.com.ar/sociedad/el-sastre-del-papa-quien-es-tomas-valentin-gomez-el-argentino-que-confecciono-la-vestimenta-de-leon-nid15102026/",
-          "summary": "Trabajó durante meses en el taller de costura del santuario de Lourdes y terminó la estola blanca dos horas antes de la llegada del…",
-          "pubDate": "2026-10-15T14:00:00.000Z",
+          "title": "Marcha Federal Universitaria, EN VIVO: cortes, horarios y últimas noticias del reclamo",
+          "link": "https://www.lanacion.com.ar/sociedad/marcha-federal-universitaria-en-vivo-cortes-horarios-y-ultimas-noticias-del-reclamo-nid15102026/",
+          "summary": "La UBA se concentró desde las 13 en Plaza Houssay; a las 14 partieron desde la intersección de Córdoba y Junín rumbo al Congreso, donde a…",
+          "pubDate": "2026-10-15T19:03:08.000Z",
           "source": "La Nación"
         },
         {
-          "title": "Por qué las cajas de pizza tienen agujeros en los costados y para qué sirven",
-          "link": "https://tn.com.ar/sociedad/2026/10/15/por-que-las-cajas-de-pizza-tienen-agujeros-en-los-costados-y-para-que-sirven/",
-          "summary": "Aunque parecen un detalle menor del envase, estas pequeñas aberturas ayudan a liberar el vapor y a reducir la humedad que se acumula…",
-          "pubDate": "2026-10-15T13:54:39.000Z",
+          "title": "El sastre del Papa: quién es Tomás Valentín Gómez, el argentino que confeccionó la vestimenta de León XIV",
+          "link": "https://www.lanacion.com.ar/sociedad/el-sastre-del-papa-quien-es-tomas-valentin-gomez-el-argentino-que-confecciono-la-vestimenta-de-leon-nid15102026/",
+          "summary": "Trabajó durante meses en el taller de costura del santuario de Lourdes y terminó la estola blanca dos horas antes de la llegada del…",
+          "pubDate": "2026-10-15T19:00:00.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Hay alerta amarilla por tormentas en Buenos Aires y otras 4 provincias para hoy, jueves 15 de octubre",
+          "link": "https://tn.com.ar/sociedad/2026/10/15/hay-alerta-amarilla-por-tormentas-en-buenos-aires-y-otras-4-provincias-para-hoy-jueves-15-de-octubre/",
+          "summary": "Se esperan lluvias intensas en cortos períodos, actividad eléctrica, ráfagas de viento y posible caída de granizo.",
+          "pubDate": "2026-10-15T18:51:15.000Z",
           "source": "TN"
+        },
+        {
+          "title": "Yone, de 32 años, compró una casa entre las montañas y vive con sus animales rescatados: “Yo quería un sitio con muy poca gente”",
+          "link": "https://tn.com.ar/sociedad/2026/10/15/yone-de-32-anos-compro-una-casa-entre-las-montanas-y-vive-con-sus-animales-rescatados-yo-queria-un-sitio-con-muy-poca-gente/",
+          "summary": "La mujer eligió una vida lejos del ruido urbano y enfrentó el desafío de rehabilitar una vivienda rodeada de naturaleza.",
+          "pubDate": "2026-10-15T18:50:39.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "Escala el conflicto universitario: una multitud marcha al Congreso para reclamar financiamiento y cumplimiento de la ley",
+          "link": "https://www.lanacion.com.ar/sociedad/escala-el-conflicto-universitario-una-multitud-marcha-al-congreso-para-reclamar-financiamiento-y-nid15102026/",
+          "summary": "La movilización se hizo este jueves frente al Congreso; las organizaciones convocantes difundieron una proclama en la que cuestionan el…",
+          "pubDate": "2026-10-15T18:45:31.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Cayó una red de servicios médicos ilegales con base en Florencio Varela: hay 29 detenidos",
+          "link": "https://www.infobae.com/sociedad/policiales/2026/10/15/cayo-una-red-de-servicios-medicos-ilegales-con-base-en-florencio-varela-hay-29-detenidos/",
+          "summary": "La investigación apunta a una organización que ejercía la medicina usando matrículas ajenas y con ambulancias acondicionadas de forma…",
+          "pubDate": "2026-10-15T18:39:19.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "A qué hora llegan las tormentas fuertes y el granizo a Buenos Aires hoy, jueves 15 de octubre",
+          "link": "https://www.lanacion.com.ar/sociedad/a-que-hora-llegan-las-tormentas-fuertes-a-buenos-aires-hoy-jueves-15-de-octubre-nid15102026/",
+          "summary": "El Servicio Meteorológico Nacional emitió una alerta amarilla para el AMBA por lluvias de variada intensidad; la Ciudad advirtió que…",
+          "pubDate": "2026-10-15T18:26:57.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "La reliquia centenaria que se esconde en la estación Coghlan",
+          "link": "https://www.lanacion.com.ar/sociedad/la-reliquia-centenaria-que-se-esconde-en-la-estacion-coghlan-nid15102026/",
+          "summary": "En la Ciudad hay estaciones de trenes que rememoran la época dorada del transporte sobre rieles; cuál es la que se considera una joya…",
+          "pubDate": "2026-10-15T18:26:53.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Altura de los ríos en la Argentina: esta es la situación en el Paraná hoy, jueves 15 de octubre",
+          "link": "https://www.lanacion.com.ar/sociedad/altura-de-los-rios-en-la-argentina-esta-es-la-situacion-en-el-parana-hoy-jueves-15-de-octubre-nid15102026/",
+          "summary": "La Prefectura Naval Argentina difundió los últimos registros hidrométricos, que muestran una tendencia creciente en gran parte del país y…",
+          "pubDate": "2026-10-15T18:26:52.000Z",
+          "source": "La Nación"
         },
         {
           "title": "Cita del día, Winston Churchill, político: “El éxito no es definitivo, el fracaso no es fatal: lo que cuenta es el coraje para continuar”",
           "link": "https://www.lanacion.com.ar/sociedad/cita-del-dia-winston-churchill-politico-el-exito-no-es-definitivo-el-fracaso-no-es-fatal-lo-que-nid15102026/",
           "summary": "Winston Churchill dejó una reflexión sobre el éxito, el fracaso y la perseverancia que invita a afrontar las dificultades con coraje y…",
-          "pubDate": "2026-10-15T13:49:45.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Marcha Federal Universitaria, EN VIVO: cortes, horarios y últimas noticias del reclamo",
-          "link": "https://www.lanacion.com.ar/sociedad/marcha-federal-universitaria-en-vivo-cortes-horarios-y-ultimas-noticias-del-reclamo-nid15102026/",
-          "summary": "La UBA se concentrará desde las 13 en Plaza Houssay; a las 14 partirán desde la intersección de Córdoba y Junín rumbo al Congreso, donde a…",
-          "pubDate": "2026-10-15T13:42:47.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "A qué hora llegan las tormentas fuertes a Buenos Aires hoy, jueves 15 de octubre",
-          "link": "https://www.lanacion.com.ar/sociedad/a-que-hora-llegan-las-tormentas-fuertes-a-buenos-aires-hoy-jueves-15-de-octubre-nid15102026/",
-          "summary": "El Servicio Meteorológico Nacional emitió una alerta amarilla para el AMBA por lluvias de variada intensidad; la Ciudad advirtió que…",
-          "pubDate": "2026-10-15T13:35:01.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Marcha universitaria de hoy: Córdoba, Santa Fe y todos los puntos de concentración de este 15 de octubre",
-          "link": "https://www.lanacion.com.ar/sociedad/marcha-universitaria-de-hoy-cordoba-santa-fe-y-todos-los-puntos-de-concentracion-de-este-15-de-nid15102026/",
-          "summary": "Distintas provincias se suman a la quinta edición de la Marcha Universitaria; cuáles son los puntos de encuentro",
-          "pubDate": "2026-10-15T13:34:51.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Lluvia en Buenos Aires: hasta cuándo seguirá el mal tiempo según el SMN",
-          "link": "https://tn.com.ar/sociedad/2026/10/14/diluvia-en-caba-hasta-cuando-seguiran-las-tormentas/",
-          "summary": "El pronóstico anticipa lluvias durante este jueves y precipitaciones aisladas el viernes. El tiempo mejorará durante el fin de semana, con…",
-          "pubDate": "2026-10-15T13:31:52.000Z",
-          "source": "TN"
-        },
-        {
-          "title": "Mezclar café usado con cáscaras de naranja: por qué lo recomiendan y para qué sirve en el jardín",
-          "link": "https://tn.com.ar/sociedad/jardineria/2026/10/15/mezclar-cafe-usado-con-cascaras-de-naranja-por-que-lo-recomiendan-y-para-que-sirve-en-el-jardin/",
-          "summary": "Esta combinación permite aprovechar residuos de la cocina para preparar compost y mejorar la calidad del suelo. Cómo incorporarla y qué…",
-          "pubDate": "2026-10-15T13:26:28.000Z",
-          "source": "TN"
-        },
-        {
-          "title": "A casi 3000 metros de altura: el Grupo de Alta Montaña halló piezas cerámicas prehispánicas en San Juan e investigan el origen oculto de los fragmentos",
-          "link": "https://www.lanacion.com.ar/sociedad/a-casi-3000-metros-de-altura-el-grupo-de-alta-montana-hallo-piezas-ceramicas-prehispanicas-en-san-nid15102026/",
-          "summary": "En una tarea coordinada por Gendarmería Nacional y el Grupo Especializado de Alta Montaña se encontraron retazos de este material en la…",
-          "pubDate": "2026-10-15T13:24:18.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "La universidad que construyó un muro junto a barrios vulnerables no lo demolerá: qué hará en su lugar",
-          "link": "https://www.lanacion.com.ar/sociedad/la-universidad-que-construyo-un-muro-junto-a-barrios-vulnerables-no-lo-demolera-que-hara-en-su-lugar-nid15102026/",
-          "summary": "La nueva rectora de UNCuyo no derribará el perímetro de hormigón, que apenas alcanza al 25% del campus en Mendoza, pero la concluirá con…",
-          "pubDate": "2026-10-15T13:22:00.000Z",
+          "pubDate": "2026-10-15T18:26:48.000Z",
           "source": "La Nación"
         }
       ]
@@ -369,73 +369,73 @@
       "label": "Deportes",
       "items": [
         {
-          "title": "Estudiantes vs Flamengo en vivo por las semifinales de la Copa Libertadores: hora, dónde ver y formaciones",
-          "link": "https://tn.com.ar/deportes/futbol/2026/10/15/estudiantes-vs-flamengo-en-vivo-por-las-semifinales-de-la-copa-libertadores-hora-donde-ver-y-formaciones/",
-          "summary": "Estudiantes enfrenta a Flamengo desde las 21:30 horas del jueves 15 de octubre. Podés seguirlo minuto a minuto por la web de TN.",
-          "pubDate": "2026-10-15T14:03:27.000Z",
+          "title": "RU Saint-Gilloise empató con R. Sociedad 1 a 1 por la fecha 2 de la UEFA Europa League",
+          "link": "https://tn.com.ar/deportes/futbol/2026/10/15/ru-saint-gilloise-vs-r-sociedad-en-vivo-por-la-fecha-2-de-la-uefa-europa-league-hora-donde-ver-y-formaciones/",
+          "summary": "El gol para RU Saint-Gilloise fue de Sekou Keita, mientras que para R. Sociedad convirtió Beñat Turrientes.",
+          "pubDate": "2026-10-15T18:57:28.000Z",
           "source": "TN"
         },
         {
-          "title": "Vinicius Junior vive su peor momento en Real Madrid: apuntado por Mourinho y silbado por el Bernabéu",
-          "link": "https://www.lanacion.com.ar/deportes/futbol/vinicius-junior-vive-su-peor-momento-en-real-madrid-apuntado-por-mourinho-y-marcado-por-la-salida-de-nid15102026/",
-          "summary": "El delantero brasileño tuvo un mal rendimiento ante Roma y fue reemplazado, horas después de haber sido suspendido en LaLiga por haberle…",
-          "pubDate": "2026-10-15T14:01:55.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Así está el cuadro de semifinales del Masters 1000 de Shanghai",
-          "link": "https://www.lanacion.com.ar/deportes/tenis/asi-esta-el-cuadro-de-semifinales-del-masters-1000-de-shanghai-nid15102026/",
-          "summary": "Alexander Zverev y Alejandro Davidovich Fokina se metieron en la ronda de los cuatro mejores; faltan jugar Rafael Jódar vs. Casper Ruud y…",
-          "pubDate": "2026-10-15T13:54:57.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Un compañero de Franco Colapinto en Alpine podría perder su licencia de conducir: el insólito motivo",
-          "link": "https://www.lanacion.com.ar/deportes/un-companero-de-franco-colapinto-en-alpine-podria-perder-su-licencia-de-conducir-el-insolito-motivo-nid15102026/",
-          "summary": "Paul Aron sería sancionado por no presentarse a las revisiones médicas obligatorias del servicio militar de su país",
-          "pubDate": "2026-10-15T13:51:54.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "El posteo de Lisandro Martínez después del escándalo en Manchester United: “Los jugadores debemos dar la talla y asumo esa responsabilidad”",
-          "link": "https://www.lanacion.com.ar/deportes/futbol/el-posteo-de-lisandro-martinez-despues-del-escandalo-en-manchester-united-los-jugadores-debemos-dar-nid15102026/",
-          "summary": "El defensor argentino posteó un mea culpa en sus redes sociales, que se suceden a las fuertes declaraciones que realizó luego de la derrota…",
-          "pubDate": "2026-10-15T13:50:45.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "La Selección argentina vuelve a la Bombonera",
-          "link": "https://www.pagina12.com.ar/2026/10/15/la-seleccion-argentina-vuelve-a-la-bombonera/",
-          "summary": "La próxima fecha FIFA tendrá dos partidos del combinado nacional y uno se disputará en cancha de Boca.",
-          "pubDate": "2026-10-15T13:49:22.000Z",
-          "source": "Página/12"
-        },
-        {
-          "title": "Murió a los 40 años una fisicoculturista que compitió al máximo nivel en el Mr. Olympia",
-          "link": "https://tn.com.ar/deportes/polideportivo/2026/10/15/murio-a-los-40-anos-una-fisicoculturista-que-compitio-al-maximo-nivel-en-el-mr-olympia/",
-          "summary": "Marianne Belén Von Gierke Barassi era abogada y atleta profesional de la IFBB. Había competido en septiembre en el torneo más importante de…",
-          "pubDate": "2026-10-15T13:37:04.000Z",
+          "title": "O. Lyon le ganó a Crystal P. 3 a 2 por la fecha 2 de la UEFA Europa League",
+          "link": "https://tn.com.ar/deportes/futbol/2026/10/15/o-lyon-vs-crystal-p-en-vivo-por-la-fecha-2-de-la-uefa-europa-league-hora-donde-ver-y-formaciones/",
+          "summary": "Los goles para O. Lyon fueron de Corentin Tolisso, Ernest Nuamah y Pavel Sulc, mientras que para Crystal P. convirtieron Yéremy Pino y…",
+          "pubDate": "2026-10-15T18:56:41.000Z",
           "source": "TN"
         },
         {
-          "title": "Huracán vs Gimnasia en vivo por la fase de grupos de la Liga Profesional: hora, dónde ver y formaciones",
-          "link": "https://tn.com.ar/deportes/futbol/2026/10/15/huracan-vs-gimnasia-en-vivo-por-la-fase-de-grupos-de-la-liga-profesional-hora-donde-ver-y-formaciones/",
-          "summary": "Huracán enfrenta a Gimnasia desde las 20:00 horas del jueves 15 de octubre. Podés seguirlo minuto a minuto por la web de TN.",
-          "pubDate": "2026-10-15T13:35:28.000Z",
+          "title": "Celta vs Juventus en vivo por la fecha 2 de la UEFA Europa League: hora, dónde ver y formaciones",
+          "link": "https://tn.com.ar/deportes/futbol/2026/10/15/celta-vs-juventus-en-vivo-por-la-fecha-2-de-la-uefa-europa-league-hora-donde-ver-y-formaciones/",
+          "summary": "Celta enfrenta a Juventus desde las 16:00 horas del jueves 15 de octubre. Podés seguirlo minuto a minuto por la web de TN.",
+          "pubDate": "2026-10-15T18:56:27.000Z",
           "source": "TN"
         },
         {
-          "title": "Estudiantes abre su llave de semifinales de Copa Libertadores ante Flamengo en La Plata: hora, TV y probables formaciones",
-          "link": "https://www.infobae.com/deportes/2026/10/15/estudiantes-abre-su-llave-de-semifinales-de-copa-libertadores-ante-flamengo-en-la-plata-hora-tv-y-probables-formaciones/",
-          "summary": "Desde las 21:30 en Uno, el Pincha disputará el primer chico de semis ante el Fla. Televisarán Telefé, Fox Sports y Disney+",
-          "pubDate": "2026-10-15T13:31:01.000Z",
+          "title": "Las crudas revelaciones de Brian Fernández: “Probé la cocaína cuando tenía 13 años”",
+          "link": "https://www.infobae.com/deportes/2026/10/15/las-crudas-revelaciones-de-brian-fernandez-probe-la-cocaina-cuando-tenia-13-anos/",
+          "summary": "El futbolista de 32 años brindó una conmovedora entrevista en la que habló a corazón abierto sobre su infierno personal",
+          "pubDate": "2026-10-15T18:55:31.000Z",
           "source": "Infobae"
         },
         {
-          "title": "“Tengo dos hijos y no voy a bajar los brazos”: la historia del exjugador que vende sándwiches en bicicleta tras perder la visión",
-          "link": "https://tn.com.ar/deportes/futbol/2026/10/15/tengo-dos-hijos-y-no-voy-a-bajar-los-brazos-la-historia-del-exjugador-que-vende-sandwiches-en-bicicleta-tras-perder-la-vision/",
-          "summary": "Matías Rosso dejó el fútbol durante la pandemia y su vida cambió de manera rotunda. El diagnóstico de una enfermedad sorpresiva y la…",
-          "pubDate": "2026-10-15T13:30:45.000Z",
+          "title": "B. Leverkusen le ganó a Lech Poznan 4 a 0 por la fecha 2 de la UEFA Europa League",
+          "link": "https://tn.com.ar/deportes/futbol/2026/10/15/lech-poznan-vs-b-leverkusen-en-vivo-por-la-fecha-2-de-la-uefa-europa-league-hora-donde-ver-y-formaciones/",
+          "summary": "Los goles para B. Leverkusen fueron de Patrik Schick en 2 ocasiones, Malik Tillman y Ibrahim Maza.",
+          "pubDate": "2026-10-15T18:54:41.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "Un jugador jamaiquino hizo una interminable caminata para patear un penal, falló y complicó a su equipo",
+          "link": "https://www.lanacion.com.ar/deportes/un-jugador-jamaiquino-hizo-una-interminable-caminata-para-patear-un-penal-fallo-y-complico-a-su-nid15102026/",
+          "summary": "Trayvone Reid tuvo la chance de poner 2-0 al Mount Pleasant en la semifinal de ida de la Copa Caribeña de la Concacaf, pero el partido…",
+          "pubDate": "2026-10-15T18:52:26.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Milan le ganó a RB Salzburgo 4 a 0 por la fecha 2 de la UEFA Europa League",
+          "link": "https://tn.com.ar/deportes/futbol/2026/10/15/rb-salzburgo-vs-milan-en-vivo-por-la-fecha-2-de-la-uefa-europa-league-hora-donde-ver-y-formaciones/",
+          "summary": "Los goles para Milan fueron de Alphadjo Cissè en 3 ocasiones y Gonçalo Ramos.",
+          "pubDate": "2026-10-15T18:51:52.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "Stade Rennes vs OFI Creta en vivo por la fecha 2 de la UEFA Europa League: hora, dónde ver y formaciones",
+          "link": "https://tn.com.ar/deportes/futbol/2026/10/15/stade-rennes-vs-ofi-creta-en-vivo-por-la-fecha-2-de-la-uefa-europa-league-hora-donde-ver-y-formaciones/",
+          "summary": "Stade Rennes enfrenta a OFI Creta desde las 16:00 horas del jueves 15 de octubre. Podés seguirlo minuto a minuto por la web de TN.",
+          "pubDate": "2026-10-15T18:51:29.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "Benfica vs Celtic en vivo por la fecha 2 de la UEFA Europa League: hora, dónde ver y formaciones",
+          "link": "https://tn.com.ar/deportes/futbol/2026/10/15/benfica-vs-celtic-en-vivo-por-la-fecha-2-de-la-uefa-europa-league-hora-donde-ver-y-formaciones/",
+          "summary": "Benfica enfrenta a Celtic desde las 16:00 horas del jueves 15 de octubre. Podés seguirlo minuto a minuto por la web de TN.",
+          "pubDate": "2026-10-15T18:48:28.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "Ferencváros vs V. Plzen en vivo por la fecha 2 de la UEFA Europa League: hora, dónde ver y formaciones",
+          "link": "https://tn.com.ar/deportes/futbol/2026/10/15/ferencvaros-vs-v-plzen-en-vivo-por-la-fecha-2-de-la-uefa-europa-league-hora-donde-ver-y-formaciones/",
+          "summary": "Ferencváros enfrenta a V. Plzen desde las 16:00 horas del jueves 15 de octubre. Podés seguirlo minuto a minuto por la web de TN.",
+          "pubDate": "2026-10-15T18:46:29.000Z",
           "source": "TN"
         }
       ]
@@ -445,74 +445,74 @@
       "label": "Espectáculos",
       "items": [
         {
-          "title": "Bárbara Lombardo: de los falsos gurús de las redes a su historia de amor y sus ganas de reinventarse",
-          "link": "https://www.lanacion.com.ar/espectaculos/personajes/barbara-lombardo-de-los-falsos-gurus-de-las-redes-a-su-historia-de-amor-y-sus-ganas-de-reinventarse-nid15102026/",
-          "summary": "La actriz protagoniza una nueva ficción vertical de Shorta; en diálogo con LA NACION, repasó los personajes que marcaron su carrera, habló…",
-          "pubDate": "2026-10-15T14:07:04.000Z",
+          "title": "La llamativa frase de Damián Betular en medio de la polémica por cómo prueba los platos Maru Botana: “Para eso me pagan”",
+          "link": "https://tn.com.ar/videos/show/famosos/2026/10/15/la-llamativa-frase-de-damian-betular-en-medio-de-la-polemica-por-como-prueba-los-platos-maru-botana-para-eso-me-pagan/",
+          "summary": "Damián Betular le lanzó una dura indirecta a Maru Botana y se volvió viral: “Hay que comer todo, para eso me pagan” (Foto: Captura Telefe)",
+          "pubDate": "2026-10-15T18:50:01.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "La llamativa frase de Damián Betular en medio de la polémica por cómo prueba los platos Maru Botana: “Para eso me pagan”",
+          "link": "https://tn.com.ar/show/famosos/2026/10/15/la-llamativa-frase-de-damian-betular-en-medio-de-la-polemica-por-como-prueba-los-platos-maru-botana-para-eso-me-pagan/",
+          "summary": "El clip del momento que se vivió en “MasterChef Celebrity” no pasó inadvertido entre los usuarios de las redes que opinaron sin filtros.",
+          "pubDate": "2026-10-15T18:49:58.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "Fernando Burlando sorprendió al hablar de su intimidad: “Tengo un chip sexual y la cabeza como un chico de 17 años”",
+          "link": "https://www.infobae.com/teleshow/2026/10/15/fernando-burlando-sorprendio-al-hablar-de-su-intimidad-tengo-un-chip-sexual-y-la-cabeza-como-un-chico-de-17-anos/",
+          "summary": "En diálogo con Infobae en Vivo, el abogado explicó cómo es el tratamiento hormonal que comenzó hace tres años y qué beneficios encontró",
+          "pubDate": "2026-10-15T18:38:19.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Comienza la tercera edición del festival de cine argentino en Barcelona",
+          "link": "https://www.lanacion.com.ar/espectaculos/cine/comienza-la-tercera-edicion-del-festival-de-cine-argentino-en-barcelona-nid15102026/",
+          "summary": "El BAAR se llevará a cabo desde el lunes 19 en la ciudad catalana con la presencia de la actriz y productora Martina Gusmán",
+          "pubDate": "2026-10-15T18:36:53.000Z",
           "source": "La Nación"
         },
         {
-          "title": "Le pidió una foto a la China Suárez y luego la criticó por comprar en una tienda low cost: la respuesta de la actriz",
-          "link": "https://www.infobae.com/teleshow/2026/10/15/le-pidio-una-foto-a-la-china-suarez-y-luego-la-critico-por-comprar-en-una-tienda-low-cost-la-respuesta-de-la-actriz/",
-          "summary": "Una joven encontró a la ex Casi Ángeles en una reconocida cadena durante sus vacaciones en Miami y protagonizaron un intercambio ácido en…",
-          "pubDate": "2026-10-15T14:04:48.000Z",
-          "source": "Infobae"
+          "title": "Fue uno de los grandes villanos de la TV, pero lo dejó todo, se mudó a Miami y 14 años después vuelve: “Mientras me dé el cuero, aprovecharé las oportunidades”",
+          "link": "https://www.lanacion.com.ar/espectaculos/fue-uno-de-los-grandes-villanos-de-la-tv-pero-lo-dejo-todo-se-mudo-a-miami-y-14-anos-despues-vuelve-nid14102026/",
+          "summary": "El actor Edward Nutkiewicz regresa a los sets locales con un proyecto de Netflix; en diálogo con LA NACION, reflexiona sobre su trayectoria…",
+          "pubDate": "2026-10-15T18:34:43.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Hilary Swank anunció que está embarazada de su tercer hijo a los 52 años",
+          "link": "https://www.lanacion.com.ar/espectaculos/hilary-swank-anuncio-que-sera-madre-por-tercera-vez-a-los-52-anos-nid15102026/",
+          "summary": "A través de un divertido video, la protagonista de Million Dollar Baby anunció que está nuevamente en la dulce espera; los detalles en la…",
+          "pubDate": "2026-10-15T18:27:14.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Internaron por cuarta vez a Denisse González: “Las plaquetas volvieron a bajar”",
+          "link": "https://www.lanacion.com.ar/espectaculos/internaron-por-cuarta-vez-a-denisse-gonzalez-las-plaquetas-volvieron-a-bajar-nid15102026/",
+          "summary": "La ex Gran Hermano fue hospitalizada de urgencia luego de que su salud empeorara; aseguró que priorizará este tiempo para recuperarse; los…",
+          "pubDate": "2026-10-15T18:27:05.000Z",
+          "source": "La Nación"
         },
         {
           "title": "El discurso de Wanda Nara al recibir un Martín Fierro de la Música: “Hice feliz a mucha gente”",
           "link": "https://www.lanacion.com.ar/espectaculos/el-discurso-de-wanda-nara-al-recibir-un-martin-fierro-de-la-musica-hice-feliz-a-mucha-gente-nid15102026/",
-          "summary": "La conductora recibió un reconocimiento a la canción viral por “Bad Bitch” en la primera edición de la premiación organizada por APTRA",
-          "pubDate": "2026-10-15T13:46:18.000Z",
+          "summary": "La conductora recibió un reconocimiento a la canción viral por “Bad Bitch” en la primera edición de la premiación organizada por APTRA; los…",
+          "pubDate": "2026-10-15T18:26:41.000Z",
           "source": "La Nación"
         },
         {
-          "title": "El conmovedor mensaje de la mamá de Gaspi a cuatro meses de su muerte: “Te solté para que tuvieras alas”",
-          "link": "https://www.infobae.com/teleshow/2026/10/15/el-conmovedor-mensaje-de-la-mama-de-gaspi-a-cuatro-meses-de-su-muerte-te-solte-para-que-tuvieras-alas/",
-          "summary": "Michelle Prim compartió una foto de la infancia del influencer fallecido trágicamente en Río de Janeiro y le dedicó palabras cargadas de…",
-          "pubDate": "2026-10-15T13:31:43.000Z",
-          "source": "Infobae"
+          "title": "Julieta Prandi habló por primera vez tras anunciar su separación: “Estoy avergonzada”",
+          "link": "https://www.lanacion.com.ar/espectaculos/julieta-prandi-hablo-por-primera-vez-tras-anunciar-su-separacion-estoy-avergonzada-nid14102026/",
+          "summary": "La modelo habló con LAM (América TV) y reveló que iniciará un viaje sola para despejarse del ruido mediático que causó su separación; los…",
+          "pubDate": "2026-10-15T18:26:19.000Z",
+          "source": "La Nación"
         },
         {
-          "title": "La reacción de Palito Ortega cuando le preguntaron por la separación de su hijo Emanuel y Julieta Prandi",
-          "link": "https://tn.com.ar/show/famosos/2026/10/15/la-reaccion-de-palito-ortega-cuando-le-preguntaron-por-la-separacion-de-emanuel-ortega-y-julieta-prandi/",
-          "summary": "El músico fue consultado sobre la ruptura de su hijo a la salida de la ceremonia de los Martín Fierro de la Música, pero prefirió enfocarse…",
-          "pubDate": "2026-10-15T13:15:20.000Z",
-          "source": "TN"
-        },
-        {
-          "title": "Dalma Maradona aclaró la fuerte acusación contra su hermana Jana: “De ser traicionera no se vuelve”",
-          "link": "https://www.infobae.com/teleshow/2026/10/15/dalma-maradona-aclaro-la-fuerte-acusacion-contra-su-hermana-jana-de-ser-traicionera-no-se-vuelve/",
-          "summary": "Luego de una jornada clave en el juicio por la muerte de Diego, la actriz le puso nombre a la destinataria de la enigmática frase que había…",
-          "pubDate": "2026-10-15T13:06:07.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Avanza la investigación contra Julio Iglesias por explotación laboral y agresión sexual",
-          "link": "https://tn.com.ar/show/famosos/2026/10/15/avanza-la-investigacion-contra-julio-iglesias-por-explotacion-laboral-y-agresion-sexual/",
-          "summary": "Los fiscales que tienen el caso elevaron la denuncia al juez de la causa, lo que sería determinante para el futuro del cantante.",
-          "pubDate": "2026-10-15T12:59:43.000Z",
-          "source": "TN"
-        },
-        {
-          "title": "Salió a la luz la despectiva frase con la que Darío Giordano se refería a Romina Yan",
-          "link": "https://tn.com.ar/show/famosos/2026/10/15/salio-a-la-luz-la-despectiva-frase-con-la-que-dario-giordano-se-referia-a-romina-yan/",
-          "summary": "El productor está en el ojo del huracán por la denuncia de uno de sus hijos, que expuso cómo lo maltrató durante la infancia.",
-          "pubDate": "2026-10-15T12:56:14.000Z",
-          "source": "TN"
-        },
-        {
-          "title": "Dante Ortega cantó en Es mi sueño y lamentó la ausencia de su familia: “Todavía no me vino a ver nadie”",
-          "link": "https://www.infobae.com/teleshow/2026/10/15/dante-ortega-canto-en-es-mi-sueno-y-lamento-la-ausencia-de-su-familia-todavia-no-me-vino-a-ver-nadie/",
-          "summary": "El hijo de Sebastián Ortega y Guillermina Valdés se tomó con humor la situación y la comparó con otros concursantes del ciclo de Guido…",
-          "pubDate": "2026-10-15T12:55:59.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Abel Pintos, ganador del Oro en el Martín Fierro de la Música 2026: todos los ganadores, uno por uno",
-          "link": "https://www.infobae.com/teleshow/2026/10/15/martin-fierro-de-la-musica-2026-todos-los-ganadores-uno-por-uno/",
-          "summary": "La ceremonia organizada por la Aptra contó con la conducción de Hernán Drago y Edith Hermida. Los reconocimientos, los premios especiales y…",
-          "pubDate": "2026-10-15T12:53:31.000Z",
-          "source": "Infobae"
+          "title": "Fue la estrella de Baywatch, terminó tras las rejas y ahora luce irreconocible en su nueva vida lejos de Hollywood",
+          "link": "https://www.lanacion.com.ar/espectaculos/fue-la-estrella-de-baywatch-termino-tras-las-rejas-y-ahora-luce-irreconocible-en-su-nueva-vida-lejos-nid14102026/",
+          "summary": "Tras el anuncio del regreso de la icónica ficción, la trágica espiral de adicciones, cárcel y posterior rehabilitación del intérprete de…",
+          "pubDate": "2026-10-15T18:25:29.000Z",
+          "source": "La Nación"
         }
       ]
     },
@@ -520,6 +520,34 @@
       "key": "opinion",
       "label": "Opinión",
       "items": [
+        {
+          "title": "El Niño y la ausencia de una segunda temporada de anchoveta: crisis y oportunidad para el sector pesquero peruano",
+          "link": "https://www.infobae.com/peru/2026/10/15/el-nino-y-la-ausencia-de-una-segunda-temporada-de-anchoveta-crisis-y-oportunidad-para-el-sector-pesquero-peruano/",
+          "summary": "El recurso, destinado a harina, aceite y consumo humano, sostiene una actividad expuesta a alteraciones del ecosistema marino, con efectos…",
+          "pubDate": "2026-10-15T18:20:50.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Después del rechazo: ¿qué hacemos cuando una escuela nos dice que no?",
+          "link": "https://www.infobae.com/opinion/2026/10/15/despues-del-rechazo-que-hacemos-cuando-una-escuela-nos-dice-que-no/",
+          "summary": "Una negativa de matriculación no debería ser el final de la historia. Para muchas familias, ahí empieza otro recorrido: pedir…",
+          "pubDate": "2026-10-15T18:19:43.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Dignidad humana y poder en la era de la inteligencia artificial",
+          "link": "https://www.clarin.com/opinion/dignidad-humana-poder-inteligencia-artificial_0_OYbjgrDeMP.html",
+          "summary": "Una reflexión a la luz de la encíclica del Papa León XIV",
+          "pubDate": "2026-10-15T15:31:10.000Z",
+          "source": "Clarín"
+        },
+        {
+          "title": "La IA de acá: adopción, regulación e impacto en la región",
+          "link": "https://www.infobae.com/opinion/2026/10/14/la-ia-de-aca-adopcion-regulacion-e-impacto-en-la-region/",
+          "summary": "Entre el apocalipsis y la utopía hay una agenda que la Argentina puede empezar a ejecutar mañana. Los debates del nadIA Summit dejaron…",
+          "pubDate": "2026-10-15T15:06:15.000Z",
+          "source": "Infobae"
+        },
         {
           "title": "La innovación en salud no termina cuando se desarrolla un medicamento",
           "link": "https://www.infobae.com/opinion/2026/10/15/la-innovacion-en-salud-no-termina-cuando-se-desarrolla-un-medicamento/",
@@ -560,34 +588,6 @@
           "link": "https://www.lanacion.com.ar/opinion/una-edad-de-oro-en-la-ciencia-nid15102026/",
           "summary": "La historia ofrece razones para ser prudentes",
           "pubDate": "2026-10-15T03:15:00.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Vacunatorio VIP: cuando el poder político decide a quién salvar",
-          "link": "https://www.lanacion.com.ar/editoriales/vacunatorio-vip-cuando-el-poder-politico-decide-a-quienes-salvar-nid15102026/",
-          "summary": "El escándalo que empezó a juzgarse expone la obscena cultura del privilegio del gobierno de Alberto Fernández priorizando la salud de su…",
-          "pubDate": "2026-10-15T03:10:00.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "La independencia de Ucrania moldea el futuro colectivo",
-          "link": "https://www.lanacion.com.ar/opinion/la-independencia-de-ucrania-moldea-el-futuro-colectivo-nid15102026/",
-          "summary": "Los países miembros de la OTAN deben proporcionar de inmediato las herramientas necesarias para garantizar el avance hacia un mundo mejor,…",
-          "pubDate": "2026-10-15T03:05:00.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "El monopatín, un vehículo más",
-          "link": "https://www.lanacion.com.ar/editoriales/el-monopatin-un-vehiculo-mas-nid15102026/",
-          "summary": "",
-          "pubDate": "2026-10-15T03:05:00.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Malvinas: el Reino Unido tiene su estrategia, sería un error no advertirla",
-          "link": "https://www.lanacion.com.ar/opinion/malvinas-el-reino-unido-tiene-su-estrategia-seria-un-error-no-advertirla-nid15102026/",
-          "summary": "Mientras la política británica actúa fusionada y estrecha lazos con sus países amigos, en la Argentina hay unidad interna en el reclamo…",
-          "pubDate": "2026-10-15T03:05:00.000Z",
           "source": "La Nación"
         }
       ]
