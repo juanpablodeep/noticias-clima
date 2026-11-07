@@ -1,30 +1,22 @@
 {
-  "generatedAt": "2026-11-07T02:45:49.569Z",
+  "generatedAt": "2026-11-07T15:38:46.875Z",
   "weather": {
-    "obtenidoEn": "2026-11-07T02:45:48.153Z",
+    "obtenidoEn": "2026-11-07T15:38:43.922Z",
     "current": {
-      "temp": 16,
+      "temp": 18,
       "precipitation": 0,
       "label": "Nublado",
       "emoji": "☁️"
     },
     "today": {
-      "date": "2026-11-06",
-      "max": 26,
-      "min": 16,
-      "precipProb": 73,
-      "label": "Chubascos leves",
+      "date": "2026-11-07",
+      "max": 18,
+      "min": 13,
+      "precipProb": 98,
+      "label": "Llovizna",
       "emoji": "🌦️"
     },
     "nextDays": [
-      {
-        "date": "2026-11-07",
-        "max": 19,
-        "min": 12,
-        "precipProb": 37,
-        "label": "Llovizna leve",
-        "emoji": "🌦️"
-      },
       {
         "date": "2026-11-08",
         "max": 19,
@@ -36,7 +28,7 @@
       {
         "date": "2026-11-09",
         "max": 23,
-        "min": 15,
+        "min": 14,
         "precipProb": 0,
         "label": "Despejado",
         "emoji": "☀️"
@@ -45,15 +37,23 @@
         "date": "2026-11-10",
         "max": 25,
         "min": 17,
-        "precipProb": 4,
+        "precipProb": 2,
         "label": "Nublado",
         "emoji": "☁️"
       },
       {
         "date": "2026-11-11",
-        "max": 25,
+        "max": 28,
         "min": 20,
-        "precipProb": 22,
+        "precipProb": 17,
+        "label": "Nublado",
+        "emoji": "☁️"
+      },
+      {
+        "date": "2026-11-12",
+        "max": 30,
+        "min": 21,
+        "precipProb": 10,
         "label": "Nublado",
         "emoji": "☁️"
       }
@@ -65,74 +65,74 @@
       "label": "Política",
       "items": [
         {
-          "title": "Por qué la derrota de Trump no cambiará la política de América Latina",
-          "link": "https://www.lanacion.com.ar/politica/por-que-la-derrota-de-trump-no-cambiara-la-politica-de-america-latina-nid06112026/",
-          "summary": "La caída de los republicanos puede recortar el margen de maniobra del presidente de los Estados Unidos, pero en la región seguirá su curso",
-          "pubDate": "2026-11-07T01:16:11.000Z",
+          "title": "Máxima expectativa y tensión en el Gobierno por la llegada del Papa a la Argentina",
+          "link": "https://perfil.com/politica/maxima-expectativa-y-tension-en-el-gobierno-por-la-llegada-del-papa-a-la-argentina-a1Wgr4V6ydkI",
+          "summary": "El oficialismo ultima detalles a contrarreloj antes del arribo del Sumo Pontífice. Reclamos por anticipado por el discurso que ofrecerá en…",
+          "pubDate": "2026-11-07T15:20:36.000Z",
+          "source": "Perfil"
+        },
+        {
+          "title": "En el Gobierno esperan un mensaje breve y conciliador de Milei en el Palacio Libertad tras un pedido del Vaticano",
+          "link": "https://www.lanacion.com.ar/politica/en-el-gobierno-esperan-un-mensaje-breve-y-conciliador-de-milei-en-el-palacio-libertad-tras-un-pedido-nid07112026/",
+          "summary": "El domingo el mandatario estará junto al Papa y hablará frente a distintos actores del arco político; habrá una audiencia previa en la Casa…",
+          "pubDate": "2026-11-07T13:21:16.000Z",
           "source": "La Nación"
         },
         {
-          "title": "Cristina Kirchner sigue liderando la imagen positiva",
-          "link": "https://www.pagina12.com.ar/2026/11/07/cristina-kirchner-sigue-liderando-la-imagen-positiva/",
-          "summary": "La encuesta, realizada por QMonitor, muestra que la expresidenta creció seis puntos en los últimos dos meses. Milei, en cambio, incrementa…",
-          "pubDate": "2026-11-07T00:50:05.000Z",
+          "title": "Vuelve el seminario de políticas de la memoria que censuró Milei",
+          "link": "https://www.pagina12.com.ar/2026/11/07/vuelve-el-seminario-de-politicas-de-la-memoria-que-censuro-milei/",
+          "summary": "Las jornadas que durante quince años reunieron a activistas y académicos en la exESMA se trasladan a la Universidad Nacional de La Plata.…",
+          "pubDate": "2026-11-07T12:52:42.000Z",
           "source": "Página/12"
         },
         {
-          "title": "Llegada del Papa: la decoración que ordenó Karina Milei, estrictas reglas de vestimenta y un cartel en la Catedral",
-          "link": "https://www.lanacion.com.ar/politica/llegada-del-papa-la-decoracion-que-ordeno-karina-milei-estrictas-reglas-de-vestimenta-y-un-cartel-en-nid06112026/",
-          "summary": "En la Casa Rosada todo funciona en clave papal; hay trabajos de última hora; se desplegó un fuerte operativo por una protesta",
-          "pubDate": "2026-11-07T00:40:16.000Z",
+          "title": "Los empresarios que pagaron la visita pastoral tendrán un cara a cara con el Papa",
+          "link": "https://www.lanacion.com.ar/politica/los-empresarios-que-pagaron-la-visita-pastoral-tendran-un-cara-a-cara-con-el-papa-nid07112026/",
+          "summary": "Manzano, Vila, Eurnekian y Marcos y Alejandro Bulgheroni estarían en el grupo, que será recibido en una carpa VIP después de la misa en el…",
+          "pubDate": "2026-11-07T12:31:07.000Z",
           "source": "La Nación"
         },
         {
-          "title": "“El espíritu liberal sigue vivo”, dijo Javier Milei en la Cumbre Iberoamericana en España",
-          "link": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-espiritu-liberal-sigue-vivo-dijo-el-presidente-en-la-cumbre-nid06112026/",
-          "summary": "El minuto a minuto de las decisiones del Presidente, todas las reacciones de la oposición y las declaraciones de los funcionarios",
-          "pubDate": "2026-11-07T00:36:45.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Bullrich descubrió que quiere combatir la ludopatía infantil",
-          "link": "https://www.pagina12.com.ar/2026/11/07/bullrich-descubrio-que-quiere-combatir-la-ludopatia-infantil/",
-          "summary": "Convencida de que debe profundizar sus diferencias con Milei, la jefa del bloque de senadores libertarios aprovechó un pedido de la Iglesia…",
-          "pubDate": "2026-11-07T00:26:17.000Z",
-          "source": "Página/12"
-        },
-        {
-          "title": "El papa León XIV llegó a Uruguay para iniciar su gira latinoamericana",
-          "link": "https://www.infobae.com/politica/2026/11/06/el-viaje-del-papa-leon-xiv-a-la-argentina-en-vivo-cuando-llega-actividades-confirmadas-cortes-de-calle-y-ultimas-noticias-hoy-6-de-noviembre/",
-          "summary": "La visita de León XIV a la Argentina, prevista del 8 al 11 de noviembre, incluirá reuniones con Javier Milei, misas en Buenos Aires,…",
-          "pubDate": "2026-11-07T00:21:34.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Discapacidad: freno judicial al Gobierno en defensa de un centro terapéutico",
-          "link": "https://www.pagina12.com.ar/2026/11/07/discapacidad-freno-judicial-al-gobierno-en-defensa-de-un-centro-terapeutico/",
-          "summary": "La Justicia federal le ordenó al Gobierno que sostenga la categorización del Centro de Rehabilitación y Educación Psicomotriz (CEREP) de…",
-          "pubDate": "2026-11-07T00:06:46.000Z",
-          "source": "Página/12"
-        },
-        {
-          "title": "Procesaron por lavado de dinero a Ariel Vallejo, el financista cercano a Chiqui Tapia, con prisión domiciliaria",
-          "link": "https://www.clarin.com/politica/procesaron-lavado-dinero-ariel-vallejo-financista-cercano-chiqui-tapia-prision-domiciliaria_0_uNwvFN733V.html",
-          "summary": "El juez federal de Lomas Tomás Rodríguez Ponte lo acusa como organizador de una asociación ilícita para lavar fondos; evasión tributaria…",
-          "pubDate": "2026-11-07T00:06:39.000Z",
+          "title": "Javier Milei y sus medidas, EN VIVO: el Gobierno pone en pausa su interna a la espera de recibir al papa León XIV en Argentina",
+          "link": "https://www.clarin.com/politica/javier-milei-medidas-vivo-gobierno-pone-pausa-interna-espera-recibir-papa-leon-xiv-argentina_0_julYrm1mc6.html",
+          "summary": "La tensión con Patricia Bullrich y la postergación de iniciativas legislativas obligan al oficialismo a reordenar su agenda, en medio de…",
+          "pubDate": "2026-11-07T12:17:02.000Z",
           "source": "Clarín"
         },
         {
-          "title": "La investigación contra Alberto Fernández seguirá en Comodoro Py",
-          "link": "https://www.pagina12.com.ar/2026/11/06/la-investigacion-contra-alberto-fernandez-seguira-en-comodoro-py/",
-          "summary": "La Corte Suprema ratificó que Rafecas investigará al expresidente en la causa por violencia de género a su expareja, Fabiola Yáñez.",
-          "pubDate": "2026-11-06T23:49:58.000Z",
-          "source": "Página/12"
+          "title": "En un clima convulsionado, Milei se prepara para recibir al Papa: expectativas y temores por la visita",
+          "link": "https://www.infobae.com/politica/2026/11/07/en-un-clima-convulsionado-milei-se-prepara-para-recibir-al-papa-expectativas-y-temores-de-la-visita/",
+          "summary": "El Presidente recibirá este domingo a León XIV, el primer pontífice que llega al país después de 39 años. La agenda se da en medio de…",
+          "pubDate": "2026-11-07T12:15:29.000Z",
+          "source": "Infobae"
         },
         {
-          "title": "El Gobierno recibe con optimismo la asunción del nuevo presidente de Paraguay y descarta cambios en la relación bilateral",
-          "link": "https://tn.com.ar/politica/2026/11/06/el-gobierno-recibe-con-optimismo-la-asuncion-del-nuevo-presidente-de-paraguay-y-descarta-cambios-en-la-relacion-bilateral/",
-          "summary": "En el entorno presidencial no prevén un cambio ideológico en el gobierno del país vecino tras la sucesión. En la Cancillería mantienen una…",
-          "pubDate": "2026-11-06T23:47:59.000Z",
-          "source": "TN"
+          "title": "El Gobierno restringe la tecnología china en el sector de las telecomunicaciones y podría impactar en el mercado de los teléfonos celulares",
+          "link": "https://www.clarin.com/politica/gobierno-restringe-tecnologia-china-sector-telecomunicaciones-podria-impactar-mercado-telefonos-celulares_0_BWnofkEPnf.html",
+          "summary": "El nuevo director de Ciberseguridad dictó una normativa que bloquea a las empresas chinas la provisión de equipos al sector público. La…",
+          "pubDate": "2026-11-07T11:50:18.000Z",
+          "source": "Clarín"
+        },
+        {
+          "title": "Los proyectos en el Congreso de Estados Unidos que podrían presionar sobre una eventual asistencia financiera de Trump a Milei",
+          "link": "https://www.infobae.com/politica/2026/11/07/los-proyectos-en-el-congreso-de-estados-unidos-que-podrian-presionar-sobre-una-eventual-asistencia-financiera-de-trump-a-milei/",
+          "summary": "Legisladores demócratas mantienen iniciativas para bloquear o auditar el rescate de USD 20.000 millones que el Tesoro de Trump desplegó en…",
+          "pubDate": "2026-11-07T10:45:07.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Por la visita del Papa León XIV, el Congreso estará paralizado toda la semana y el oficialismo gana tiempo para negociar",
+          "link": "https://www.clarin.com/politica/visita-papa-leon-xiv-congreso-paralizado-toda-semana-oficialismo-gana-tiempo-negociar_0_Qp0BmgUWPr.html",
+          "summary": "El lunes es feriado nacional, el martes hay asueto en la Ciudad y el miércoles por el Día del Empleado Legislativo no trabaja el personal…",
+          "pubDate": "2026-11-07T10:01:10.000Z",
+          "source": "Clarín"
+        },
+        {
+          "title": "Guerra de canales por la visita del papa León XIV: más de 500 acreditados argentinos y una programación especial",
+          "link": "https://www.clarin.com/politica/guerra-canales-visita-papa-leon-xiv-500-acreditados-argentinos-programacion-especial_0_AvLPZRtL8x.html",
+          "summary": "Los canales de noticias y la TV de aire preparan un operativo periodístico extraordinario para cubrir la gira del Pontífice por Argentina,…",
+          "pubDate": "2026-11-07T09:01:09.000Z",
+          "source": "Clarín"
         }
       ]
     },
@@ -141,74 +141,74 @@
       "label": "Economía",
       "items": [
         {
-          "title": "El Niño: anticipan temperaturas de más de 40 grados, riesgo de heladas y tormentas intensas",
-          "link": "https://www.lanacion.com.ar/economia/campo/el-nino-anticipan-temperaturas-de-mas-de-40-grados-riesgo-de-heladas-y-tormentas-intensas-nid05112026/",
-          "summary": "Un informe de la Bolsa de Cereales de Buenos Aires prevé lluvias escasas en gran parte del área agrícola durante los próximos días, pero…",
-          "pubDate": "2026-11-07T02:20:14.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizaron este viernes 6 de noviembre",
-          "link": "https://tn.com.ar/economia/2026/11/06/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-viernes-6-de-noviembre/",
-          "summary": "La cotización del dólar minuto a minuto en los bancos, donde desde abril de 2025 se pueden comprar divisas sin límites. También los precios…",
-          "pubDate": "2026-11-07T02:16:33.000Z",
-          "source": "TN"
-        },
-        {
-          "title": "Qué pasó con Ueno Bank y cómo sigue la crisis en Paraguay hoy, viernes 6 de noviembre",
-          "link": "https://www.lanacion.com.ar/economia/que-paso-con-ueno-bank-y-como-sigue-la-crisis-en-paraguay-hoy-viernes-6-de-noviembre-nid06112026/",
-          "summary": "El Congreso paraguayo avanza con el proceso de destitución contra el presidente ante la inminente acefalía del Ejecutivo, mientras la…",
-          "pubDate": "2026-11-07T02:14:29.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Escenario electoral: ¿alcanza con la dolarización?",
-          "link": "https://perfil.com/economia/escenario-electoral-alcanza-con-la-dolarizacion-arUpH4u3zsRY",
-          "summary": "En los últimos meses, la cobertura cambiaria creció en inversores y ahorristas. En un escenario atravesado por la incertidumbre, es una…",
-          "pubDate": "2026-11-07T00:25:05.000Z",
-          "source": "Perfil"
-        },
-        {
-          "title": "Los principales bancos brasileños recortaron sus previsiones de crecimiento para 2027",
-          "link": "https://www.infobae.com/america/america-latina/2026/11/07/los-principales-bancos-brasilenos-recortaron-sus-previsiones-de-crecimiento-para-2027/",
-          "summary": "La rebaja de las proyecciones de crecimiento redujo los ingresos que el Gobierno esperaba recaudar y dejó a Lula con menos recursos para…",
-          "pubDate": "2026-11-07T00:24:29.000Z",
+          "title": "Sturzenegger contó por qué es el “plomero” del gobierno y habló sobre el nivel de riesgo país",
+          "link": "https://www.infobae.com/economia/2026/11/07/sturzenegger-conto-las-regulaciones-paradas-en-la-justicia-y-explico-por-que-es-el-plomero-del-gobierno-la-macro-es-para-vagos-y-milei-habla-como-habla/",
+          "summary": "Mencionó las farmacias, la AFA y la VTV como desregulaciones trabadas, reiteró que el peronismo es el garante del statu-quo, aseguró que si…",
+          "pubDate": "2026-11-07T15:22:19.000Z",
           "source": "Infobae"
         },
         {
-          "title": "Cuidado con el cepo",
-          "link": "https://www.pagina12.com.ar/2026/11/07/cuidado-con-el-cepo/",
-          "summary": "Con Luis Caputo en el manejo de la economía en ambos gobiernos, Macri y Milei abrieron el cepo cambiario para generar confianza y atraer…",
-          "pubDate": "2026-11-07T00:16:13.000Z",
-          "source": "Página/12"
+          "title": "El riesgo país pasó los 900 puntos y las acciones argentinas se hundieron ante un incierto contexto externo",
+          "link": "https://www.infobae.com/economia/2026/11/07/el-riesgo-pais-paso-los-900-puntos-y-las-acciones-argentinas-se-hundieron-ante-un-incierto-contexto-externo/",
+          "summary": "Los bonos en dólares cayeron 5% y el indicador de JP Morgan escaló a 939 puntos básicos, máximo del año. La baja del crudo empujó a…",
+          "pubDate": "2026-11-07T15:20:18.000Z",
+          "source": "Infobae"
         },
         {
-          "title": "Banco de Valores absorberá Portfolio Personal Inversiones",
-          "link": "https://www.lanacion.com.ar/economia/banco-de-valores-absorbera-portfolio-personal-inversiones-nid06112026/",
-          "summary": "Ambas partes sellaron su acuerdo hoy buscando “complementar fuerzas y especialidades”.",
-          "pubDate": "2026-11-07T00:00:30.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Algo de alivio en el mercado",
-          "link": "https://www.pagina12.com.ar/2026/11/06/algo-de-alivio-en-el-mercado/",
-          "summary": "El mercado financiero argentino cerró la semana con un alivio parcial después de varias jornadas de fuertes pérdidas.",
-          "pubDate": "2026-11-06T23:49:23.000Z",
-          "source": "Página/12"
-        },
-        {
-          "title": "El riesgo país subió hasta 939 puntos, el máximo valor en más de un año",
-          "link": "https://tn.com.ar/economia/2026/11/06/el-riesgo-pais-vuelve-a-subir-y-opera-a-936-puntos-el-maximo-valor-en-mas-de-un-ano/",
-          "summary": "El indicador había arrancado el día con tendencia descendente, pero rebotó durante la tarde. Sumó 14 unidades con respecto al cierre previo…",
-          "pubDate": "2026-11-06T22:45:31.000Z",
+          "title": "El crédito en pesos tuvo un leve repunte en octubre, impulsado por los préstamos hipotecarios",
+          "link": "https://tn.com.ar/economia/2026/11/07/el-credito-en-pesos-tuvo-un-leve-repunte-en-octubre-impulsado-por-los-prestamos-hipotecarios/",
+          "summary": "Las alternativas destinadas a la compra de vivienda estuvieron entre las más dinámicas durante el mes pasado. También lograron crecer los…",
+          "pubDate": "2026-11-07T15:13:47.000Z",
           "source": "TN"
         },
         {
-          "title": "FATE: la Justicia laboral dio por saldadas las deudas, pero la causa penal sigue sin resolver la ocupación de la fábrica",
-          "link": "https://www.clarin.com/economia/fate-justicia-laboral-dio-saldadas-deudas-causa-penal-sigue-resolver-ocupacion-fabrica_0_Bkywo0PNdS.html",
-          "summary": "Con el pago de las indemnizaciones y salarios y el levantamiento del embargo, se zanjó la discusión sobre las obligaciones económicas…",
-          "pubDate": "2026-11-06T22:19:48.000Z",
-          "source": "Clarín"
+          "title": "🔴 Dólar oficial hoy y dólar blue: a cuánto cotizan este sábado 7 de noviembre",
+          "link": "https://tn.com.ar/economia/2026/11/07/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-sabado-7-de-noviembre/",
+          "summary": "La cotización del dólar minuto a minuto en los bancos, donde desde abril de 2025 se pueden comprar divisas sin límites. También los precios…",
+          "pubDate": "2026-11-07T15:08:35.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "Ni las ofertas alcanzan: el consumo sigue sin repuntar y los comercios anticipan un fin de año en rojo",
+          "link": "https://www.infobae.com/economia/2026/11/07/ni-las-ofertas-alcanzan-el-consumo-masivo-sigue-sin-repuntar-y-los-comercios-anticipan-un-fin-de-ano-en-rojo/",
+          "summary": "El CyberMonday, uno de los eventos comerciales más importantes del año, dejó resultados por debajo de las expectativas de muchas marcas y…",
+          "pubDate": "2026-11-07T14:38:36.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "La CAME le pidió a Caputo modificar las condiciones del plan de facilidades de pago de ARCA",
+          "link": "https://www.lanacion.com.ar/economia/la-came-le-pidio-a-caputo-modificar-las-condiciones-del-plan-de-facilidades-de-pago-de-arca-nid07112026/",
+          "summary": "La entidad solicitó eliminar el anticipo del 5% y extender hasta 48 las cuotas para regularizar deudas; argumentó una “delicada situación…",
+          "pubDate": "2026-11-07T14:18:16.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Alfredo Di Costanzo, de la Universidad de Minnesota, y una pregunta incómoda en EE.UU.: “¿Quién producirá los terneros en el futuro?\"",
+          "link": "https://www.lanacion.com.ar/economia/campo/alfredo-di-costanzo-de-la-universidad-de-minnesota-y-una-pregunta-incomoda-en-eeuu-quien-producira-nid07112026/",
+          "summary": "Según el especialista, ese país, que consolidó desde la familia criadora de terneros un modelo que abastece principalmente a su mercado…",
+          "pubDate": "2026-11-07T13:12:22.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Radiografía: el avance de la labranza, bajo un análisis crítico de cinco expertos desde Bahía Blanca a Chaco",
+          "link": "https://www.lanacion.com.ar/economia/campo/a-fondo-el-avance-de-la-labranza-bajo-un-analisis-critico-de-cinco-expertos-desde-bahia-blanca-a-nid07112026/",
+          "summary": "Tras un informe que advierte sobre el retroceso de la siembra directa, referentes de Aapresid evaluaron realidades muy distintas en cinco…",
+          "pubDate": "2026-11-07T12:59:24.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Dólar hoy y dólar blue hoy: a cuánto cotiza este sábado 7 de noviembre",
+          "link": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-hoy-a-cuanto-cotiza-este-sabado-7-de-noviembre-nid07112026/",
+          "summary": "La cotización de la moneda estadounidense se mantiene igual que el último día hábil; cómo fue el comportamiento de la divisa informal y los…",
+          "pubDate": "2026-11-07T11:32:30.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Ramona Casas tiene 74 años, fue elegida para hacer quesillos para el papa León XIV y sigue una conmovedora tradición familiar",
+          "link": "https://www.lanacion.com.ar/economia/campo/ramona-casas-tiene-74-anos-fue-elegida-para-hacer-quesillos-para-el-papa-leon-xiv-y-sigue-una-nid07112026/",
+          "summary": "El Sumo Pontífice los probará en su almuerzo en el Episcopado de Córdoba, el próximo martes; llegarán desde Villa del Totoral, un lugar con…",
+          "pubDate": "2026-11-07T10:55:01.000Z",
+          "source": "La Nación"
         }
       ]
     },
@@ -217,73 +217,73 @@
       "label": "Mundo",
       "items": [
         {
-          "title": "Lo barato puede salir caro en Panamá: comprar artículos robados puede llevar a prisión",
-          "link": "https://www.infobae.com/panama/2026/11/07/lo-barato-puede-salir-caro-en-panama-comprar-articulos-robados-puede-llevar-a-prision/",
-          "summary": "La Fiscalía investiga 17 casos de receptación en San Miguelito durante 2026, mientras advierte sobre la comercialización de celulares y…",
-          "pubDate": "2026-11-07T02:17:52.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Construyen el puente para animales más grande del mundo, una obra que busca reconectar hábitats y proteger a pumas aislados",
-          "link": "https://www.lanacion.com.ar/el-mundo/construyen-el-puente-para-animales-mas-grande-del-mundo-una-obra-que-busca-reconectar-habitats-y-nid05112026/",
-          "summary": "California ultima los detalles del Wallis Annenberg Wildlife Crossing en Agoura Hills; la megaestructura vial facilita el tránsito seguro…",
-          "pubDate": "2026-11-07T02:17:28.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Sequía golpea al campo hondureño: más de 148 mil productores reciben asistencia en 17 departamentos",
-          "link": "https://www.infobae.com/honduras/2026/11/07/sequia-golpea-al-campo-hondureno-mas-de-148-mil-productores-reciben-asistencia-en-17-departamentos/",
-          "summary": "Honduras ejecuta proyectos por millones de lempiras para construir reservorios, perforar pozos e instalar sistemas de riego, mientras…",
-          "pubDate": "2026-11-07T02:15:46.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "El Salvador: La Dirección de Migración habilita una plataforma digital para validar permisos de salida de menores",
-          "link": "https://www.infobae.com/el-salvador/2026/11/07/el-salvador-la-direccion-de-migracion-habilita-una-plataforma-digital-para-validar-permisos-de-salida-de-menores/",
-          "summary": "El sistema revisará previamente las autorizaciones de viaje de niños y adolescentes y emitirá un comprobante QR cuando los archivos…",
-          "pubDate": "2026-11-07T02:15:29.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Costa Rica recibe por primera vez un vuelo directo desde Polonia con 251 pasajeros y abre una nueva ruta turística con Europa",
-          "link": "https://www.infobae.com/costa-rica/2026/11/07/costa-rica-recibe-por-primera-vez-un-vuelo-directo-desde-polonia-con-251-pasajeros-y-abre-una-nueva-ruta-turistica-con-europa/",
-          "summary": "La aerolínea LOT Polish Airlines comenzó operaciones entre Katowice y Guanacaste, mediante vuelos chárter semanales que estarán disponibles…",
-          "pubDate": "2026-11-07T02:15:20.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "“La destruiremos”: Bukele reaccionó a una denuncia sobre la vivienda de un presunta banda criminal en Haití",
-          "link": "https://www.infobae.com/el-salvador/2026/11/07/la-destruiremos-bukele-reacciono-a-una-denuncia-sobre-la-vivienda-de-un-presunta-banda-criminal-en-haiti/",
-          "summary": "El presidente de El Salvador pidió la ubicación exacta de una vivienda que una usuaria de X atribuyó a una banda criminal y aseguró que sus…",
-          "pubDate": "2026-11-07T02:13:19.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Crisis en Paraguay, EN VIVO: Santiago Peña fue detenido luego de ser destituido por el Senado",
-          "link": "https://www.lanacion.com.ar/el-mundo/sesion-del-congreso-de-paraguay-por-la-renuncia-del-presidente-santiago-pena-en-vivo-la-defensa-por-nid06112026/",
-          "summary": "El ahora expresidente cumplirá con prisión domiciliaria por orden del Ministerio Público Fiscal; el viernes declarará a las 11",
-          "pubDate": "2026-11-07T02:00:00.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "EN VIVO | El Congreso designó a Antonio Barrios como nuevo vicepresidente",
-          "link": "https://www.infobae.com/america/america-latina/2026/11/06/crisis-politica-en-paraguay-en-vivo/",
-          "summary": "Una sala bicameral del Parlamento paraguayo invistió al dirigente del Partido Colorado",
-          "pubDate": "2026-11-07T01:59:08.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Tras la destitución de Santiago Peña, asumió Pedro Alliana como presidente de Paraguay",
-          "link": "https://tn.com.ar/internacional/2026/11/06/el-congreso-de-paraguay-inicio-el-juicio-politico-al-presidente-santiago-pena-que-fue-convocado-para-defenderse-este-viernes/",
-          "summary": "El Congreso removió al jefe de Estado en un juicio político por mal desempeño de sus funciones en medio de la crisis bancaria desatada por…",
-          "pubDate": "2026-11-07T01:56:24.000Z",
+          "title": "El expresidente uruguayo explicó por qué quiso besarle el anillo al Papa y respondió a las críticas: “Lo hice en calidad de fiel”",
+          "link": "https://tn.com.ar/videos/internacional/2026/11/07/el-expresidente-uruguayo-explico-por-que-quiso-besarle-el-anillo-al-papa-y-respondio-a-las-criticas-lo-hice-en-calidad-de-fiel/",
+          "summary": "El expresidente Luis Lacalle Herrera intentó besarle el anillo al Papa (Video: X @cabezamartini).",
+          "pubDate": "2026-11-07T15:33:45.000Z",
           "source": "TN"
         },
         {
-          "title": "Donald Trump afirmó que Israel y Medio Oriente “no existirían” si no hubiera detenido el avance nuclear de Irán",
-          "link": "https://www.infobae.com/america/mundo/2026/11/07/donald-trump-afirmo-que-israel-y-medio-oriente-no-existirian-si-no-hubiera-detenido-el-avance-nuclear-de-iran/",
-          "summary": "Tras su diálogo con el emir de Qatar, el mandatario estadounidense afirmó que nadie quiere expresar su opinión sobre la guerra con el…",
-          "pubDate": "2026-11-07T01:52:29.000Z",
+          "title": "El expresidente uruguayo explicó por qué quiso besarle el anillo al Papa y respondió a las críticas: “Lo hice en calidad de fiel”",
+          "link": "https://tn.com.ar/internacional/2026/11/07/el-expresidente-uruguayo-explico-por-que-quiso-besarle-el-anillo-al-papa-y-respondio-a-las-criticas-lo-hice-en-calidad-de-fiel/",
+          "summary": "Luis Lacalle Herrera protagonizó una de las escenas más polémicas de la visita del Sumo Pontífice a Montevideo. El exmandatario aseguró que…",
+          "pubDate": "2026-11-07T15:33:43.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "Tras su destitución, Santiago Peña quedó detenido y declara ante la Justicia",
+          "link": "https://www.lanacion.com.ar/el-mundo/santiago-pena-fue-destituido-y-detenido-tras-una-jornada-historica-en-paraguay-nid06112026/",
+          "summary": "El Senado aprobó por unanimidad la salida del mandatario paraguayo en medio de la crisis bancaria y su vicepresidente, Pedro Alliana,…",
+          "pubDate": "2026-11-07T15:32:41.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "EN VIVO | Tras la misa que brindó en Paysandú, el papa León XIV regresa a Montevideo",
+          "link": "https://www.infobae.com/america/america-latina/2026/11/07/papa-leon-xiv-en-uruguay-en-vivo-las-ultimas-noticias-de-su-gira-por-sudamerica-hoy-7-de-noviembre/",
+          "summary": "El pontífice tiene previsto un recorrido por el barrio Borro, un encuentro con representantes del mundo educativo y una vigilia en el…",
+          "pubDate": "2026-11-07T15:30:18.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Crisis en Paraguay EN VIVO | Santiago Peña llegó a la Fiscalía General del Estado para prestar declaración tras ser detenido",
+          "link": "https://www.infobae.com/america/america-latina/2026/11/07/crisis-politica-en-paraguay/",
+          "summary": "El ex mandatario se presenta ante las autoridades luego de haber sido destituido mediante un juicio político por su presunta vinculación…",
+          "pubDate": "2026-11-07T15:26:34.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Estados Unidos cambia las reglas para renovar permisos de trabajo y miles de inmigrantes podrían enfrentar interrupciones laborales",
+          "link": "https://www.infobae.com/estados-unidos/2026/11/07/estados-unidos-cambia-las-reglas-para-renovar-permisos-de-trabajo-y-miles-de-inmigrantes-podrian-enfrentar-interrupciones-laborales/",
+          "summary": "La medida elimina una protección que permitía continuar trabajando mientras el Servicio de Ciudadanía e Inmigración procesa ciertas…",
+          "pubDate": "2026-11-07T15:17:49.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Santiago Peña llegó a la Fiscalía General del Estado para declarar en la causa por la quiebra del Ueno Bank",
+          "link": "https://tn.com.ar/internacional/2026/11/07/tras-su-detencion-santiago-pena-fue-trasladado-a-un-cuartel-militar-y-debera-declarar-este-sabado/",
+          "summary": "Por razones de seguridada declaración del expresidente de la República se trasladó de la fiscalía que estaba prevista. Se mantiene el…",
+          "pubDate": "2026-11-07T15:13:40.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "Ante 40.000 fieles en Paysandú, León XIV instó a construir puentes para evitar la pobreza, enfrentar la corrupción y defender la educación",
+          "link": "https://www.infobae.com/america/2026/11/07/ante-40000-fieles-en-paysandu-leon-xiv-insto-a-construir-puentes-para-evitar-la-pobreza-enfrentar-la-corrupcion-y-defender-la-educacion/",
+          "summary": "Durante su primera misa en América Latina, el Papa reivindicó al mate como símbolo de diálogo social y reclamó que no se abandonen a los…",
+          "pubDate": "2026-11-07T15:04:26.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "La búsqueda en internet que abrió nuevas preguntas en el caso de una universitaria desaparecida en Nicaragua",
+          "link": "https://www.infobae.com/nicaragua/2026/11/07/la-busqueda-en-internet-que-abrio-nuevas-preguntas-en-el-caso-de-una-universitaria-desaparecida-en-nicaragua/",
+          "summary": "La madre de Belén Karina Guerrero Fugón encontró consultas sobre denuncias por amenazas días antes de que la joven saliera de su casa en…",
+          "pubDate": "2026-11-07T14:59:27.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Los espacios de cotrabajo crecen en La Habana ante los apagones y la falta de conexión doméstica",
+          "link": "https://www.infobae.com/cuba/2026/11/07/los-espacios-de-cotrabajo-crecen-en-la-habana-ante-los-apagones-y-la-falta-de-conexion-domestica/",
+          "summary": "Las cafeterías, hoteles privados y emprendimientos ofrecen internet y respaldo energético a profesionales que requieren mantener empleos…",
+          "pubDate": "2026-11-07T14:59:12.000Z",
           "source": "Infobae"
         }
       ]
@@ -293,74 +293,74 @@
       "label": "Sociedad",
       "items": [
         {
-          "title": "Una mujer se cayó en la calle por una baldosa faltante y el Estado deberá pagarle una indemnización millonaria",
-          "link": "https://www.lanacion.com.ar/sociedad/una-mujer-se-cayo-en-la-calle-por-una-baldosa-faltante-y-el-estado-debera-pagarle-una-indemnizacion-nid05112026/",
-          "summary": "La Justicia chaqueña ratificó la condena contra la empresa provincial de energía; el fallo impone un resarcimiento superior a los nueve…",
-          "pubDate": "2026-11-07T02:14:15.000Z",
+          "title": "El viaje del papa León XIV a la Argentina, en vivo: el cronograma completo de las actividades del sumo pontífice en el país",
+          "link": "https://www.infobae.com/sociedad/2026/11/07/el-viaje-del-papa-leon-xiv-a-la-argentina-en-vivo-cuando-llega-actividades-confirmadas-cortes-de-calle-y-ultimas-noticias-hoy-7-de-noviembre/",
+          "summary": "El pontífice transita su segundo día en Uruguay, país al que llegó este viernes. El lunes, ya en Buenos Aires, celebrará una misa masiva en…",
+          "pubDate": "2026-11-07T15:30:10.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Visita del Papa León XIV, EN VIVO: su paso por Uruguay y las últimas noticias de su agenda en Buenos Aires, Córdoba y Luján",
+          "link": "https://www.lanacion.com.ar/sociedad/visita-del-papa-leon-xiv-en-vivo-su-paso-por-uruguay-y-las-ultimas-noticias-de-su-agenda-en-buenos-nid07112026/",
+          "summary": "Para este sábado, el Sumo Pontífice tiene planeado viajar a Paysandú para realizar una misa en el Parque París Londres y luego regresar a…",
+          "pubDate": "2026-11-07T15:17:12.000Z",
           "source": "La Nación"
         },
         {
-          "title": "La historia de Mercedes Fariña, la artista argentina cuya obra llegará a manos de León XIV: “Es un honor poner el arte al servicio de su mensaje de fe”",
-          "link": "https://www.lanacion.com.ar/sociedad/la-historia-de-mercedes-farina-la-artista-argentina-cuya-obra-llegara-a-manos-de-leon-xiv-es-un-nid05112026/",
-          "summary": "En diálogo con LA NACION, repasó su vínculo con Francisco y habló de su nueva serie de trabajos en homenajea al actual Sumo Pontífice; “Es…",
-          "pubDate": "2026-11-07T02:09:54.000Z",
+          "title": "El Papa utilizó al mate como símbolo durante la misa y aseguró: “Hasta llegó a Roma”",
+          "link": "https://tn.com.ar/videos/sociedad/2026/11/07/el-papa-utilizo-al-mate-como-simbolo-durante-la-misa-y-aseguro-hasta-llego-a-roma/",
+          "summary": "El pontífice destacó que compartir la infusión es una forma de fortalecer los vínculos y construir comunidad. (Video: captura de TN)",
+          "pubDate": "2026-11-07T15:06:28.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "El Papa utilizó al mate como símbolo durante la misa y aseguró: “Hasta llegó a Roma”",
+          "link": "https://tn.com.ar/sociedad/2026/11/07/el-papa-utilizo-al-mate-como-simbolo-durante-la-misa-y-aseguro-hasta-llego-a-roma/",
+          "summary": "Durante su misa en Uruguay, el Pontífice destacó el valor de la bebida tradicional como símbolo de amistad, encuentro e identidad cultural.…",
+          "pubDate": "2026-11-07T15:06:26.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "Detuvieron al cantante de Ke Personajes por golpear a un policía que le impidió entrar a un casino en Entre Ríos",
+          "link": "https://www.infobae.com/sociedad/policiales/2026/11/07/detuvieron-al-cantante-de-ke-personajes-por-golpear-a-un-policia-que-le-impidio-entrar-a-un-casino-en-entre-rios/",
+          "summary": "El líder de la banda Ke Personajes quiso ingresar al local, ubicado en la ciudad de Concepción del Uruguay, cuando ya había cerrado sus…",
+          "pubDate": "2026-11-07T15:04:10.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Avisan cambios en Aeroparque por la llegada del papa León XIV: “Coordiná un punto de encuentro afuera”",
+          "link": "https://www.lanacion.com.ar/sociedad/avisan-cambios-en-aeroparque-por-la-llegada-del-papa-leon-xiv-coordina-un-punto-de-encuentro-afuera-nid07112026/",
+          "summary": "Entre el domingo 8 y el miércoles 11 de noviembre, el Pontífice visitará el país y pasará por tres terminales aéreas; todos los detalles de…",
+          "pubDate": "2026-11-07T15:00:00.000Z",
           "source": "La Nación"
         },
         {
-          "title": "Itinerario del papa León XIV en la Argentina: días y horarios de la agenda del Sumo Pontífice",
-          "link": "https://www.lanacion.com.ar/sociedad/itinerario-del-papa-leon-xiv-en-la-argentina-dias-y-horarios-de-la-agenda-del-sumo-pontifice-nid05112026/",
-          "summary": "El Sumo Pontífice visita el país entre el domingo 8 y el miércoles 11 de noviembre; estas son las actividades que llevará adelante durante…",
-          "pubDate": "2026-11-07T02:05:32.000Z",
-          "source": "La Nación"
+          "title": "Se realiza la 35° Marcha del Orgullo: todos los detalles de la movilización que terminará con un show de María Becerra",
+          "link": "https://www.infobae.com/sociedad/2026/11/07/se-realiza-la-35-marcha-del-orgullo-todos-los-detalles-de-la-movilizacion-que-terminara-con-un-show-de-maria-becerra/",
+          "summary": "Comenzó con una feria sobre Cerrito, entre Sarmiento y avenida Belgrano, y la Plaza de los Dos Congresos, en la Ciudad de Buenos Aires. El…",
+          "pubDate": "2026-11-07T14:42:38.000Z",
+          "source": "Infobae"
         },
         {
-          "title": "Edad del papa León XIV: cuántos años tiene el Sumo Pontífice en su visita a la Argentina",
-          "link": "https://www.lanacion.com.ar/sociedad/edad-del-papa-leon-xiv-cuantos-anos-tiene-el-sumo-pontifice-en-su-visita-a-la-argentina-nid05112026/",
-          "summary": "Con 71 años, el papa llega al país este domingo y se quedará hasta el miércoles; estas son las actividades que tiene pautadas",
-          "pubDate": "2026-11-07T02:05:21.000Z",
-          "source": "La Nación"
+          "title": "Un grupo de mujeres creó un emprendimiento de reciclaje: hoy emplea a 14 personas y gestiona 25 toneladas de plástico por mes",
+          "link": "https://tn.com.ar/sociedad/2026/11/07/una-cooperativa-de-mujeres-creo-un-emprendimiento-de-reciclaje-emplea-a-14-personas-y-gestiona-25-toneladas-de-plastico-por-mes/",
+          "summary": "La cooperativa pasó de fabricar mochilas con bolsas de alimento a operar un centro clave para CampoLimpio. Hoy impulsa la concientización…",
+          "pubDate": "2026-11-07T14:42:24.000Z",
+          "source": "TN"
         },
         {
-          "title": "Feriados por la visita del papa León XIV: uno por uno, estos son los días de noviembre afectados",
-          "link": "https://www.lanacion.com.ar/sociedad/feriados-por-la-visita-del-papa-leon-xiv-uno-por-uno-estos-son-los-dias-de-noviembre-afectados-nid05112026/",
-          "summary": "Por las visita del Sumo Pontífice, el Gobierno dispuso tres asuetos en la Argentina; el detalle, a continuación",
-          "pubDate": "2026-11-07T02:05:08.000Z",
-          "source": "La Nación"
+          "title": "León XIV dio su primera misa en Uruguay: mención especial al mate, un signo de unión, familia y amistad",
+          "link": "https://www.clarin.com/sociedad/leon-xiv-dio-primera-misa-uruguay-mencion-especial-mate-signo-union-familia-amistad_0_nBvgWlu3Jw.html",
+          "summary": "El Papa habló este sábado en Paysandú bajo un clima desapacible y poca concurrencia, pese a que hubo una marcada presencia de argentinos…",
+          "pubDate": "2026-11-07T14:35:01.000Z",
+          "source": "Clarín"
         },
         {
-          "title": "Confirmación oficial: el próximo fin de semana es largo con un feriado nacional",
-          "link": "https://www.lanacion.com.ar/sociedad/confirmacion-oficial-el-proximo-fin-de-semana-es-largo-con-un-feriado-nacional-nid04112026/",
-          "summary": "El calendario sufrió una modificación por la llegada del papa León XIV a la Argentina y se agregaron nuevos asuetos",
-          "pubDate": "2026-11-07T02:04:58.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "De dónde es el papa León XIV: la historia del Sumo Pontífice",
-          "link": "https://www.lanacion.com.ar/sociedad/de-donde-es-el-papa-leon-xiv-la-historia-del-sumo-pontifice-nid04112026/",
-          "summary": "El papa tiene un fuerte llega al país este domingo y se quedará hasta el miércoles; estas son las actividades que tiene pautadas",
-          "pubDate": "2026-11-07T02:04:48.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Cuándo viaja el papa León XIV a Córdoba: día y horarios confirmados",
-          "link": "https://www.lanacion.com.ar/sociedad/cuando-viaja-el-papa-leon-xiv-a-cordoba-dia-y-horarios-confirmados-nid04112026/",
-          "summary": "El Sumo Pontífice llegará al país este domingo; su visita contempla la Ciudad de Buenos Aires y la provincia mediterránea; todo lo que hay…",
-          "pubDate": "2026-11-07T02:04:38.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Cuándo viene el papa León XIV a la Argentina: todo lo que hay que saber",
-          "link": "https://www.lanacion.com.ar/sociedad/cuando-viene-el-papa-leon-xiv-a-la-argentina-todo-lo-que-hay-que-saber-nid04112026/",
-          "summary": "Días feriados, recorrido, provincias que visitará y los músicos que lo homenajearán; día a día, su agenda, en forma detallada",
-          "pubDate": "2026-11-07T02:04:28.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Mapa de cortes en CABA por la visita del papa: cómo es el trámite para circular dentro del vallado",
-          "link": "https://www.lanacion.com.ar/sociedad/mapa-de-cortes-en-caba-por-la-visita-del-papa-como-es-el-tramite-para-circular-dentro-del-vallado-nid03112026/",
-          "summary": "El Gobierno de la Ciudad informó que las zonas de Palermo y Recoleta se verán afectadas por la visita del sumo pontífice; descubrí los…",
-          "pubDate": "2026-11-07T02:04:17.000Z",
-          "source": "La Nación"
+          "title": "Marcha del Orgullo 2026: dónde es, a qué hora empieza y cómo es el lineup de los artistas que tocarán",
+          "link": "https://www.infobae.com/sociedad/2026/11/04/marcha-del-orgullo-2026-donde-es-a-que-hora-empieza-y-como-es-el-lineup-de-los-artistas-que-tocaran/",
+          "summary": "La 35ª edición será este sábado 7 de noviembre en Buenos Aires, con feria desde las 10, movilización a las 16 y María Becerra en el cierre…",
+          "pubDate": "2026-11-07T14:28:23.000Z",
+          "source": "Infobae"
         }
       ]
     },
@@ -369,74 +369,74 @@
       "label": "Deportes",
       "items": [
         {
-          "title": "Sarmiento visita a Tigre en un duelo clave para asegurar la clasificacion a los octavos del Torneo Clausura",
-          "link": "https://www.infobae.com/deportes/2026/11/06/sarmiento-visita-a-tigre-en-un-duelo-clave-para-asegurar-la-clasificacion-a-los-octavos-del-torneo-clausura-hora-tv-y-formaciones/",
-          "summary": "El Kiwi se mide al Matador en Victoria y, en simultáneo, Banfield choca con Atlético Tucumán en Buenos Aires",
-          "pubDate": "2026-11-07T02:43:12.000Z",
+          "title": "Antes de la clasificación, Franco Colapinto quedó 14° en la última práctica en el Gran Premio de Brasil de Fórmula 1",
+          "link": "https://www.infobae.com/deportes/2026/11/07/antes-de-la-clasificacion-franco-colapinto-afrontara-la-ultima-practica-en-el-gran-premio-de-brasil-de-formula-1-hora-y-todo-lo-que-hay-que-saber/",
+          "summary": "Luego de un primer día positivo, el argentino debe enfocarse en la qualy que se realizará en Interlagos",
+          "pubDate": "2026-11-07T15:34:35.000Z",
           "source": "Infobae"
         },
         {
-          "title": "En vivo - Tigre vs. Sarmiento: 1 - 0, por la fase de grupos de la Liga Profesional",
-          "link": "https://tn.com.ar/deportes/futbol/2026/11/06/tigre-vs-sarmiento-en-vivo-por-la-fase-de-grupos-de-la-liga-profesional-hora-donde-ver-y-formaciones/",
-          "summary": "Tigre enfrenta a Sarmiento desde las 22:00 horas. Seguilo minuto a minuto por la web de TN.",
-          "pubDate": "2026-11-07T02:36:29.000Z",
+          "title": "En vivo - Arsenal vs. Hull City: 0 - 0, por la fecha 10 de la Premier League",
+          "link": "https://tn.com.ar/deportes/futbol/2026/11/07/arsenal-vs-hull-city-en-vivo-por-la-fecha-10-de-la-premier-league-hora-donde-ver-y-formaciones/",
+          "summary": "Arsenal enfrenta a Hull City desde las 12:00 horas. Seguilo minuto a minuto por la web de TN.",
+          "pubDate": "2026-11-07T15:34:29.000Z",
           "source": "TN"
         },
         {
-          "title": "En vivo - Banfield vs. Atlético Tucumán: 1 - 2, por la fase de grupos de la Liga Profesional",
-          "link": "https://tn.com.ar/deportes/futbol/2026/11/06/banfield-vs-atletico-tucuman-en-vivo-por-la-fase-de-grupos-de-la-liga-profesional-hora-donde-ver-y-formaciones/",
-          "summary": "Banfield enfrenta a Atlético Tucumán desde las 22:00 horas. Seguilo minuto a minuto por la web de TN.",
-          "pubDate": "2026-11-07T02:34:29.000Z",
+          "title": "En vivo - Torino vs. Lecce: 0 - 0, por la fecha 11 de la Serie A de Italia",
+          "link": "https://tn.com.ar/deportes/futbol/2026/11/07/torino-vs-lecce-en-vivo-por-la-fecha-11-de-la-serie-a-de-italia-hora-donde-ver-y-formaciones/",
+          "summary": "Torino enfrenta a Lecce desde las 11:00 horas. Seguilo minuto a minuto por la web de TN.",
+          "pubDate": "2026-11-07T15:34:29.000Z",
           "source": "TN"
         },
         {
-          "title": "Miguel Merentiel hizo emocionar a Leandro Paredes con un sentido elogio: “Nos guía todos los días”",
-          "link": "https://tn.com.ar/deportes/futbol/2026/11/06/miguel-merentiel-hizo-emocionar-a-leandro-paredes-con-un-sentido-elogio-nos-guia-todos-los-dias/",
-          "summary": "El delantero destacó la importancia del campeón del mundo para el plantel. “Siempre tiene una palabra más para nosotros”, indicó.",
-          "pubDate": "2026-11-07T02:17:47.000Z",
+          "title": "En vivo - Cagliari vs. Frosinone: 1 - 0, por la fecha 11 de la Serie A de Italia",
+          "link": "https://tn.com.ar/deportes/futbol/2026/11/07/cagliari-vs-frosinone-en-vivo-por-la-fecha-11-de-la-serie-a-de-italia-hora-donde-ver-y-formaciones/",
+          "summary": "Cagliari enfrenta a Frosinone desde las 11:00 horas. Seguilo minuto a minuto por la web de TN.",
+          "pubDate": "2026-11-07T15:34:28.000Z",
           "source": "TN"
         },
         {
-          "title": "Se definen los playoffs del Clausura: clasificados, eliminados y cómo están los cruces de octavos",
-          "link": "https://perfil.com/deportes/torneo-clausura-2026-clasificados-eliminados-y-cruces-de-playoffs-adsjA6u9Dn13",
-          "summary": "Con el pasaje agónico de Independiente y el adiós definitivo de San Lorenzo y Racing, el certamen entra en su etapa decisiva. A falta de…",
-          "pubDate": "2026-11-07T02:09:59.000Z",
-          "source": "Perfil"
+          "title": "En vivo - Espanyol vs. Deportivo: 0 - 0, por la fecha 12 de La Liga de España",
+          "link": "https://tn.com.ar/deportes/futbol/2026/11/07/espanyol-vs-deportivo-en-vivo-por-la-fecha-12-de-la-liga-de-espana-hora-donde-ver-y-formaciones/",
+          "summary": "Espanyol enfrenta a Deportivo desde las 12:15 horas. Seguilo minuto a minuto por la web de TN.",
+          "pubDate": "2026-11-07T15:33:28.000Z",
+          "source": "TN"
         },
         {
-          "title": "San Lorenzo fue la marcha de la bronca: reproches contra todos y una derrota que confirmó un pésimo 2026",
-          "link": "https://www.lanacion.com.ar/deportes/futbol/san-lorenzo-fue-la-marcha-de-la-bronca-reproches-contra-todos-y-una-derrota-que-confirmo-un-pesimo-nid06112026/",
-          "summary": "El Ciclón perdió con Platense y se quedó fuera del tramo decisivo del Clausura, un reflejo de una temporada marcada por las frustraciones",
-          "pubDate": "2026-11-07T02:01:17.000Z",
-          "source": "La Nación"
+          "title": "Franco Colapinto terminó 14° en la última práctica antes de la clasificación del GP de Brasil",
+          "link": "https://tn.com.ar/deportes/formula-1/2026/11/07/franco-colapinto-sale-a-pista-para-disputar-la-ultima-practica-y-la-clasificacion-del-gp-de-brasil-de-la-formula-1/",
+          "summary": "Luego de participar de las primeras sesiones de entrenamiento en Interlagos, el piloto de Alpine busca mejorar su rendimiento para la qualy…",
+          "pubDate": "2026-11-07T15:33:23.000Z",
+          "source": "TN"
         },
         {
-          "title": "La autocrítica de Pablo Matera tras la derrota de Los Pumas: \"Todos los que jugamos, fallamos y cada error explica los 30 puntos de Irlanda\"",
-          "link": "https://www.clarin.com/deportes/autocritica-pablo-matera-derrota-pumas-jugamos-fallamos-error-explica-30-puntos-irlanda_0_aQYevv9GA3.html",
-          "summary": "El tercera línea habló en conferencia de prensa junto a Felipe Contepomi. El entrenador también ofreció una mirada sin eufemismos del…",
-          "pubDate": "2026-11-07T01:56:18.000Z",
-          "source": "Clarín"
+          "title": "En vivo - Fulham vs. Newcastle: 0 - 0, por la fecha 10 de la Premier League",
+          "link": "https://tn.com.ar/deportes/futbol/2026/11/07/fulham-vs-newcastle-en-vivo-por-la-fecha-10-de-la-premier-league-hora-donde-ver-y-formaciones/",
+          "summary": "Fulham enfrenta a Newcastle desde las 12:00 horas. Seguilo minuto a minuto por la web de TN.",
+          "pubDate": "2026-11-07T15:31:29.000Z",
+          "source": "TN"
         },
         {
-          "title": "Calculadora en mano, radios en simultáneo y tres frentes abiertos: Boca, Argentinos y Rosario Central definen al Campeón de Liga",
-          "link": "https://perfil.com/deportes/boca-argentinos-juniors-y-rosario-central-definen-al-campeon-de-liga-aVdCa2g7N1Pp",
-          "summary": "Noventa minutos para coronar al mejor equipo de la temporada. Boca en La Bombonera, Argentinos en La Paternal y Rosario Central en Arroyito…",
-          "pubDate": "2026-11-07T01:56:08.000Z",
-          "source": "Perfil"
+          "title": "Osasuna vs Athletic en vivo por la fecha 12 de La Liga de España: hora, dónde ver y formaciones",
+          "link": "https://tn.com.ar/deportes/futbol/2026/11/07/osasuna-vs-athletic-en-vivo-por-la-fecha-12-de-la-liga-de-espana-hora-donde-ver-y-formaciones/",
+          "summary": "Osasuna enfrenta a Athletic desde las 14:30 horas del sábado 7 de noviembre. Podés seguirlo minuto a minuto por la web de TN.",
+          "pubDate": "2026-11-07T15:30:28.000Z",
+          "source": "TN"
         },
         {
-          "title": "El mensaje de Miguel Merentiel que hizo emocionar a Leandro Paredes en medio de las finales que afrontará Boca Juniors",
-          "link": "https://www.infobae.com/deportes/2026/11/07/el-mensaje-de-miguel-merentiel-que-hizo-emocionar-a-leandro-paredes-en-medio-de-las-finales-que-afrontara-boca-juniors/",
-          "summary": "El delantero uruguayo le manifestó su cariño y agradecimiento al capitán durante un video difundido por la Copa Sudamericana",
-          "pubDate": "2026-11-07T01:55:29.000Z",
-          "source": "Infobae"
+          "title": "Stuttgart vs Werder Bremen en vivo por la fecha 9 de la Bundesliga de Alemania: hora, dónde ver y formaciones",
+          "link": "https://tn.com.ar/deportes/futbol/2026/11/07/stuttgart-vs-werder-bremen-en-vivo-por-la-fecha-9-de-la-bundesliga-de-alemania-hora-donde-ver-y-formaciones/",
+          "summary": "Stuttgart enfrenta a Werder Bremen desde las 14:30 horas del sábado 7 de noviembre. Podés seguirlo minuto a minuto por la web de TN.",
+          "pubDate": "2026-11-07T15:30:28.000Z",
+          "source": "TN"
         },
         {
-          "title": "En una dramática definición, Independiente le ganó a Riestra y se clasificó a los playoffs del Torneo Clausura, mientras que San Lorenzo quedó eliminado",
-          "link": "https://www.infobae.com/deportes/2026/11/06/independiente-san-lorenzo-platense-y-union-buscan-su-lugar-en-los-playoffs-del-torneo-clausura-todo-lo-que-hay-que-saber/",
-          "summary": "El Rojo hizo los deberes y se metió entre los 16 mejores tras imponerse 2-1 al Malevo. En simultáneo, el Ciclón cayó 2-0 contra Platense y…",
-          "pubDate": "2026-11-07T01:47:25.000Z",
-          "source": "Infobae"
+          "title": "En vivo - Borussia Dortmund vs. Elversberg: 0 - 0, por la fecha 9 de la Bundesliga de Alemania",
+          "link": "https://tn.com.ar/deportes/futbol/2026/11/07/borussia-dortmund-vs-elversberg-en-vivo-por-la-fecha-9-de-la-bundesliga-de-alemania-hora-donde-ver-y-formaciones/",
+          "summary": "Borussia Dortmund enfrenta a Elversberg desde las 11:30 horas. Seguilo minuto a minuto por la web de TN.",
+          "pubDate": "2026-11-07T15:30:28.000Z",
+          "source": "TN"
         }
       ]
     },
@@ -445,74 +445,74 @@
       "label": "Espectáculos",
       "items": [
         {
-          "title": "La imagen de Wanda Nara en una ambulancia tras declarar contra Mauro Icardi en la comisaría",
-          "link": "https://www.infobae.com/teleshow/2026/11/07/la-imagen-de-wanda-nara-en-una-ambulancia-tras-declarar-contra-mauro-icardi-en-la-comisaria/",
-          "summary": "El episodio ocurrió en el barrio privado La Isla de Nordelta, donde se desató un nuevo escándalo entre la expareja. Qué dice el parte…",
-          "pubDate": "2026-11-07T02:36:50.000Z",
+          "title": "Revelaron nuevos y escalofriantes detalles de la muerte de RJ Mitte, actor de Breaking Bad",
+          "link": "https://www.lanacion.com.ar/espectaculos/revelaron-nuevos-y-escalofriantes-detalles-de-la-muerte-de-rj-mitte-actor-de-breaking-bad-nid07112026/",
+          "summary": "El intérprete falleció el 12 de octubre a los 34 años; en las últimas horas, un informe policial difundido reveló importantes datos sobre…",
+          "pubDate": "2026-11-07T15:33:11.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Flor Peña festejó sus 52 años con fotos al natural y una profunda reflexión: “Mi vida es una constante búsqueda”",
+          "link": "https://www.infobae.com/teleshow/2026/11/07/flor-pena-festejo-sus-52-anos-con-fotos-al-natural-y-una-profunda-reflexion-mi-vida-es-una-constante-busqueda/",
+          "summary": "La actriz compartió imágenes sin filtros en sus redes y acompañó el posteo con un texto sobre autoconocimiento, el amor y su camino interior",
+          "pubDate": "2026-11-07T15:32:07.000Z",
           "source": "Infobae"
         },
         {
-          "title": "Así hablaba Mauro Icardi con los policías en Nordelta después de la denuncia de Wanda Nara: el video",
-          "link": "https://tn.com.ar/show/famosos/2026/11/06/asi-hablaba-mauro-icardi-con-los-policias-en-nordelta-despues-de-la-denuncia-de-wanda-nara-el-video/",
-          "summary": "El futbolista fue captado por las cámaras a metros de su casa. La conductora llegó al lugar con una ambulancia.",
-          "pubDate": "2026-11-07T02:26:54.000Z",
+          "title": "Brad Pitt compró una finca de 500 hectáreas por 60 millones de dólares y la transformó en una reserva agrícola vitivinícola libre de químicos",
+          "link": "https://www.lanacion.com.ar/espectaculos/brad-pitt-compro-una-finca-de-500-hectareas-por-60-millones-de-dolares-y-la-transformo-en-una-nid02112026/",
+          "summary": "El actor convirtió Château Miraval en un tanque de la industria del vino bajo un modelo ecológico estricto que elimina el uso de…",
+          "pubDate": "2026-11-07T15:11:48.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Detuvieron a Emanuel Noir de “Ke Personajes” en Concepción del Uruguay",
+          "link": "https://tn.com.ar/show/famosos/2026/11/07/detuvieron-a-emanuel-noir-de-ke-personajes-en-concepcion-del-uruguay/",
+          "summary": "El artista habría protagonizado un violento episodio en un casino.",
+          "pubDate": "2026-11-07T15:10:09.000Z",
           "source": "TN"
         },
         {
-          "title": "Jennifer Aniston: “En el desayuno tomo agua a temperatura ambiente y el jugo de un limón entero exprimido”",
-          "link": "https://www.lanacion.com.ar/espectaculos/jennifer-aniston-en-el-desayuno-tomo-agua-a-temperatura-ambiente-y-el-jugo-de-un-limon-entero-nid05112026/",
-          "summary": "La intérprete de Rachel Green en Friends sostiene una rutina de bienestar basada en calostro, una fruta cítrica, entrenamiento funcional y…",
-          "pubDate": "2026-11-07T02:16:48.000Z",
+          "title": "Stephanie Demner enterneció a todos al mostrar el primer outfit compartido entre sus hijas, Arianna y Jazmín",
+          "link": "https://www.lanacion.com.ar/espectaculos/stephanie-demner-enternecio-a-todos-al-mostrar-el-primer-outfit-compartido-entre-sus-hijas-arianna-y-nid07112026/",
+          "summary": "La influencer compartió las postales del dulce momento que protagonizaron en casa Arianne, su primogénita de cuatro años, y Jazmín, su bebé…",
+          "pubDate": "2026-11-07T14:52:53.000Z",
           "source": "La Nación"
         },
         {
-          "title": "A Evangelina Anderson le preguntaron quién fue el hombre que más amó en su vida y su respuesta fue contundente",
-          "link": "https://www.lanacion.com.ar/espectaculos/a-evangelina-anderson-le-preguntaron-quien-fue-el-hombre-que-mas-amo-en-su-vida-y-su-respuesta-fue-nid03112026/",
-          "summary": "La modelo decidió interactuar con sus seguidores de Instagram, quienes quisieron indagar en su vida sentimental, y ella, fiel a su estilo,…",
-          "pubDate": "2026-11-07T02:15:05.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Mía Piñeiro de Chapeaux: quién es su abuelo músico y cuál es su vínculo con Astor Piazzolla",
-          "link": "https://perfil.com/entretenimiento/mia-pineiro-de-chapeaux-quien-es-su-abuelo-musico-y-cual-es-su-vinculo-con-astor-piazzolla-atGZZ9V19Utl",
-          "summary": "La integrante de Chapeaux, de 18 años, pertenece a una familia ligada a la música. Leer más",
-          "pubDate": "2026-11-07T02:12:16.000Z",
+          "title": "Quiénes serán los invitados de \"PH, Podemos Hablar\" con Andy Kusnetzoff para el sábado 7 de noviembre: importantes figuras",
+          "link": "https://perfil.com/entretenimiento/quienes-seran-los-invitados-de-ph-podemos-hablar-con-andy-kusnetzoff-para-el-sabado-7-de-noviembre-aSfS69j0Cd6f",
+          "summary": "El conductor se prepara para una noche llena de debates y entrevistas. Leer más",
+          "pubDate": "2026-11-07T14:42:54.000Z",
           "source": "Perfil"
         },
         {
-          "title": "Pampita contó que va a acampar para la misa del papa León XIV en Palermo: “Ya tengo la bolsa de dormir”",
-          "link": "https://www.lanacion.com.ar/espectaculos/pampita-conto-que-va-a-acampar-para-la-misa-del-papa-leon-xiv-en-palermo-ya-tengo-la-bolsa-de-dormir-nid06112026/",
-          "summary": "La modelo reveló que esperará por más de 12 horas para ver al Sumo Pontífice en el Monumento de los Españoles",
-          "pubDate": "2026-11-07T02:12:14.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Mario Pergolini contó lo que no se vio de la entrevista a Ronnie Wood: de su charla a solas a lo que eliminaron en la edición",
-          "link": "https://www.lanacion.com.ar/espectaculos/mario-pergolini-conto-lo-que-no-se-vio-de-su-entrevista-a-ronnie-wood-de-su-charla-a-solas-a-lo-que-nid06112026/",
-          "summary": "El conductor dio detalles de cómo fue la grabación de Otro día perdido (eltrece) con el guitarrista de The Rolling Stones; “Es muy…",
-          "pubDate": "2026-11-07T02:12:00.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Rusherking se sinceró sobre el mal momento que atravesó mientras salía con la China Suárez: “¿Por qué nadie me cuidó?\"",
-          "link": "https://www.lanacion.com.ar/espectaculos/rusherking-se-sincero-sobre-el-mal-momento-que-atraveso-mientras-salia-con-la-china-suarez-por-que-nid06112026/",
-          "summary": "El cantante estuvo en Otro día perdido (eltrece), habló de su mediática relación con la actriz y recordó su frase viral: “Me fui mundial”",
-          "pubDate": "2026-11-07T02:11:45.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "De Abel Pintos a Pampita: así se preparan los famosos para participar de la visita de León XIV a la Argentina",
-          "link": "https://www.lanacion.com.ar/espectaculos/de-pampita-a-abel-pintos-asi-se-preparan-los-famosos-para-participar-de-las-misas-de-leon-xiv-en-la-nid06112026/",
-          "summary": "El Sumo Pontífice llega al país el domingo 8 de noviembre y varias personalidades del espectáculo lo acompañarán, de distintas maneras,…",
-          "pubDate": "2026-11-07T02:11:17.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Amigos y colegas despiden con dolor a Daniel Bifulco: el velatorio del querido humorista de Los Jaimitos",
-          "link": "https://www.infobae.com/teleshow/2026/11/06/amigos-y-colegas-despiden-con-dolor-a-daniel-bifulco-el-velatorio-del-querido-humorista-de-los-jaimitos/",
-          "summary": "Rodrigo Vagoneta, Mariano Iudica y otros referentes del espectáculo se acercaron esta noche a la avenida La Pampa 5561 para dar el último…",
-          "pubDate": "2026-11-07T01:50:23.000Z",
+          "title": "El Pollo Vignolo recreó con Mario Pergolini el mito viral sobre su físico: “Decían que me faltaban tres dedos”",
+          "link": "https://www.infobae.com/teleshow/2026/11/07/el-pollo-vignolo-recreo-con-mario-pergolini-el-mito-viral-sobre-su-fisico-decian-que-me-faltaban-tres-dedos/",
+          "summary": "El relator de ESPN visitó Otro día perdido y recapituló con el conductor una increíble teoría que circuló en las redes sociales",
+          "pubDate": "2026-11-07T14:42:33.000Z",
           "source": "Infobae"
+        },
+        {
+          "title": "La Justicia ordenó rematar el departamento de Mariana Nannis: qué pasó",
+          "link": "https://perfil.com/entretenimiento/la-justicia-ordeno-rematar-el-departamento-de-mariana-nannis-que-paso-aPEym5f8heMp",
+          "summary": "La exesposa de Claudio Paul Caniggia quedó involucrada en otro conflicto familiar y se dieron a conocer los detalles. Leer más",
+          "pubDate": "2026-11-07T14:41:36.000Z",
+          "source": "Perfil"
+        },
+        {
+          "title": "Rating: cuánto midió la eliminación de Alma de MasterChef Junior en Telefe",
+          "link": "https://perfil.com/entretenimiento/rating-cuanto-midio-la-eliminacion-de-alma-de-masterchef-junior-en-telefe-aHF921K9YWMV",
+          "summary": "Todos los números de los programas emitidos el viernes 6 de noviembre en Telefe, El Trece, América TV, El Nueve y Canal Siete. Leer más",
+          "pubDate": "2026-11-07T14:39:37.000Z",
+          "source": "Perfil"
+        },
+        {
+          "title": "Murió Sergio \"El Gallego\" Ramírez, el histórico director y productor de televisión que ganó doce Premios Martín Fierro",
+          "link": "https://perfil.com/entretenimiento/murio-sergio-el-gallego-ramirez-el-historico-director-y-productor-de-television-que-gano-doce-premios-martin-fierro-ab9ht2Z1TIP6",
+          "summary": "Se dio a conocer el fallecimiento del histórico director y productor que tuvo una larga trayectoria en la televisión. Leer más",
+          "pubDate": "2026-11-07T14:35:03.000Z",
+          "source": "Perfil"
         }
       ]
     },
@@ -521,74 +521,74 @@
       "label": "Opinión",
       "items": [
         {
-          "title": "Se va Trump, llega el Papa: ¿un nuevo Javi?",
-          "link": "https://www.lanacion.com.ar/opinion/se-va-trump-llega-el-papa-un-nuevo-javi-nid06112026/",
-          "summary": "",
-          "pubDate": "2026-11-06T21:11:22.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Julio Llamazares: “No parece que esté cerca de la reconciliación auténtica en España”",
-          "link": "https://www.clarin.com/opinion/julio-llamazares-parece-cerca-reconciliacion-autentica-espana_0_TCxljFJmhM.html",
-          "summary": "A los españoles les pasa lo mismo que a los europeos: \"hemos perdido la memoria de dónde venimos. Y eso siempre es un peligro\", dice el…",
-          "pubDate": "2026-11-06T19:34:03.000Z",
+          "title": "Las \"casas museo\"",
+          "link": "https://www.clarin.com/opinion/casas-museo_0_i6Q2N1Ko2l.html",
+          "summary": "Necesitamos revalorar tradiciones, recordar figuras y establecer conexiones con artistas, intelectuales y ciudadanos que nos ayuden a saber…",
+          "pubDate": "2026-11-07T14:39:41.000Z",
           "source": "Clarín"
         },
         {
-          "title": "De Clinton a Trump, el imán del centro hacia 2028",
-          "link": "https://www.infobae.com/opinion/2026/11/06/de-clinton-a-trump-el-iman-del-centro-hacia-2028/",
-          "summary": "Las derrotas demócrata de 1994 y republicana de 2026 muestran el costo electoral de alejarse del centro y reabren el debate sobre el futuro…",
-          "pubDate": "2026-11-06T17:28:19.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Deepfakes: el fallo que protege la imagen y la reputación frente a los videos falsos creados por inteligencia artificial",
-          "link": "https://www.infobae.com/opinion/2026/11/06/deepfakes-el-fallo-que-protege-la-imagen-y-la-reputacion-frente-a-los-videos-falsos-creados-por-inteligencia-artificial/",
-          "summary": "Un fallo de Bombay anticipa cómo proteger la reputación frente a los deepfakes. Las medidas cautelares, la prueba y los límites del derecho…",
-          "pubDate": "2026-11-06T17:23:35.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "¿Qué pasa si un paciente nace sin uno o más dientes?",
-          "link": "https://www.infobae.com/salud/ciencia/2026/11/06/que-pasa-si-un-paciente-nace-sin-uno-o-mas-dientes/",
-          "summary": "La condición ocurre cuando una pieza nunca llega a formarse, a diferencia de las pérdidas por caries o traumatismos, y puede identificarse…",
-          "pubDate": "2026-11-06T14:15:59.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Si la IA responde, ¿qué debe seguir haciendo la escuela?",
-          "link": "https://www.infobae.com/educacion/2026/11/06/si-la-ia-responde-que-debe-seguir-haciendo-la-escuela/",
-          "summary": "El avance de estas herramientas desplaza el foco desde memorizar contenidos hacia el razonamiento, la formulación de preguntas y la…",
-          "pubDate": "2026-11-06T13:55:52.000Z",
+          "title": "Ordenando el desastre",
+          "link": "https://www.infobae.com/peru/2026/11/07/ordenando-el-desastre/",
+          "summary": "El ministro de Trabajo reflexiona sobre los cien primeros días de gobierno y vincula el deterioro nacional desde 2011 con la irrupción de…",
+          "pubDate": "2026-11-07T14:17:46.000Z",
           "source": "Infobae"
         },
         {
           "title": "Infancias del presente: lo que Poznán y Sao Paulo exigen a las políticas públicas",
           "link": "https://www.infobae.com/educacion/2026/11/06/infancias-del-presente-lo-que-poznan-y-sao-paulo-exigen-a-las-politicas-publicas/",
           "summary": "Las declaraciones de OMEP y CLADE plantean que la enseñanza inicial requiere inversión estatal, participación infantil, protección frente a…",
-          "pubDate": "2026-11-06T13:48:22.000Z",
+          "pubDate": "2026-11-07T13:48:12.000Z",
           "source": "Infobae"
         },
         {
-          "title": "El triunfo de la diversidad",
-          "link": "https://www.infobae.com/opinion/2026/11/06/el-triunfo-de-la-diversidad/",
-          "summary": "Diego Guelar analiza el resultado electoral en Estados Unidos, el reordenamiento de demócratas y republicanos y los desafíos que el nuevo…",
-          "pubDate": "2026-11-06T13:45:22.000Z",
+          "title": "El Katechon, los Papas y la Argentina",
+          "link": "https://perfil.com/opinion/el-katechon-los-papas-y-la-argentina-a9B3X6r2VvJ0",
+          "summary": "En la filosofía y la teología existe un concepto tan profundo como llamativo: el katechon. Es la fuerza que frena lo inevitable, un…",
+          "pubDate": "2026-11-07T13:43:49.000Z",
+          "source": "Perfil"
+        },
+        {
+          "title": "Rojos",
+          "link": "https://www.pagina12.com.ar/2026/11/07/rojos/",
+          "summary": "Querido lector, mientras usted lee esta columna, el mundo sigue andando y, digámoslo, el tiempo pasa más rápido, y además las redes y los…",
+          "pubDate": "2026-11-07T12:35:06.000Z",
+          "source": "Página/12"
+        },
+        {
+          "title": "El éxtasis de la caja fuerte",
+          "link": "https://www.clarin.com/opinion/extasis-caja-fuerte_0_Mdnydt0M64.html",
+          "summary": "",
+          "pubDate": "2026-11-07T09:03:08.000Z",
+          "source": "Clarín"
+        },
+        {
+          "title": "La desaceleración industrial y los límites del auge de la inteligencia artificial en Asia",
+          "link": "https://tn.com.ar/opinion/2026/11/07/la-desaceleracion-industrial-y-los-limites-del-auge-de-la-inteligencia-artificial-en-asia/",
+          "summary": "Columnista invitado (*) | Entre las causas se encuentran el encarecimiento de la energía, asociado con el conflicto en Medio Oriente, y las…",
+          "pubDate": "2026-11-07T08:57:00.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "Argentina e India: de un vínculo económico periférico a uno estratégico",
+          "link": "https://www.infobae.com/opinion/2026/11/07/argentina-e-india-de-un-vinculo-economico-periferico-a-uno-estrategico/",
+          "summary": "El crecimiento exponencial de la India es fruto de su sólida estrategia de desarrollo y abre oportunidades únicas de negocios para ambos…",
+          "pubDate": "2026-11-07T08:09:02.000Z",
           "source": "Infobae"
         },
         {
-          "title": "El siglo de Halperin Donghi",
-          "link": "https://www.clarin.com/opinion/siglo-halperin-donghi_0_QA7lfvsjYm.html",
-          "summary": "La complejidad del pasado como clave para interrogar las incertidumbres del presente, en una obra colectiva que conmemora el centenario del…",
-          "pubDate": "2026-11-06T12:55:58.000Z",
-          "source": "Clarín"
+          "title": "Papa León XIV: oportunidad de una nueva interreligiosidad",
+          "link": "https://www.infobae.com/opinion/2026/11/07/papa-leon-xiv-oportunidad-de-una-nueva-interreligiosidad/",
+          "summary": "La cooperación religiosa necesita dejar atrás las declaraciones protocolares para intervenir con rigor ante dilemas sociales, sanitarios y…",
+          "pubDate": "2026-11-07T08:08:32.000Z",
+          "source": "Infobae"
         },
         {
-          "title": "Parece que en EE.UU. ahora se evoca con nostalgia al mundo globalizado",
-          "link": "https://www.clarin.com/opinion/parece-eeuu-ahora-evoca-nostalgia-mundo-globalizado_0_iO0VpQafjM.html",
-          "summary": "Los resultados de la elección de medio término reflejan el escaso margen de maniobra que le queda a Donald Trump para continuar su ensayo…",
-          "pubDate": "2026-11-06T12:54:25.000Z",
-          "source": "Clarín"
+          "title": "La visita de León XIV y la oportunidad de volver a encontrarnos",
+          "link": "https://www.infobae.com/opinion/2026/11/07/la-visita-de-leon-xiv-y-la-oportunidad-de-volver-a-encontrarnos/",
+          "summary": "El arribo del Santo Padre plantea un desafío colectivo: que el diálogo y la buena convivencia continúen una vez que se suba nuevamente al…",
+          "pubDate": "2026-11-07T08:08:14.000Z",
+          "source": "Infobae"
         }
       ]
     }
