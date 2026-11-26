@@ -1,30 +1,22 @@
 {
-  "generatedAt": "2026-11-26T02:47:57.685Z",
+  "generatedAt": "2026-11-26T18:58:11.711Z",
   "weather": {
-    "obtenidoEn": "2026-11-26T02:47:56.292Z",
+    "obtenidoEn": "2026-11-26T18:58:08.936Z",
     "current": {
-      "temp": 20,
+      "temp": 25,
       "precipitation": 0,
-      "label": "Despejado",
-      "emoji": "☀️"
+      "label": "Mayormente despejado",
+      "emoji": "🌤️"
     },
     "today": {
-      "date": "2026-11-25",
-      "max": 30,
-      "min": 18,
+      "date": "2026-11-26",
+      "max": 25,
+      "min": 15,
       "precipProb": 0,
-      "label": "Despejado",
-      "emoji": "☀️"
+      "label": "Parcialmente nublado",
+      "emoji": "⛅"
     },
     "nextDays": [
-      {
-        "date": "2026-11-26",
-        "max": 25,
-        "min": 15,
-        "precipProb": 0,
-        "label": "Nublado",
-        "emoji": "☁️"
-      },
       {
         "date": "2026-11-27",
         "max": 29,
@@ -35,8 +27,8 @@
       },
       {
         "date": "2026-11-28",
-        "max": 31,
-        "min": 22,
+        "max": 32,
+        "min": 21,
         "precipProb": 2,
         "label": "Nublado",
         "emoji": "☁️"
@@ -46,16 +38,24 @@
         "max": 32,
         "min": 23,
         "precipProb": 0,
-        "label": "Despejado",
-        "emoji": "☀️"
+        "label": "Mayormente despejado",
+        "emoji": "🌤️"
       },
       {
         "date": "2026-11-30",
         "max": 30,
         "min": 23,
         "precipProb": 0,
-        "label": "Parcialmente nublado",
-        "emoji": "⛅"
+        "label": "Nublado",
+        "emoji": "☁️"
+      },
+      {
+        "date": "2026-12-01",
+        "max": 33,
+        "min": 22,
+        "precipProb": 55,
+        "label": "Chubascos",
+        "emoji": "🌧️"
       }
     ]
   },
@@ -65,74 +65,74 @@
       "label": "Política",
       "items": [
         {
-          "title": "Javier Milei y sus medidas, en vivo: “Mientras el Presidente quiera, hay Caputo para rato”, dijo el ministro de Economía",
-          "link": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-la-economia-crecio-11-en-septiembre-y-avanzan-las-charlas-por-la-nid25112026/",
-          "summary": "El minuto a minuto de las decisiones del jefe de Estado, las reacciones de la oposición y las declaraciones de los funcionarios",
-          "pubDate": "2026-11-26T02:28:27.000Z",
+          "title": "Sesión en el Congreso por Reforma Electoral y Presupuesto, EN VIVO: suspensión de las PASO y los proyectos de Milei, voto a voto",
+          "link": "https://www.lanacion.com.ar/politica/sesion-en-la-camara-de-diputados-y-de-senadores-hoy-en-vivo-presupuesto-2027-reforma-electoral-y-ley-nid26112026/",
+          "summary": "El minuto a minuto de las votaciones en la Cámara de Diputados y en el Senado, los discursos de los legisladores y todas las repercusiones",
+          "pubDate": "2026-11-26T19:00:00.000Z",
           "source": "La Nación"
         },
         {
-          "title": "Marcela Pagano impugnó ante la Corte Suprema a la senadora libertaria Nadia Márquez por una vieja causa por estafa",
-          "link": "https://www.perfil.com/politica/marcela-pagano-impugno-ante-la-corte-suprema-a-la-senadora-libertaria-nadia-marquez-por-una-vieja-causa-por-estafa-aT8Tu6i93eHM",
-          "summary": "La diputada del bloque Coherencia pidió frenar su juramento para integrar el Consejo de la Magistratura durante el período 2026-2030,…",
-          "pubDate": "2026-11-26T02:00:01.000Z",
-          "source": "Perfil"
-        },
-        {
-          "title": "Mayans cruzó a Santilli en el Senado: \"Vino a versearnos\" y cuestionó el rumbo económico del Gobierno",
-          "link": "https://www.perfil.com/politica/mayans-cruzo-a-santilli-en-el-senado-vino-a-versearnos-y-cuestiono-el-rumbo-economico-del-gobierno-aRlHS1w23E0x",
-          "summary": "El jefe del bloque peronista cuestionó la exposición del jefe de Gabinete y puso en duda las cifras oficiales sobre deuda y reservas.…",
-          "pubDate": "2026-11-26T01:51:10.000Z",
-          "source": "Perfil"
-        },
-        {
-          "title": "Los millones que cuesta Milei por el aire",
-          "link": "https://www.pagina12.com.ar/2026/11/26/los-millones-que-cuesta-milei-por-el-aire/",
-          "summary": "El costo de los vuelos, combustible y hoteles de lujo de los 17 viajes internacionales del Presidente entre enero y octubre de este año…",
-          "pubDate": "2026-11-26T01:51:00.000Z",
-          "source": "Página/12"
-        },
-        {
-          "title": "La Casa Rosada elogió la presentación de Diego Santilli ante el Senado y se prepara para una doble sesión clave",
-          "link": "https://tn.com.ar/politica/2026/11/25/la-casa-rosada-elogio-la-presentacion-de-diego-santilli-ante-el-senado-y-se-prepara-para-una-doble-sesion-clave/",
-          "summary": "En Balcarce 50 destacaron el manejo de la escena del jefe de Gabinete en su primer informe de gestión, mientras Javier Milei y varios…",
-          "pubDate": "2026-11-26T01:27:38.000Z",
+          "title": "Diputados convirtió en ley la reforma de la Carta Orgánica del Banco Central",
+          "link": "https://tn.com.ar/politica/2026/11/26/diputados-convirtio-en-ley-la-reforma-de-la-carta-organica-del-banco-central/",
+          "summary": "Con 141 votos afirmativos y 99 abstenciones, la Cámara baja ratificó los cambios que introdujo el Senado. La iniciativa limita el…",
+          "pubDate": "2026-11-26T18:51:57.000Z",
           "source": "TN"
         },
         {
-          "title": "Pagano contra Márquez en una disputa que escala",
-          "link": "https://www.pagina12.com.ar/2026/11/26/pagano-contra-marquez-en-una-disputa-que-escala/",
-          "summary": "La diputada impugnó la designación de la senadora en un puesto del Consejo de la Magistratura. La neuquina dijo que se trata de una…",
-          "pubDate": "2026-11-26T01:25:34.000Z",
-          "source": "Página/12"
+          "title": "Nueva movilización al Congreso para reclamar por el financiamiento universitario dentro del Presupuesto 2027",
+          "link": "https://www.infobae.com/politica/2026/11/26/nueva-movilizacion-al-congreso-para-reclamar-por-el-financiamiento-universitario-dentro-del-presupuesto-2027/",
+          "summary": "Distintos gremios y agrupaciones que representan a docentes, nodocentes y estudiantes solicitaron el cumplimiento de la normativa y…",
+          "pubDate": "2026-11-26T18:50:19.000Z",
+          "source": "Infobae"
         },
         {
-          "title": "Santilli ensayó en el Senado una defensa del rumbo económico y afrontó críticas y reproches de los bloques de oposición",
-          "link": "https://www.lanacion.com.ar/politica/diego-santilli-ensaya-en-el-senado-una-defensa-del-rumbo-economico-no-hubo-un-estallido-hubo-nid25112026/",
-          "summary": "El jefe de Gabinete utilizó su exposición para elogiar a la administración de Milei y cuestionar a gobiernos anteriores; escuchó reclamos…",
-          "pubDate": "2026-11-26T01:20:53.000Z",
+          "title": "Diputados convirtió en ley la reforma del Banco Central",
+          "link": "https://tn.com.ar/politica/2026/11/26/diputados-el-gobierno-reunio-quorum-para-debatir-el-presupuesto-2027-y-la-reforma-del-banco-central/",
+          "summary": "El debate por la ley de gastos e ingresos inició a las 12. El oficialismo confía en los bloques aliados para asegurar los apoyos necesarios.",
+          "pubDate": "2026-11-26T18:48:40.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "En una sesión caliente, el Senado debate la reforma electoral y la suspensión de las PASO",
+          "link": "https://tn.com.ar/politica/2026/11/26/en-la-previa-a-la-sesion-en-el-senado-santilli-anticipo-que-el-gobierno-tiene-los-votos-asegurados-para-suspender-las-paso/",
+          "summary": "El jefe de Gabinete, Diego Santilli, afirmó que el oficialismo cuenta con los 37 votos necesarios para aprobar el proyecto. Luego, la…",
+          "pubDate": "2026-11-26T18:44:08.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "Diputados, en vivo: con cruces entre el oficialismo y la oposición, comenzó el debate por el Presupuesto 2027",
+          "link": "https://www.infobae.com/politica/2026/11/26/diputados-en-vivo-las-ultimas-noticias-sobre-el-debate-del-presupuesto-2027/",
+          "summary": "En tanto, el oficialismo buscará avanzar con el tratamiento del Presupuesto 2027 en una sesión atravesada por las tensiones por el…",
+          "pubDate": "2026-11-26T18:43:13.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Senado, en vivo: comenzó el tratamiento de la reforma política, que incluye la suspensión de las PASO",
+          "link": "https://www.infobae.com/politica/2026/11/26/senado-en-vivo-las-ultimas-noticias-sobre-la-suspension-de-las-paso-y-la-ley-de-ludopatia/",
+          "summary": "La Libertad Avanza estima contar con entre 37 y 40 votos para aprobar la reforma política. Para la ley de prevención de la ludopatía, la…",
+          "pubDate": "2026-11-26T18:41:46.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Martín Menem reveló que hubo intentos de hackeo a la Cámara de Diputados y anunció el cierre preventivo de sistemas",
+          "link": "https://www.lanacion.com.ar/politica/martin-menem-revelo-que-hubo-intentos-de-hackeo-a-la-camara-de-diputados-y-anuncio-el-cierre-nid26112026/",
+          "summary": "El presidente de la Cámara baja informó medidas de seguridad tras los incidentes registrados",
+          "pubDate": "2026-11-26T18:40:17.000Z",
           "source": "La Nación"
         },
         {
-          "title": "A los hermanos de Caputo se les borra la sonrisa",
-          "link": "https://www.pagina12.com.ar/2026/11/26/a-los-hermanos-de-caputo-se-les-borra-la-sonrisa-2/",
-          "summary": "Habían sido sobreseídos, pero esa medida fue revocada. La Cámara ordenó que Flavio y Rosana Caputo vuelvan a ser investigados. Les podría…",
-          "pubDate": "2026-11-26T01:19:32.000Z",
-          "source": "Página/12"
-        },
-        {
-          "title": "Milei persigue un éxito entre grietas y adversidades",
-          "link": "https://www.lanacion.com.ar/politica/milei-persigue-un-exito-entre-grietas-y-adversidades-nid25112026/",
-          "summary": "El Presidente y su equipo ponen el foco en el Congreso; necesitan que avance la suspensión de las PASO, pero las enemistades internas…",
-          "pubDate": "2026-11-26T01:15:53.000Z",
+          "title": "Javier Milei y sus medidas, EN VIVO: en medio de una jornada caliente en el Congreso, el Presidente se reunió con su par en Asunción",
+          "link": "https://www.lanacion.com.ar/politica/javier-milei-y-sus-medidas-en-vivo-el-presidente-apunto-contras-las-operetas-de-la-oposicion-y-dijo-nid26112026/",
+          "summary": "El minuto a minuto de las decisiones del jefe de Estado, las reacciones de la oposición y las declaraciones de los funcionarios",
+          "pubDate": "2026-11-26T18:40:00.000Z",
           "source": "La Nación"
         },
         {
-          "title": "Rosatti advirtió sobre la inteligencia artificial: “De un Dios con prótesis a una prótesis sin Dios”",
-          "link": "https://www.lanacion.com.ar/politica/rosatti-advirtio-sobre-la-inteligencia-artificial-de-un-dios-con-protesis-a-una-protesis-sin-dios-nid25112026/",
-          "summary": "Se cumplieron 35 años de la Facultad de Derecho de la Universidad Austral",
-          "pubDate": "2026-11-26T01:14:05.000Z",
-          "source": "La Nación"
+          "title": "Milei mantuvo una reunión con el nuevo presidente de Paraguay, que destacó el vínculo entre ambos países: “Nos une el cariño”",
+          "link": "https://tn.com.ar/politica/2026/11/26/javier-milei-se-reune-con-el-presidente-de-paraguay-pedro-alliana-el-sucesor-del-destituido-santiago-pena/",
+          "summary": "El mandatario argentino fue recibido por Pedro Alliana en el Palacio de López, en Asunción. Es el primer jefe de Estado que visita el país…",
+          "pubDate": "2026-11-26T18:35:37.000Z",
+          "source": "TN"
         }
       ]
     },
@@ -141,73 +141,73 @@
       "label": "Economía",
       "items": [
         {
-          "title": "El dólar oficial subió otros $15 y cerró a $1630 en el Banco Nación, un nuevo máximo",
-          "link": "https://tn.com.ar/economia/2026/11/25/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-miercoles-25-de-noviembre/",
+          "title": "“Otro relato que se cae”: Milei se refirió a los cuestionamientos por el nivel de empleo y cruzó al kirchnerismo",
+          "link": "https://www.infobae.com/economia/2026/11/26/otro-relato-que-se-cae-milei-se-refirio-a-los-cuestionamientos-por-el-nivel-de-empleo-y-cruzo-al-kirchnerismo/",
+          "summary": "El Presidente aseguró, en base a datos del ministro Sturzenegger, que si la población económica activamente se hubiera mantenido constante…",
+          "pubDate": "2026-11-26T18:52:48.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Minería: las exportaciones marcaron un récord y el sector ya deja un superávit de US$6580 millones",
+          "link": "https://www.lanacion.com.ar/economia/mineria-las-exportaciones-marcaron-un-record-y-el-sector-ya-deja-un-superavit-de-us6580-millones-nid26112026/",
+          "summary": "Entre enero y octubre, las ventas al exterior sumaron US$7455 millones, 52,5% más que en 2025; los principales proyectos acumularon un…",
+          "pubDate": "2026-11-26T18:44:44.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Suben las acciones argentinas por segunda vez consecutiva en una jornada sin actividad en Wall Street",
+          "link": "https://www.infobae.com/economia/2026/11/26/suben-las-acciones-argentinas-por-segunda-vez-consecutiva-en-una-jornada-sin-actividad-en-wall-street/",
+          "summary": "El índice MSCI Merval gana más de 2%, en los 83.400 puntos. Los bnos ganan cerca de 1% en promedio. En EEUU no hay negocios por la…",
+          "pubDate": "2026-11-26T18:37:47.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "El dólar bajó $5 y cerró a $1625 en el Banco Nación",
+          "link": "https://tn.com.ar/economia/2026/11/26/dolar-oficial-hoy-y-dolar-blue-a-cuanto-cotizan-este-jueves-26-de-noviembre/",
           "summary": "La cotización del dólar minuto a minuto en los bancos, donde desde abril de 2025 se pueden comprar divisas sin límites. También los precios…",
-          "pubDate": "2026-11-26T02:20:33.000Z",
+          "pubDate": "2026-11-26T18:34:34.000Z",
           "source": "TN"
         },
         {
-          "title": "Caputo busca salvataje chino para evitar el default",
-          "link": "https://www.pagina12.com.ar/2026/11/26/caputo-busca-salvataje-chino-para-evitar-el-default/",
-          "summary": "El ministro de Economia admitió que solicito el fondeo de 5000 millones de dólares del swap con el país asiático, como ultimo recurso para…",
-          "pubDate": "2026-11-26T01:19:01.000Z",
-          "source": "Página/12"
+          "title": "Seis claves para entender la nueva ley que reforma la Carta Orgánica del Banco Central",
+          "link": "https://www.infobae.com/economia/2026/11/26/seis-claves-para-entender-la-nueva-ley-que-reforma-la-carta-organica-del-banco-central/",
+          "summary": "La norma aprobada por el Senado redefine el vínculo de la autoridad monetaria con el Estado, introduce cambios en su conducción y modifica…",
+          "pubDate": "2026-11-26T18:32:07.000Z",
+          "source": "Infobae"
         },
         {
-          "title": "Caen las ventas minoristas",
-          "link": "https://www.pagina12.com.ar/2026/11/26/caen-las-ventas-minoristas/",
-          "summary": "El consumo interno continúa sin mostrar señales de recuperación. Las ventas en supermercados, autoservicios mayoristas, centros de compras…",
-          "pubDate": "2026-11-26T00:31:52.000Z",
-          "source": "Página/12"
+          "title": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotiza el oficial y cuál es el precio del paralelo este jueves 26 de noviembre, minuto a minuto",
+          "link": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotizan-el-oficial-y-el-paralelo-este-jueves-26-de-noviembre-nid26112026/",
+          "summary": "La divisa oficial opera a $1625 para la venta, mientras que el dólar informal cotiza a $1700 para la misma operación",
+          "pubDate": "2026-11-26T18:30:42.000Z",
+          "source": "La Nación"
         },
         {
-          "title": "La actividad industrial volvió a caer en octubre según estimaciones privadas",
-          "link": "https://www.perfil.com/economia/la-actividad-industrial-volvio-a-caer-en-octubre-segun-estimaciones-privadas-agjYZ8j38ADV",
-          "summary": "De confirmarse las proyecciones, se trataría de la décima caída consecutiva interanual y la primera intermensual después de dos meses de…",
-          "pubDate": "2026-11-26T00:21:00.000Z",
+          "title": "El oficialismo logró la sanción definitiva de la nueva Carta Orgánica del BCRA, festeja Milei",
+          "link": "https://www.perfil.com/economia/que-dice-la-nueva-carta-organica-del-bcra-y-por-que-milei-festeja-ay3lc5Z0fJqA",
+          "summary": "El oficialismo logró una victoria en Diputados con la sanción de la nueva Carta Orgánica del Banco Central. Mandato único, límite al…",
+          "pubDate": "2026-11-26T18:13:43.000Z",
           "source": "Perfil"
         },
         {
-          "title": "En medio de la suba del riesgo país, el Gobierno busca llevar tranquilidad a los mercados por los vencimientos de deuda de 2027",
-          "link": "https://tn.com.ar/economia/2026/11/26/en-medio-de-la-suba-del-riesgo-pais-el-gobierno-busca-llevar-tranquilidad-a-los-mercados-por-los-vencimientos-de-deuda-de-2027/",
-          "summary": "El Ministerio de Economía detalló las alternativas para conseguir los dólares necesarios en el informe que Diego Santilli presentó ante el…",
-          "pubDate": "2026-11-26T00:18:45.000Z",
-          "source": "TN"
+          "title": "Las expectativas de inflación cayeron por debajo del 30% según la Universidad Torcuato Di Tella",
+          "link": "https://www.perfil.com/economia/las-expectativas-de-inflacion-cayeron-por-debajo-del-30-segun-la-universidad-torcuato-di-tella-alpqb5p6C5N7",
+          "summary": "Según el Centro de Investigación en Finanzas, la inflación esperada disminuyó en todas las regiones y en los diferentes estratos por…",
+          "pubDate": "2026-11-26T18:12:34.000Z",
+          "source": "Perfil"
         },
         {
-          "title": "Después de avisar que podría cerrar sus plantas, el número uno regional de Stellantis pidió limitar los beneficios a los importadores",
-          "link": "https://www.infobae.com/economia/2026/11/25/despues-de-avisar-que-podria-cerrar-sus-plantas-el-numero-uno-regional-de-stellantis-pidio-limitar-los-beneficios-a-los-importadores/",
-          "summary": "Herlander Zola, responsable de la marca en el sur del continente, había dicho que las dos fábricas de Argentina podían dejar de funcionar…",
-          "pubDate": "2026-11-26T00:16:44.000Z",
-          "source": "Infobae"
+          "title": "El dólar corta con su escalada y cede hasta los $1625",
+          "link": "https://www.lanacion.com.ar/economia/dolar/el-dolar-corta-con-su-escalada-y-cede-hasta-los-1625-nid26112026/",
+          "summary": "El CCL aumenta 1,8% y crece la brecha con el mayorista; en una jornada de operaciones limitada por el feriado en Estados Unidos, el Merval…",
+          "pubDate": "2026-11-26T18:12:10.000Z",
+          "source": "La Nación"
         },
         {
-          "title": "Jornada financiera: el dólar subió por séptimo día consecutivo, cayó el riesgo país y las acciones recuperaron terreno",
-          "link": "https://www.infobae.com/economia/2026/11/25/jornada-financiera-el-dolar-subio-por-septimo-dia-consecutivo-cayo-el-riesgo-pais-y-las-acciones-recuperaron-terreno/",
-          "summary": "Los títulos públicos mejoraron 1,9% en promedio después de que el ministro Caputo detalló cómo efectuará pagos en enero. Los ADR ganaron…",
-          "pubDate": "2026-11-25T23:55:53.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Servicios cada vez más caros",
-          "link": "https://www.pagina12.com.ar/2026/11/25/servicios-cada-vez-mas-caros/",
-          "summary": "El costo del transporte público representa una porción cada vez mayor del presupuesto de los hogares. En noviembre, una familia del Área…",
-          "pubDate": "2026-11-25T23:54:11.000Z",
-          "source": "Página/12"
-        },
-        {
-          "title": "La suba del dólar presiona sobre las góndolas",
-          "link": "https://www.pagina12.com.ar/2026/11/25/la-suba-del-dolar-presiona-sobre-las-gondolas/",
-          "summary": "Se reedita una tradición de la economía argentina: apenas se mueve el dólar, las empresas remarcan sus listas de precios.",
-          "pubDate": "2026-11-25T23:48:13.000Z",
-          "source": "Página/12"
-        },
-        {
-          "title": "Las consultoras recortan sus proyecciones de crecimiento para 2026 y 2027: cuánto esperan que avance la economía",
-          "link": "https://www.perfil.com/economia/las-consultoras-recortan-sus-proyecciones-de-crecimiento-para-2026-y-2027-cuanto-esperan-que-avance-la-economia-ax04O6k3rZMy",
-          "summary": "Las consultoras estiman que la economía crecerá apenas 0,5% este año, frente al 3% que proyectaba el Gobierno en septiembre. Las…",
-          "pubDate": "2026-11-25T23:47:32.000Z",
+          "title": "Totonomics: Luis Caputo dice que bajaron los fideos y los lavarropas",
+          "link": "https://www.perfil.com/economia/totonomics-luis-caputo-dice-que-bajaron-los-fideos-y-los-lavarropas-am2ps1W86y9N",
+          "summary": "En dialogo con un móvil de C5N, el ministro mencionó que la apertura de las importaciones y la competencia viene mejorando la economía.…",
+          "pubDate": "2026-11-26T17:57:22.000Z",
           "source": "Perfil"
         }
       ]
@@ -217,73 +217,73 @@
       "label": "Mundo",
       "items": [
         {
-          "title": "Ganó USD 1 millón en la lotería y terminó arrestado por ICE: el caso de un salvadoreño en Massachusetts",
-          "link": "https://www.infobae.com/el-salvador/2026/11/26/gano-uds-1-millon-en-la-loteria-y-termino-arrestado-por-ice-el-caso-de-un-salvadoreno-en-massachusetts/",
-          "summary": "El hombre, identificado por la agencia federal como indocumentado, tenía una orden final de deportación desde abril de 2014, según la…",
-          "pubDate": "2026-11-26T02:39:45.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Colectivo Nicaragua Nunca Más demanda el fin de la incomunicación de 16 mujeres y niñas detenidas",
-          "link": "https://www.infobae.com/nicaragua/2026/11/26/colectivo-nicaragua-nunca-mas-demanda-el-fin-de-la-incomunicacion-de-16-mujeres-y-ninas-detenidas/",
-          "summary": "Un colectivo de derechos humanos denunció que al menos 14 mujeres permanecen desaparecidas bajo custodia del Estado nicaragüense. Sus…",
-          "pubDate": "2026-11-26T02:37:56.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Quién es Keila Daiana Da Costa, la joven argentina buscada en Brasil tras ser arrastrada por la corriente de un río",
-          "link": "https://www.lanacion.com.ar/el-mundo/quien-es-keila-daiana-da-costa-la-joven-argentina-buscada-en-brasil-tras-ser-arrastrada-por-la-nid25112026/",
-          "summary": "Tiene 24 años, es oriunda de Misiones y se mudó al país vecino hace dos años; viajaba en moto junto a su pareja cuando fueron sorprendidos…",
-          "pubDate": "2026-11-26T02:24:49.000Z",
+          "title": "Trump reveló que le pidió a Putin en China que cese toda agresión militar contra Europa",
+          "link": "https://www.lanacion.com.ar/el-mundo/trump-revelo-que-le-pidio-a-putin-en-china-que-cese-toda-agresion-militar-contra-europa-nid26112026/",
+          "summary": "Según Washington, frenar los ataques rusos facilitaría un acuerdo entre Moscú y Kiev, mientras la OTAN busca evitar una escalada del…",
+          "pubDate": "2026-11-26T18:52:08.000Z",
           "source": "La Nación"
         },
         {
-          "title": "Wilder Eusse: la DEA lo vincula con cargamentos de hasta 15 toneladas de cocaína y Costa Rica aprueba su extradición a Estados Unidos",
-          "link": "https://www.infobae.com/costa-rica/2026/11/26/wilder-eusse-la-dea-lo-vincula-con-cargamentos-de-hasta-15-toneladas-de-cocaina-y-costa-rica-aprueba-su-extradicion-a-estados-unidos/",
-          "summary": "El expresidente del Municipal Liberia, conocido con los alias de “El Soldado” y “El Tío”, es señalado por autoridades estadounidenses como…",
-          "pubDate": "2026-11-26T02:21:50.000Z",
+          "title": "Cuba posee uno de los tres salarios mínimos más bajos de América Latina, según reporte global",
+          "link": "https://www.infobae.com/cuba/2026/11/26/cuba-posee-uno-de-los-tres-salarios-minimos-mas-bajos-de-america-latina-segun-reporte-global/",
+          "summary": "Un economista calculó cuánto necesita realmente una persona para sobrevivir en la isla. La cifra supera casi 30 veces el ingreso oficial y…",
+          "pubDate": "2026-11-26T18:50:29.000Z",
           "source": "Infobae"
         },
         {
-          "title": "Elecciones en España: por qué la oposición desconfía de Pedro Sánchez y agita el fantasma del fraude",
-          "link": "https://www.lanacion.com.ar/el-mundo/elecciones-en-espana-por-que-la-oposicion-desconfia-de-pedro-sanchez-y-agita-el-fantasma-del-fraude-nid25112026/",
-          "summary": "La derecha puso en duda la limpieza de los comicios y apuntó contra el gobierno socialista, aunque no presentó pruebas para sustentar las…",
-          "pubDate": "2026-11-26T02:13:39.000Z",
+          "title": "Día de Acción de Gracias: el mítico desfile de Macy’s fue suspendido por tormentas",
+          "link": "https://www.perfil.com/internacional/dia-de-accion-de-gracias-el-mitico-desfile-de-macys-fue-suspendido-por-tormentas-a50-ajE7j6q3PYjj",
+          "summary": "El Servicio Meteorológico estadounidense anticipó fuertes lluvias y vientos en toda la región para este jueves 16 de noviembre. Leer más",
+          "pubDate": "2026-11-26T18:48:19.000Z",
+          "source": "Perfil"
+        },
+        {
+          "title": "Elecciones España 2026, EN VIVO: debate presidencial hoy, las últimas encuestas y las noticias del 29-N",
+          "link": "https://www.lanacion.com.ar/el-mundo/elecciones-espana-2026-en-vivo-que-dicen-las-encuestas-y-las-ultimas-noticias-hoy-nid26112026/",
+          "summary": "El Partido Popular parte como favorito, aunque necesitaría el apoyo de la ultraderecha para alcanzar la mayoría absoluta; los candidatos se…",
+          "pubDate": "2026-11-26T18:44:49.000Z",
           "source": "La Nación"
         },
         {
-          "title": "El Marathón y sus 101 años: la historia de un club que forjó la identidad futbolística de San Pedro Sula en Honduras",
-          "link": "https://www.infobae.com/honduras/2026/11/26/el-marathon-y-sus-101-anos-la-historia-de-un-club-que-forjo-la-identidad-futbolistica-de-san-pedro-sula-en-honduras/",
-          "summary": "La institución verde celebra su centenario más uno con nueve campeonatos nacionales, figuras históricas y una trayectoria que trasciende…",
-          "pubDate": "2026-11-26T02:11:48.000Z",
+          "title": "Día de Acción de Gracias en Estados Unidos: vuelos retrasados, tormentas y un accidente aeroportuario",
+          "link": "https://www.perfil.com/internacional/dia-de-accion-de-gracias-a50-en-estados-unidos-vuelos-retrasados-tormentas-y-un-accidente-aeroportuario-avMhR1H0JzoG",
+          "summary": "El intenso movimiento turístico se vio golpeado por un sistema invernal de nieve y fuertes vientos en el noreste y medio oeste del…",
+          "pubDate": "2026-11-26T18:24:24.000Z",
+          "source": "Perfil"
+        },
+        {
+          "title": "Lula analiza nombrar a Luiz Carlos Trabuco como ministro de Economía y los mercados lo reciben con entusiasmo",
+          "link": "https://www.lanacion.com.ar/el-mundo/lula-analiza-nombrar-a-luiz-carlos-trabuco-como-ministro-de-economia-y-los-mercados-lo-reciben-con-nid26112026/",
+          "summary": "El presidente se reunió con el banquero de Bradesco mientras arma el gabinete para su cuarto mandato y tras una semana de turbulencia…",
+          "pubDate": "2026-11-26T18:21:58.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Maya Selva, la hondureña que conquistó el mercado internacional de los puros y recibió la máxima distinción de Francia",
+          "link": "https://www.infobae.com/honduras/2026/11/26/maya-selva-la-hondurena-que-conquisto-el-mercado-internacional-de-los-puros-y-recibio-la-maxima-distincion-de-francia/",
+          "summary": "Maria-Pia Sylvie Selva lanzó Flor de Selva en 1995, después de aprender durante más de un año las etapas de elaboración manual del tabaco…",
+          "pubDate": "2026-11-26T18:12:14.000Z",
           "source": "Infobae"
         },
         {
-          "title": "Panamá impulsa acuerdos regionales sobre carbono, restauración y gobernanza ambiental",
-          "link": "https://www.infobae.com/panama/2026/11/26/panama-impulsa-acuerdos-regionales-sobre-carbono-restauracion-y-gobernanza-ambiental/",
-          "summary": "Guatemala asumió de forma formal la relatoría del Foro, un rol que mantendrá hasta la celebración de la vigésima quinta reunión prevista…",
-          "pubDate": "2026-11-26T02:07:11.000Z",
+          "title": "Economía de República Dominicana creció 5.4% en octubre, impulsada por la construcción",
+          "link": "https://www.infobae.com/republica-dominicana/2026/11/26/economia-de-republica-dominicana-crecio-54-en-octubre-impulsada-por-la-construccion/",
+          "summary": "El registro del Banco Central de la República Dominicana situó el avance entre enero y octubre en 4.7%, por encima del 4.5% previsto por…",
+          "pubDate": "2026-11-26T18:07:59.000Z",
           "source": "Infobae"
         },
         {
-          "title": "Asfura exige acelerar programas sociales y unir esfuerzos para reducir la pobreza en Honduras",
-          "link": "https://www.infobae.com/honduras/2026/11/26/asfura-exige-acelerar-programas-sociales-y-unir-esfuerzos-para-reducir-la-pobreza-en-honduras/",
-          "summary": "El mandatario pidió optimizar los recursos públicos y aprovechar los años 2027, 2028 y 2029 para avanzar en la Política de Protección…",
-          "pubDate": "2026-11-26T02:05:02.000Z",
-          "source": "Infobae"
+          "title": "Elecciones en España: aumentó la afluencia de votantes en el Consulado General en Buenos Aires",
+          "link": "https://tn.com.ar/internacional/2026/11/26/elecciones-en-espana-aumento-la-afluencia-de-votantes-en-el-consulado-general-en-buenos-aires/",
+          "summary": "Las urnas cerraron este jueves. Votaron más de 11.000 personas.",
+          "pubDate": "2026-11-26T18:02:16.000Z",
+          "source": "TN"
         },
         {
-          "title": "Mayoría de costarricenses rechaza reelección presidencial consecutiva que impulsa el oficialismo, revela encuesta de la UCR",
-          "link": "https://www.infobae.com/costa-rica/2026/11/26/mayoria-de-costarricenses-rechaza-reeleccion-presidencial-consecutiva-que-impulsa-el-oficialismo-revela-encuesta-de-la-ucr/",
-          "summary": "El 52% de la población se opone a que un presidente pueda gobernar durante ocho años seguidos, mientras que el 41% respalda la propuesta.…",
-          "pubDate": "2026-11-26T02:01:38.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Nicaragua: casi la mitad de los feminicidios entre 2018 y 2024 no tenía un proceso penal identificado",
-          "link": "https://www.infobae.com/nicaragua/2026/11/26/nicaragua-casi-la-mitad-de-los-feminicidios-entre-2018-y-2024-no-tenia-un-proceso-penal-identificado/",
-          "summary": "La revisión de expedientes judiciales reveló que 166 de los 360 feminicidios registrados no tenían una causa penal identificable, de…",
-          "pubDate": "2026-11-26T01:14:40.000Z",
+          "title": "Autoridades costarricenses detienen a once adolescentes por operar una red criminal dentro de un colegio técnico de Orotina",
+          "link": "https://www.infobae.com/costa-rica/2026/11/26/autoridades-costarricenses-detienen-a-once-adolescentes-por-operar-una-red-criminal-dentro-de-un-colegio-tecnico-de-orotina/",
+          "summary": "La Fiscalía Penal Juvenil atribuye a los sospechosos ventas de drogas, extorsiones y amenazas armadas, tras una investigación iniciada en…",
+          "pubDate": "2026-11-26T17:59:28.000Z",
           "source": "Infobae"
         }
       ]
@@ -293,74 +293,74 @@
       "label": "Sociedad",
       "items": [
         {
-          "title": "David Domoney, horticultor: “Poner corchos debajo de la maceta permite que el agua drene y evita que las raíces se pudran”",
-          "link": "https://tn.com.ar/sociedad/jardineria/2026/11/25/david-domoney-horticultor-poner-corchos-debajo-de-la-maceta-permite-que-el-agua-drene-y-evita-que-las-raices-se-pudran/",
-          "summary": "El truco reutiliza un objeto cotidiano que suele descartarse y ayuda a mejorar la circulación del líquido en la base de los recipientes.",
-          "pubDate": "2026-11-26T02:26:57.000Z",
+          "title": "Un especialista explicó en detalle por qué los jacarandás florecieron tarde este año y hasta cuándo se los podrá ver en Buenos Aires",
+          "link": "https://www.lanacion.com.ar/sociedad/un-especialista-explico-en-detalle-por-que-los-jacarandas-florecieron-tarde-este-ano-y-hasta-cuando-nid26112026/",
+          "summary": "En comunicación con LN+, Carlos Bustazo, agricultor, analizó las razones climáticas y biológicas detrás del retraso en la floración de los…",
+          "pubDate": "2026-11-26T18:54:19.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Edulcorantes y pérdida de peso: qué se sabe sobre su eficacia y sus posibles riesgos para la salud",
+          "link": "https://www.lanacion.com.ar/sociedad/edulcorantes-y-perdida-de-peso-que-se-sabe-sobre-su-eficacia-y-sus-posibles-riesgos-para-la-salud-nid26112026/",
+          "summary": "Jorge Tartaglione analizó en LN+ el impacto real de los endulzantes artificiales en el metabolismo, desmintió mitos sobre su toxicidad y…",
+          "pubDate": "2026-11-26T18:54:12.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Se avecina casi una semana entera de calor agobiante, temperaturas cercanas a los 40°C, ráfagas de hasta 90 km/h y tormentas aisladas: las zonas afectadas",
+          "link": "https://www.lanacion.com.ar/sociedad/se-avecina-casi-una-semana-entera-de-calor-agobiante-temperaturas-cercanas-a-los-40c-rafagas-de-nid26112026/",
+          "summary": "El ascenso térmico se afianzará hacia el fin de semana y el lunes, con máximas de hasta 37°C en grandes ciudades del centro; el oeste y el…",
+          "pubDate": "2026-11-26T18:54:05.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Qué hacer ante un mareo o un desmayo y cuáles son las señales de alarma, según un cardiólogo",
+          "link": "https://www.lanacion.com.ar/sociedad/jorge-tartaglione-explica-que-hacer-ante-un-mareo-o-un-desmayo-y-cuales-son-las-senales-de-alarma-nid26112026/",
+          "summary": "Jorge Tartaglione explicó cómo distinguir las distintas sensaciones de mareo y qué circunstancias requieren especial atención; además,…",
+          "pubDate": "2026-11-26T18:54:01.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Diabetes: por qué es importante conocer los valores de la glucemia y qué pasa si no la controlamos",
+          "link": "https://www.lanacion.com.ar/sociedad/diabetes-por-que-es-importante-conocer-los-valores-de-la-glucemia-y-que-pasa-si-no-la-controlamos-nid26112026/",
+          "summary": "Jorge Tartaglione explicó en LN+ cómo actúa el azúcar en sangre y las razones por las que la enfermedad puede pasar desapercibida; los…",
+          "pubDate": "2026-11-26T18:53:52.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "René Descartes, filósofo, sobre la duda y la existencia: “Si pienso, tengo que estar existiendo”",
+          "link": "https://www.lanacion.com.ar/sociedad/rene-descartes-filosofo-sobre-la-duda-y-la-existencia-si-pienso-tengo-que-estar-existiendo-nid24112026/",
+          "summary": "El filósofo analizó el vínculo entre el pensamiento y la vida cotidiana y sostuvo que cuestionar la realidad permite alcanzar una forma…",
+          "pubDate": "2026-11-26T18:53:43.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Darío Sztajnszrajber explica por qué la filosofía cuestiona la idea de que todo tiene que ser útil",
+          "link": "https://www.lanacion.com.ar/sociedad/dario-sztajnszrajber-explica-por-que-la-filosofia-cuestiona-la-idea-de-que-todo-tiene-que-ser-util-nid25112026/",
+          "summary": "En diálogo con LA NACION, el filósofo analizó la utilidad de la disciplina en la vida cotidiana; sostuvo que el pensamiento crítico permite…",
+          "pubDate": "2026-11-26T18:53:39.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Súper Niño 2026 en Argentina: qué se sabe del fenómeno que mantiene en vilo al país y qué se espera para diciembre",
+          "link": "https://www.lanacion.com.ar/sociedad/super-nino-2026-en-argentina-que-se-sabe-del-fenomeno-que-mantiene-en-vilo-al-pais-y-que-se-espera-nid25112026/",
+          "summary": "La Bolsa de Cereales de Buenos Aires prevé tormentas con acumulados superiores a 100 milímetros hacia mediados de noviembre; el sur del NOA…",
+          "pubDate": "2026-11-26T18:53:35.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Cuándo será el día más caluroso de la semana en el AMBA, según el SMN",
+          "link": "https://www.lanacion.com.ar/sociedad/cuando-sera-el-dia-mas-caluroso-de-la-semana-en-el-amba-segun-el-smn-nid25112026/",
+          "summary": "El pronóstico anticipa un ascenso de las temperaturas hacia el fin de semana, con máximas superiores a los 30°C; cómo seguirá el tiempo…",
+          "pubDate": "2026-11-26T18:53:32.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "Fue a Güerrín, pidió una pizza de muzzarella y morrones, una de roquefort, 3 bebidas y un cannoli: mostró el ticket final",
+          "link": "https://tn.com.ar/sociedad/2026/11/26/fue-a-guerrin-pidio-una-pizza-de-muzzarella-y-morrones-una-de-roquefort-3-bebidas-y-un-cannoli-mostro-el-ticket-final/",
+          "summary": "El cliente compartió su experiencia en la pizzería de la Avenida Corrientes, lo que pidió y cuánto gastó.",
+          "pubDate": "2026-11-26T18:49:30.000Z",
           "source": "TN"
-        },
-        {
-          "title": "Expertos en coloración aseguran: “Las canas no necesitan cubrirse al 100% para lograr un color uniforme y natural”",
-          "link": "https://tn.com.ar/sociedad/2026/11/25/expertos-en-coloracion-aseguran-las-canas-no-necesitan-cubrirse-al-100-para-lograr-un-color-uniforme-y-natural/",
-          "summary": "Las nuevas técnicas permiten disimular el crecimiento de los cabellos blancos, aportar dimensión a la melena y espaciar los retoques en la…",
-          "pubDate": "2026-11-26T01:52:40.000Z",
-          "source": "TN"
-        },
-        {
-          "title": "La frase de Robin Sharma sobre el ego: por qué perder puede ayudarnos a crecer",
-          "link": "https://www.lanacion.com.ar/sociedad/la-frase-de-robin-sharma-sobre-el-ego-por-que-perder-puede-ayudarnos-a-crecer-nid23112026/",
-          "summary": "El escritor y conferencista analizó la reacción humana ante la adversidad; propuso transformar los problemas cotidianos en una herramienta…",
-          "pubDate": "2026-11-26T01:48:00.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Joseph Pilates y su reflexión sobre la felicidad: “Está subordinada al bienestar físico”",
-          "link": "https://www.lanacion.com.ar/sociedad/joseph-pilates-y-su-reflexion-sobre-la-felicidad-esta-subordinada-al-bienestar-fisico-nid23112026/",
-          "summary": "Un móvil de LN+ dialogó con la instructora Melani Giommetti, quien sostuvo que “la actividad sirve para fortalecer nuestros músculos de…",
-          "pubDate": "2026-11-26T01:47:00.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Cómo puede afectar una siesta larga al descanso y al estado de ánimo, según un cardiólogo",
-          "link": "https://www.lanacion.com.ar/sociedad/como-puede-afectar-una-siesta-larga-al-descanso-y-al-estado-de-animo-segun-un-cardiologo-nid25112026/",
-          "summary": "El cardiólogo explicó en LN+ que la caída en el estado de alerta a mitad del día responde a un patrón biológico ancestral; advirtió sobre…",
-          "pubDate": "2026-11-26T01:47:00.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Acusación: el juez Rafecas citó a indagatoria al número dos del Opus Dei por presunta trata de personas",
-          "link": "https://www.lanacion.com.ar/sociedad/acusacion-el-juez-rafecas-cito-a-declarar-al-numero-dos-del-opus-dei-por-presunta-trata-de-personas-nid25112026/",
-          "summary": "Es el sacerdote Mariano Fazio y la denuncia surge de 43 mujeres de origen humilde que dicen que la institución las hizo trabajar gratis y…",
-          "pubDate": "2026-11-26T01:21:06.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Una joven entrerriana murió ahogada en una playa nudista de Uruguay",
-          "link": "https://www.pagina12.com.ar/2026/11/26/una-joven-entrerriana-murio-ahogada-en-una-playa-nudista-de-uruguay/",
-          "summary": "Tras ser rescatada del agua, el personal de Prefectura comenzó a realizarle maniobras de reanimación cardiopulmonar (RCP), que se…",
-          "pubDate": "2026-11-26T01:19:28.000Z",
-          "source": "Página/12"
-        },
-        {
-          "title": "Savina Paül, pilota de 30 años: “Aunque sean las 12 del mediodía, si no tengo hambre no como, pero otros días desayuno 2 veces”",
-          "link": "https://tn.com.ar/sociedad/2026/11/25/savina-paul-pilota-de-30-anos-aunque-sean-las-12-del-mediodia-si-no-tengo-hambre-no-como-pero-otros-dias-desayuno-2-veces/",
-          "summary": "La profesional reveló que volar rutas de largo recorrido la obligó a dejar de planificar y a escuchar las necesidades de su cuerpo, tanto…",
-          "pubDate": "2026-11-26T01:16:19.000Z",
-          "source": "TN"
-        },
-        {
-          "title": "Liberaron a uno de los acróbatas cordobeses detenidos por el ICE en Estados Unidos y su esposo aún espera salir",
-          "link": "https://www.infobae.com/sociedad/2026/11/26/liberaron-a-uno-de-los-acrobatas-cordobeses-detenidos-por-el-ice-en-estados-unidos-y-su-esposo-aun-espera-salir/",
-          "summary": "Gustavo Romanello, de 34 años, pasó 18 días en el Centro de Procesamiento de Servicios de Florence, Arizona, hasta que se abonó su fianza.…",
-          "pubDate": "2026-11-26T01:15:49.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Mel Robbins, sobre los vínculos familiares cuando los padres no quieren ir a terapia",
-          "link": "https://www.lanacion.com.ar/sociedad/mel-robbins-sobre-los-vinculos-familiares-cuando-los-padres-no-quieren-ir-a-terapia-nid25112026/",
-          "summary": "La especialista advirtió sobre la intención de muchos hijos de modificar a los progenitores; sugiere que la aceptación es el camino hacia…",
-          "pubDate": "2026-11-26T01:00:00.000Z",
-          "source": "La Nación"
         }
       ]
     },
@@ -369,73 +369,73 @@
       "label": "Deportes",
       "items": [
         {
-          "title": "Boca le ganó 2-0 a Independiente Rivadavia y se clasificó a los cuartos de final del Torneo Clausura: enfrentará a Gimnasia LP",
-          "link": "https://tn.com.ar/deportes/futbol/2026/11/25/boca-cambia-el-chip-despues-de-la-consagracion-enfrenta-a-independiente-rivadavia-por-los-octavos-de-final-del-clausura/",
-          "summary": "A tres días de regresar al país luego de ganar la Copa Sudamericana en Barranquilla, el Xeneize se impuso con contundencia a la Lepra y…",
-          "pubDate": "2026-11-26T02:45:24.000Z",
+          "title": "En vivo - Salzburgo vs. Ararat: 1 - 0, por la fecha 5 de la UEFA Europa League",
+          "link": "https://tn.com.ar/deportes/futbol/2026/11/26/salzburgo-vs-ararat-en-vivo-por-la-fecha-5-de-la-uefa-europa-league-hora-donde-ver-y-formaciones/",
+          "summary": "Salzburgo enfrenta a Ararat desde las 14:45 horas. Seguilo minuto a minuto por la web de TN.",
+          "pubDate": "2026-11-26T18:51:28.000Z",
           "source": "TN"
         },
         {
-          "title": "Leandro Paredes destacó la mentalidad de Boca tras el pase a cuartos de final y aseguró: “Queremos seguir compitiendo”",
-          "link": "https://tn.com.ar/deportes/futbol/2026/11/25/leandro-paredes-destaco-la-mentalidad-de-boca-tras-el-pase-a-cuartos-de-final-y-aseguro-queremos-seguir-compitiendo/",
-          "summary": "El capitán del Xeneize celebró el triunfo ante Independiente Rivadavia y apuntó a los próximos desafíos del equipo. “Vamos a intentar ganar…",
-          "pubDate": "2026-11-26T02:40:38.000Z",
+          "title": "En vivo - Dinamo Zagreb vs. Bayer Leverkusen: 0 - 2, por la fecha 5 de la UEFA Europa League",
+          "link": "https://tn.com.ar/deportes/futbol/2026/11/26/dinamo-zagreb-vs-bayer-leverkusen-en-vivo-por-la-fecha-5-de-la-uefa-europa-league-hora-donde-ver-y-formaciones/",
+          "summary": "Dinamo Zagreb enfrenta a Bayer Leverkusen desde las 14:45 horas. Seguilo minuto a minuto por la web de TN.",
+          "pubDate": "2026-11-26T18:51:28.000Z",
           "source": "TN"
         },
         {
-          "title": "Amenazaron de muerte a Gastón Gaudio en plena campaña para la presidencia de Independiente: “No vale todo”",
-          "link": "https://www.lanacion.com.ar/deportes/futbol/independiente/amenazaron-de-muerte-a-gaston-gaudio-en-plena-campana-para-la-presidencia-de-independiente-no-vale-nid25112026/",
-          "summary": "El extenista, que se presenta como candidato, repudió el mensaje que apareció pintado en una tela blanca y colgado en avenida Mitre",
-          "pubDate": "2026-11-26T02:39:00.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Julia Riera avanzó a cuartos de final del Argentina Open y Solana Sierra quedó eliminada",
-          "link": "https://www.infobae.com/deportes/2026/11/26/julia-riera-avanzo-a-cuartos-de-final-del-argentina-open-y-solana-sierra-quedo-eliminada/",
-          "summary": "La pergaminense venció a Ipek Oz por 5-7, 6-3 y 6-2 y se metió entre las ocho mejores del WTA 125 de Buenos Aires. La primera…",
-          "pubDate": "2026-11-26T02:36:51.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Boca le ganó a Independiente Rivadavia y avanzó a los cuartos de final del torneo Clausura",
-          "link": "https://www.lanacion.com.ar/deportes/futbol/boca-vs-independiente-rivadavia-en-vivo-nid25112026/",
-          "summary": "El equipo xeneize superó en la Bombonera por 2-0 al conjunto mendocino y enfrentará a Gimnasia de La Plata el domingo",
-          "pubDate": "2026-11-26T02:36:36.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Boca festejó la Copa Sudamericana en la Bombonera después de vencer a Independiente Rivadavia",
-          "link": "https://tn.com.ar/deportes/futbol/2026/11/25/boca-festejo-la-copa-sudamericana-en-la-bombonera-despues-de-vencer-a-independiente-rivadavia/",
-          "summary": "Después del triunfo 2-0 ante la Lepra por los octavos de final del Torneo Clausura, el plantel del Xeneize salió nuevamente al campo a…",
-          "pubDate": "2026-11-26T02:36:19.000Z",
+          "title": "En vivo - O. Marsella vs. Levski Sofia: 1 - 0, por la fecha 5 de la UEFA Europa League",
+          "link": "https://tn.com.ar/deportes/futbol/2026/11/26/o-marsella-vs-levski-sofia-en-vivo-por-la-fecha-5-de-la-uefa-europa-league-hora-donde-ver-y-formaciones/",
+          "summary": "O. Marsella enfrenta a Levski Sofia desde las 14:45 horas. Seguilo minuto a minuto por la web de TN.",
+          "pubDate": "2026-11-26T18:51:28.000Z",
           "source": "TN"
         },
         {
-          "title": "Boca, a cuartos del Clausura: disfruta de sus títulos, pero juega como si no hubiese ganado nada",
-          "link": "https://www.lanacion.com.ar/deportes/futbol/boca-a-cuartos-del-clausura-disfruta-de-sus-titulos-pero-juega-como-si-no-hubiese-ganado-nada-nid25112026/",
-          "summary": "Venció por 2-0 con claridad a Independiente Rivadavia y enfrentará a Gimnasia (LP); Paredes volvió a ser decisivo",
-          "pubDate": "2026-11-26T02:34:30.000Z",
+          "title": "En vivo - Olympiacos vs. Milan: 1 - 0, por la fecha 5 de la UEFA Europa League",
+          "link": "https://tn.com.ar/deportes/futbol/2026/11/26/olympiacos-vs-milan-en-vivo-por-la-fecha-5-de-la-uefa-europa-league-hora-donde-ver-y-formaciones/",
+          "summary": "Olympiacos enfrenta a Milan desde las 14:45 horas. Seguilo minuto a minuto por la web de TN.",
+          "pubDate": "2026-11-26T18:51:27.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "En vivo - Viktoria Plzen vs. Benfica: 4 - 0, por la fecha 5 de la UEFA Europa League",
+          "link": "https://tn.com.ar/deportes/futbol/2026/11/26/viktoria-plzen-vs-benfica-en-vivo-por-la-fecha-5-de-la-uefa-europa-league-hora-donde-ver-y-formaciones/",
+          "summary": "Viktoria Plzen enfrenta a Benfica desde las 14:45 horas. Seguilo minuto a minuto por la web de TN.",
+          "pubDate": "2026-11-26T18:50:27.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "En vivo - Celta vs. Bournemouth: 1 - 0, por la fecha 5 de la UEFA Europa League",
+          "link": "https://tn.com.ar/deportes/futbol/2026/11/26/celta-vs-bournemouth-en-vivo-por-la-fecha-5-de-la-uefa-europa-league-hora-donde-ver-y-formaciones/",
+          "summary": "Celta enfrenta a Bournemouth desde las 14:45 horas. Seguilo minuto a minuto por la web de TN.",
+          "pubDate": "2026-11-26T18:50:27.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "En vivo - Besiktas vs. H.Beer-Sheva: 0 - 0, por la fecha 5 de la UEFA Europa League",
+          "link": "https://tn.com.ar/deportes/futbol/2026/11/26/besiktas-vs-hbeer-sheva-en-vivo-por-la-fecha-5-de-la-uefa-europa-league-hora-donde-ver-y-formaciones/",
+          "summary": "Besiktas enfrenta a H.Beer-Sheva desde las 14:45 horas. Seguilo minuto a minuto por la web de TN.",
+          "pubDate": "2026-11-26T18:49:56.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "En vivo - RU Saint-Gilloise vs. Lech Poznan: 0 - 2, por la fecha 5 de la UEFA Europa League",
+          "link": "https://tn.com.ar/deportes/futbol/2026/11/26/ru-saint-gilloise-vs-lech-poznan-en-vivo-por-la-fecha-5-de-la-uefa-europa-league-hora-donde-ver-y-formaciones/",
+          "summary": "RU Saint-Gilloise enfrenta a Lech Poznan desde las 14:45 horas. Seguilo minuto a minuto por la web de TN.",
+          "pubDate": "2026-11-26T18:48:27.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "Conmoción en Brasil por la muerte del fisicoculturista Itemberg Nunes a los 31 años",
+          "link": "https://www.lanacion.com.ar/deportes/atletismo/conmocion-en-brasil-por-la-muerte-del-fisicoculturista-itemberg-nunes-a-los-31-anos-nid26112026/",
+          "summary": "La noticia fue anunciada por su patrocinador; el deportista había alcanzado su profesionalización en 2021; la familia no reveló la causa de…",
+          "pubDate": "2026-11-26T18:46:35.000Z",
           "source": "La Nación"
         },
         {
-          "title": "Tras el triunfo de Boca, se confirmó el cronograma de los cuartos de final del Torneo Clausura: la agenda completa",
-          "link": "https://www.infobae.com/deportes/2026/11/26/se-confirmo-el-cronograma-de-los-cuartos-de-final-del-torneo-clausura/",
-          "summary": "Con el Xeneize como último clasificado, quedó definido el cronograma de la siguiente instancia del torneo",
-          "pubDate": "2026-11-26T02:32:54.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Amenazaron de muerte a Gastón Gaudio y a sus hijos en la previa de las elecciones de Independiente: “Cruzaron un límite”",
-          "link": "https://www.infobae.com/deportes/2026/11/26/amenazaron-de-muerte-a-gaston-gaudio-y-a-sus-hijos-en-la-previa-de-las-elecciones-de-independiente-cruzaron-un-limite/",
-          "summary": "A menos de tres semanas de los comicios, al ex tenista, candidato a presidente por una de las cinco listas que se presentarán, le colgaron…",
-          "pubDate": "2026-11-26T02:31:47.000Z",
-          "source": "Infobae"
-        },
-        {
-          "title": "Sin descanso y a todo o nada: la exigente agenda de Boca tras eliminar a Independiente Rivadavia",
-          "link": "https://www.perfil.com/deportes/cuando-vuelve-a-jugar-boca-despues-de-eliminar-a-independiente-rivadavia-en-la-bombonera-awMIA8B1JtsU",
-          "summary": "Tras superar los octavos de final del Torneo Clausura, el \"Xeneize\" no tendrá descanso y afrontará una seguidilla decisiva en dos frentes.…",
-          "pubDate": "2026-11-26T02:29:35.000Z",
+          "title": "El video viral de Boca jugando \"a lo Boca\" en la final en Colombia",
+          "link": "https://www.perfil.com/deportes/el-video-viral-de-boca-jugando-a-lo-boca-en-la-final-en-colombia-a7qxd4w2SQYX",
+          "summary": "En redes sociales se difundieron imágenes inéditas del partido jugado por el equipo xeneize contra Atlético Mineiro y el aliento de la…",
+          "pubDate": "2026-11-26T18:44:04.000Z",
           "source": "Perfil"
         }
       ]
@@ -445,74 +445,74 @@
       "label": "Espectáculos",
       "items": [
         {
-          "title": "Aseguran que Facundo Arana y Marian Saud están de novios: \"María Susini no lo quiere ver\"",
-          "link": "https://www.perfil.com/entretenimiento/aseguran-que-facundo-arana-y-marian-saud-estan-de-novios-maria-susini-no-lo-quiere-ver-aXMCx5H8ig1V",
-          "summary": "Pepe Ochoa en LAM contó los pormenores de la nueva situación sentimental del actor y cómo recibió sus hijos y su exesposa la noticia. Leer…",
-          "pubDate": "2026-11-26T02:41:50.000Z",
-          "source": "Perfil"
-        },
-        {
-          "title": "Marta Fort homenajeó a su papá, Ricardo, a 13 años de su muerte: “Adelantado, avasallante e irrepetible”",
-          "link": "https://www.perfil.com/entretenimiento/marta-fort-homenajeo-a-su-papa-ricardo-a-13-anos-de-su-muerte-adelantado-avasallante-e-irrepetible-aYoNQ9v4YuXH",
-          "summary": "La hija del empresario lo recordó con una emotiva publicación en sus redes sociales. Leer más",
-          "pubDate": "2026-11-26T02:41:12.000Z",
-          "source": "Perfil"
-        },
-        {
-          "title": "El delicado motivo de la pelea entre Facundo Arana y María Susini: “La hija de 18 años sale con su profesor de 40”",
-          "link": "https://www.infobae.com/teleshow/2026/11/26/el-delicado-motivo-de-la-pelea-entre-facundo-arana-y-maria-susini-la-hija-de-18-anos-sale-con-su-profesor-de-40/",
-          "summary": "Pepe Ochoa aseguró en LAM que el actor estaría aislado luego de un quiebre familiar por el polémico noviazgo de su hija mayor. Además, el…",
-          "pubDate": "2026-11-26T02:29:20.000Z",
+          "title": "Roberto Antier y el unipersonal que reúne 46 años de escenario: “Generación mareada” entre el humor, la música y la memoria",
+          "link": "https://www.infobae.com/teleshow/2026/11/26/roberto-antier-y-el-unipersonal-que-reune-46-anos-de-escenario-generacion-mareada-entre-el-humor-la-musica-y-la-memoria/",
+          "summary": "En una entrevista con Teleshow, el actor cuenta cómo creó su nueva propuesta, repasa su recorrido junto a grandes figuras como Tato Bores,…",
+          "pubDate": "2026-11-26T18:53:46.000Z",
           "source": "Infobae"
         },
         {
-          "title": "De Angie Landaburu y Analía Maiorana a Dante Ortega: todos los looks de la gala de Cuisine&Vins",
-          "link": "https://www.perfil.com/entretenimiento/de-angie-landaburu-y-analia-maiorana-a-dante-ortega-todos-los-looks-de-la-gala-de-cuisinevins-awMvD3i258yL",
-          "summary": "La revista presentó su Guía Gastronómica de Buenos Aires 2026 con un encuentro en una histórica casona de San Telmo Leer más",
-          "pubDate": "2026-11-26T01:51:36.000Z",
+          "title": "Dulce María, de adolescente rebelde a mamá: su transformación, el personaje que la refleja y su historia con la Argentina",
+          "link": "https://www.lanacion.com.ar/espectaculos/personajes/dulce-maria-de-adolescente-rebelde-a-mama-su-transformacion-el-personaje-que-la-refleja-y-su-nid26112026/",
+          "summary": "La actriz mexicana le pone su voz a la versión doblada en español de Hechizo: Bienvenidos a Hexe, que estrenó en cines este jueves; en…",
+          "pubDate": "2026-11-26T18:47:19.000Z",
+          "source": "La Nación"
+        },
+        {
+          "title": "“Casi nos matamos”: Rocío Marengo relató el dramático momento que vivió en una ruta",
+          "link": "https://tn.com.ar/show/famosos/2026/11/26/casi-nos-matamos-rocio-marengo-relato-el-dramatico-momento-que-vivio-en-una-ruta/",
+          "summary": "La conductora contó que estuvo a punto de sufrir un accidente mientras manejaba. Tras llegar a su casa, compartió su indignación en las…",
+          "pubDate": "2026-11-26T18:45:51.000Z",
+          "source": "TN"
+        },
+        {
+          "title": "Tini Stoessel reveló las charlas con su psicóloga: \"El ser humano necesita soltar ciertos lugares de pertenencia\"",
+          "link": "https://www.perfil.com/entretenimiento/tini-stoessel-revelo-las-charlas-con-su-psicologa-el-ser-humano-necesita-soltar-ciertos-lugares-de-pertenencia-a6QO65P7fXWN",
+          "summary": "La cantante brindó una entrevista en la profundizó sobre sus sesiones de terapias y la nueva etapa en su vida. Leer más",
+          "pubDate": "2026-11-26T18:43:57.000Z",
           "source": "Perfil"
         },
         {
-          "title": "Franco Yankelevich presentó su primera película: “Por quince años esperé este momento”",
-          "link": "https://www.perfil.com/entretenimiento/franco-yankelevich-presento-su-primera-pelicula-por-quince-anos-espere-este-momento-aC0tW4a5fg5l",
-          "summary": "El actor de 26 años atraviesa un nuevo desafío profesional y compartió su emoción por un proyecto que imaginó durante gran parte de su…",
-          "pubDate": "2026-11-26T01:49:49.000Z",
-          "source": "Perfil"
+          "title": "La emoción de Arturo Puig al ser distinguido por su trayectoria por el Fondo Nacional de las Artes",
+          "link": "https://www.lanacion.com.ar/espectaculos/la-emocion-de-arturo-puig-al-ser-distinguido-por-su-trayectoria-por-el-fondo-nacional-de-las-artes-nid26112026/",
+          "summary": "El reconocido actor recibió un galardón del organismo por su aporte a la cultura nacional; definió el reconocimiento como una caricia al…",
+          "pubDate": "2026-11-26T18:36:48.000Z",
+          "source": "La Nación"
         },
         {
-          "title": "Antonela Roccuzzo fusionó el estilo sporty chic con un maxi tapado y bolso: las claves para crear un look único",
-          "link": "https://www.perfil.com/entretenimiento/antonela-roccuzzo-fusiono-el-estilo-sporty-chic-con-un-maxi-tapado-y-bolso-las-claves-para-crear-un-look-unico-aHf3d6S09LTp",
-          "summary": "La empresaria lució una propuesta que demuestra cómo llevar la comodidad del gimnasio al guardarropa urbano. Leer más",
-          "pubDate": "2026-11-26T01:48:00.000Z",
-          "source": "Perfil"
+          "title": "El Chato Prada relató el mal momento que vivió cuando intentaron estafarlo haciéndose pasar por su hijo: “Me asusté”",
+          "link": "https://www.lanacion.com.ar/espectaculos/el-chato-prada-relato-el-mal-momento-que-vivio-cuando-intentaron-estafarlo-haciendose-pasar-por-su-nid26112026/",
+          "summary": "El productor contó que recibió una alarmante llamada telefónica y, aunque reaccionó a tiempo, reconoció que vivió una situación…",
+          "pubDate": "2026-11-26T18:29:58.000Z",
+          "source": "La Nación"
         },
         {
-          "title": "Gianinna Maradona compartió un inédito álbum de fotos para recordar a Diego y lanzó un desgarrador mensaje: “Nada es lo mismo sin vos”",
-          "link": "https://www.perfil.com/entretenimiento/gianinna-maradona-compartio-un-inedito-album-de-fotos-para-recordar-a-diego-y-lanzo-un-desgarrador-mensaje-nada-es-lo-mismo-sin-vos-aw3425v5EDdQ",
-          "summary": "La hija del Diez lo homenajeó en un nuevo aniversario de su muerte con imágenes de su archivo personal. Leer más",
-          "pubDate": "2026-11-26T01:46:24.000Z",
-          "source": "Perfil"
+          "title": "El vestido de Miss Venezuela que generó polémica en la final de Miss Mundo: “Ahí es donde ella perdió el primer lugar, en el momento en el que salió así”",
+          "link": "https://www.lanacion.com.ar/espectaculos/el-vestido-de-miss-venezuela-que-genero-polemica-en-la-final-de-miss-mundo-ahi-es-donde-ella-perdio-nid26112026/",
+          "summary": "Clara Vegas Goetz fue criticada duramente por el atuendo que escogió en la final del certamen; la justificación del jurado y a quién votaron",
+          "pubDate": "2026-11-26T18:29:54.000Z",
+          "source": "La Nación"
         },
         {
-          "title": "¡Olga llega a Chile! Chilevisión anunció el desembarco del canal de streaming argentino en el país",
-          "link": "https://www.perfil.com/entretenimiento/olga-llega-a-chile-chilevision-anuncio-el-desembarco-del-canal-de-streaming-argentino-en-el-pais-antOh6W50g3r",
-          "summary": "Mientras anunciaban los grandes formatos que harán el próximo año, el noticiero reveló la llegada del proyecto encabezado por Migue…",
-          "pubDate": "2026-11-26T01:45:28.000Z",
-          "source": "Perfil"
+          "title": "Nicolás Occhiato respondió con ironía a las críticas que recibió su serie: “Coincido en todo, es malísima”",
+          "link": "https://www.lanacion.com.ar/espectaculos/nicolas-occhiato-respondio-con-ironia-a-las-criticas-que-recibio-su-serie-coincido-en-todo-es-nid26112026/",
+          "summary": "El conductor y empresario mostró el lugar del ranking que ocupa “Somos Así” en Disney+ y fue tajante; sus posteos en X y la reacción de los…",
+          "pubDate": "2026-11-26T18:29:27.000Z",
+          "source": "La Nación"
         },
         {
-          "title": "Las románticas vacaciones de Jana Maradona y su novio, Cristian Stuppia, en Ibiza: “Mi sueño”",
-          "link": "https://www.perfil.com/entretenimiento/las-romanticas-vacaciones-de-jana-maradona-y-su-novio-cristian-stuppia-en-ibiza-mi-sueno-aUQv65N6RsKG",
-          "summary": "La hija de Diego Maradona compartió un álbum de imágenes de su escapada a la isla española Leer más",
-          "pubDate": "2026-11-26T01:45:04.000Z",
-          "source": "Perfil"
+          "title": "Chechu Bonelli confirmó que está de novia: quién es el hombre que le robó el corazón",
+          "link": "https://www.lanacion.com.ar/espectaculos/chechu-bonelli-confirmo-que-esta-de-novia-quien-es-el-hombre-que-le-robo-el-corazon-nid26112026/",
+          "summary": "En Puro Show (eltrece) compartieron la primera imagen de la periodista y su nuevo novio, que no es famoso; ella rompió el silencio y…",
+          "pubDate": "2026-11-26T18:29:23.000Z",
+          "source": "La Nación"
         },
         {
-          "title": "La insólita discusión de Jimena Barón con Matías Palleiro tras alcanzar su objetivo para comprar una casa: “Me separo”",
-          "link": "https://www.infobae.com/teleshow/2026/11/26/la-insolita-discusion-de-jimena-baron-con-matias-palleiro-tras-alcanzar-su-objetivo-para-comprar-una-casa-me-separo/",
-          "summary": "El empresario llegó al millón de seguidores en Instagram y la cantante le recordó la promesa de comprar una casa con espacio para sus…",
-          "pubDate": "2026-11-26T01:43:31.000Z",
-          "source": "Infobae"
+          "title": "Jimena Barón cruzó a Guido Kaczka por una norma de higiene y no se guardó nada: “El único cochino”",
+          "link": "https://www.lanacion.com.ar/espectaculos/jimena-baron-cruzo-a-guido-kaczka-por-una-norma-de-higiene-y-no-se-guardo-nada-el-unico-cochino-nid26112026/",
+          "summary": "La actriz reveló que en su casa dejan los zapatos en la entrada antes de ingresar y el conductor cuestionó su hábito; “No lo entiendo”,…",
+          "pubDate": "2026-11-26T18:27:14.000Z",
+          "source": "La Nación"
         }
       ]
     },
@@ -521,73 +521,73 @@
       "label": "Opinión",
       "items": [
         {
-          "title": "Recesión, dólar y riesgo país: la tormenta que pone a prueba el contrato electoral de Milei",
-          "link": "https://tn.com.ar/opinion/2026/11/25/recesion-dolar-y-riesgo-pais-la-tormenta-que-pone-a-prueba-el-contrato-electoral-de-milei/",
-          "summary": "Las tensiones internas del oficialismo, la incertidumbre por los vencimientos de deuda 2027 y las dificultades de la gente para llegar a…",
-          "pubDate": "2026-11-26T00:11:26.000Z",
-          "source": "TN"
-        },
-        {
-          "title": "Una de zombies con final conocido",
-          "link": "https://www.pagina12.com.ar/2026/11/25/una-de-zombies-con-final-conocido/",
-          "summary": "Hace dos años, el presidente difundió un video hecho con IA donde se refería a una pandemia del virus KU K 12, que “duró doce años”,…",
-          "pubDate": "2026-11-25T23:48:19.000Z",
-          "source": "Página/12"
-        },
-        {
-          "title": "La recesión no solo es económica, también es política",
-          "link": "https://www.lanacion.com.ar/opinion/la-recesion-no-solo-es-economica-tambien-es-politica-nid25112026/",
-          "summary": "",
-          "pubDate": "2026-11-25T23:28:37.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Últimas noticias sobre la violencia armada, 50 años después",
-          "link": "https://www.clarin.com/opinion/ultimas-noticias-violencia-armada-50-anos-despues_0_6ShY3lYHxh.html",
-          "summary": "Esta semana asistimos a una remake de la lucha ideológica de los 70, pero medio siglo más tarde.",
-          "pubDate": "2026-11-25T22:32:51.000Z",
-          "source": "Clarín"
-        },
-        {
-          "title": "Entre la IA y los efectos especiales, la política le pierde el miedo al ridículo",
-          "link": "https://www.lanacion.com.ar/opinion/entre-la-ia-y-los-efectos-especiales-la-politica-le-pierde-el-miedo-al-ridiculo-nid25112026/",
-          "summary": "La estridencia le gana a las ideas; “todo vale” para llamar la atención y generar conversación; una tendencia que plantea dilemas e…",
-          "pubDate": "2026-11-25T22:27:12.000Z",
-          "source": "La Nación"
-        },
-        {
-          "title": "Bullrich desaprueba a Caputo y dice que hay que mejorar el bolsillo de la gente antes de la elección",
-          "link": "https://www.clarin.com/opinion/bullrich-desaprueba-caputo-dice-mejorar-bolsillo-gente-eleccion_0_w3EQRNguYf.html",
-          "summary": "Frente al intento ministerial de minimizar la recesión, la senadora aceleró su diferenciación con la Casa Rosada. Advirtió que no alcanza…",
-          "pubDate": "2026-11-25T21:29:48.000Z",
-          "source": "Clarín"
-        },
-        {
-          "title": "Navidad con precios al alza y El Niño: ¿qué debe priorizar la clase media peruana?",
-          "link": "https://www.infobae.com/peru/2026/11/25/navidad-con-precios-al-alza-y-el-nino-que-debe-priorizar-la-clase-media-peruana/",
-          "summary": "El índice anual llegó a 4,83 % en octubre, mientras Lima Metropolitana registró 5,25 % y los alimentos, combustibles y el combustible para…",
-          "pubDate": "2026-11-25T21:14:54.000Z",
+          "title": "Más de un siglo de transformación en la manera de cuidar",
+          "link": "https://www.infobae.com/peru/2026/11/26/mas-de-un-siglo-de-transformacion-en-la-manera-de-cuidar/",
+          "summary": "Los pacientes reciben servicios a través de seis subsistemas, entre ellos MINSA, seguridad social y entidades privadas, una división que…",
+          "pubDate": "2026-11-26T18:38:11.000Z",
           "source": "Infobae"
         },
         {
-          "title": "Gordon: el ritmo de la música",
-          "link": "https://www.clarin.com/opinion/gordon-ritmo-musica_0_dsRNgdkoXp.html",
-          "summary": "La miniserie protagonizada por Rodrigo de la Serna le da un lugar relevante a la música de la época: sus 43 temas podrían constituir una…",
-          "pubDate": "2026-11-25T19:39:16.000Z",
+          "title": "Violencia digital contra las mujeres: ¿están preparados los protocolos laborales para las nuevas formas de acoso?",
+          "link": "https://www.infobae.com/peru/2026/11/26/violencia-digital-contra-las-mujeres-estan-preparados-los-protocolos-laborales-para-las-nuevas-formas-de-acoso/",
+          "summary": "Las agresiones mediante mensajería, redes sociales e imágenes manipuladas ocurren fuera de oficinas y horarios, pero afectan el empleo de…",
+          "pubDate": "2026-11-26T18:28:37.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "¿Qué pasa con la empresa cuando muere un socio? Opciones para evitar herederos no deseados en una SAC",
+          "link": "https://www.infobae.com/peru/2026/11/23/que-pasa-con-la-empresa-cuando-muere-un-socio-opciones-para-evitar-herederos-no-deseados-en-una-sac/",
+          "summary": "La Ley General de Sociedades establece que la transmisión por sucesión o legado otorga la condición de participante, mientras las…",
+          "pubDate": "2026-11-26T15:28:00.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "La plenitud de la hegemonía compartida y el imperativo europeo",
+          "link": "https://www.clarin.com/opinion/plenitud-hegemonia-compartida-imperativo-europeo_0_mkJe6pRxWP.html",
+          "summary": "Los resultados de la reciente cumbre de Shenzhen confirman la premisa central de la hegemonía compartida. La estabilidad sistémica no exige…",
+          "pubDate": "2026-11-26T14:18:26.000Z",
           "source": "Clarín"
         },
         {
-          "title": "La universidad del siglo XXI: un modelo para volver a armar",
-          "link": "https://www.clarin.com/opinion/universidad-siglo-xxi-modelo-volver-armar_0_tRi9AcZsul.html",
-          "summary": "Más que abandonar los principios reformistas de 1918, la tarea hoy es intentar reinterpretarlos, porque fueron pensados para un mundo en el…",
-          "pubDate": "2026-11-25T19:23:53.000Z",
-          "source": "Clarín"
+          "title": "COP31: petróleo, dinero y poder detrás del bloqueo que dejó al mundo sin acuerdo climático",
+          "link": "https://www.infobae.com/opinion/2026/11/26/cop31-petroleo-dinero-y-poder-detras-del-bloqueo-que-dejo-al-mundo-sin-acuerdo-climatico/",
+          "summary": "La cumbre de la ONU en Antalya cerró tras dos días de prórroga sin una declaración política global. Aunque hubo avances técnicos, el…",
+          "pubDate": "2026-11-26T11:45:47.000Z",
+          "source": "Infobae"
         },
         {
-          "title": "Discapacidad: una ley conquistada, un derecho pendiente",
-          "link": "https://www.clarin.com/opinion/discapacidad-ley-conquistada-derecho-pendiente_0_qY9I6aC6s5.html",
-          "summary": "Que sea una ley permanente y no otra prórroga de la emergencia es un avance enorme. Pero conocemos la distancia entre su sanción y su…",
-          "pubDate": "2026-11-25T19:13:52.000Z",
+          "title": "Pruebas Aprender: un fallo que puede cambiar la forma de hacer política educativa",
+          "link": "https://www.infobae.com/opinion/2026/11/26/pruebas-aprender-un-fallo-que-puede-cambiar-la-forma-de-hacer-politica-educativa/",
+          "summary": "El fallo sobre las pruebas de 2016 y 2017 rechaza una reserva genérica y dispone la entrega desagregada, tras una demanda iniciada en 2019…",
+          "pubDate": "2026-11-26T11:08:15.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "La Justicia decidiendo en materia sanitaria",
+          "link": "https://www.infobae.com/opinion/2026/11/26/la-justicia-decidiendo-en-materia-sanitaria/",
+          "summary": "Cuando la excepción se transforma en la regla",
+          "pubDate": "2026-11-26T11:01:30.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "Legítima defensa en el Perú: proteger la vida también debe ser un derecho efectivo",
+          "link": "https://www.infobae.com/peru/2026/11/26/legitima-defensa-en-el-peru-proteger-la-vida-tambien-debe-ser-un-derecho-efectivo/",
+          "summary": "La norma incorpora una presunción de racionalidad ante agresiones actuales, ilegítimas y reales, y suprime la exigencia de comparar la…",
+          "pubDate": "2026-11-26T11:00:01.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "El problema no es el diagnóstico, es cuánto tardamos en buscarlo: la salud masculina pendiente",
+          "link": "https://www.infobae.com/peru/2026/11/26/el-problema-no-es-el-diagnostico-es-cuanto-tardamos-en-buscarlo-la-salud-masculina-pendiente/",
+          "summary": "El INEN atribuye el retraso de las consultas a mitos, temor al resultado y vergüenza ante el tacto rectal, mientras la enfermedad suele no…",
+          "pubDate": "2026-11-26T11:00:01.000Z",
+          "source": "Infobae"
+        },
+        {
+          "title": "No alcanza con ver para creer",
+          "link": "https://www.clarin.com/opinion/alcanza-ver-creer_0_2VNBPCPKWd.html",
+          "summary": "Ya no podemos distinguir a simple vista una imagen real de una intervenida, un montaje engañoso o una creación íntegramente artificial.…",
+          "pubDate": "2026-11-26T09:04:06.000Z",
           "source": "Clarín"
         }
       ]
